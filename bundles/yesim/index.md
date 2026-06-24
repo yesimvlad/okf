@@ -1,0 +1,3 @@
+bundles/
+  yesim/
+    index.md

@@ -1,3 +1,0 @@
-products/
-  esim/
-  virtual-number/
