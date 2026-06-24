@@ -1,37 +1,71 @@
 /okf/
   index.md
+  log.md
+
   brand/
     company.md
     positioning.md
-    trust-facts.md
+    trust.md
+
   products/
     index.md
-    main-product.md
-    product-features.md
+    esim.md
+    virtual-number.md
+    pay-and-fly-esim.md
+    business-esim.md
     pricing.md
-  pages/
-    money-pages.md
-    informational-pages.md
-    comparison-pages.md
+
+  destinations/
+    index.md
+    countries.md
+    regions.md
+    global.md
+
+  markets/
+    index.md
+    pl.md
+    ro.md
+    pt-br.md
+    de.md
+    it.md
+    ru.md
+
   faq/
     index.md
     activation.md
-    pricing.md
-    refund.md
     compatibility.md
+    pricing.md
+    coverage.md
     security.md
-  concepts/
-    index.md
-    main-topic.md
-    related-topic-1.md
-    related-topic-2.md
+    refund.md
+    unlimited-data.md
+    calls-sms.md
+
   policies/
     refund-policy.md
     privacy-policy.md
+    terms-of-service.md
     limitations.md
+
+  concepts/
+    index.md
+    esim.md
+    roaming.md
+    mobile-data-abroad.md
+    unlimited-data.md
+    fair-usage-policy.md
+    hotspot.md
+    virtual-phone-number.md
+
   competitors/
-    comparison-rules.md
+    index.md
+    airalo.md
+    holafly.md
+    saily.md
+    nomad.md
+
   internal-links/
     entity-map.md
+
   citations/
     official-sources.md
