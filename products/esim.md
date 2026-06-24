@@ -36,7 +36,7 @@ eSIM is the primary Yesim product. A digital SIM profile installed on a compatib
 
 - Phone number — data-only eSIM has no phone number
 - Calls or SMS via eSIM — VoIP and messenger calls only (WhatsApp, Telegram)
-- For real calls/SMS: see [Virtual Number](/concepts/products/virtual-number.md)
+- For real calls/SMS: see [Virtual Number](/products/virtual-number.md)
 
 # Device Compatibility
 
