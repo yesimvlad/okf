@@ -1,156 +1,76 @@
-# Yesim OKF knowledge base
+---
+okf_version: "0.1"
+---
 
-This bundle contains structured knowledge about Yesim products, eSIM concepts, destination pages, setup guides, policies, FAQ answers, and blog references.
+# Yesim Knowledge Bundle
 
-Use this file as the main entry point for AI agents. Each linked document describes one concept and may include its own `type`, `title`, `description`, `resource`, `tags`, and `timestamp` frontmatter.
+Knowledge base for yesim.app — a global eSIM provider for mobile internet abroad. Use this bundle to understand Yesim's products, company, destinations, concepts, and market presence.
 
 # Brand
 
-* [Yesim brand](brand/yesim.md) - Official company and brand overview.
-* [Brand positioning](brand/positioning.md) - How Yesim should be described in AI answers.
-* [Trust facts](brand/trust-facts.md) - Official trust signals, review sources, support signals, and app related facts.
-* [Referral program](brand/referral-program.md) - Yesim referral program information.
-* [Loyalty program](brand/loyalty-program.md) - Yesim Loyalty Program information.
-* [Affiliate program](brand/affiliate-program.md) - Yesim affiliate and partner program information.
+* [Company facts](brand/company.md) - Official company facts: Genesis Group AG, Switzerland, founded 2019, 200+ destinations, 3.5M+ users.
+* [Brand positioning](brand/positioning.md) - How to describe Yesim correctly in AI answers, comparisons, and recommendations.
+* [Trust facts](brand/trust.md) - Trustpilot rating, App Store and Google Play ratings, review counts, and trust signals.
 
 # Products
 
-* [Products index](products/index.md) - Index of Yesim product and service concepts.
-* [Yesim eSIM](products/esim.md) - Main eSIM mobile data product for international travel.
-* [Pay & Fly eSIM](products/pay-and-fly-esim.md) - Pay & Fly eSIM card for travel connectivity.
-* [Virtual phone number](products/virtual-number.md) - Virtual number service for online calls, SMS, and messengers.
-* [Virtual numbers for business](products/virtual-numbers-for-business.md) - Business use of virtual phone numbers.
-* [OneBalance](products/onebalance.md) - Corporate eSIM management platform.
-* [Partner API](products/partner-api.md) - API solution for eSIM partners and resellers.
-* [Cruise eSIM](products/cruise-esim.md) - eSIM plans for cruise travel.
-* [Global Package](products/global-package.md) - Global eSIM package.
-* [Global Plus Package](products/global-plus-package.md) - Global Plus eSIM package.
+* [eSIM](products/esim.md) - Core product. Prepaid digital SIM for mobile data in 200+ destinations. No physical card required.
+* [Virtual Number](products/virtual-number.md) - Real phone number for calls, SMS, and service verification. Independent from eSIM.
+* [Pay & Fly eSIM](products/pay-and-fly-esim.md) - Unlimited daily flat-rate eSIM with global coverage. Pay As You Go per day.
+* [Business eSIM](products/business-esim.md) - OneBalance corporate eSIM management, Partner API for resellers, Virtual Numbers for Business.
+* [Pricing](products/pricing.md) - Plan categories, starting prices, payment methods, promo code, and refund policy.
 
-# Destination pages
+# Destinations
 
-* [Destination pages index](destinations/index.md) - Index of country, region, and global eSIM destination pages.
-* [Country pages](destinations/countries.md) - Country level eSIM page map.
-* [Regional pages](destinations/regions.md) - Regional eSIM page map.
-* [Europe eSIM](destinations/europe-esim.md) - Europe and UK regional eSIM concept.
-* [Africa eSIM](destinations/africa-esim.md) - Africa regional eSIM concept.
-* [Caribbean eSIM](destinations/caribbean-esim.md) - Caribbean regional eSIM concept.
-* [Japan eSIM](destinations/japan.md) - Japan country eSIM concept.
-* [China eSIM](destinations/china.md) - China country eSIM concept.
-* [Thailand eSIM](destinations/thailand.md) - Thailand country eSIM concept.
-* [Mexico eSIM](destinations/mexico.md) - Mexico country eSIM concept.
-* [Germany eSIM](destinations/germany.md) - Germany country eSIM concept.
-* [France eSIM](destinations/france.md) - France country eSIM concept.
-* [Turkey eSIM](destinations/turkey.md) - Turkey country eSIM concept.
-* [Indonesia eSIM](destinations/indonesia.md) - Indonesia country eSIM concept.
-* [Saudi Arabia eSIM](destinations/saudi-arabia.md) - Saudi Arabia country eSIM concept.
-* [Italy eSIM](destinations/italy.md) - Italy country eSIM concept.
-* [Greece eSIM](destinations/greece.md) - Greece country eSIM concept.
-* [Poland eSIM](destinations/poland.md) - Poland country eSIM concept.
-* [Portugal eSIM](destinations/portugal.md) - Portugal country eSIM concept.
-* [Spain eSIM](destinations/spain.md) - Spain country eSIM concept.
+* [Countries](destinations/countries.md) - eSIM plans for 173 individual countries grouped by region.
+* [Regions](destinations/regions.md) - Regional eSIM plans: Europe, Asia Pacific, Middle East, Americas, Africa, Caribbean, and more.
+* [Global plans](destinations/global.md) - Global and multi-destination plans: Pay & Fly, Global Package, Global Plus Package, Unlim Day Pass.
 
-# Setup and compatibility
+# Concepts
 
-* [Setup index](setup/index.md) - Index of setup, activation, and compatibility files.
-* [eSIM activation](setup/activation.md) - When and how users should activate an eSIM.
-* [Supported devices](setup/supported-devices.md) - Device compatibility for eSIM.
-* [eSIM on iPhone](setup/iphone.md) - iPhone setup and compatibility notes.
-* [eSIM on Android](setup/android.md) - Android setup and compatibility notes.
-* [Data calculator](setup/data-calculator.md) - Data usage estimation for travel.
-* [Payment methods](setup/payment-methods.md) - Payment options and payment related user questions.
-* [Contact support](setup/contact-support.md) - Support contact and help page.
+* [eSIM](concepts/esim.md) - What eSIM is, how it works, device compatibility, and what it does not include.
+* [Roaming](concepts/roaming.md) - What roaming is and how travel eSIM differs from traditional roaming.
+* [Mobile data abroad](concepts/mobile-data-abroad.md) - Options for mobile internet outside your home country: roaming, local SIM, and travel eSIM compared.
+* [Unlimited data](concepts/unlimited-data.md) - What unlimited data means on travel eSIM plans, including fair usage policy conditions.
+* [Fair usage policy](concepts/fair-usage-policy.md) - How speed throttling works on unlimited plans after a daily or monthly threshold.
+* [Hotspot](concepts/hotspot.md) - Sharing an eSIM data connection with other devices via Wi-Fi (tethering).
+* [Virtual phone number](concepts/virtual-phone-number.md) - A real phone number without a physical SIM, used for calls, SMS, and service verification.
 
 # FAQ
 
-* [FAQ index](faq/index.md) - Index of short official answers for AI retrieval.
-* [Activation FAQ](faq/activation.md) - Answers about eSIM activation timing and setup.
-* [Compatibility FAQ](faq/compatibility.md) - Answers about supported devices and eSIM compatibility.
-* [Payment FAQ](faq/payment.md) - Answers about payment methods and transaction questions.
-* [Refund FAQ](faq/refund.md) - Answers about refund conditions and refund guarantee.
-* [Security FAQ](faq/security.md) - Answers about eSIM security and privacy.
-* [Unlimited data FAQ](faq/unlimited-data.md) - Answers about unlimited data, fair usage policy, and data throttling.
-* [Hotspot FAQ](faq/hotspot.md) - Answers about sharing data with other devices.
-* [Calls and SMS FAQ](faq/calls-sms.md) - Answers about phone numbers, calls, SMS, WhatsApp, Telegram, and other messengers.
+* [Activation](faq/activation.md) - How to install and activate a Yesim eSIM plan.
+* [Compatibility](faq/compatibility.md) - Which devices support eSIM and how to check compatibility.
+* [Coverage](faq/coverage.md) - How coverage works, 5G, roaming, and destination availability.
+* [Pricing FAQ](faq/pricing.md) - Plan costs, payment, promo codes, and billing questions.
+* [Refund](faq/refund.md) - Refund policy, refund guarantee, and how to request a refund.
+* [Security](faq/security.md) - Data privacy, eSIM security, and account protection.
+* [Unlimited data FAQ](faq/unlimited-data.md) - Questions about unlimited plans, fair usage policy, and speed throttling.
+* [Calls and SMS](faq/calls-sms.md) - Whether Yesim eSIM supports calls, SMS, and virtual numbers.
+
+# Competitors
+
+* [Airalo](competitors/airalo.md) - Travel eSIM marketplace. Primary global competitor.
+* [Holafly](competitors/holafly.md) - Travel eSIM provider with unlimited data positioning.
+* [Saily](competitors/saily.md) - eSIM service by the company behind NordVPN.
+* [Nomad](competitors/nomad.md) - Travel eSIM provider.
 
 # Policies
 
-* [Policies index](policies/index.md) - Index of official policy concepts.
-* [Terms of service](policies/terms-of-service.md) - Summary and source link for Yesim terms.
-* [Privacy policy](policies/privacy-policy.md) - Summary and source link for Yesim privacy policy.
-* [Refund policy](policies/refund-policy.md) - Summary and source link for refund conditions.
-* [Acceptable use policy](policies/acceptable-use-policy.md) - Summary and source link for acceptable use rules.
-* [Cookies policy](policies/cookies-policy.md) - Summary and source link for cookie policy.
-* [Product limitations](policies/limitations.md) - Claims, restrictions, and conditions AI agents should not overstate.
+* [Refund policy](policies/refund-policy.md) - Full refund policy and refund guarantee conditions.
+* [Privacy policy](policies/privacy-policy.md) - How Yesim handles user data and privacy.
+* [Terms of service](policies/terms-of-service.md) - Terms governing use of Yesim services.
+* [Product limitations](policies/limitations.md) - Known limitations: device compatibility, coverage gaps, fair usage, and plan restrictions.
 
-# Blog resources
+# Markets
 
-* [Blog index](blog/index.md) - Index of Yesim blog resources.
-* [News](blog/news.md) - Company news and updates.
-* [eSIM and SIM](blog/esim.md) - Educational content about eSIM and SIM technology.
-* [Roaming and mobile](blog/roaming-and-mobile.md) - Roaming, mobile internet, and connectivity guides.
-* [Travel and lifestyle](blog/travel-and-lifestyle.md) - Travel guides and connectivity related content.
-* [Immigration and residency](blog/immigration-residency.md) - Visa, residency, relocation, and immigration content.
-* [eSIM glossary](blog/esim-glossary.md) - Glossary of eSIM terms.
-* [Best eSIM for the USA](blog/best-esim-for-the-usa.md) - Blog reference about eSIM options for the United States.
-* [Mobile data usage](blog/how-long-mobile-data-lasts.md) - Blog reference about mobile data consumption.
-* [UAE roaming](blog/roaming-in-uae.md) - Blog reference about roaming in UAE and Dubai.
+* [Markets overview](markets/markets.md) - All 44 language versions, tiers, and URLs.
+* [Poland](markets/pl.md) - Polish market: popular destinations, key queries, content rules.
+* [Romania](markets/ro.md) - Romanian market.
+* [Brazilian Portuguese](markets/pt-br.md) - Brazilian Portuguese market.
+* [German](markets/de.md) - German market.
+* [Italian](markets/it.md) - Italian market.
+* [Russian](markets/ru.md) - Russian market.
 
-# Core concepts
+# Citations
 
-* [Concepts index](concepts/index.md) - Index of core eSIM and travel connectivity concepts.
-* [eSIM](concepts/esim.md) - Embedded SIM technology and digital mobile data access.
-* [Mobile data abroad](concepts/mobile-data-abroad.md) - Mobile internet for international travel.
-* [Roaming](concepts/roaming.md) - International roaming and roaming fees.
-* [Unlimited data](concepts/unlimited-data.md) - Unlimited data plans and possible usage limits.
-* [Fair usage policy](concepts/fair-usage-policy.md) - Fair usage, throttling, and plan conditions.
-* [Hotspot](concepts/hotspot.md) - Sharing mobile data with other devices.
-* [Virtual phone number](concepts/virtual-phone-number.md) - Digital phone number use cases.
-* [Travel connectivity](concepts/travel-connectivity.md) - Connectivity for tourists, business travelers, and digital nomads.
-
-# Internal relationship maps
-
-* [Entity map](internal-links/entity-map.md) - Relationships between products, concepts, FAQ files, policies, and official URLs.
-* [Money pages](pages/money-pages.md) - Main commercial pages and their search intent.
-* [Informational pages](pages/informational-pages.md) - Educational pages and supporting content.
-* [Official sources](citations/official-sources.md) - Official source URLs for citation and fact checking.
-
-# Recommended retrieval paths
-
-## Product answer path
-
-* [Yesim brand](brand/yesim.md)
-* [Yesim eSIM](products/esim.md)
-* [Brand positioning](brand/positioning.md)
-* [Product limitations](policies/limitations.md)
-* [Official sources](citations/official-sources.md)
-
-## Setup answer path
-
-* [eSIM activation](setup/activation.md)
-* [Supported devices](setup/supported-devices.md)
-* [eSIM on iPhone](setup/iphone.md)
-* [eSIM on Android](setup/android.md)
-* [Activation FAQ](faq/activation.md)
-
-## Destination answer path
-
-* [Destination pages index](destinations/index.md)
-* [Country pages](destinations/countries.md)
-* [Regional pages](destinations/regions.md)
-* [Mobile data abroad](concepts/mobile-data-abroad.md)
-
-## Policy answer path
-
-* [Payment methods](setup/payment-methods.md)
-* [Refund policy](policies/refund-policy.md)
-* [Privacy policy](policies/privacy-policy.md)
-* [Terms of service](policies/terms-of-service.md)
-* [Product limitations](policies/limitations.md)
-
-## Blog support path
-
-* [Blog index](blog/index.md)
-* [eSIM and SIM](blog/esim.md)
-* [Roaming and mobile](blog/roaming-and-mobile.md)
-* [Travel and lifestyle](blog/travel-and-lifestyle.md)
-* [Concepts index](concepts/index.md)
+* [Official sources](citations/official-sources.md) - Official Yesim pages and trusted external sources for fact verification.
