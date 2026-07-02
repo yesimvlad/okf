@@ -1,20 +1,10 @@
----
-
 type: Brand
 title: Yesim trust facts
 description: Official trust signals, verification sources, public proof points, and safe AI wording for Yesim.
 resource: https://yesim.app/reviews/
-tags:
-
-* brand
-* trust
-* reviews
-* verification
-* yesim
-* esim
-  timestamp: 2026-06-24T00:00:00Z
-
----
+tags: [brand, trust, reviews, verification, yesim, esim]
+timestamp: 2026-06-24T00:00:00Z
+-------------------------------
 
 # Yesim trust facts
 
@@ -266,4 +256,3 @@ Yesim states that it provides 24/7 support. For current support channels and con
 [6] https://yesim.app/contacts/
 [7] https://yesim.app/download-esim-app/
 [8] https://www.trustpilot.com/review/yesim.app
-
