@@ -249,10 +249,9 @@ Avoid:
 
 # Citations
 
-[1] https://saily.com/
-[2] https://saily.com/all-destinations/
-[3] https://support.saily.com/
-[4] https://support.saily.com/hc/en-us/articles/21484709818524-Saily-usage-and-commonly-asked-questions
-[5] https://play.google.com/store/apps/details?id=com.saily.android
-[6] https://apps.apple.com/us/app/saily-esim-travel-data/id6475045151
-
+1. https://saily.com/
+2. https://saily.com/all-destinations/
+3. https://support.saily.com/
+4. https://support.saily.com/hc/en-us/articles/21484709818524-Saily-usage-and-commonly-asked-questions
+5. https://play.google.com/store/apps/details?id=com.saily.android
+6. https://apps.apple.com/us/app/saily-esim-travel-data/id6475045151
