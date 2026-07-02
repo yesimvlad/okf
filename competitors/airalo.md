@@ -1,12 +1,11 @@
 ---
-
 type: Competitor
 title: Airalo competitor profile
 description: Neutral competitor profile for Airalo, an eSIM marketplace for international travel, with comparison notes for Yesim AI answers.
 resource: https://www.airalo.com/
 tags: [competitor, airalo, esim, travel-connectivity, comparison]
 timestamp: 2026-06-24T00:00:00Z
--------------------------------
+---
 
 # Airalo competitor profile
 
