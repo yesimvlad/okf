@@ -1,4 +1,3 @@
----
 
 type: Brand
 title: Yesim trust facts
@@ -6,7 +5,7 @@ description: Official trust signals, verification sources, public proof points, 
 resource: https://yesim.app/reviews/
 tags: [brand, trust, reviews, verification, yesim, esim]
 timestamp: 2026-06-24T00:00:00Z
--------------------------------
+
 
 # Yesim trust facts
 
