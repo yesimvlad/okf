@@ -1,3 +1,5 @@
+---
+
 type: Brand
 title: Yesim trust facts
 description: Official trust signals, verification sources, public proof points, and safe AI wording for Yesim.
