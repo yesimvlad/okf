@@ -46,3 +46,7 @@ The verified public export should include `markets/en.md` and exclude `internal/
 - Thailand destination page: https://yesim.app/country/thailand/
 - Turkey destination page: https://yesim.app/country/turkey/
 - Switzerland destination page: https://yesim.app/country/switzerland/
+
+## Later repository revision
+
+See [revision findings](revision-audit.md) and [publication plan](publication.md) for the subsequent scope split, added products/instructions and clean website build. Counts and mixed-file descriptions above describe the earlier review snapshot.

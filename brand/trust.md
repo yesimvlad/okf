@@ -1,9 +1,7 @@
 ---
 type: Reference
 title: Yesim trust sources
-description: Verify company identity through [company facts](company.md) and the official
-  Terms. Verify individual store ratings through the actual store listings, not an
-  aggregate website metric.
+description: Dated company-reported metrics and routes for checking current reviews.
 resource: https://yesim.app/about-us/
 sources:
 - id: source-1
@@ -17,6 +15,7 @@ verified:
 - by: codex/source-review
   at: '2026-10-08T15:12:31Z'
 stale_after: '2026-11-07T15:30:00Z'
+id: yesim:brand/trust
 ---
 
 # Yesim trust sources

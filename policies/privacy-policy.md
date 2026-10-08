@@ -1,10 +1,8 @@
 ---
 type: Policy
 title: Yesim privacy-policy source
-description: Use the [official Privacy Policy](https://yesim.app/privacy-policy/)
-  for current information about personal-data processing, controller details, categories,
-  purposes, recipients, retention and rights. This scoped knowledge record does not
-  reproduce the full policy or claim that e
+description: Official privacy-policy source for data processing, controller details
+  and user rights.
 resource: https://yesim.app/privacy-policy/
 sources:
 - id: source-1
@@ -18,6 +16,7 @@ verified:
 - by: codex/source-review
   at: '2026-10-08T15:12:31Z'
 stale_after: '2026-11-07T15:30:00Z'
+id: yesim:policies/privacy-policy
 ---
 
 # Yesim privacy-policy source

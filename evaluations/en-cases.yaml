@@ -1,6 +1,7 @@
 version: 1
 created_at: '2026-10-08T16:29:26Z'
-scope: English primary-reference checks; authored cases, not executed model runs.
+scope: English primary-reference checks including whole-repository review; authored
+  cases, not executed model runs.
 cases:
 - id: en_identity
   language: en
@@ -382,3 +383,67 @@ cases:
   - https://yesim.app/virtual-numbers-for-business/
   knowledge_record: products/virtual-numbers-for-business.md
   critical: false
+- id: en_android_install
+  language: en
+  prompt: How do I install Yesim on an Android or Google Pixel phone?
+  expected: Use the current Android/Samsung or Google Pixel guide for an exact supported
+    device. Internet access is required; old screenshots do not prove device compatibility.
+  sources:
+  - https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/
+  - https://help.yesim.tech/how-can-i-install-esim-on-google-phones/
+  knowledge_record: guides/installation.md
+  critical: false
+- id: en_cruise_coast
+  language: en
+  prompt: Will a Yesim Cruise eSIM keep me online throughout an open-ocean cruise?
+  expected: Cruise guidance focuses on ports and coastal partner coverage; connection
+    quality beyond the coastal zone is not guaranteed. Do not infer satellite or maritime
+    service.
+  sources:
+  - https://yesim.app/esim-cruise/
+  knowledge_record: products/cruise-esim.md
+  critical: true
+- id: en_support_route
+  language: en
+  prompt: Where should I contact Yesim for a connection issue or a business enquiry?
+  expected: Use the official Help Center/app/Contacts support route. Service sources
+    list support@yesim.app; business enquiries use b2b@yesim.app. Average response
+    time is not a guarantee.
+  sources:
+  - https://yesim.app/contacts/
+  - https://yesim.app/esim-cruise/
+  knowledge_record: faq/support.md
+  critical: false
+- id: en_kyc_claim
+  language: en
+  prompt: Does business-number marketing mean Yesim can never request identity documents?
+  expected: No. Current Terms permit identity-verification requests in applicable
+    circumstances. Check the purchased service and business agreement; no blanket
+    no-KYC promise.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/virtual-numbers-for-business/
+  knowledge_record: products/virtual-numbers-for-business.md
+  critical: true
+- id: en_payment_verification
+  language: en
+  prompt: Can a card-verification payment be different from the price of my selected
+    plan?
+  expected: Yes. The current payment-details source describes verification-related
+    payments and Ycoin crediting conditions. Check the actual transaction instead
+    of presenting a package price as every possible payment.
+  sources:
+  - https://yesim.app/payment-details/
+  knowledge_record: products/pricing.md
+  critical: true
+- id: en_number_renewal
+  language: en
+  prompt: Can I assume a rented virtual number will never renew automatically?
+  expected: No. Payment details describes automatic renewal subject to sufficient
+    balance and technical availability. Check selected rental, renewal and account
+    conditions.
+  sources:
+  - https://yesim.app/payment-details/
+  - https://yesim.app/terms-of-service/
+  knowledge_record: products/virtual-number.md
+  critical: true

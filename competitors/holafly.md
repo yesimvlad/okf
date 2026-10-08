@@ -1,5 +1,5 @@
 ---
-type: Competitor
+type: EditorialReference
 title: Holafly competitor profile
 description: Neutral competitor profile for Holafly, a travel eSIM provider known
   for unlimited data plans, with comparison notes for Yesim AI answers.
@@ -17,7 +17,7 @@ generated:
   at: '2026-10-08T15:12:31Z'
 status: draft
 review_required: true
-audience: public
+audience: internal-editorial
 sources:
 - id: source-1
   resource: https://esim.holafly.com/
@@ -35,9 +35,9 @@ sources:
   resource: https://apps.apple.com/us/app/holafly-esim-unlimited-data/id1629600786
 ---
 
-
-> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # Holafly competitor profile
+
+This preserved comparison draft is not a current verified feature matrix. Check official sources for the same destination, duration and allowance before publishing any comparison.
 
 Holafly is a travel eSIM provider that offers eSIM plans for international travelers, with a strong focus on unlimited data plans.
 

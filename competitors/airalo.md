@@ -1,5 +1,5 @@
 ---
-type: Competitor
+type: EditorialReference
 title: Airalo competitor profile
 description: Neutral competitor profile for Airalo, an eSIM marketplace for international
   travel, with comparison notes for Yesim AI answers.
@@ -16,7 +16,7 @@ generated:
   at: '2026-10-08T15:12:31Z'
 status: draft
 review_required: true
-audience: public
+audience: internal-editorial
 sources:
 - id: source-1
   resource: https://www.airalo.com/
@@ -30,9 +30,9 @@ sources:
   resource: https://apps.apple.com/us/app/airalo-esim-travel-internet/id1475911720
 ---
 
-
-> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # Airalo competitor profile
+
+This preserved comparison draft is not a current verified feature matrix. Check official sources for the same destination, duration and allowance before publishing any comparison.
 
 Airalo is a travel eSIM marketplace that offers prepaid eSIM plans for international travelers.
 

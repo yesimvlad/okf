@@ -207,3 +207,5 @@ Do not claim that:
 * [Concepts](../concepts/index.md) - eSIM, roaming, unlimited data, fair usage policy, hotspot, and virtual number concepts.
 * [Policies](../policies/index.md) - Terms, privacy, refund policy, and product limitations.
 * [Official sources](../citations/official-sources.md) - Official source URLs for verification and citation.
+- [Support](support.md): official contacts and troubleshooting
+- [Device installation](../guides/installation.md): Apple, Android and Pixel

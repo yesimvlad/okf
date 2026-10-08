@@ -1,29 +1,77 @@
 ---
 type: Reference
-title: Website language and market knowledge overview
-description: Website language and market knowledge overview
+title: Yesim website language inventory
+description: The official index lists 44 website languages; listing does not establish
+  product localization approval or eligibility.
 resource: https://yesim.app/llms.txt
 sources:
 - id: source-1
   resource: https://yesim.app/llms.txt
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:48:28Z'
-status: draft
+  by: codex/repository-revision
+  at: '2026-10-08T16:55:46Z'
+status: stable
 audience: public
-review_required: true
+id: yesim:markets
+verified:
+- by: codex/source-review
+  at: '2026-10-08T16:55:46Z'
+stale_after: '2026-10-15T16:55:46Z'
 ---
 
-# Website language and market knowledge overview
+# Yesim website language inventory
 
-The [language registry](markets/index.md) includes all 44 language versions listed in the official Website Languages index, checked 2026-10-08. It links every knowledge file and the source's listed website URL.
+The official language index lists 44 website versions, checked on 2026-10-08. Language is separate from residence, purchaser eligibility, checkout currency, support language and travel coverage. A listed link does not prove endpoint availability or native product approval.
 
-Language, customer residence and travel destination are separate dimensions. Do not infer plan availability, currency, promotion eligibility or legal exceptions from language alone. Endpoint, canonical/hreflang and translation audits remain pending.
+The primary reviewed product reference is [English](markets/en.md). Fifteen other locales have detailed product drafts and separately linked editorial research; 28 are language-routing cards awaiting expansion. Publish only individually reviewed localized product records.
 
-Detailed [Polish](markets/pl.md) and [Romanian](markets/ro.md) research is preserved in the main market directory. Product-answer drafts and editorial guidance are explicitly distinguished. OKF does not require reducing useful market knowledge to a short card; stable shared product facts should be linked to reduce contradictions, while local scenarios, terminology and evidence-backed research can remain detailed.
+| Website language code | URL listed in the official index |
+|---|---|
+| `ar` | https://yesim.app/ar/ |
+| `az` | https://yesim.app/az/ |
+| `bg` | https://yesim.app/bg/ |
+| `bs` | https://yesim.app/bs/ |
+| `cs` | https://yesim.app/cs/ |
+| `da` | https://yesim.app/da/ |
+| `de` | https://yesim.app/de/ |
+| `el` | https://yesim.app/el/ |
+| `en` | https://yesim.app/ |
+| `es` | https://yesim.app/es/ |
+| `et` | https://yesim.app/et/ |
+| `fa` | https://yesim.app/fa/ |
+| `fi` | https://yesim.app/fi/ |
+| `fr` | https://yesim.app/fr/ |
+| `he` | https://yesim.app/he/ |
+| `hi` | https://yesim.app/hi/ |
+| `hr` | https://yesim.app/hr/ |
+| `hu` | https://yesim.app/hu/ |
+| `hy` | https://yesim.app/hy/ |
+| `id` | https://yesim.app/id/ |
+| `it` | https://yesim.app/it/ |
+| `ja` | https://yesim.app/ja/ |
+| `ka-ge` | https://yesim.app/ka-ge/ |
+| `ko` | https://yesim.app/ko/ |
+| `lt` | https://yesim.app/lt/ |
+| `lv` | https://yesim.app/lv/ |
+| `ms` | https://yesim.app/ms/ |
+| `nb` | https://yesim.app/nb/ |
+| `nl` | https://yesim.app/nl/ |
+| `pl` | https://yesim.app/pl/ |
+| `pt-br` | https://yesim.app/pt-br/ |
+| `pt` | https://yesim.app/pt/ |
+| `ro` | https://yesim.app/ro/ |
+| `ru` | https://yesim.app/ru/ |
+| `sk` | https://yesim.app/sk/ |
+| `sl` | https://yesim.app/sl/ |
+| `sr` | https://yesim.app/sr/ |
+| `sv` | https://yesim.app/sv/ |
+| `th` | https://yesim.app/th/ |
+| `tr` | https://yesim.app/tr/ |
+| `uk` | https://yesim.app/uk/ |
+| `uz` | https://yesim.app/uz/ |
+| `vi` | https://yesim.app/vi/ |
+| `zh-cn` | https://yesim.app/zh-cn/ |
 
-Additional [editorial navigation](internal/seo/index.md) preserves existing links. Mixed unreviewed market files remain outside the verified public export.
+For Russian editorial routing the owner specifies https://yesim.tech/ru/ for eSIM content; the official index lists https://yesim.app/ru/. Number sources use `.app/ru/`. Verify redirects/canonical/hreflang before publishing local paths.
 
-Detailed expansion also covers [AR](markets/ar.md), [ZH-CN](markets/zh-cn.md), [ID](markets/id.md), [RU](markets/ru.md), [PT](markets/pt.md), [PT-BR](markets/pt-br.md), [ES](markets/es.md), [IT](markets/it.md), [CS](markets/cs.md), [JA](markets/ja.md), [FR](markets/fr.md), [DE](markets/de.md) and [VI](markets/vi.md). These contain draft local answer examples and explicitly labelled editorial candidates. See [source and review notes](docs/market-expansion-review.md).
-
-English is the primary editorial language. Start with the [source-reviewed English product reference](markets/en.md); [English query and content proposals](internal/seo/markets/en.md) are a separate draft scope. Shared definitions should remain consistent across locales, while purchase-specific and explicitly sourced local exceptions remain visible.
+[Official language index](https://yesim.app/llms.txt)

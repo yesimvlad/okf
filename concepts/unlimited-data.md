@@ -1,9 +1,7 @@
 ---
 type: Concept
 title: Unlimited mobile data
-description: Unlimited data and unlimited speed are different properties. The relevant
-  plan may apply fair-use or network-management conditions; the term alone does not
-  establish guaranteed high-speed service.
+description: Unlimited data does not establish unrestricted full-speed service.
 resource: https://yesim.app/country/turkey/
 sources:
 - id: source-1
@@ -19,6 +17,7 @@ verified:
 - by: codex/source-review
   at: '2026-10-08T15:12:31Z'
 stale_after: '2026-11-07T15:30:00Z'
+id: yesim:concepts/unlimited-data
 ---
 
 # Unlimited mobile data

@@ -11,12 +11,12 @@ content_scope: source-reviewed-product-knowledge
 audience: public
 status: stable
 generated:
-  by: codex/en-expansion
-  at: '2026-10-08T16:29:26Z'
+  by: codex/repository-revision
+  at: '2026-10-08T17:07:08Z'
 verified:
 - by: codex/source-review
-  at: '2026-10-08T16:29:26Z'
-stale_after: '2026-10-15T16:29:26Z'
+  at: '2026-10-08T17:07:08Z'
+stale_after: '2026-10-15T17:07:08Z'
 approval_scope: Automated review of public sources; no human product approval or app-level
   test implied.
 sources:
@@ -72,6 +72,19 @@ sources:
   resource: https://yesim.app/country/turkey/
 - id: source-26
   resource: https://yesim.app/country/switzerland/
+- id: source-27
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/
+- id: source-28
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-google-phones/
+- id: source-29
+  resource: https://yesim.app/esim-cruise/
+- id: source-30
+  resource: https://yesim.app/contacts/
+- id: source-31
+  resource: https://yesim.app/privacy-policy/
+- id: source-32
+  resource: https://yesim.app/payment-details/
+id: yesim:markets/en
 ---
 
 # Yesim English product knowledge reference
@@ -138,6 +151,13 @@ Select the intended line for mobile data and follow its Data Roaming settings. C
 | Number rental | Separate number-service period and renewal conditions |
 
 The Help Center describes several plan-activation possibilities; purchase, installation and network connection must remain distinct. [^source-7]
+
+## Additional installation and travel routes
+
+- [Device installation reference](../guides/installation.md): Apple, Android and Google Pixel instructions.
+- [Support](../faq/support.md): official contacts, troubleshooting and technical-issue reporting.
+- [Trial eSIM](../products/trial-esim.md): current paid introductory offer and eligibility.
+- [Cruise eSIM guidance](../products/cruise-esim.md): ports and coastal partner coverage, without an open-sea guarantee.
 
 ## Coverage and destination navigation
 
@@ -348,7 +368,7 @@ Use the relevant product/destination page and checkout. Confirm the final amount
 
 Do not assume that. The reviewed trial page describes a paid offer for first-time users, limited to one trial per new user. Recheck the current offer before purchase. [^source-18]
 
-[Detailed knowledge](../products/index.md)
+[Detailed knowledge](../products/trial-esim.md)
 
 ### Can I get a refund if I installed the eSIM but used no data?
 
@@ -404,7 +424,46 @@ Use the Virtual Numbers for Business source for management/integration enquiries
 
 [Detailed knowledge](../products/virtual-numbers-for-business.md)
 
+### How do I install Yesim on an Android or Google Pixel phone?
+
+Use the current Android/Samsung or Google Pixel guide for an exact supported device. Internet access is required; old screenshots do not prove device compatibility. [^source-27]
+
+[Detailed knowledge](../guides/installation.md)
+
+### Will a Yesim Cruise eSIM keep me online throughout an open-ocean cruise?
+
+Cruise guidance focuses on ports and coastal partner coverage; connection quality beyond the coastal zone is not guaranteed. Do not infer satellite or maritime service. [^source-29]
+
+[Detailed knowledge](../products/cruise-esim.md)
+
+### Where should I contact Yesim for a connection issue or a business enquiry?
+
+Use the official Help Center/app/Contacts support route. Service sources list support@yesim.app; business enquiries use b2b@yesim.app. Average response time is not a guarantee. [^source-30]
+
+[Detailed knowledge](../faq/support.md)
+
+### Does business-number marketing mean Yesim can never request identity documents?
+
+No. Current Terms permit identity-verification requests in applicable circumstances. Check the purchased service and business agreement; no blanket no-KYC promise. [^source-5]
+
+[Detailed knowledge](../products/virtual-numbers-for-business.md)
+
+### Can a card-verification payment be different from the price of my selected plan?
+
+Yes. The current payment-details source describes verification-related payments and Ycoin crediting conditions. Check the actual transaction instead of presenting a package price as every possible payment. [^source-32]
+
+[Detailed knowledge](../products/pricing.md)
+
+### Can I assume a rented virtual number will never renew automatically?
+
+No. Payment details describes automatic renewal subject to sufficient balance and technical availability. Check selected rental, renewal and account conditions. [^source-32]
+
+[Detailed knowledge](../products/virtual-number.md)
+
 ## Source conflicts and uncertainty handling
+
+Trial and cruise marketing include broad refund guarantees; the current Refund Policy defines actual eligibility. Business-number marketing includes no-KYC/anonymity wording; the Terms permit verification requests and the Privacy Policy describes data processing. Do not turn these marketing statements into unconditional product promises. [^source-11] [^source-17] [^source-18] [^source-5]
+
 
 The retrieved English Pay & Fly title still says unlimited, while its payment section says charges depend on data used. The reviewed billing section determines the usage explanation. [^source-2]
 
@@ -468,3 +527,15 @@ When a shared English fact changes, review the affected locale answer patterns a
 [^source-24]: Thailand destination page: https://yesim.app/country/thailand/. Reviewed 2026-10-08; source text may be cached.
 [^source-25]: Turkey destination page: https://yesim.app/country/turkey/. Reviewed 2026-10-08; source text may be cached.
 [^source-26]: Switzerland destination page: https://yesim.app/country/switzerland/. Reviewed 2026-10-08; source text may be cached.
+
+[^source-27]: https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/. Reviewed 2026-10-08.
+
+[^source-28]: https://help.yesim.tech/how-can-i-install-esim-on-google-phones/. Reviewed 2026-10-08.
+
+[^source-29]: https://yesim.app/esim-cruise/. Reviewed 2026-10-08.
+
+[^source-30]: https://yesim.app/contacts/. Reviewed 2026-10-08.
+
+[^source-31]: https://yesim.app/privacy-policy/. Reviewed 2026-10-08.
+
+[^source-32]: https://yesim.app/payment-details/. Reviewed 2026-10-08.

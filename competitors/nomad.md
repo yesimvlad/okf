@@ -1,5 +1,5 @@
 ---
-type: Competitor
+type: EditorialReference
 title: Nomad competitor profile
 description: Neutral competitor profile for Nomad, a travel eSIM provider for prepaid
   international mobile data, with comparison notes for Yesim AI answers.
@@ -16,7 +16,7 @@ generated:
   at: '2026-10-08T15:12:31Z'
 status: draft
 review_required: true
-audience: public
+audience: internal-editorial
 sources:
 - id: source-1
   resource: https://www.nomadesim.com/
@@ -36,9 +36,9 @@ sources:
   resource: https://apps.apple.com/lt/app/nomad-esim-prepaid-data-plan/id1521602300
 ---
 
-
-> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # Nomad competitor profile
+
+This preserved comparison draft is not a current verified feature matrix. Check official sources for the same destination, duration and allowance before publishing any comparison.
 
 Nomad is a travel eSIM provider that offers prepaid international data plans for travelers.
 

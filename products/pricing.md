@@ -14,11 +14,15 @@ sources:
 - id: source-4
   resource: https://yesim.app/promocodes/
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
-status: draft
+  by: codex/repository-revision
+  at: '2026-10-08T17:07:08Z'
+status: stable
 audience: public
-review_required: true
+verified:
+- by: codex/source-review
+  at: '2026-10-08T17:07:08Z'
+stale_after: '2026-10-15T17:07:08Z'
+id: yesim:products/pricing
 ---
 
 # Yesim pricing
@@ -39,3 +43,7 @@ For promotions, use the [official promotions page](https://yesim.app/promocodes/
 Optional auto top-up or renewal is product-specific. Do not describe every product as a fixed-price package or as having identical renewal settings.
 
 For refunds use the [refund policy](../policies/refund-policy.md). The home carrier may still charge for its own line; a Yesim purchase does not eliminate all possible roaming costs.
+
+## Payments beyond the package headline
+
+The current payment-details page describes card-verification and first-purchase promotional-Ycoin verification payments, with crediting to Ycoins. Verify the actual checkout/payment conditions separately from a plan headline. The number service has its own renewal rules; do not describe all products as having no recurring settings.

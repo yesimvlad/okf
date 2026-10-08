@@ -19,6 +19,7 @@ website_language_url: https://yesim.app/ka-ge/
 listing_checked_at: '2026-10-08T15:48:28Z'
 listing_evidence: https://yesim.app/llms.txt
 localization_status: needs-review
+id: yesim:markets/ka-ge
 ---
 
 # Yesim Georgian language reference

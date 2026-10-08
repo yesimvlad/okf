@@ -156,3 +156,7 @@ Run authoring validation, the existing quality/export tests and a fresh filtered
 | `vi` | Hàn Quốc | https://yesim.app/vi/country/south-korea/ |
 | `vi` | Thái Lan | https://yesim.app/vi/country/thailand/ |
 | `vi` | Singapore | https://yesim.app/vi/country/singapore/ |
+
+## Later repository revision
+
+See [revision findings](revision-audit.md) and [publication plan](publication.md) for the subsequent scope split, added products/instructions and clean website build. Counts and mixed-file descriptions above describe the earlier review snapshot.

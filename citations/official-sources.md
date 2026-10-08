@@ -1,22 +1,42 @@
 ---
 type: Reference
 title: Official Yesim source directory
-description: Source URLs identify where to verify a claim; being in this directory
-  does not prove every statement on a page is current or consistent. Attribute important
-  facts to the exact source in each record.
+description: Official source routes for checking Yesim product, support and policy
+  facts.
 resource: https://yesim.app/
 sources:
 - id: source-1
   resource: https://yesim.app/
+- id: source-2
+  resource: https://yesim.app/trial-esim/
+- id: source-3
+  resource: https://yesim.app/esim-cruise/
+- id: source-4
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/
+- id: source-5
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-google-phones/
+- id: source-6
+  resource: https://help.yesim.tech/can-i-tether-use-personal-hotspot/
+- id: source-7
+  resource: https://help.yesim.tech/unlimited-data-plans-policy/
+- id: source-8
+  resource: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+- id: source-9
+  resource: https://yesim.app/b2b-enterprise/
+- id: source-10
+  resource: https://yesim.app/yesim-partner-api/
+- id: source-11
+  resource: https://yesim.app/virtual-numbers-for-business/
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
+  by: codex/repository-revision
+  at: '2026-10-08T17:07:08Z'
 status: stable
 audience: public
 verified:
 - by: codex/source-review
-  at: '2026-10-08T15:12:31Z'
-stale_after: '2026-11-07T15:30:00Z'
+  at: '2026-10-08T17:07:08Z'
+stale_after: '2026-10-15T17:07:08Z'
+id: yesim:citations/official-sources
 ---
 
 # Official Yesim source directory
@@ -45,3 +65,17 @@ Current legal policy and purchase-specific Product Description take precedence o
 - [Product records](../products/index.md)
 - [Policies](../policies/index.md)
 - [Open source conflicts](../governance/open-questions.md)
+
+
+## Additional reviewed routes
+
+- [https://yesim.app/trial-esim/](https://yesim.app/trial-esim/)
+- [https://yesim.app/esim-cruise/](https://yesim.app/esim-cruise/)
+- [https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/](https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/)
+- [https://help.yesim.tech/how-can-i-install-esim-on-google-phones/](https://help.yesim.tech/how-can-i-install-esim-on-google-phones/)
+- [https://help.yesim.tech/can-i-tether-use-personal-hotspot/](https://help.yesim.tech/can-i-tether-use-personal-hotspot/)
+- [https://help.yesim.tech/unlimited-data-plans-policy/](https://help.yesim.tech/unlimited-data-plans-policy/)
+- [https://help.yesim.tech/when-does-my-yesim-data-plan-activate/](https://help.yesim.tech/when-does-my-yesim-data-plan-activate/)
+- [https://yesim.app/b2b-enterprise/](https://yesim.app/b2b-enterprise/)
+- [https://yesim.app/yesim-partner-api/](https://yesim.app/yesim-partner-api/)
+- [https://yesim.app/virtual-numbers-for-business/](https://yesim.app/virtual-numbers-for-business/)

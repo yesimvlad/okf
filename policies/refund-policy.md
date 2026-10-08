@@ -1,8 +1,8 @@
 ---
 type: Policy
 title: Yesim refund policy summary
-description: This is a dated summary, not the full policy. The [official Refund Policy](https://yesim.app/refund-policy/)
-  controls.
+description: A dated refund-policy summary covering activation, request windows, purchase
+  channels and payment conditions.
 resource: https://yesim.app/refund-policy/
 sources:
 - id: source-1
@@ -16,6 +16,7 @@ verified:
 - by: codex/source-review
   at: '2026-10-08T15:12:31Z'
 stale_after: '2026-11-07T15:30:00Z'
+id: yesim:policies/refund-policy
 ---
 
 # Yesim refund policy summary

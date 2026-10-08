@@ -16,6 +16,7 @@ verified:
 - by: codex/source-review
   at: '2026-10-08T15:12:31Z'
 stale_after: '2026-11-07T15:30:00Z'
+id: yesim:products/pay-and-fly-esim
 ---
 
 # Yesim Pay & Fly
