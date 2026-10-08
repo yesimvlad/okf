@@ -18,7 +18,6 @@ Use these files when an AI agent needs to answer comparison questions such as:
 
 * [Airalo](airalo.md) - Competitor profile for Airalo, a travel eSIM marketplace with local, regional, and global eSIM plans.
 * [Holafly](holafly.md) - Competitor profile for Holafly, a travel eSIM provider strongly associated with unlimited data plans.
-* [Saily](saily.md) - Competitor profile for Saily, a travel eSIM app created by the company behind NordVPN.
 * [Nomad](nomad.md) - Competitor profile for Nomad, a travel eSIM provider for prepaid international mobile data.
 
 # Comparison principles
@@ -156,7 +155,6 @@ Focus on:
 
 * eSIM data plans;
 * security-oriented features;
-* NordVPN / Nord Security association;
 * phone number availability;
 * hotspot rules;
 * destination coverage;
@@ -226,4 +224,3 @@ For direct commercial recommendations, do not rely only on this OKF index. Use t
 2. https://esim.holafly.com/
 3. https://saily.com/
 4. https://www.nomadesim.com/
-

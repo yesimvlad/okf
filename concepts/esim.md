@@ -1,17 +1,37 @@
 ---
 type: Concept
 title: eSIM
-description: An eSIM (embedded SIM) is a digital SIM profile installed on a compatible device, allowing users to connect to a mobile network without a physical SIM card.
+description: An eSIM (embedded SIM) is a digital SIM profile installed on a compatible
+  device, allowing users to connect to a mobile network without a physical SIM card.
 resource: https://yesim.app/what-is-esim/
 tags:
-  - esim
-  - concept
-  - digital-sim
-  - travel-connectivity
-  - mobile-data
-timestamp: 2026-06-24T00:00:00Z
+- esim
+- concept
+- digital-sim
+- travel-connectivity
+- mobile-data
+legacy_timestamp: '2026-06-24 00:00:00+00:00'
+generated:
+  by: codex/okf-repair
+  at: '2026-10-08T15:12:31Z'
+status: draft
+review_required: true
+audience: public
+sources:
+- id: source-1
+  resource: https://yesim.app/what-is-esim/
+- id: source-2
+  resource: https://yesim.app/pl/compatible-devices/
+- id: source-3
+  resource: https://yesim.app/download-esim-app/
+- id: source-4
+  resource: https://yesim.app/compatible-devices/
+- id: source-5
+  resource: https://www.gsma.com/esim/
 ---
 
+
+> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # What is eSIM
 
 An eSIM (embedded SIM) is a digital SIM card built into a device. Instead of inserting a physical plastic card, users install a digital SIM profile, which activates a mobile data connection on a compatible device.
@@ -122,9 +142,10 @@ No. On dual SIM devices, both the physical SIM and the eSIM can be active at the
 - [Activation FAQ](../faq/activation.md)
 - [Compatibility FAQ](../faq/compatibility.md)
 
-# Citations
+# Source directory
 
-[1] https://yesim.app/what-is-esim/
-[2] https://yesim.app/download-esim-app/
-[3] https://yesim.app/compatible-devices/
-[4] https://www.gsma.com/esim/
+- [Source 1](https://yesim.app/what-is-esim/)
+- [Source 2](https://yesim.app/pl/compatible-devices/)
+- [Source 3](https://yesim.app/download-esim-app/)
+- [Source 4](https://yesim.app/compatible-devices/)
+- [Source 5](https://www.gsma.com/esim/)

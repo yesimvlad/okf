@@ -1,11 +1,39 @@
 ---
 type: FAQ
 title: Yesim coverage FAQ
-description: Official FAQ answers about Yesim destination coverage, supported countries, regional plans, global plans, networks, speed, and connectivity limits.
+description: Official FAQ answers about Yesim destination coverage, supported countries,
+  regional plans, global plans, networks, speed, and connectivity limits.
 resource: https://yesim.app/regions/
-timestamp: 2026-06-24T00:00:00Z
+legacy_timestamp: '2026-06-24 00:00:00+00:00'
+generated:
+  by: codex/okf-repair
+  at: '2026-10-08T15:12:31Z'
+status: draft
+review_required: true
+audience: public
+sources:
+- id: source-1
+  resource: https://yesim.app/regions/
+- id: source-2
+  resource: https://yesim.app/
+- id: source-3
+  resource: https://yesim.app/what-is-esim/
+- id: source-4
+  resource: https://yesim.app/global/
+- id: source-5
+  resource: https://yesim.app/pay-and-fly-esim/
+- id: source-6
+  resource: https://help.yesim.tech/how-do-i-purchase-a-yesim-data-plan/
+- id: source-7
+  resource: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+- id: source-8
+  resource: https://help.yesim.tech/i-cant-use-the-yesim-data-what-should-i-do/
+- id: source-9
+  resource: https://help.yesim.tech/why-isnt-my-esim-working/
 ---
 
+
+> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # Yesim coverage FAQ
 
 This file contains short, structured answers about Yesim coverage, supported destinations, local networks, regional plans, global plans, speed, and connectivity limits.
@@ -340,15 +368,14 @@ No. Coverage means the destination may be supported. Data allowance, validity, u
 * I can't use my Yesim data. What should I do?: https://help.yesim.tech/i-cant-use-the-yesim-data-what-should-i-do/
 * Why isn't my eSIM working properly?: https://help.yesim.tech/why-isnt-my-esim-working/
 
-# Citations
+# Source directory
 
-[1] https://yesim.app/
-[2] https://yesim.app/regions/
-[3] https://yesim.app/what-is-esim/
-[4] https://yesim.app/global/
-[5] https://yesim.app/pay-and-fly-esim/
-[6] https://help.yesim.tech/how-do-i-purchase-a-yesim-data-plan/
-[7] https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
-[8] https://help.yesim.tech/i-cant-use-the-yesim-data-what-should-i-do/
-[9] https://help.yesim.tech/why-isnt-my-esim-working/
-
+- [Source 1](https://yesim.app/regions/)
+- [Source 2](https://yesim.app/)
+- [Source 3](https://yesim.app/what-is-esim/)
+- [Source 4](https://yesim.app/global/)
+- [Source 5](https://yesim.app/pay-and-fly-esim/)
+- [Source 6](https://help.yesim.tech/how-do-i-purchase-a-yesim-data-plan/)
+- [Source 7](https://help.yesim.tech/when-does-my-yesim-data-plan-activate/)
+- [Source 8](https://help.yesim.tech/i-cant-use-the-yesim-data-what-should-i-do/)
+- [Source 9](https://help.yesim.tech/why-isnt-my-esim-working/)

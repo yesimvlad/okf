@@ -1,97 +1,56 @@
 ---
-type: Feature
-title: Pay & Fly eSIM
-description: Pay & Fly is a Yesim unlimited eSIM product with global mobile coverage and Pay As You Go daily pricing. The user pays only for days of actual use.
+type: Product
+title: Yesim Pay & Fly
+description: 'Pay & Fly is a data-only eSIM with Pay As You Go billing: payment is
+  based on the data used, not on activated days.'
 resource: https://yesim.app/pay-and-fly-esim/
-tags:
-  - pay-and-fly
-  - product
-  - unlimited
-  - daily
-  - travel
-  - esim
-timestamp: 2026-06-24T00:00:00Z
+sources:
+- id: source-1
+  resource: https://yesim.app/pay-and-fly-esim/
+generated:
+  by: codex/okf-repair
+  at: '2026-10-08T15:12:31Z'
+status: stable
+audience: public
+verified:
+- by: codex/source-review
+  at: '2026-10-08T15:12:31Z'
+stale_after: '2026-11-07T15:30:00Z'
 ---
 
-# What is Pay & Fly
+# Yesim Pay & Fly
 
-Pay & Fly is Yesim's unlimited eSIM product designed for travelers and business users who want global mobile coverage with flexible daily pricing. The user pays per day of actual use — not for the full trip period.
+Pay & Fly is a data-only eSIM with Pay As You Go billing: payment is based on the data used, not on activated days.[^source-1]
 
-The product is positioned as: more data, less cost — with no unnecessary roaming fees.
-
-| Field | Value |
+| Property | Meaning |
 |---|---|
-| Page | https://yesim.app/pay-and-fly-esim/ |
-| H1 | More data, less cost. Just Pay & Fly. |
-| Data | Unlimited (subject to fair usage policy) |
-| Coverage | Global |
-| Pricing model | Pay As You Go — per day of use |
-| Hotspot | Supported |
-| Use case | Travel and business |
+| Billing unit | Data used; rates vary by destination |
+| Included phone number | None |
+| Coverage | Supported destinations on the current product page; not every country |
+| Balance | The product page describes a non-expiring balance |
+| Installation | Install the eSIM once on a compatible device |
+| Top-up | Manual top-up; optional auto top-up is advertised |
+| Hotspot | Advertised on the product page |
 
-# How Pay & Fly Works
+These are a dated snapshot of the public product page, not a price quote or a substitute for the Product Description shown at purchase. Do not infer unlimited data, a daily FUP allowance, automatic daily billing, or coverage in all countries.
 
-1. The user purchases a Pay & Fly eSIM plan.
-2. The eSIM is installed on a compatible device via QR code or the Yesim app.
-3. The user activates a day when they need connectivity.
-4. Data is unlimited for the activated day, subject to the fair usage policy.
-5. The user is charged only for days when the plan is active — inactive days are not billed.
+# Difference from Unlim Day Pass
 
-This differs from standard unlimited plans where the full period is billed regardless of use.
+[Unlim Day Pass](unlim-day-pass.md) is a prepaid pack of unlimited-data days. Pay & Fly charges for data consumed. They have different billing units and validity rules.
 
-# Pay & Fly vs Other Unlimited Plans
+# Questions
 
-| | Pay & Fly | Unlim Day Pass | Standard country plan |
-|---|---|---|---|
-| Data | Unlimited (FUP) | Unlimited (FUP) | Fixed volume |
-| Coverage | Global | 83+ countries | One country |
-| Pricing model | Pay As You Go per day | Prepaid day pack | Fixed per plan |
-| Hotspot | Yes | Check plan page | Varies |
-| Best for | Flexible multi-destination travel | Pre-buying days for known trips | Single-country trips |
+## Is Pay & Fly a daily unlimited plan?
+No. Its current product page describes payment for the data used. Do not apply the day-pack rules to Pay & Fly.
 
-# Fair Usage Policy
+## Where are current rates and coverage?
+Check the destination rates and list on the [official Pay & Fly page](https://yesim.app/pay-and-fly-esim/). Do not quote a universal per-GB price.
 
-Pay & Fly unlimited data is subject to a fair usage policy. After the daily threshold, speeds may be reduced. The connection stays active. Full speeds resume the next day. See [Fair usage policy](../concepts/fair-usage-policy.md).
+# Related knowledge
 
-# Hotspot
-
-Hotspot is supported on Pay & Fly. Hotspot data may count toward the FUP threshold. See [Hotspot](../concepts/hotspot.md).
-
-# Common Questions
-
-## What does Pay As You Go mean on Pay & Fly?
-
-The user is charged only for days when the Pay & Fly plan is active. Days when the plan is not activated are not billed. This makes it cost-effective for travelers who do not need connectivity every day of a trip.
-
-## Does Pay & Fly work in every country?
-
-Pay & Fly offers global coverage. Exact supported destinations should be verified on the official plan page: https://yesim.app/pay-and-fly-esim/
-
-## Is Pay & Fly data truly unlimited?
-
-Pay & Fly provides unlimited data with no fixed GB cap. However, speeds may be reduced after a daily fair usage threshold is reached. The connection remains active at reduced speeds until the next day. See [Fair usage policy](../concepts/fair-usage-policy.md).
-
-## Can I use Pay & Fly for business travel?
-
-Yes. Pay & Fly is designed for both travel and business use. For managing eSIM connectivity across a team, see [Business eSIM](business-esim.md).
-
-## Is Pay & Fly the same as Unlim Day Pass?
-
-No. Pay & Fly is a Pay As You Go plan — the user is charged per activated day on a recurring basis. Unlim Day Pass is a prepaid day pack — the user buys a set of days upfront and activates them individually across 83+ countries. Both are unlimited plans subject to FUP.
-
-# Related Files
-
-- [eSIM product](esim.md)
-- [Business eSIM](business-esim.md)
+- [eSIM](esim.md)
 - [Pricing](pricing.md)
-- [Unlimited data](../concepts/unlimited-data.md)
-- [Fair usage policy](../concepts/fair-usage-policy.md)
-- [Hotspot](../concepts/hotspot.md)
-- [Global plans](../destinations/global.md)
-- [Coverage FAQ](../faq/coverage.md)
+- [Activation](../faq/activation.md)
+- [Global coverage](../destinations/global.md)
 
-# Citations
-
-[1] https://yesim.app/pay-and-fly-esim/
-[2] https://yesim.app/unlim-day-pass/
-[3] https://yesim.app/what-is-esim/
+[^source-1]: Official Pay & Fly page, checked 2026-10-08.

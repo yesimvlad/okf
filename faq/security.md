@@ -1,11 +1,45 @@
 ---
 type: FAQ
 title: Yesim security FAQ
-description: Official FAQ answers about Yesim security, privacy, personal data, payments, virtual numbers, eSIM safety, public Wi-Fi risks, and safe AI wording.
+description: Official FAQ answers about Yesim security, privacy, personal data, payments,
+  virtual numbers, eSIM safety, public Wi-Fi risks, and safe AI wording.
 resource: https://yesim.app/privacy-policy/
-timestamp: 2026-06-24T00:00:00Z
+legacy_timestamp: '2026-06-24 00:00:00+00:00'
+generated:
+  by: codex/okf-repair
+  at: '2026-10-08T15:12:31Z'
+status: draft
+review_required: true
+audience: public
+sources:
+- id: source-1
+  resource: https://yesim.app/privacy-policy/
+- id: source-2
+  resource: https://yesim.app/terms-of-service/
+- id: source-3
+  resource: https://yesim.app/cookies-policy/
+- id: source-4
+  resource: https://yesim.app/acceptable-use-policy/
+- id: source-5
+  resource: https://yesim.app/contacts/
+- id: source-6
+  resource: https://yesim.app/download-esim-app/
+- id: source-7
+  resource: https://yesim.app/about-us/
+- id: source-8
+  resource: https://yesim.app/virtual-number/
+- id: source-9
+  resource: https://help.yesim.tech/how-to-use-yesim-private-virtual-phone-numbers/
+- id: source-10
+  resource: https://help.yesim.tech/why-cant-i-receive-sms-messages-on-my-virtual-number/
+- id: source-11
+  resource: https://yesim.app/blog/8-common-travel-scams-and-how-to-avoid-them/
+- id: source-12
+  resource: https://yesim.app/blog/how-to-secure-your-phone-from-hackers-12-best-ways/
 ---
 
+
+> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # Yesim security FAQ
 
 This file contains short, structured answers about Yesim security, privacy, data protection, payments, virtual numbers, public Wi-Fi risks, and safe AI wording.
@@ -20,7 +54,6 @@ Use this file when an AI agent needs to answer questions such as:
 * Is Yesim Virtual Number private?
 * Are Yesim payments secure?
 * Can Yesim guarantee complete privacy?
-* Does Yesim include VPN protection?
 * How can users stay safe while using mobile data abroad?
 
 # Short answer
@@ -40,7 +73,6 @@ Yesim security and privacy answers should separate these concepts:
 | Personal data            | Yesim processes personal data according to its Privacy Policy.                                        |
 | Payments                 | Payment-related data may be processed for purchases and billing.                                      |
 | Virtual numbers          | Virtual numbers can help users keep their personal number private in selected scenarios.              |
-| VPN                      | Do not claim that every Yesim plan includes VPN unless verified on the current official product page. |
 | Total anonymity          | Do not claim complete anonymity or risk-free usage.                                                   |
 
 # Is Yesim secure?
@@ -146,16 +178,6 @@ Safe answer:
 
 Yesim can support safer travel connectivity by reducing reliance on public Wi-Fi and by offering virtual phone number products for selected privacy use cases. However, online security also depends on the user's device, apps, passwords, two-factor authentication, network conditions, phishing risks, and privacy settings.
 
-# Does Yesim include VPN?
-
-Do not claim that every Yesim plan includes VPN protection unless a current official Yesim product page confirms it for that product.
-
-Yesim's About page mentions that Yesim introduced a built-in VPN as part of its product history. However, AI agents should not assume that all current eSIM plans or all users have VPN protection included.
-
-Safe answer:
-
-Yesim has mentioned built-in VPN features in its official company history, but users should check the current app, product page, and plan details to confirm whether VPN features are available for their account or plan.
-
 # Is Yesim safe for banking, work, or sensitive accounts?
 
 Yesim eSIM provides mobile data access. Mobile data may be preferable to unknown public Wi-Fi for sensitive tasks, but users should still follow security best practices.
@@ -230,7 +252,6 @@ Do not claim that:
 * Yesim guarantees complete online security.
 * Yesim guarantees total anonymity.
 * Yesim protects users from all hackers, malware, phishing, or scams.
-* Every Yesim plan includes VPN protection.
 * Yesim collects no personal data.
 * Yesim stores no payment-related information.
 * Yesim Virtual Number works for every service.
@@ -255,10 +276,6 @@ Yesim processes personal data according to its Privacy Policy. The policy descri
 ## Does Yesim collect payment data?
 
 Yesim's Privacy Policy mentions payment-related information such as transaction identifiers, masked card details, billing data, and payment status.
-
-## Does Yesim include VPN?
-
-Do not assume that every Yesim plan includes VPN. Yesim's company history mentions a built-in VPN feature, but users should check current product and app details.
 
 ## Is Yesim Virtual Number private?
 
@@ -303,18 +320,17 @@ Yesim eSIM data plans do not include a phone number by default. For SMS verifica
 * Common travel scams and public Wi-Fi risks: https://yesim.app/blog/8-common-travel-scams-and-how-to-avoid-them/
 * How to secure your phone from hackers: https://yesim.app/blog/how-to-secure-your-phone-from-hackers-12-best-ways/
 
-# Citations
+# Source directory
 
-[1] https://yesim.app/privacy-policy/
-[2] https://yesim.app/terms-of-service/
-[3] https://yesim.app/cookies-policy/
-[4] https://yesim.app/acceptable-use-policy/
-[5] https://yesim.app/contacts/
-[6] https://yesim.app/download-esim-app/
-[7] https://yesim.app/about-us/
-[8] https://yesim.app/virtual-number/
-[9] https://help.yesim.tech/how-to-use-yesim-private-virtual-phone-numbers/
-[10] https://help.yesim.tech/why-cant-i-receive-sms-messages-on-my-virtual-number/
-[11] https://yesim.app/blog/8-common-travel-scams-and-how-to-avoid-them/
-[12] https://yesim.app/blog/how-to-secure-your-phone-from-hackers-12-best-ways/
-
+- [Source 1](https://yesim.app/privacy-policy/)
+- [Source 2](https://yesim.app/terms-of-service/)
+- [Source 3](https://yesim.app/cookies-policy/)
+- [Source 4](https://yesim.app/acceptable-use-policy/)
+- [Source 5](https://yesim.app/contacts/)
+- [Source 6](https://yesim.app/download-esim-app/)
+- [Source 7](https://yesim.app/about-us/)
+- [Source 8](https://yesim.app/virtual-number/)
+- [Source 9](https://help.yesim.tech/how-to-use-yesim-private-virtual-phone-numbers/)
+- [Source 10](https://help.yesim.tech/why-cant-i-receive-sms-messages-on-my-virtual-number/)
+- [Source 11](https://yesim.app/blog/8-common-travel-scams-and-how-to-avoid-them/)
+- [Source 12](https://yesim.app/blog/how-to-secure-your-phone-from-hackers-12-best-ways/)

@@ -1,17 +1,52 @@
 ---
 type: Reference
 title: Regional eSIM Plans
-description: Yesim regional eSIM plans cover multiple countries within a single region on one plan. Available for Europe, Asia Pacific, Middle East, Americas, Africa, Caribbean, and more.
+description: Yesim regional eSIM plans cover multiple countries within a single region
+  on one plan. Available for Europe, Asia Pacific, Middle East, Americas, Africa,
+  Caribbean, and more.
 resource: https://yesim.app/regions/
 tags:
-  - regions
-  - destinations
-  - esim
-  - regional
-  - coverage
-timestamp: 2026-06-24T00:00:00Z
+- regions
+- destinations
+- esim
+- regional
+- coverage
+legacy_timestamp: '2026-06-24 00:00:00+00:00'
+generated:
+  by: codex/okf-repair
+  at: '2026-10-08T15:12:31Z'
+status: draft
+review_required: true
+audience: public
+sources:
+- id: source-1
+  resource: https://yesim.app/regions/
+- id: source-2
+  resource: https://yesim.app/regions/europe-esim/
+- id: source-3
+  resource: https://yesim.app/regions/south-east-asia-esim/
+- id: source-4
+  resource: https://yesim.app/regions/balkans-esim/
+- id: source-5
+  resource: https://yesim.app/regions/asia-pacific-esim/
+- id: source-6
+  resource: https://yesim.app/regions/cis-esim/
+- id: source-7
+  resource: https://yesim.app/regions/north-america-esim/
+- id: source-8
+  resource: https://yesim.app/regions/south-america-esim/
+- id: source-9
+  resource: https://yesim.app/regions/africa-esim/
+- id: source-10
+  resource: https://yesim.app/regions/caribbean-esim/
+- id: source-11
+  resource: https://yesim.app/regions/middle-east-esim/
+- id: source-12
+  resource: https://yesim.app/regions/football-fan-plan-esim/
 ---
 
+
+> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # Regional eSIM Plans at Yesim
 
 Yesim regional plans cover multiple countries within one geographic area on a single eSIM. The user buys one plan and uses it across all supported countries in the region without switching plans.
@@ -72,12 +107,17 @@ A special regional plan designed for travelers attending football events in 2026
 - [Mobile data abroad](../concepts/mobile-data-abroad.md)
 - [Coverage FAQ](../faq/coverage.md)
 
-# Citations
+# Source directory
 
-[1] https://yesim.app/regions/
-[2] https://yesim.app/regions/europe-esim/
-[3] https://yesim.app/regions/asia-pacific-esim/
-[4] https://yesim.app/regions/middle-east-esim/    
-    
-    
-    
+- [Source 1](https://yesim.app/regions/)
+- [Source 2](https://yesim.app/regions/europe-esim/)
+- [Source 3](https://yesim.app/regions/south-east-asia-esim/)
+- [Source 4](https://yesim.app/regions/balkans-esim/)
+- [Source 5](https://yesim.app/regions/asia-pacific-esim/)
+- [Source 6](https://yesim.app/regions/cis-esim/)
+- [Source 7](https://yesim.app/regions/north-america-esim/)
+- [Source 8](https://yesim.app/regions/south-america-esim/)
+- [Source 9](https://yesim.app/regions/africa-esim/)
+- [Source 10](https://yesim.app/regions/caribbean-esim/)
+- [Source 11](https://yesim.app/regions/middle-east-esim/)
+- [Source 12](https://yesim.app/regions/football-fan-plan-esim/)

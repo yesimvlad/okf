@@ -1,0 +1,73 @@
+version: 1
+review_date: '2026-10-08'
+cases:
+  - id: product_identity
+    prompt: What is Yesim and what does its eSIM provide?
+    expected: Mobile data on a supported device and destination; separate number services must not be assumed included.
+    sources: [https://yesim.app/, https://yesim.app/terms-of-service/]
+    critical: false
+  - id: data_only
+    prompt: Does a Yesim data-only eSIM include cellular calls and SMS?
+    expected: No; messenger use over data is a separate mechanism.
+    sources: [https://yesim.app/pay-and-fly-esim/]
+    critical: true
+  - id: pay_fly_billing
+    prompt: Is Pay & Fly an unlimited daily plan charged only on active days?
+    expected: The reviewed page describes payment for data used, not day-pack billing.
+    sources: [https://yesim.app/pay-and-fly-esim/]
+    critical: true
+  - id: daypass_distinction
+    prompt: What is the difference between Pay & Fly and Unlim Day Pass?
+    expected: Data-consumption billing versus an annual prepaid pack of plan days.
+    sources: [https://yesim.app/pay-and-fly-esim/, https://yesim.app/unlim-day-pass/]
+    critical: true
+  - id: daypass_trigger
+    prompt: Does one Unlim Day Pass day end at midnight?
+    expected: The page describes a 24-hour period from network connection, not a calendar day.
+    sources: [https://yesim.app/unlim-day-pass/]
+    critical: true
+  - id: expiry_rollover
+    prompt: Do unused Unlim Day Pass days remain valid forever without another purchase?
+    expected: Do not promise that; annual validity and conditional rollover must be explained.
+    sources: [https://yesim.app/unlim-day-pass/]
+    critical: true
+  - id: installation_vs_activation
+    prompt: Does installing a profile prove that every plan starts validity immediately?
+    expected: No universal validity trigger; check the selected Product Description. Installation and plan start must be distinguished.
+    sources: [https://yesim.app/terms-of-service/]
+    critical: true
+  - id: regional_device
+    prompt: Does every newer iPhone or Samsung phone support Yesim?
+    expected: Check exact model, region, software and carrier lock; no generation-only rule.
+    sources: [https://yesim.app/compatible-devices/]
+    critical: false
+  - id: fup_values
+    prompt: What speed and reset time apply to every Yesim unlimited plan after the FUP threshold?
+    expected: No universal verified value; obtain the selected plan's conditions instead of inventing speeds or midnight resets.
+    sources: [https://yesim.app/country/turkey/]
+    critical: true
+  - id: hotspot
+    prompt: Does Pay & Fly hotspot support prove unlimited hotspot on every Yesim plan?
+    expected: No; check selected-plan tethering conditions and allowances.
+    sources: [https://yesim.app/pay-and-fly-esim/]
+    critical: false
+  - id: otp_voice
+    prompt: Can an OTP-only Yesim number make outgoing calls or hold personal voice conversations?
+    expected: No; those capabilities require separately included services under the Product Description.
+    sources: [https://yesim.app/terms-of-service/]
+    critical: true
+  - id: verification_guarantee
+    prompt: Is successful WhatsApp or bank verification guaranteed with any Yesim virtual number?
+    expected: No third-party acceptance guarantee; selected number capabilities and platform rules matter.
+    sources: [https://yesim.app/terms-of-service/]
+    critical: true
+  - id: refund_after_install
+    prompt: I installed the eSIM but used no data. Am I automatically entitled to a refund?
+    expected: No; installation counts as activation under the current policy, and other eligibility conditions apply.
+    sources: [https://yesim.app/refund-policy/]
+    critical: true
+  - id: refund_contact
+    prompt: Where should I report a technical problem and request refund assistance?
+    expected: support@yesim.app or in-app contact form; explain the policy's 1-hour technical reporting window without promising eligibility.
+    sources: [https://yesim.app/refund-policy/]
+    critical: true
