@@ -1,17 +1,36 @@
 ---
 type: Concept
 title: Roaming
-description: Roaming is a service that allows a mobile device to connect to a foreign network using the home carrier's agreements. Travel eSIM is an alternative to roaming that uses a separate prepaid data plan from a local or regional network.
+description: Roaming is a service that allows a mobile device to connect to a foreign
+  network using the home carrier's agreements. Travel eSIM is an alternative to roaming
+  that uses a separate prepaid data plan from a local or regional network.
 resource: https://yesim.app/what-is-esim/
 tags:
-  - roaming
-  - concept
-  - mobile-data
-  - travel-internet
-  - esim
-timestamp: 2026-06-24T00:00:00Z
+- roaming
+- concept
+- mobile-data
+- travel-internet
+- esim
+legacy_timestamp: '2026-06-24 00:00:00+00:00'
+generated:
+  by: codex/okf-repair
+  at: '2026-10-08T15:12:31Z'
+status: draft
+review_required: true
+audience: public
+sources:
+- id: source-1
+  resource: https://yesim.app/what-is-esim/
+- id: source-2
+  resource: https://yesim.app
+- id: source-3
+  resource: https://yesim.app/country/
+- id: source-4
+  resource: https://ec.europa.eu/digital-single-market/en/roaming
 ---
 
+
+> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # What is Roaming
 
 Roaming is a feature provided by mobile carriers that allows a phone to connect to a foreign network when the user travels outside their home country. The home carrier has agreements with local operators abroad, and the device automatically connects through these agreements.
@@ -110,8 +129,9 @@ No. The eSIM operates as a separate, independent data connection. It does not in
 - [Compatibility FAQ](../faq/compatibility.md)
 - [Product limitations](../policies/limitations.md)
 
-# Citations
+# Source directory
 
-[1] https://yesim.app/what-is-esim/
-[2] https://yesim.app/country/
-[3] https://ec.europa.eu/digital-single-market/en/roaming
+- [Source 1](https://yesim.app/what-is-esim/)
+- [Source 2](https://yesim.app)
+- [Source 3](https://yesim.app/country/)
+- [Source 4](https://ec.europa.eu/digital-single-market/en/roaming)

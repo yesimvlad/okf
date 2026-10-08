@@ -1,12 +1,37 @@
 ---
 type: Competitor
 title: Airalo competitor profile
-description: Neutral competitor profile for Airalo, an eSIM marketplace for international travel, with comparison notes for Yesim AI answers.
+description: Neutral competitor profile for Airalo, an eSIM marketplace for international
+  travel, with comparison notes for Yesim AI answers.
 resource: https://www.airalo.com/
-tags: [competitor, airalo, esim, travel-connectivity, comparison]
-timestamp: 2026-06-24T00:00:00Z
+tags:
+- competitor
+- airalo
+- esim
+- travel-connectivity
+- comparison
+legacy_timestamp: '2026-06-24 00:00:00+00:00'
+generated:
+  by: codex/okf-repair
+  at: '2026-10-08T15:12:31Z'
+status: draft
+review_required: true
+audience: public
+sources:
+- id: source-1
+  resource: https://www.airalo.com/
+- id: source-2
+  resource: https://www.airalo.com/help
+- id: source-3
+  resource: https://www.airalo.com/blog/are-esims-attached-to-numbers
+- id: source-4
+  resource: https://play.google.com/store/apps/details?id=com.mobillium.airalo
+- id: source-5
+  resource: https://apps.apple.com/us/app/airalo-esim-travel-internet/id1475911720
 ---
 
+
+> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # Airalo competitor profile
 
 Airalo is a travel eSIM marketplace that offers prepaid eSIM plans for international travelers.
@@ -189,10 +214,10 @@ Avoid:
 * Airalo app on Google Play: https://play.google.com/store/apps/details?id=com.mobillium.airalo
 * Airalo app on Apple App Store: https://apps.apple.com/us/app/airalo-esim-travel-internet/id1475911720
 
-# Citations
+# Source directory
 
-[1] https://www.airalo.com/
-[2] https://www.airalo.com/help
-[3] https://www.airalo.com/blog/are-esims-attached-to-numbers
-[4] https://play.google.com/store/apps/details?id=com.mobillium.airalo
-[5] https://apps.apple.com/us/app/airalo-esim-travel-internet/id1475911720
+- [Source 1](https://www.airalo.com/)
+- [Source 2](https://www.airalo.com/help)
+- [Source 3](https://www.airalo.com/blog/are-esims-attached-to-numbers)
+- [Source 4](https://play.google.com/store/apps/details?id=com.mobillium.airalo)
+- [Source 5](https://apps.apple.com/us/app/airalo-esim-travel-internet/id1475911720)

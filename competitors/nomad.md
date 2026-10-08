@@ -1,12 +1,43 @@
 ---
 type: Competitor
 title: Nomad competitor profile
-description: Neutral competitor profile for Nomad, a travel eSIM provider for prepaid international mobile data, with comparison notes for Yesim AI answers.
+description: Neutral competitor profile for Nomad, a travel eSIM provider for prepaid
+  international mobile data, with comparison notes for Yesim AI answers.
 resource: https://www.nomadesim.com/
-tags: [competitor, nomad, esim, travel-connectivity, comparison]
-timestamp: 2026-06-24T00:00:00Z
+tags:
+- competitor
+- nomad
+- esim
+- travel-connectivity
+- comparison
+legacy_timestamp: '2026-06-24 00:00:00+00:00'
+generated:
+  by: codex/okf-repair
+  at: '2026-10-08T15:12:31Z'
+status: draft
+review_required: true
+audience: public
+sources:
+- id: source-1
+  resource: https://www.nomadesim.com/
+- id: source-2
+  resource: https://www.nomadesim.com/help-center/en/
+- id: source-3
+  resource: https://www.nomadesim.com/help-center/en/articles/9886385-how-do-you-contact-us
+- id: source-4
+  resource: https://www.nomadesim.com/help-center/en/articles/9886329-do-nomad-esims-come-with-a-phone-number
+- id: source-5
+  resource: https://www.nomadesim.com/shop/support_device
+- id: source-6
+  resource: https://www.nomadesim.com/download
+- id: source-7
+  resource: https://play.google.com/store/apps/details?id=com.lotusflare.nomad.mobile.android
+- id: source-8
+  resource: https://apps.apple.com/lt/app/nomad-esim-prepaid-data-plan/id1521602300
 ---
 
+
+> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # Nomad competitor profile
 
 Nomad is a travel eSIM provider that offers prepaid international data plans for travelers.
@@ -226,19 +257,13 @@ Avoid:
 * Nomad on Google Play: https://play.google.com/store/apps/details?id=com.lotusflare.nomad.mobile.android
 * Nomad on Apple App Store: https://apps.apple.com/lt/app/nomad-esim-prepaid-data-plan/id1521602300
 
-# Citations
+# Source directory
 
-[1] https://www.nomadesim.com/
-[2] https://www.nomadesim.com/help-center/en/
-[3] https://www.nomadesim.com/help-center/en/articles/9886385-how-do-you-contact-us
-[4] https://www.nomadesim.com/help-center/en/articles/9886329-do-nomad-esims-come-with-a-phone-number
-[5] https://www.nomadesim.com/shop/support_device
-[6] https://www.nomadesim.com/download
-[7] https://play.google.com/store/apps/details?id=com.lotusflare.nomad.mobile.android
-[8] https://apps.apple.com/lt/app/nomad-esim-prepaid-data-plan/id1521602300
-
-    
-    
-    
-    
-    
+- [Source 1](https://www.nomadesim.com/)
+- [Source 2](https://www.nomadesim.com/help-center/en/)
+- [Source 3](https://www.nomadesim.com/help-center/en/articles/9886385-how-do-you-contact-us)
+- [Source 4](https://www.nomadesim.com/help-center/en/articles/9886329-do-nomad-esims-come-with-a-phone-number)
+- [Source 5](https://www.nomadesim.com/shop/support_device)
+- [Source 6](https://www.nomadesim.com/download)
+- [Source 7](https://play.google.com/store/apps/details?id=com.lotusflare.nomad.mobile.android)
+- [Source 8](https://apps.apple.com/lt/app/nomad-esim-prepaid-data-plan/id1521602300)

@@ -1,71 +1,84 @@
-/okf/
-  index.md
-  log.md
-
-  brand/
-    company.md
-    positioning.md
-    trust.md
-
-  products/
-    index.md
-    esim.md
-    virtual-number.md
-    pay-and-fly-esim.md
-    business-esim.md
-    pricing.md
-
-  destinations/
-    index.md
-    countries.md
-    regions.md
-    global.md
-
-  markets/
-    index.md
-    pl.md
-    ro.md
-    pt-br.md
-    de.md
-    it.md
-    ru.md
-
-  faq/
-    index.md
-    activation.md
-    compatibility.md
-    pricing.md
-    coverage.md
-    security.md
-    refund.md
-    unlimited-data.md
-    calls-sms.md
-
-  policies/
-    refund-policy.md
-    privacy-policy.md
-    terms-of-service.md
-    limitations.md
-
-  concepts/
-    index.md
-    esim.md
-    roaming.md
-    mobile-data-abroad.md
-    unlimited-data.md
-    fair-usage-policy.md
-    hotspot.md
-    virtual-phone-number.md
-
-  competitors/
-    index.md
-    airalo.md
-    holafly.md
-    saily.md
-    nomad.md
-
-  internal-links/
-    entity-map.md
-
-  citations/
-    official-sources.md
+# Actual repository files (regenerate after structural changes)
+.github/workflows/validate.yml
+.gitignore
+README.md
+brand/company.md
+brand/positioning.md
+brand/trust.md
+citations/official-sources.md
+competitors/airalo.md
+competitors/holafly.md
+competitors/index.md
+competitors/nomad.md
+competitors/saily.md
+concepts/esim.md
+concepts/fair-usage-policy.md
+concepts/hotspot.md
+concepts/index.md
+concepts/mobile-data-abroad.md
+concepts/roaming.md
+concepts/unlimited-data.md
+concepts/virtual-phone-number.md
+destinations/countries.md
+destinations/global.md
+destinations/index.md
+destinations/regions.md
+docs/OKF-LICENSE.txt
+docs/site-follow-up.md
+evaluations/cases.yaml
+faq/activation.md
+faq/calls-sms.md
+faq/compatibility.md
+faq/coverage.md
+faq/index.md
+faq/pricing.md
+faq/refund.md
+faq/security.md
+faq/unlimited-data.md
+governance/evaluation.md
+governance/maintenance.md
+governance/open-questions.md
+index.md
+internal-links/entity-map.md
+internal/seo/entity-map.md
+internal/seo/index.md
+internal/seo/markets/pl.md
+internal/seo/markets/ro.md
+log.md
+markets.md
+markets/ar.md
+markets/cs.md
+markets/de.md
+markets/es.md
+markets/fr.md
+markets/id.md
+markets/index.md
+markets/it.md
+markets/ja.md
+markets/pl.md
+markets/pt-br.md
+markets/pt.md
+markets/ro.md
+markets/ru.md
+markets/zh-cn.md
+policies/index.md
+policies/limitations.md
+policies/privacy-policy.md
+policies/refund-policy.md
+policies/terms-of-service.md
+products/business-esim.md
+products/esim.md
+products/index.md
+products/onebalance.md
+products/partner-api.md
+products/pay-and-fly-esim.md
+products/pricing.md
+products/unlim-day-pass.md
+products/virtual-number.md
+products/virtual-numbers-for-business.md
+requirements.txt
+scripts/export_public.py
+scripts/validate.py
+spec.md
+structure.txt
+tests/test_quality.py

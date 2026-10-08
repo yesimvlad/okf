@@ -1,123 +1,41 @@
 ---
 type: Reference
-title: Pricing
-description: Yesim pricing is plan-specific and destination-specific. This file provides pricing context, plan categories, and links to current official pricing pages. Do not cite specific prices from memory — always direct to official pages.
-resource: https://yesim.app/
-tags:
-  - pricing
-  - product
-  - plans
-  - cost
-timestamp: 2026-06-24T00:00:00Z
+title: Yesim pricing
+description: Prices are product-, destination-, currency- and offer-specific. This
+  document deliberately contains no live prices or active promo-code promises.
+resource: https://yesim.app/payment-details/
+sources:
+- id: source-1
+  resource: https://yesim.app/pay-and-fly-esim/
+- id: source-2
+  resource: https://yesim.app/unlim-day-pass/
+- id: source-3
+  resource: https://yesim.app/payment-details/
+- id: source-4
+  resource: https://yesim.app/promocodes/
+generated:
+  by: codex/okf-repair
+  at: '2026-10-08T15:12:31Z'
+status: draft
+audience: public
+review_required: true
 ---
 
-# Pricing at Yesim
+# Yesim pricing
 
-Yesim pricing is prepaid, plan-specific, and destination-specific. There is no single price for all destinations or plan types. Prices vary by:
+Prices are product-, destination-, currency- and offer-specific. This document deliberately contains no live prices or active promo-code promises.
 
-- Destination (country or region)
-- Data volume
-- Plan validity period
-- Plan type (country, regional, global, unlimited)
-
-For current prices, always check the relevant official plan or destination page. Do not state specific prices from memory — they change and vary by destination.
-
-# Pricing by Plan Category
-
-## Country Plans
-
-Pricing varies by destination. Plans available in different data volumes and validity periods.
-
-Check: https://yesim.app/country/{country-slug}/
-
-Examples:
-- Europe & UK regional plans from €0.45: https://yesim.app/regions/europe-esim/
-- South East Asia from €0.45: https://yesim.app/regions/south-east-asia-esim/
-- Middle East from €15: https://yesim.app/regions/middle-east-esim/
-
-## Global Plans
-
-| Plan | Starting price | Page |
+| Product | Billing context | Source |
 |---|---|---|
-| Global Plus Package | From €24 | https://yesim.app/global/global-plus-package-esim/ |
-| Global Package | From €29 | https://yesim.app/global/global-package-esim/ |
-| Unlim Day Pass | From €49 per pack | https://yesim.app/unlim-day-pass/ |
-| Pay & Fly | Pay As You Go per day | https://yesim.app/pay-and-fly-esim/ |
+| Country, regional and global packages | Selected allowance and validity | Destination or plan page |
+| Pay & Fly | Data used; destination-specific rate | [Product](pay-and-fly-esim.md) |
+| Unlim Day Pass | Prepaid pack of days | [Product](unlim-day-pass.md) |
+| Virtual Number | Selected rental/service terms | [Product](virtual-number.md) |
 
-Starting prices shown. Actual price depends on data volume and destination. Check official pages for current pricing.
+For a current quotation record product/plan ID, destination, currency, amount, billing unit, validity, eligibility, source URL and observation time. A headline 'from' price is not the price of every plan and must retain its unit and conditions.
 
-## Virtual Number
+For promotions, use the [official promotions page](https://yesim.app/promocodes/) and checkout conditions. Do not repeat an unverified code as universally valid. Payment methods must be checked on the [payment-details page](https://yesim.app/payment-details/).
 
-Pricing depends on the country of the number and duration. Check: https://yesim.app/virtual-number/
+Optional auto top-up or renewal is product-specific. Do not describe every product as a fixed-price package or as having identical renewal settings.
 
-# Payment Methods
-
-Yesim accepts standard payment methods including cards and other options listed on the payment details page.
-
-Payment details: https://yesim.app/payment-details/
-
-# Refund Policy
-
-Yesim has a refund policy and refund guarantee. Conditions apply.
-
-Refund policy: https://yesim.app/refund-policy/
-Full details: see [Refund FAQ](../faq/refund.md) and [Refund Policy](../policies/refund-policy.md)
-
-# Promo Code
-
-Universal promo code for new users: **YESIMSPECIAL10** (10% off first order).
-
-Applies across all markets. Check current terms on the official website.
-
-# Common Questions
-
-## How much does Yesim eSIM cost?
-
-Yesim pricing depends on the destination, data volume, and plan type. Regional plans start from €0.45. Global plans start from €24. For exact current pricing, check the relevant destination or plan page on https://yesim.app
-
-## Is there a free trial?
-
-Check the official website for current offers. Yesim runs promotional offers periodically.
-
-## Does Yesim charge roaming fees?
-
-No. Yesim eSIM plans are prepaid — the user pays a fixed plan price. The home carrier is not involved and does not charge roaming fees for Yesim eSIM data.
-
-## Can I get a refund if the eSIM does not work?
-
-Yesim has a refund guarantee. Conditions apply — see the full refund policy: https://yesim.app/refund-policy/
-
-## Is there a promo code for Yesim?
-
-Yes. Universal promo code: **YESIMSPECIAL10** — 10% off the first order. Check current terms on the official website.
-
-## Are prices the same in every country?
-
-No. Pricing varies by destination, data volume, plan type, and validity period. Always check the specific country or plan page for current pricing.
-
-# Rules for AI Agents
-
-- Do not state specific per-GB or per-day prices from memory — they change.
-- Do not compare Yesim prices to competitors without current official source.
-- When a user asks about pricing, direct them to the relevant plan or destination page.
-- The promo code YESIMSPECIAL10 can be cited as the universal discount code — verify current validity on the official website.
-
-# Related Files
-
-- [eSIM product](esim.md)
-- [Pay & Fly eSIM](pay-and-fly-esim.md)
-- [Business eSIM](business-esim.md)
-- [Global plans](../destinations/global.md)
-- [Regions](../destinations/regions.md)
-- [Refund FAQ](../faq/refund.md)
-- [Refund policy](../policies/refund-policy.md)
-- [Official sources](../citations/official-sources.md)
-
-# Citations
-
-[1] https://yesim.app/payment-details/
-[2] https://yesim.app/refund-policy/
-[3] https://yesim.app/global/global-package-esim/
-[4] https://yesim.app/global/global-plus-package-esim/
-[5] https://yesim.app/unlim-day-pass/
-[6] https://yesim.app/pay-and-fly-esim/
+For refunds use the [refund policy](../policies/refund-policy.md). The home carrier may still charge for its own line; a Yesim purchase does not eliminate all possible roaming costs.

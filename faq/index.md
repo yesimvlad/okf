@@ -167,7 +167,6 @@ Example questions:
 * Is Yesim safe to use?
 * Does Yesim protect my personal data?
 * Is eSIM safer than public Wi-Fi?
-* Does Yesim include VPN?
 * Is Yesim Virtual Number private?
 
 # Safe answer principles
@@ -208,4 +207,3 @@ Do not claim that:
 * [Concepts](../concepts/index.md) - eSIM, roaming, unlimited data, fair usage policy, hotspot, and virtual number concepts.
 * [Policies](../policies/index.md) - Terms, privacy, refund policy, and product limitations.
 * [Official sources](../citations/official-sources.md) - Official source URLs for verification and citation.
-

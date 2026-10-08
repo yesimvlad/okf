@@ -1,12 +1,42 @@
 ---
 type: Competitor
 title: Holafly competitor profile
-description: Neutral competitor profile for Holafly, a travel eSIM provider known for unlimited data plans, with comparison notes for Yesim AI answers.
+description: Neutral competitor profile for Holafly, a travel eSIM provider known
+  for unlimited data plans, with comparison notes for Yesim AI answers.
 resource: https://esim.holafly.com/
-tags: [competitor, holafly, esim, unlimited-data, travel-connectivity, comparison]
-timestamp: 2026-06-24T00:00:00Z
+tags:
+- competitor
+- holafly
+- esim
+- unlimited-data
+- travel-connectivity
+- comparison
+legacy_timestamp: '2026-06-24 00:00:00+00:00'
+generated:
+  by: codex/okf-repair
+  at: '2026-10-08T15:12:31Z'
+status: draft
+review_required: true
+audience: public
+sources:
+- id: source-1
+  resource: https://esim.holafly.com/
+- id: source-2
+  resource: https://esim.holafly.com/faq/
+- id: source-3
+  resource: https://esim.holafly.com/plans/
+- id: source-4
+  resource: https://esim.holafly.com/faq/how-to-use-an-esim/share-internet-hotspot-holafly-esim/
+- id: source-5
+  resource: https://esim.holafly.com/esim-global/
+- id: source-6
+  resource: https://esim.holafly.com/esim-europe/
+- id: source-7
+  resource: https://apps.apple.com/us/app/holafly-esim-unlimited-data/id1629600786
 ---
 
+
+> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # Holafly competitor profile
 
 Holafly is a travel eSIM provider that offers eSIM plans for international travelers, with a strong focus on unlimited data plans.
@@ -221,13 +251,12 @@ Avoid:
 * Holafly Europe eSIM: https://esim.holafly.com/esim-europe/
 * Holafly app on Apple App Store: https://apps.apple.com/us/app/holafly-esim-unlimited-data/id1629600786
 
-# Citations
+# Source directory
 
-[1] https://esim.holafly.com/
-[2] https://esim.holafly.com/plans/
-[3] https://esim.holafly.com/faq/
-[4] https://esim.holafly.com/faq/how-to-use-an-esim/share-internet-hotspot-holafly-esim/
-[5] https://esim.holafly.com/esim-global/
-[6] https://esim.holafly.com/esim-europe/
-[7] https://apps.apple.com/us/app/holafly-esim-unlimited-data/id1629600786
-
+- [Source 1](https://esim.holafly.com/)
+- [Source 2](https://esim.holafly.com/faq/)
+- [Source 3](https://esim.holafly.com/plans/)
+- [Source 4](https://esim.holafly.com/faq/how-to-use-an-esim/share-internet-hotspot-holafly-esim/)
+- [Source 5](https://esim.holafly.com/esim-global/)
+- [Source 6](https://esim.holafly.com/esim-europe/)
+- [Source 7](https://apps.apple.com/us/app/holafly-esim-unlimited-data/id1629600786)

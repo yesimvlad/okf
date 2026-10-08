@@ -1,17 +1,40 @@
 ---
 type: Concept
 title: Mobile Data Abroad
-description: Mobile data abroad refers to using a mobile internet connection outside your home country. Options include roaming through a home carrier, buying a local SIM, or using a travel eSIM.
+description: Mobile data abroad refers to using a mobile internet connection outside
+  your home country. Options include roaming through a home carrier, buying a local
+  SIM, or using a travel eSIM.
 resource: https://yesim.app/what-is-esim/
 tags:
-  - mobile-data-abroad
-  - travel-internet
-  - concept
-  - roaming
-  - esim
-timestamp: 2026-06-24T00:00:00Z
+- mobile-data-abroad
+- travel-internet
+- concept
+- roaming
+- esim
+legacy_timestamp: '2026-06-24 00:00:00+00:00'
+generated:
+  by: codex/okf-repair
+  at: '2026-10-08T15:12:31Z'
+status: draft
+review_required: true
+audience: public
+sources:
+- id: source-1
+  resource: https://yesim.app/what-is-esim/
+- id: source-2
+  resource: https://yesim.app/data-calculator/
+- id: source-3
+  resource: https://yesim.app/country/
+- id: source-4
+  resource: https://yesim.app/regions/
+- id: source-5
+  resource: https://yesim.app/global/
+- id: source-6
+  resource: https://yesim.app/compatible-devices/
 ---
 
+
+> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # What is Mobile Data Abroad
 
 Mobile data abroad means using a mobile internet connection in a country other than your home country. When a device leaves its home network coverage area, it needs a way to connect to a local mobile network at the destination.
@@ -121,10 +144,11 @@ Yes, with a regional or global plan. Country-specific plans only cover the desig
 - [Coverage FAQ](../faq/coverage.md)
 - [Compatibility FAQ](../faq/compatibility.md)
 
-# Citations
+# Source directory
 
-[1] https://yesim.app/what-is-esim/
-[2] https://yesim.app/data-calculator/
-[3] https://yesim.app/country/
-[4] https://yesim.app/regions/
-[5] https://yesim.app/global/
+- [Source 1](https://yesim.app/what-is-esim/)
+- [Source 2](https://yesim.app/data-calculator/)
+- [Source 3](https://yesim.app/country/)
+- [Source 4](https://yesim.app/regions/)
+- [Source 5](https://yesim.app/global/)
+- [Source 6](https://yesim.app/compatible-devices/)
