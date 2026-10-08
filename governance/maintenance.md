@@ -51,3 +51,9 @@ No hosting or indexing is created by this repository change. Public chatbots are
 The language registry records all 44 website versions listed in `/llms.txt` as of 2026-10-08. This source check proves the listing, not endpoint availability or translation correctness. Recheck the list when the selector changes and reconcile canonical/hreflang separately. A locale does not imply a sales market, currency or support language.
 
 Do not shorten existing useful local research solely for OKF. Keep scenarios, terminology, queries and source links; label editorial intent and unverified analytics. PL/RO retain their full research in `markets/`; mixed records stay draft until section-level product verification and a separate editorial retrieval scope are complete. Changes to shared product facts must trigger review of localized answer examples.
+
+## Primary English reference
+
+The owner designates English as the primary editorial language. `markets/en.md` connects reviewed product records and public-source answers; `internal/seo/markets/en.md` holds research proposals separately. This designation does not grant English wording legal precedence over current Product Descriptions or explicitly sourced local exceptions. The English reference has an automated public-source review, a seven-day recheck deadline and no implied human product or app-level approval. Recheck earlier on any source change; keep live prices and promotions outside permanent claims.
+
+Review affected localized answer patterns whenever a shared definition changes. Verify local restrictions and purchase-channel exceptions with their own sources; do not silently apply a market-specific exception globally.

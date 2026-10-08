@@ -1,6 +1,6 @@
 # Yesim Open Knowledge Format bundle
 
-Product knowledge for Yesim, following [Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md). Start at [index.md](index.md).
+Product knowledge for Yesim, following [Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md). Start with the [primary English product reference](markets/en.md) or the [bundle index](index.md). English product facts are source-reviewed; [English editorial proposals](internal/seo/markets/en.md) remain separately scoped drafts.
 
 ## Scope and trust
 

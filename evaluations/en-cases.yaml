@@ -1,0 +1,384 @@
+version: 1
+created_at: '2026-10-08T16:29:26Z'
+scope: English primary-reference checks; authored cases, not executed model runs.
+cases:
+- id: en_identity
+  language: en
+  prompt: What is Yesim?
+  expected: Yesim offers prepaid eSIM mobile-data products for travel and business.
+    Choose a compatible device and a plan covering the trip. Virtual Number is a separate
+    product.
+  sources:
+  - https://yesim.app/
+  - https://yesim.app/virtual-number/
+  knowledge_record: products/esim.md
+  critical: false
+- id: en_audience
+  language: en
+  prompt: Does the English website mean Yesim is only for US or UK customers?
+  expected: No. English is a language version. Establish residence, destination and
+    purchase eligibility separately; do not infer a country-specific offer from the
+    language.
+  sources:
+  - https://yesim.app/
+  - https://yesim.app/terms-of-service/
+  knowledge_record: markets.md
+  critical: false
+- id: en_data_only
+  language: en
+  prompt: Does a Yesim data-only plan include a phone number, calls or SMS?
+  expected: No. A data-only plan supplies mobile data. A separate number product has
+    its own capabilities. Internet-based app calls use a different mechanism from
+    cellular calls.
+  sources:
+  - https://yesim.app/pay-and-fly-esim/
+  - https://yesim.app/virtual-number/
+  knowledge_record: faq/calls-sms.md
+  critical: true
+- id: en_compatibility
+  language: en
+  prompt: How do I know whether my phone supports Yesim?
+  expected: Check the exact model, regional version, eSIM support and carrier-unlocked
+    status on the compatibility page. A series name or newer-generation rule is insufficient.
+  sources:
+  - https://yesim.app/compatible-devices/
+  knowledge_record: faq/compatibility.md
+  critical: true
+- id: en_dual_sim
+  language: en
+  prompt: Does Dual SIM or an EID prove compatibility?
+  expected: Dual SIM does not necessarily mean eSIM. An EID is a useful indicator,
+    but still check the exact device and operator lock.
+  sources:
+  - https://yesim.app/compatible-devices/
+  knowledge_record: faq/compatibility.md
+  critical: true
+- id: en_variant
+  language: en
+  prompt: Can I assume every China-sold or newer iPhone works?
+  expected: No blanket sales-region or generation rule is safe. Confirm the exact
+    regional model and current device guidance; resolve conflicting lists before purchase.
+  sources:
+  - https://yesim.app/compatible-devices/
+  knowledge_record: faq/compatibility.md
+  critical: true
+- id: en_selection
+  language: en
+  prompt: Which Yesim product should I choose for a trip?
+  expected: Start with the full itinerary, duration, data demand and phone compatibility.
+    Compare fixed-data, regional/global, Pay & Fly and day-pack options using the
+    selected product’s current conditions.
+  sources:
+  - https://yesim.app/
+  - https://yesim.app/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  - https://yesim.app/regions/
+  - https://yesim.app/global/
+  knowledge_record: products/pricing.md
+  critical: false
+- id: en_itinerary
+  language: en
+  prompt: Will one Europe or global package cover every country I visit?
+  expected: Verify each itinerary country against that exact package. The region name,
+    brand-wide coverage and a country landing page do not establish inclusion in the
+    purchased plan.
+  sources:
+  - https://yesim.app/regions/
+  - https://yesim.app/global/
+  knowledge_record: faq/coverage.md
+  critical: true
+- id: en_install
+  language: en
+  prompt: How do I install a Yesim eSIM on iPhone?
+  expected: Use the current Yesim app/device instructions and an internet connection.
+    The Apple guide provides app, QR and manual installation routes; screen labels
+    vary by software version.
+  sources:
+  - https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/
+  knowledge_record: faq/activation.md
+  critical: false
+- id: en_install_vs_activate
+  language: en
+  prompt: Is installing the profile the same as starting the data plan?
+  expected: Installation adds the profile. The selected plan defines its validity
+    trigger. Treat purchase, installation and first network connection as separate
+    events.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  - https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/
+  knowledge_record: faq/activation.md
+  critical: true
+- id: en_trigger
+  language: en
+  prompt: When does my plan’s validity begin?
+  expected: Check the purchased plan description. The Help Center lists activation
+    after purchase, installation, first compatible-network connection, or installation
+    plus suitable network connection.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  knowledge_record: faq/activation.md
+  critical: true
+- id: en_preinstall
+  language: en
+  prompt: Can I install before departure without starting every plan?
+  expected: Do not assume that. Check the plan’s trigger before installing. Pre-installation
+    instructions for one product are not a universal validity rule.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  - https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/
+  knowledge_record: faq/activation.md
+  critical: true
+- id: en_home_sim
+  language: en
+  prompt: How should I set the data line and roaming?
+  expected: Follow the installation guide for the Yesim line. Review home-SIM data
+    roaming and automatic data switching separately; retaining a home SIM does not
+    guarantee zero home-operator charges.
+  sources:
+  - https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/
+  knowledge_record: concepts/roaming.md
+  critical: true
+- id: en_pay_fly
+  language: en
+  prompt: Is Pay & Fly a daily unlimited plan?
+  expected: Its payment section describes charges for data used. Destination rates
+    vary. It is not the same billing model as Unlim Day Pass, despite unlimited wording
+    in the page title.
+  sources:
+  - https://yesim.app/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  knowledge_record: products/pay-and-fly-esim.md
+  critical: true
+- id: en_pay_fly_balance
+  language: en
+  prompt: Can I top up Pay & Fly?
+  expected: The reviewed page advertises manual top-up, optional auto top-up and a
+    non-expiring balance. Verify the current rate, balance and account settings for
+    the trip.
+  sources:
+  - https://yesim.app/pay-and-fly-esim/
+  knowledge_record: products/pay-and-fly-esim.md
+  critical: false
+- id: en_daypass
+  language: en
+  prompt: What is Unlim Day Pass?
+  expected: An annual prepaid pack of unlimited-data usage days. Its own supported-destination
+    list, validity and day-consumption rules apply.
+  sources:
+  - https://yesim.app/unlim-day-pass/
+  knowledge_record: products/unlim-day-pass.md
+  critical: true
+- id: en_daypass_clock
+  language: en
+  prompt: Does a plan day end at midnight?
+  expected: The product FAQ describes a 24-hour period starting on network connection.
+    A further day is deducted when reconnecting after the previous period ends.
+  sources:
+  - https://yesim.app/unlim-day-pass/
+  knowledge_record: products/unlim-day-pass.md
+  critical: true
+- id: en_daypass_expiry
+  language: en
+  prompt: Do unused Unlim Day Pass days remain valid forever?
+  expected: Do not promise unconditional lifetime validity. The page specifies annual
+    validity and rollover when another plan is purchased before expiry; confirm the
+    actual package conditions.
+  sources:
+  - https://yesim.app/unlim-day-pass/
+  knowledge_record: products/unlim-day-pass.md
+  critical: true
+- id: en_fup
+  language: en
+  prompt: Does unlimited data always mean unlimited full-speed data?
+  expected: No. Partner networks may apply fair-use limits and reduce speed. Check
+    the selected terms; do not invent a common quota, throttled speed or reset time.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  knowledge_record: faq/unlimited-data.md
+  critical: true
+- id: en_hotspot
+  language: en
+  prompt: Can I use Personal Hotspot or tether another device?
+  expected: The Help Center says tethering is available on most plans and depends
+    on the local operator. Shared usage consumes plan data; availability in every
+    situation is not guaranteed.
+  sources:
+  - https://help.yesim.tech/can-i-tether-use-personal-hotspot/
+  knowledge_record: concepts/hotspot.md
+  critical: true
+- id: en_5g
+  language: en
+  prompt: Is 5G or a minimum speed guaranteed everywhere?
+  expected: No. The destination pages describe network generations as dependent on
+    the provider and location. Device support, plan conditions and actual network
+    availability must be checked separately.
+  sources:
+  - https://yesim.app/country/united-states/
+  knowledge_record: faq/coverage.md
+  critical: true
+- id: en_number
+  language: en
+  prompt: What does a Yesim Virtual Number provide?
+  expected: A separate number service with the functions specified for the purchased
+    product. Check rental, included capabilities and renewal; it does not supply mobile
+    data by itself.
+  sources:
+  - https://yesim.app/virtual-number/
+  - https://yesim.app/terms-of-service/
+  knowledge_record: products/virtual-number.md
+  critical: true
+- id: en_otp
+  language: en
+  prompt: Will a virtual number always receive a WhatsApp, Telegram or bank code?
+  expected: No. Third-party acceptance and OTP delivery are not guaranteed. Check
+    the selected service and the platform’s rules.
+  sources:
+  - https://yesim.app/terms-of-service/
+  knowledge_record: products/virtual-number.md
+  critical: true
+- id: en_number_calls
+  language: en
+  prompt: Can I make outgoing calls with any virtual number?
+  expected: Only if the purchased service includes outgoing calls. OTP-only functionality
+    is for verification-related inbound communications.
+  sources:
+  - https://yesim.app/terms-of-service/
+  knowledge_record: products/virtual-number.md
+  critical: true
+- id: en_messengers
+  language: en
+  prompt: Can I use an existing messenger account over Yesim data?
+  expected: Internet-based applications use the data connection and their own accounts.
+    Account verification is a separate question; data access alone does not establish
+    number acceptance.
+  sources:
+  - https://yesim.app/country/united-states/
+  - https://yesim.app/terms-of-service/
+  knowledge_record: faq/calls-sms.md
+  critical: false
+- id: en_number_retention
+  language: en
+  prompt: Can I keep a virtual number indefinitely?
+  expected: Check rental expiry and renewal. Do not promise indefinite ownership or
+    recovery of an expired number.
+  sources:
+  - https://yesim.app/terms-of-service/
+  knowledge_record: products/virtual-number.md
+  critical: true
+- id: en_emergency
+  language: en
+  prompt: Can Yesim products be used to call emergency services?
+  expected: The Terms exclude emergency calling/messaging through Yesim products.
+    Use a service capable of reaching local emergency services.
+  sources:
+  - https://yesim.app/terms-of-service/
+  knowledge_record: policies/limitations.md
+  critical: true
+- id: en_price
+  language: en
+  prompt: Where do I find current prices, currencies and discounts?
+  expected: Use the relevant product/destination page and checkout. Confirm the final
+    amount and promotion eligibility at purchase; a teaser price is not a universal
+    quote.
+  sources:
+  - https://yesim.app/
+  - https://yesim.app/promocodes/
+  - https://yesim.app/country/united-states/
+  knowledge_record: products/pricing.md
+  critical: false
+- id: en_trial
+  language: en
+  prompt: Is the Trial eSIM always free and available to everyone?
+  expected: Do not assume that. The reviewed trial page describes a paid offer for
+    first-time users, limited to one trial per new user. Recheck the current offer
+    before purchase.
+  sources:
+  - https://yesim.app/trial-esim/
+  knowledge_record: products/index.md
+  critical: true
+- id: en_refund_install
+  language: en
+  prompt: Can I get a refund if I installed the eSIM but used no data?
+  expected: Zero data usage does not establish eligibility. The reviewed Refund Policy
+    counts profile installation as activation.
+  sources:
+  - https://yesim.app/refund-policy/
+  knowledge_record: policies/refund-policy.md
+  critical: true
+- id: en_refund_window
+  language: en
+  prompt: What conditions apply to a standard data-plan refund?
+  expected: The policy describes a 30-calendar-day request window for products not
+    activated, used or expired. Other purchase-channel and policy conditions still
+    apply.
+  sources:
+  - https://yesim.app/refund-policy/
+  knowledge_record: policies/refund-policy.md
+  critical: true
+- id: en_technical
+  language: en
+  prompt: How should I report a technical malfunction?
+  expected: The policy requires reporting within one hour with details and screenshots
+    to support@yesim.app or the in-app contact form.
+  sources:
+  - https://yesim.app/refund-policy/
+  knowledge_record: faq/refund.md
+  critical: false
+- id: en_marketplace
+  language: en
+  prompt: What if I bought through an external marketplace?
+  expected: The Refund Policy says that marketplace’s refund and cancellation rules
+    take precedence. Do not promise a separate Yesim refund.
+  sources:
+  - https://yesim.app/refund-policy/
+  knowledge_record: faq/refund.md
+  critical: true
+- id: en_refund_method
+  language: en
+  prompt: Will an approved refund always return as cash to my card?
+  expected: No. The policy states that approved refunds of EUR 10 or less are issued
+    as Ycoins. Check the current payment method and transaction conditions.
+  sources:
+  - https://yesim.app/refund-policy/
+  knowledge_record: policies/refund-policy.md
+  critical: true
+- id: en_pix
+  language: en
+  prompt: Does a Brazil/Pix refund include every tax and charge?
+  expected: The policy treats the base product/service cost separately from non-refundable
+    IOF and related charges. Check the current transaction-specific clause without
+    hardcoding tax rates.
+  sources:
+  - https://yesim.app/refund-policy/
+  knowledge_record: policies/refund-policy.md
+  critical: true
+- id: en_business
+  language: en
+  prompt: Is OneBalance the same as an individual data package?
+  expected: OneBalance is a corporate management platform for allocating company balance
+    to employee Yesim accounts and tracking usage. Business scope and terms should
+    be checked separately.
+  sources:
+  - https://yesim.app/b2b-enterprise/
+  knowledge_record: products/onebalance.md
+  critical: false
+- id: en_partner_api
+  language: en
+  prompt: Does Yesim provide a reseller API?
+  expected: The official Partner API page describes integration for websites, applications
+    and eCommerce platforms. Obtain current documentation and partnership conditions;
+    do not invent endpoints or API limits.
+  sources:
+  - https://yesim.app/yesim-partner-api/
+  knowledge_record: products/partner-api.md
+  critical: false
+- id: en_business_numbers
+  language: en
+  prompt: Where should a business managing many virtual numbers start?
+  expected: Use the Virtual Numbers for Business source for management/integration
+    enquiries. Consumer number capabilities and prices do not automatically define
+    the business offering.
+  sources:
+  - https://yesim.app/virtual-numbers-for-business/
+  knowledge_record: products/virtual-numbers-for-business.md
+  critical: false

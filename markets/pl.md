@@ -76,6 +76,9 @@ listing_evidence: https://yesim.app/llms.txt
 
 ## Reading scope
 
+Use the [primary English product reference](en.md) and shared product records when reviewing translated definitions. The purchased Product Description and explicitly sourced local exceptions still control.
+
+
 Product explanations and localized answer examples are review drafts linked to the shared product knowledge below. Sections marked **Editorial guidance** preserve content strategy, queries, destination candidates and writing rules. They do not establish consumer eligibility, destination popularity, coverage, market share or product requirements. Language does not establish residence.
 
 - [Shared product definitions](../products/index.md)

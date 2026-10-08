@@ -5,3 +5,5 @@ These files preserve SEO research and article-linking guidance. They are not pub
 - [Polish research](markets/pl.md)
 - [Romanian research](markets/ro.md)
 - [Article linking guidance](entity-map.md)
+
+- [English editorial guidance](markets/en.md)
