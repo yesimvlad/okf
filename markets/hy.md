@@ -1,29 +1,29 @@
 ---
 type: Locale
-title: Yesim English language reference
-description: Yesim English language reference
-resource: https://yesim.app/
+title: Yesim Armenian language reference
+description: Yesim Armenian language reference
+resource: https://yesim.app/hy/
 sources:
 - id: source-1
   resource: https://yesim.app/llms.txt
 - id: source-2
-  resource: https://yesim.app/
+  resource: https://yesim.app/hy/
 generated:
   by: codex/okf-repair
   at: '2026-10-08T15:48:28Z'
 status: draft
 audience: public
 review_required: true
-language: en
-website_language_url: https://yesim.app/
+language: hy
+website_language_url: https://yesim.app/hy/
 listing_checked_at: '2026-10-08T15:48:28Z'
 listing_evidence: https://yesim.app/llms.txt
 localization_status: needs-review
 ---
 
-# Yesim English language reference
+# Yesim Armenian language reference
 
-The official [Website Languages index](https://yesim.app/llms.txt) lists `en` at https://yesim.app/; listing checked 2026-10-08. This is a website language reference. It does not establish the customer's residence, purchase eligibility or destination coverage.
+The official [Website Languages index](https://yesim.app/llms.txt) lists `hy` at https://yesim.app/hy/; listing checked 2026-10-08. This is a website language reference. It does not establish the customer's residence, purchase eligibility or destination coverage.
 
 ## Product knowledge and answer routing
 

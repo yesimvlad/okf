@@ -45,3 +45,9 @@ Run the validator before publishing. A public consumer pack includes only `audie
 Publish reviewed HTML and Markdown on the official domain through a separate site change. Link from the help centre and update `/llms.txt` from the same verified facts. Preserve canonical URLs, language mapping and accessible text. Check source HTML, robots/CDN access, indexability and existing Schema.org against visible text before deployment.
 
 No hosting or indexing is created by this repository change. Public chatbots are not guaranteed to discover or use the bundle. Explicit retrieval/file attachment is the controllable consumption path; search discovery is a separately measured experiment.
+
+## Locale completeness
+
+The language registry records all 44 website versions listed in `/llms.txt` as of 2026-10-08. This source check proves the listing, not endpoint availability or translation correctness. Recheck the list when the selector changes and reconcile canonical/hreflang separately. A locale does not imply a sales market, currency or support language.
+
+Do not shorten existing useful local research solely for OKF. Keep scenarios, terminology, queries and source links; label editorial intent and unverified analytics. PL/RO retain their full research in `markets/`; mixed records stay draft until section-level product verification and a separate editorial retrieval scope are complete. Changes to shared product facts must trigger review of localized answer examples.

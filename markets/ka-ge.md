@@ -1,29 +1,29 @@
 ---
 type: Locale
-title: Yesim English language reference
-description: Yesim English language reference
-resource: https://yesim.app/
+title: Yesim Georgian language reference
+description: Yesim Georgian language reference
+resource: https://yesim.app/ka-ge/
 sources:
 - id: source-1
   resource: https://yesim.app/llms.txt
 - id: source-2
-  resource: https://yesim.app/
+  resource: https://yesim.app/ka-ge/
 generated:
   by: codex/okf-repair
   at: '2026-10-08T15:48:28Z'
 status: draft
 audience: public
 review_required: true
-language: en
-website_language_url: https://yesim.app/
+language: ka-ge
+website_language_url: https://yesim.app/ka-ge/
 listing_checked_at: '2026-10-08T15:48:28Z'
 listing_evidence: https://yesim.app/llms.txt
 localization_status: needs-review
 ---
 
-# Yesim English language reference
+# Yesim Georgian language reference
 
-The official [Website Languages index](https://yesim.app/llms.txt) lists `en` at https://yesim.app/; listing checked 2026-10-08. This is a website language reference. It does not establish the customer's residence, purchase eligibility or destination coverage.
+The official [Website Languages index](https://yesim.app/llms.txt) lists `ka-ge` at https://yesim.app/ka-ge/; listing checked 2026-10-08. This is a website language reference. It does not establish the customer's residence, purchase eligibility or destination coverage.
 
 ## Product knowledge and answer routing
 
