@@ -6,15 +6,21 @@ resource: https://yesim.app/es/
 sources:
 - id: source-1
   resource: https://yesim.app/es/
+- id: source-2
+  resource: https://yesim.app/llms.txt
 generated:
   by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
+  at: '2026-10-08T15:48:28Z'
 status: draft
 audience: public
 review_required: true
 language: es
 localization_status: needs-review
+website_language_url: https://yesim.app/es/
+listing_checked_at: '2026-10-08T15:48:28Z'
+listing_evidence: https://yesim.app/llms.txt
 ---
+
 
 # Yesim Spanish language reference
 
@@ -29,3 +35,7 @@ Local prices, currency, promotions, payment methods and market exceptions requir
 - [Locale overview](index.md)
 - [Compatibility](../faq/compatibility.md)
 - [Pricing](../products/pricing.md)
+
+## Source check scope
+
+The official [Website Languages index](https://yesim.app/llms.txt) lists Spanish at https://yesim.app/es/ (checked 2026-10-08). This confirms the published language listing only. Full endpoint availability, redirects, canonical/hreflang, localized product completeness and translation accuracy have not been audited.

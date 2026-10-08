@@ -31,7 +31,9 @@ Product knowledge for Yesim. Read [maintenance and publication rules](governance
 - [Official-source directory](citations/official-sources.md)
 
 ## Languages
-- [Language references](markets/index.md)
+- [All 44 listed website languages and market references](markets/index.md)
+- [Detailed Polish research](markets/pl.md)
+- [Detailed Romanian research](markets/ro.md)
 
 ## Maintenance
 - [Open product questions](governance/open-questions.md)
@@ -39,4 +41,4 @@ Product knowledge for Yesim. Read [maintenance and publication rules](governance
 - [Change log](log.md)
 - [OKF specification](spec.md)
 
-Editorial research is a separately labelled set under `internal/seo/`. The directory is publicly visible on GitHub but excluded from public consumer exports.
+Editorial research is explicitly labelled in the detailed PL/RO market files and under `internal/seo/`. Mixed market files stay draft and are excluded from verified exports. The directory is publicly visible on GitHub but excluded from public consumer exports.

@@ -13,3 +13,10 @@
 - Added product confirmation questions, official-site follow-up and an evaluation protocol. No production website deployment or public-model benchmark is claimed.
 
 Automated source review does not imply human product approval, app-level testing or verification of every external link. Full specification attribution and upstream license are retained.
+
+## 2026-10-08 — Complete language inventory and restore market detail
+
+- Registered all 44 website language versions listed by the official language index, including English and the 30 previously missing references. Language listing evidence is separated from pending endpoint and localization audits.
+- Restored full PL/RO research and answer patterns to `markets/`; retained internal navigation pointers rather than conflicting duplicate texts.
+- Kept query and destination tables, local scenarios, content rules and related sources. Labelled editorial guidance and unverified analytics; removed remaining universal discount wording and fixed broken table formatting.
+- Added shared product routing and explicit review scope. Detailed mixed records remain draft and excluded from verified export.

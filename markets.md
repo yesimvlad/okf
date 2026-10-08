@@ -1,25 +1,25 @@
 ---
 type: Reference
-title: Language navigation overview
-description: Use the [language references](markets/index.md) to choose a source language.
-  A locale is not a country-coverage entity. Do not assume market-specific restrictions
-  or promotion validity from language alone.
-resource: https://yesim.app/
+title: Website language and market knowledge overview
+description: Website language and market knowledge overview
+resource: https://yesim.app/llms.txt
 sources:
 - id: source-1
-  resource: https://yesim.app/
+  resource: https://yesim.app/llms.txt
 generated:
   by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
+  at: '2026-10-08T15:48:28Z'
 status: draft
 audience: public
 review_required: true
 ---
 
-# Language navigation overview
+# Website language and market knowledge overview
 
-Use the [language references](markets/index.md) to choose a source language. A locale is not a country-coverage entity. Do not assume market-specific restrictions or promotion validity from language alone.
+The [language registry](markets/index.md) includes all 44 language versions listed in the official Website Languages index, checked 2026-10-08. It links every knowledge file and the source's listed website URL.
 
-The exact set of live locales should be obtained from the website's current language selector and canonical/hreflang mapping, not a hardcoded count.
+Language, customer residence and travel destination are separate dimensions. Do not infer plan availability, currency, promotion eligibility or legal exceptions from language alone. Endpoint, canonical/hreflang and translation audits remain pending.
 
-SEO priorities and keyword research are in a separately labelled [editorial set](internal/seo/index.md). They are not evidence for customer recommendations or traveller popularity.
+Detailed [Polish](markets/pl.md) and [Romanian](markets/ro.md) research is preserved in the main market directory. Product-answer drafts and editorial guidance are explicitly distinguished. OKF does not require reducing useful market knowledge to a short card; stable shared product facts should be linked to reduce contradictions, while local scenarios, terminology and evidence-backed research can remain detailed.
+
+Additional [editorial navigation](internal/seo/index.md) preserves existing links. Mixed unreviewed market files remain outside the verified public export.
