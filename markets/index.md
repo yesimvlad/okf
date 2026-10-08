@@ -1,10 +1,12 @@
 # Website languages and market research
 
+Start with the [primary English product reference](en.md). Its source-reviewed product facts are separate from [English editorial proposals](../internal/seo/markets/en.md).
+
 All **44 language versions listed** in the official [Website Languages index](https://yesim.app/llms.txt) are registered below; source checked 2026-10-08. This is a dated language inventory, not a count of countries, sales markets or eSIM destinations. Reconcile future updates with the live selector and canonical/hreflang mapping.
 
 | Website locale | Language and knowledge file | Listed website URL | Content scope |
 |---|---|---|---|
-| `en` | [English](en.md) | https://yesim.app/ | Language reference; product/localization review pending |
+| `en` | [English](en.md) | https://yesim.app/ | Primary English product reference; automated source review, recheck required |
 | `ar` | [Arabic](ar.md) | https://yesim.app/ar/ | Detailed product/answer drafts and editorial guidance; review pending |
 | `hy` | [Armenian](hy.md) | https://yesim.app/hy/ | Language reference; product/localization review pending |
 | `az` | [Azerbaijani](az.md) | https://yesim.app/az/ | Language reference; product/localization review pending |

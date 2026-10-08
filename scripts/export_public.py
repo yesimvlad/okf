@@ -39,11 +39,20 @@ def export(root, out, now=None):
         target = out/rel
         target.parent.mkdir(parents=True,exist_ok=True)
         target.write_text('---\n'+yaml.safe_dump(meta,sort_keys=False,allow_unicode=True).strip()+'\n---\n'+body.strip()+'\n')
-    index = '---\nokf_version: "0.2"\n---\n\n# Yesim verified public consumer pack\n\n'
+    primary = 'markets/en.md' if 'markets/en.md' in selected else None
+    index = '---\nokf_version: "0.2"\n'
+    if primary:
+        index += 'primary_language: "en"\nprimary_reference: "markets/en.md"\n'
+    index += '---\n\n# Yesim verified public consumer pack\n\n'
     index += 'Snapshot of reviewed public records. Current official product terms control. Draft, internal-editorial, reference-only and stale records are excluded.\n\n'
+    if primary:
+        index += '[Start with the primary English product reference](markets/en.md). Current purchased conditions and sourced local exceptions control.\n\n'
     index += '\n'.join(f'- [{meta["title"]}]({rel})' for rel,(meta,_) in sorted(selected.items()))+'\n'
     (out/'index.md').write_text(index)
-    (out/'manifest.json').write_text(json.dumps({'generated_at':now.isoformat(),'included':sorted(selected),'excluded':sorted(set(records)-set(selected))},indent=2)+'\n')
+    manifest = {'generated_at':now.isoformat(),'included':sorted(selected),'excluded':sorted(set(records)-set(selected))}
+    if primary:
+        manifest.update(primary_language='en', primary_reference=primary)
+    (out/'manifest.json').write_text(json.dumps(manifest,indent=2)+'\n')
     errors,_,_ = inspect(out,now)
     if errors: raise ValueError('export validation failed: '+'; '.join(errors))
     return len(selected)

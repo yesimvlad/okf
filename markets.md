@@ -25,3 +25,5 @@ Detailed [Polish](markets/pl.md) and [Romanian](markets/ro.md) research is prese
 Additional [editorial navigation](internal/seo/index.md) preserves existing links. Mixed unreviewed market files remain outside the verified public export.
 
 Detailed expansion also covers [AR](markets/ar.md), [ZH-CN](markets/zh-cn.md), [ID](markets/id.md), [RU](markets/ru.md), [PT](markets/pt.md), [PT-BR](markets/pt-br.md), [ES](markets/es.md), [IT](markets/it.md), [CS](markets/cs.md), [JA](markets/ja.md), [FR](markets/fr.md), [DE](markets/de.md) and [VI](markets/vi.md). These contain draft local answer examples and explicitly labelled editorial candidates. See [source and review notes](docs/market-expansion-review.md).
+
+English is the primary editorial language. Start with the [source-reviewed English product reference](markets/en.md); [English query and content proposals](internal/seo/markets/en.md) are a separate draft scope. Shared definitions should remain consistent across locales, while purchase-specific and explicitly sourced local exceptions remain visible.

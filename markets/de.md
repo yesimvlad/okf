@@ -64,6 +64,9 @@ sources:
 
 ## Reading scope
 
+Use the [primary English product reference](en.md) and shared product records when reviewing translated definitions. The purchased Product Description and explicitly sourced local exceptions still control.
+
+
 Product-answer text below is a review draft based on the linked product sources. Localized wording has not been approved by a native editor or product owner. Sections marked **Editorial guidance** contain authored query candidates, scenarios and content proposals; they are not measured traffic, popularity rankings, customer eligibility rules or product promises.
 
 These detailed records remain outside the verified consumer export. For direct repository retrieval, retain these scope labels and check current Product Descriptions before quoting mutable conditions.

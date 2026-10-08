@@ -28,3 +28,10 @@ Automated source review does not imply human product approval, app-level testing
 - Preserved RU .tech eSIM/destination routing and .app number routing, distinguished PT from PT-BR and normalized the request’s vn shorthand to vi.
 - Documented Pay & Fly title/billing discrepancies in ES/FR/JA/VI and the Brazil/Pix refund clause; production websites are unchanged.
 - Added 130 localized evaluation prompts, source-review notes and registry navigation. All expanded files remain draft and outside verified export.
+
+## 2026-10-08 — Primary English knowledge reference
+
+- Expanded EN into the primary source-reviewed product reference, with 38 detailed FAQ answers, product distinctions, installation/validity routing, eight country sources, terminology, limits and source-conflict handling.
+- Separated English query/scenario/content proposals into an internal-editorial draft; no keyword-volume or popularity evidence is invented.
+- Linked the primary reference from the bundle, language registry and detailed localizations, while preserving selected-product and sourced local-exception precedence.
+- Added 38 English evaluation cases. Source review is automated; no human product approval, app test, model benchmark or production website deployment is claimed.

@@ -1,8 +1,12 @@
 ---
 okf_version: "0.2"
+primary_language: "en"
+primary_reference: "markets/en.md"
 ---
 
 # Yesim Knowledge Bundle
+
+Start with the [primary English product reference](markets/en.md). English is the primary editorial language; current purchased product conditions and sourced local exceptions control.
 
 Product knowledge for Yesim. Read [maintenance and publication rules](governance/maintenance.md) before treating a record as authoritative. Draft, unverified or stale records require current-source confirmation. Product Descriptions at purchase and current legal policies control.
 

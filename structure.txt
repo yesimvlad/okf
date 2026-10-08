@@ -23,9 +23,11 @@ destinations/global.md
 destinations/index.md
 destinations/regions.md
 docs/OKF-LICENSE.txt
+docs/en-source-review.md
 docs/market-expansion-review.md
 docs/site-follow-up.md
 evaluations/cases.yaml
+evaluations/en-cases.yaml
 evaluations/market-cases.yaml
 faq/activation.md
 faq/calls-sms.md
@@ -43,6 +45,7 @@ index.md
 internal-links/entity-map.md
 internal/seo/entity-map.md
 internal/seo/index.md
+internal/seo/markets/en.md
 internal/seo/markets/pl.md
 internal/seo/markets/ro.md
 log.md

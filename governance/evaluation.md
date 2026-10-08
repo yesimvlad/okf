@@ -29,3 +29,7 @@ Measure citation/mention rates separately in public web-search tests. A before/a
 ## Localized draft-market evaluation
 
 [Market cases](../evaluations/market-cases.yaml) provides 130 newly authored prompts across 13 expanded locales, with expected facts and source URLs. These prompts and answer drafts need native review; they have not been run against models. Test local billing, activation, device variants, number acceptance, FUP and refunds in all three modes. When loading draft market files explicitly, retain editorial/scope labels and record that input separately from the verified public pack, which excludes these files. Native wording, local terminology and RU/PT/PT-BR/VI routing require separate review.
+
+## Primary English reference evaluation
+
+[English cases](../evaluations/en-cases.yaml) adds 38 source-backed prompts covering identity, compatibility, activation, billing, coverage, day-pack expiry, number functions, third-party acceptance, trial conditions, refunds and business routing. They are authored checks, not executed model results. Confirm the English reference enters a fresh public export while its editorial counterpart and draft localizations remain excluded. Run repeated model comparisons separately for no-web, explicit fresh bundle and public web-search modes.
