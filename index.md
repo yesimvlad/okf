@@ -34,6 +34,7 @@ Product knowledge for Yesim. Read [maintenance and publication rules](governance
 - [All 44 listed website languages and market references](markets/index.md)
 - [Detailed Polish research](markets/pl.md)
 - [Detailed Romanian research](markets/ro.md)
+- [13 additional detailed market references and review notes](docs/market-expansion-review.md)
 
 ## Maintenance
 - [Open product questions](governance/open-questions.md)

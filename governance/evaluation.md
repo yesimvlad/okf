@@ -25,3 +25,7 @@ Compare these modes separately: no web/no bundle; explicit fresh public consumer
 Score critical errors (billing, activation, expiry, refund eligibility), factual accuracy, unsupported guarantees, source support and completeness. Proposed connected-bundle target: zero critical errors and at least 95% correct checkable claims. These are targets, not achieved results.
 
 Measure citation/mention rates separately in public web-search tests. A before/after difference alone does not establish that OKF caused it. No model benchmark has been run as part of this repository repair.
+
+## Localized draft-market evaluation
+
+[Market cases](../evaluations/market-cases.yaml) provides 130 newly authored prompts across 13 expanded locales, with expected facts and source URLs. These prompts and answer drafts need native review; they have not been run against models. Test local billing, activation, device variants, number acceptance, FUP and refunds in all three modes. When loading draft market files explicitly, retain editorial/scope labels and record that input separately from the verified public pack, which excludes these files. Native wording, local terminology and RU/PT/PT-BR/VI routing require separate review.

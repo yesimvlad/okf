@@ -1,0 +1,1244 @@
+version: 1
+created_at: '2026-10-08T16:16:02Z'
+scope: 130 newly authored localized prompts; not an executed benchmark. Native wording
+  review pending.
+modes:
+- no-web-no-bundle
+- explicit-current-repo-draft-with-scope-labels
+- web-search-no-bundle
+cases:
+- id: ar_identity
+  language: ar
+  prompt: 'Yesim: ما هي Yesim؟'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.app/ar/
+  critical: false
+  native_review_required: true
+- id: ar_compatibility
+  language: ar
+  prompt: 'Yesim: هل يعمل هاتفي مع Yesim؟'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.app/ar/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: ar_activation
+  language: ar
+  prompt: 'Yesim: متى تبدأ صلاحية الباقة؟'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: ar_itinerary
+  language: ar
+  prompt: 'Yesim: كيف أختار باقة لعدة دول؟'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.app/ar/regions/
+  - https://yesim.app/ar/global/
+  critical: false
+  native_review_required: true
+- id: ar_billing
+  language: ar
+  prompt: 'Yesim: ما الفرق بين Pay & Fly وUnlim Day Pass؟'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.app/ar/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: ar_number
+  language: ar
+  prompt: 'Yesim: هل تتضمن باقة البيانات رقم هاتف؟'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/ar/virtual-number/
+  critical: true
+  native_review_required: true
+- id: ar_verification
+  language: ar
+  prompt: 'Yesim: هل يمكن استخدام واتساب؟'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/ar/virtual-number/
+  critical: true
+  native_review_required: true
+- id: ar_unlimited
+  language: ar
+  prompt: 'Yesim: هل البيانات غير المحدودة تعني سرعة قصوى دائمًا؟'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: ar_price
+  language: ar
+  prompt: 'Yesim: أين أجد السعر والخصم؟'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.app/ar/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: ar_refund
+  language: ar
+  prompt: 'Yesim: هل يمكن استرداد مبلغ باقة مثبتة لم تُستخدم؟'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true
+- id: zh-cn_identity
+  language: zh-cn
+  prompt: 'Yesim: Yesim 是什么？'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.app/zh-cn/
+  critical: false
+  native_review_required: true
+- id: zh-cn_compatibility
+  language: zh-cn
+  prompt: 'Yesim: 我的手机可以使用吗？'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.app/zh-cn/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: zh-cn_activation
+  language: zh-cn
+  prompt: 'Yesim: 套餐有效期从什么时候开始？'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: zh-cn_itinerary
+  language: zh-cn
+  prompt: 'Yesim: 多国旅行怎么选？'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.app/zh-cn/regions/
+  - https://yesim.app/zh-cn/global/
+  critical: false
+  native_review_required: true
+- id: zh-cn_billing
+  language: zh-cn
+  prompt: 'Yesim: Pay & Fly 与 Unlim Day Pass 有什么区别？'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.app/zh-cn/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: zh-cn_number
+  language: zh-cn
+  prompt: 'Yesim: 数据套餐包含电话号码吗？'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/zh-cn/virtual-number/
+  critical: true
+  native_review_required: true
+- id: zh-cn_verification
+  language: zh-cn
+  prompt: 'Yesim: 可以使用 WhatsApp 吗？'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/zh-cn/virtual-number/
+  critical: true
+  native_review_required: true
+- id: zh-cn_unlimited
+  language: zh-cn
+  prompt: 'Yesim: 无限流量是否一直保持最高速度？'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: zh-cn_price
+  language: zh-cn
+  prompt: 'Yesim: 价格和优惠在哪里查？'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.app/zh-cn/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: zh-cn_refund
+  language: zh-cn
+  prompt: 'Yesim: 安装后没有用流量可以退款吗？'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true
+- id: id_identity
+  language: id
+  prompt: 'Yesim: Apa itu Yesim?'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.app/id/
+  critical: false
+  native_review_required: true
+- id: id_compatibility
+  language: id
+  prompt: 'Yesim: Apakah HP saya kompatibel?'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.app/id/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: id_activation
+  language: id
+  prompt: 'Yesim: Kapan masa berlaku paket dimulai?'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: id_itinerary
+  language: id
+  prompt: 'Yesim: Bagaimana memilih paket untuk beberapa negara?'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.app/id/regions/
+  - https://yesim.app/id/global/
+  critical: false
+  native_review_required: true
+- id: id_billing
+  language: id
+  prompt: 'Yesim: Apa beda Pay & Fly dan Unlim Day Pass?'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.app/id/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: id_number
+  language: id
+  prompt: 'Yesim: Apakah paket data termasuk nomor telepon?'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/id/virtual-number/
+  critical: true
+  native_review_required: true
+- id: id_verification
+  language: id
+  prompt: 'Yesim: Bisa memakai WhatsApp?'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/id/virtual-number/
+  critical: true
+  native_review_required: true
+- id: id_unlimited
+  language: id
+  prompt: 'Yesim: Apakah unlimited selalu berarti kecepatan maksimal?'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: id_price
+  language: id
+  prompt: 'Yesim: Di mana melihat harga dan promo?'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.app/id/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: id_refund
+  language: id
+  prompt: 'Yesim: Bisakah eSIM yang sudah dipasang tetapi belum dipakai direfund?'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true
+- id: ru_identity
+  language: ru
+  prompt: 'Yesim: Что такое Yesim?'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.tech/ru/
+  critical: false
+  native_review_required: true
+- id: ru_compatibility
+  language: ru
+  prompt: 'Yesim: Подойдёт ли мой телефон?'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.tech/ru/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: ru_activation
+  language: ru
+  prompt: 'Yesim: Когда начинается срок действия?'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: ru_itinerary
+  language: ru
+  prompt: 'Yesim: Как выбрать пакет для нескольких стран?'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.tech/ru/regions/
+  - https://yesim.tech/ru/global/
+  critical: false
+  native_review_required: true
+- id: ru_billing
+  language: ru
+  prompt: 'Yesim: Чем отличаются Pay & Fly и Unlim Day Pass?'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.tech/ru/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: ru_number
+  language: ru
+  prompt: 'Yesim: Входит ли номер телефона в пакет данных?'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/ru/virtual-number/
+  critical: true
+  native_review_required: true
+- id: ru_verification
+  language: ru
+  prompt: 'Yesim: Можно ли пользоваться WhatsApp?'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/ru/virtual-number/
+  critical: true
+  native_review_required: true
+- id: ru_unlimited
+  language: ru
+  prompt: 'Yesim: Безлимит означает максимальную скорость всегда?'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: ru_price
+  language: ru
+  prompt: 'Yesim: Где проверить цену и промокод?'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.tech/ru/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: ru_refund
+  language: ru
+  prompt: 'Yesim: Вернут ли деньги, если eSIM установлена, но интернет не использовался?'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true
+- id: pt_identity
+  language: pt
+  prompt: 'Yesim: O que é a Yesim?'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.app/pt/
+  critical: false
+  native_review_required: true
+- id: pt_compatibility
+  language: pt
+  prompt: 'Yesim: O meu telemóvel é compatível?'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.app/pt/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: pt_activation
+  language: pt
+  prompt: 'Yesim: Quando começa a validade do plano?'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: pt_itinerary
+  language: pt
+  prompt: 'Yesim: Como escolher para vários países?'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.app/pt/regions/
+  - https://yesim.app/pt/global/
+  critical: false
+  native_review_required: true
+- id: pt_billing
+  language: pt
+  prompt: 'Yesim: Qual é a diferença entre Pay & Fly e Unlim Day Pass?'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.app/pt/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: pt_number
+  language: pt
+  prompt: 'Yesim: O plano inclui um número?'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/pt/virtual-number/
+  critical: true
+  native_review_required: true
+- id: pt_verification
+  language: pt
+  prompt: 'Yesim: Posso usar o WhatsApp?'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/pt/virtual-number/
+  critical: true
+  native_review_required: true
+- id: pt_unlimited
+  language: pt
+  prompt: 'Yesim: Dados ilimitados significam sempre velocidade máxima?'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: pt_price
+  language: pt
+  prompt: 'Yesim: Onde consultar preços e descontos?'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.app/pt/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: pt_refund
+  language: pt
+  prompt: 'Yesim: Posso pedir reembolso após instalar sem usar dados?'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true
+- id: pt-br_identity
+  language: pt-br
+  prompt: 'Yesim: O que é a Yesim?'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.app/pt-br/
+  critical: false
+  native_review_required: true
+- id: pt-br_compatibility
+  language: pt-br
+  prompt: 'Yesim: Meu celular é compatível?'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.app/pt-br/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: pt-br_activation
+  language: pt-br
+  prompt: 'Yesim: Quando começa a validade do pacote?'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: pt-br_itinerary
+  language: pt-br
+  prompt: 'Yesim: Como escolher para vários países?'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.app/pt-br/regions/
+  - https://yesim.app/pt-br/global/
+  critical: false
+  native_review_required: true
+- id: pt-br_billing
+  language: pt-br
+  prompt: 'Yesim: Qual a diferença entre Pay & Fly e Unlim Day Pass?'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.app/pt-br/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: pt-br_number
+  language: pt-br
+  prompt: 'Yesim: O pacote inclui um número?'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/pt-br/virtual-number/
+  critical: true
+  native_review_required: true
+- id: pt-br_verification
+  language: pt-br
+  prompt: 'Yesim: Posso usar o WhatsApp?'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/pt-br/virtual-number/
+  critical: true
+  native_review_required: true
+- id: pt-br_unlimited
+  language: pt-br
+  prompt: 'Yesim: Internet ilimitada significa velocidade máxima sempre?'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: pt-br_price
+  language: pt-br
+  prompt: 'Yesim: Onde consultar preço e cupom?'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.app/pt-br/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: pt-br_refund
+  language: pt-br
+  prompt: 'Yesim: Posso receber reembolso depois de instalar sem usar dados?'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true
+- id: es_identity
+  language: es
+  prompt: 'Yesim: ¿Qué es Yesim?'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.app/es/
+  critical: false
+  native_review_required: true
+- id: es_compatibility
+  language: es
+  prompt: 'Yesim: ¿Mi móvil es compatible?'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.app/es/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: es_activation
+  language: es
+  prompt: 'Yesim: ¿Cuándo empieza la validez?'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: es_itinerary
+  language: es
+  prompt: 'Yesim: ¿Cómo elegir para varios países?'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.app/es/regions/
+  - https://yesim.app/es/global/
+  critical: false
+  native_review_required: true
+- id: es_billing
+  language: es
+  prompt: 'Yesim: ¿En qué se diferencian Pay & Fly y Unlim Day Pass?'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.app/es/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: es_number
+  language: es
+  prompt: 'Yesim: ¿El plan incluye un número?'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/es/virtual-number/
+  critical: true
+  native_review_required: true
+- id: es_verification
+  language: es
+  prompt: 'Yesim: ¿Puedo usar WhatsApp?'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/es/virtual-number/
+  critical: true
+  native_review_required: true
+- id: es_unlimited
+  language: es
+  prompt: 'Yesim: ¿Datos ilimitados significa siempre máxima velocidad?'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: es_price
+  language: es
+  prompt: 'Yesim: ¿Dónde consultar precios y descuentos?'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.app/es/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: es_refund
+  language: es
+  prompt: 'Yesim: ¿Puedo solicitar reembolso tras instalar sin usar datos?'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true
+- id: it_identity
+  language: it
+  prompt: 'Yesim: Che cos’è Yesim?'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.app/it/
+  critical: false
+  native_review_required: true
+- id: it_compatibility
+  language: it
+  prompt: 'Yesim: Il mio telefono è compatibile?'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.app/it/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: it_activation
+  language: it
+  prompt: 'Yesim: Quando inizia la validità?'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: it_itinerary
+  language: it
+  prompt: 'Yesim: Come scegliere per più Paesi?'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.app/it/regions/
+  - https://yesim.app/it/global/
+  critical: false
+  native_review_required: true
+- id: it_billing
+  language: it
+  prompt: 'Yesim: Qual è la differenza tra Pay & Fly e Unlim Day Pass?'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.app/it/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: it_number
+  language: it
+  prompt: 'Yesim: Il piano include un numero?'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/it/virtual-number/
+  critical: true
+  native_review_required: true
+- id: it_verification
+  language: it
+  prompt: 'Yesim: Posso usare WhatsApp?'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/it/virtual-number/
+  critical: true
+  native_review_required: true
+- id: it_unlimited
+  language: it
+  prompt: 'Yesim: Dati illimitati significa sempre velocità massima?'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: it_price
+  language: it
+  prompt: 'Yesim: Dove trovo prezzi e sconti?'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.app/it/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: it_refund
+  language: it
+  prompt: 'Yesim: Posso chiedere un rimborso dopo l’installazione senza usare dati?'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true
+- id: cs_identity
+  language: cs
+  prompt: 'Yesim: Co je Yesim?'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.app/cs/
+  critical: false
+  native_review_required: true
+- id: cs_compatibility
+  language: cs
+  prompt: 'Yesim: Je můj telefon kompatibilní?'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.app/cs/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: cs_activation
+  language: cs
+  prompt: 'Yesim: Kdy začíná platnost tarifu?'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: cs_itinerary
+  language: cs
+  prompt: 'Yesim: Jak vybrat tarif pro více zemí?'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.app/cs/regions/
+  - https://yesim.app/cs/global/
+  critical: false
+  native_review_required: true
+- id: cs_billing
+  language: cs
+  prompt: 'Yesim: Jaký je rozdíl mezi Pay & Fly a Unlim Day Pass?'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.app/cs/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: cs_number
+  language: cs
+  prompt: 'Yesim: Obsahuje tarif telefonní číslo?'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/cs/virtual-number/
+  critical: true
+  native_review_required: true
+- id: cs_verification
+  language: cs
+  prompt: 'Yesim: Mohu používat WhatsApp?'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/cs/virtual-number/
+  critical: true
+  native_review_required: true
+- id: cs_unlimited
+  language: cs
+  prompt: 'Yesim: Znamenají neomezená data vždy maximální rychlost?'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: cs_price
+  language: cs
+  prompt: 'Yesim: Kde zjistím cenu a slevu?'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.app/cs/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: cs_refund
+  language: cs
+  prompt: 'Yesim: Dostanu peníze zpět po instalaci bez použití dat?'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true
+- id: ja_identity
+  language: ja
+  prompt: 'Yesim: Yesimとは？'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.app/ja/
+  critical: false
+  native_review_required: true
+- id: ja_compatibility
+  language: ja
+  prompt: 'Yesim: 自分のスマホは対応していますか？'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.app/ja/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: ja_activation
+  language: ja
+  prompt: 'Yesim: 有効期間はいつ始まりますか？'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: ja_itinerary
+  language: ja
+  prompt: 'Yesim: 複数の国を旅行する場合は？'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.app/ja/regions/
+  - https://yesim.app/ja/global/
+  critical: false
+  native_review_required: true
+- id: ja_billing
+  language: ja
+  prompt: 'Yesim: Pay & FlyとUnlim Day Passの違いは？'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.app/ja/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: ja_number
+  language: ja
+  prompt: 'Yesim: 電話番号は含まれますか？'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/ja/virtual-number/
+  critical: true
+  native_review_required: true
+- id: ja_verification
+  language: ja
+  prompt: 'Yesim: WhatsAppは使えますか？'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/ja/virtual-number/
+  critical: true
+  native_review_required: true
+- id: ja_unlimited
+  language: ja
+  prompt: 'Yesim: 無制限なら常に最高速度ですか？'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: ja_price
+  language: ja
+  prompt: 'Yesim: 料金やクーポンはどこで確認しますか？'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.app/ja/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: ja_refund
+  language: ja
+  prompt: 'Yesim: インストール後に未使用なら返金できますか？'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true
+- id: fr_identity
+  language: fr
+  prompt: 'Yesim: Qu’est-ce que Yesim ?'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.app/fr/
+  critical: false
+  native_review_required: true
+- id: fr_compatibility
+  language: fr
+  prompt: 'Yesim: Mon téléphone est-il compatible ?'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.app/fr/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: fr_activation
+  language: fr
+  prompt: 'Yesim: Quand commence la validité ?'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: fr_itinerary
+  language: fr
+  prompt: 'Yesim: Comment choisir pour plusieurs pays ?'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.app/fr/regions/
+  - https://yesim.app/fr/global/
+  critical: false
+  native_review_required: true
+- id: fr_billing
+  language: fr
+  prompt: 'Yesim: Quelle différence entre Pay & Fly et Unlim Day Pass ?'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.app/fr/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: fr_number
+  language: fr
+  prompt: 'Yesim: Le forfait comprend-il un numéro ?'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/fr/virtual-number/
+  critical: true
+  native_review_required: true
+- id: fr_verification
+  language: fr
+  prompt: 'Yesim: Puis-je utiliser WhatsApp ?'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/fr/virtual-number/
+  critical: true
+  native_review_required: true
+- id: fr_unlimited
+  language: fr
+  prompt: 'Yesim: Les données illimitées garantissent-elles la vitesse maximale ?'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: fr_price
+  language: fr
+  prompt: 'Yesim: Où consulter les prix et promotions ?'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.app/fr/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: fr_refund
+  language: fr
+  prompt: 'Yesim: Puis-je être remboursé après installation sans consommation ?'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true
+- id: de_identity
+  language: de
+  prompt: 'Yesim: Was ist Yesim?'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.app/de/
+  critical: false
+  native_review_required: true
+- id: de_compatibility
+  language: de
+  prompt: 'Yesim: Ist mein Handy kompatibel?'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.app/de/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: de_activation
+  language: de
+  prompt: 'Yesim: Wann beginnt die Gültigkeit?'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: de_itinerary
+  language: de
+  prompt: 'Yesim: Wie wähle ich für mehrere Länder?'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.app/de/regions/
+  - https://yesim.app/de/global/
+  critical: false
+  native_review_required: true
+- id: de_billing
+  language: de
+  prompt: 'Yesim: Was unterscheidet Pay & Fly von Unlim Day Pass?'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.app/de/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: de_number
+  language: de
+  prompt: 'Yesim: Enthält der Tarif eine Telefonnummer?'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/de/virtual-number/
+  critical: true
+  native_review_required: true
+- id: de_verification
+  language: de
+  prompt: 'Yesim: Kann ich WhatsApp nutzen?'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/de/virtual-number/
+  critical: true
+  native_review_required: true
+- id: de_unlimited
+  language: de
+  prompt: 'Yesim: Bedeutet unbegrenzt immer maximale Geschwindigkeit?'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: de_price
+  language: de
+  prompt: 'Yesim: Wo finde ich Preise und Rabatte?'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.app/de/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: de_refund
+  language: de
+  prompt: 'Yesim: Gibt es eine Erstattung nach Installation ohne Datenverbrauch?'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true
+- id: vi_identity
+  language: vi
+  prompt: 'Yesim: Yesim là gì?'
+  expected: Travel mobile data on compatible devices in the selected plan’s coverage;
+    distinguish separate number service.
+  sources:
+  - https://yesim.app/vi/
+  critical: false
+  native_review_required: true
+- id: vi_compatibility
+  language: vi
+  prompt: 'Yesim: Điện thoại của tôi có tương thích không?'
+  expected: Exact device model and regional variant, eSIM support and carrier unlock;
+    no newer-model or Dual SIM guarantee.
+  sources:
+  - https://yesim.app/vi/compatible-devices/
+  critical: true
+  native_review_required: true
+- id: vi_activation
+  language: vi
+  prompt: 'Yesim: Khi nào thời hạn gói bắt đầu?'
+  expected: Plan-specific trigger; distinguish purchase, installation and network
+    connection. Consult Product Description.
+  sources:
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  native_review_required: true
+- id: vi_itinerary
+  language: vi
+  prompt: 'Yesim: Chọn gói cho nhiều nước thế nào?'
+  expected: Verify every itinerary country in selected regional/global plan; brand
+    coverage does not establish plan coverage.
+  sources:
+  - https://yesim.app/vi/regions/
+  - https://yesim.app/vi/global/
+  critical: false
+  native_review_required: true
+- id: vi_billing
+  language: vi
+  prompt: 'Yesim: Pay & Fly khác Unlim Day Pass thế nào?'
+  expected: Pay & Fly bills data used; Unlim Day Pass is a separate pack of plan days
+    with its own validity rules.
+  sources:
+  - https://yesim.app/vi/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: true
+  native_review_required: true
+- id: vi_number
+  language: vi
+  prompt: 'Yesim: Gói có bao gồm số điện thoại không?'
+  expected: Data-only eSIM has no number or conventional cellular calls/SMS; separate
+    number features depend on purchased service.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/vi/virtual-number/
+  critical: true
+  native_review_required: true
+- id: vi_verification
+  language: vi
+  prompt: 'Yesim: Có dùng WhatsApp được không?'
+  expected: Configured messenger can use data; third-party verification acceptance
+    is not guaranteed.
+  sources:
+  - https://yesim.app/terms-of-service/
+  - https://yesim.app/vi/virtual-number/
+  critical: true
+  native_review_required: true
+- id: vi_unlimited
+  language: vi
+  prompt: 'Yesim: Không giới hạn có nghĩa luôn đạt tốc độ tối đa không?'
+  expected: Unlimited data does not guarantee maximum speed; consult selected FUP
+    without inventing a daily quota.
+  sources:
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  native_review_required: true
+- id: vi_price
+  language: vi
+  prompt: 'Yesim: Xem giá và ưu đãi ở đâu?'
+  expected: Check current checkout total, currency and promotion conditions; do not
+    invent a fixed local price or discount.
+  sources:
+  - https://yesim.app/vi/
+  - https://yesim.app/promocodes/
+  critical: false
+  native_review_required: true
+- id: vi_refund
+  language: vi
+  prompt: 'Yesim: Cài eSIM nhưng chưa dùng dữ liệu có được hoàn tiền không?'
+  expected: Zero data use alone does not establish refund eligibility; installation
+    counts as activation under reviewed policy.
+  sources:
+  - https://yesim.app/refund-policy/
+  critical: true
+  native_review_required: true

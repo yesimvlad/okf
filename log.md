@@ -20,3 +20,11 @@ Automated source review does not imply human product approval, app-level testing
 - Restored full PL/RO research and answer patterns to `markets/`; retained internal navigation pointers rather than conflicting duplicate texts.
 - Kept query and destination tables, local scenarios, content rules and related sources. Labelled editorial guidance and unverified analytics; removed remaining universal discount wording and fixed broken table formatting.
 - Added shared product routing and explicit review scope. Detailed mixed records remain draft and excluded from verified export.
+
+## 2026-10-08 — Detailed expansion of 13 requested locales
+
+- Expanded AR, ZH-CN, ID, RU, PT, PT-BR, ES, IT, CS, JA, FR, DE and VI using the PL/RO level of content scope, retaining explicit product/editorial boundaries.
+- Retrieved 130 localized sources; added terminology, selection and installation flow, four destination examples per locale, localized answer patterns, query candidates, content priorities and review queues. Native and product approval are pending; no traffic analytics are claimed.
+- Preserved RU .tech eSIM/destination routing and .app number routing, distinguished PT from PT-BR and normalized the request’s vn shorthand to vi.
+- Documented Pay & Fly title/billing discrepancies in ES/FR/JA/VI and the Brazil/Pix refund clause; production websites are unchanged.
+- Added 130 localized evaluation prompts, source-review notes and registry navigation. All expanded files remain draft and outside verified export.

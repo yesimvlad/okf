@@ -23,8 +23,10 @@ destinations/global.md
 destinations/index.md
 destinations/regions.md
 docs/OKF-LICENSE.txt
+docs/market-expansion-review.md
 docs/site-follow-up.md
 evaluations/cases.yaml
+evaluations/market-cases.yaml
 faq/activation.md
 faq/calls-sms.md
 faq/compatibility.md
