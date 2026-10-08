@@ -1,8 +1,8 @@
 ---
 type: Product
 title: Yesim Unlim Day Pass
-description: Unlim Day Pass is an annual global eSIM plan sold as a prepaid pack of
-  unlimited-data days. It is separate from [Pay & Fly](pay-and-fly-esim.md).
+description: An annual prepaid pack of unlimited-data usage days with its own activation
+  and expiry conditions.
 resource: https://yesim.app/unlim-day-pass/
 sources:
 - id: source-1
@@ -16,6 +16,7 @@ verified:
 - by: codex/source-review
   at: '2026-10-08T15:12:31Z'
 stale_after: '2026-11-07T15:30:00Z'
+id: yesim:products/unlim-day-pass
 ---
 
 # Yesim Unlim Day Pass

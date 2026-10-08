@@ -1,24 +1,26 @@
 ---
 type: Product
 title: Yesim Virtual Number
-description: A Yesim Virtual Number is a number assigned on a temporary rental basis
-  through the Yesim application. It is a separate product from an eSIM data plan.
-  Exact capabilities depend on the Product Description for the selected number.
+description: A separate temporary number service with functions defined by the purchased
+  product.
 resource: https://yesim.app/virtual-number/
 sources:
 - id: source-1
   resource: https://yesim.app/virtual-number/
 - id: source-2
   resource: https://yesim.app/terms-of-service/
+- id: source-3
+  resource: https://yesim.app/payment-details/
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
+  by: codex/repository-revision
+  at: '2026-10-08T17:07:08Z'
 status: stable
 audience: public
 verified:
 - by: codex/source-review
-  at: '2026-10-08T15:12:31Z'
-stale_after: '2026-11-07T15:30:00Z'
+  at: '2026-10-08T17:07:08Z'
+stale_after: '2026-10-15T17:07:08Z'
+id: yesim:products/virtual-number
 ---
 
 # Yesim Virtual Number
@@ -63,3 +65,9 @@ Do not assume this. Rental expiry and renewal apply; the Terms do not guarantee 
 
 [^source-1]: Official virtual-number page, checked 2026-10-08; its marketing wording does not establish every number's capabilities.
 [^source-2]: Yesim Terms of Service, definitions of OTP and communication services, checked 2026-10-08.
+
+## Renewal source
+
+The payment-details page describes automatic number renewal subject to sufficient balance and continued technical availability. Check the selected rental and account conditions; do not promise indefinite retention or no automatic renewal.
+
+[Current payment details](https://yesim.app/payment-details/)

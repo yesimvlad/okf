@@ -107,8 +107,6 @@ sources:
   resource: https://yesim.app/referral-program/
 ---
 
-
-> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # Entity Map
 
 This file maps key yesim.app pages to their primary entities and recommended anchor texts for internal linking. Use this file when building internal links in articles, blog posts, or landing pages.

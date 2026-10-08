@@ -12,11 +12,15 @@ sources:
 - id: source-3
   resource: https://yesim.app/virtual-numbers-for-business/
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
-status: draft
+  by: codex/repository-revision
+  at: '2026-10-08T16:55:46Z'
+status: stable
 audience: public
-review_required: true
+verified:
+- by: codex/source-review
+  at: '2026-10-08T16:55:46Z'
+stale_after: '2026-10-15T16:55:46Z'
+id: yesim:products/business-esim
 ---
 
 # Yesim business products

@@ -1,22 +1,23 @@
 ---
 type: Concept
 title: Fair usage policy
-description: Fair-use conditions can allow speed reductions or other network-management
-  measures on an unlimited-data plan. They must be read for the selected plan and
-  destination; a general definition is not a Yesim plan specification.
+description: Fair-use conditions are plan-specific and can include speed reductions.
 resource: https://yesim.app/country/turkey/
 sources:
 - id: source-1
   resource: https://yesim.app/country/turkey/
+- id: source-2
+  resource: https://help.yesim.tech/unlimited-data-plans-policy/
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
+  by: codex/repository-revision
+  at: '2026-10-08T17:07:08Z'
 status: stable
 audience: public
 verified:
 - by: codex/source-review
-  at: '2026-10-08T15:12:31Z'
-stale_after: '2026-11-07T15:30:00Z'
+  at: '2026-10-08T17:07:08Z'
+stale_after: '2026-10-15T17:07:08Z'
+id: yesim:concepts/fair-usage-policy
 ---
 
 # Fair usage policy

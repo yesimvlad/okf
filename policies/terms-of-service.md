@@ -1,10 +1,8 @@
 ---
 type: Policy
 title: Yesim Terms of Service scoped summary
-description: This record covers eSIM data and virtual-number distinctions relevant
-  to this knowledge bundle. It is not a complete reproduction of the legal terms.
-  The [official Terms](https://yesim.app/terms-of-service/), applicable Product Description
-  and related policies control.
+description: A scoped summary of data and number-service distinctions; current official
+  terms and purchased conditions control.
 resource: https://yesim.app/terms-of-service/
 sources:
 - id: source-1
@@ -18,6 +16,7 @@ verified:
 - by: codex/source-review
   at: '2026-10-08T15:12:31Z'
 stale_after: '2026-11-07T15:30:00Z'
+id: yesim:policies/terms-of-service
 ---
 
 # Yesim Terms of Service scoped summary

@@ -1,6 +1,6 @@
 # Yesim Open Knowledge Format bundle
 
-Product knowledge for Yesim, following [Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md). Start with the [primary English product reference](markets/en.md) or the [bundle index](index.md). English product facts are source-reviewed; [English editorial proposals](internal/seo/markets/en.md) remain separately scoped drafts.
+Product knowledge for Yesim, following [Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md). Start with the [primary English product reference](markets/en.md) or the [bundle index](index.md). English product facts have an automated public-source review; [English editorial proposals](internal/seo/markets/en.md) remain separately scoped drafts.
 
 ## Scope and trust
 
@@ -35,3 +35,11 @@ Repository updates do not change yesim.app, the Help Center, robots rules, Schem
 ## Licensing
 
 The bundled [specification](spec.md) is attributed to GoogleCloudPlatform/open-knowledge-format and covered by its Apache-2.0 license; see [license](docs/OKF-LICENSE.txt). No blanket license for Yesim product materials is inferred. The owner should select an appropriate redistribution policy for those materials.
+
+## Build the official-domain publication
+
+```bash
+python scripts/export_site.py --out dist/site-release --base-url https://yesim.app/knowledge/
+```
+
+This creates static HTML, clean Markdown, an OKF copy, llms.txt, sitemap and a source manifest. It excludes drafts and editorial research, keeps provenance in the OKF copy and shows a short review date on HTML. No files are deployed by this command. See [publication instructions](docs/publication.md), [revision findings](docs/revision-audit.md) and [data model](governance/data-model.md). Python 3.11 or newer is required.

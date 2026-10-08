@@ -1,7 +1,7 @@
 ---
-okf_version: "0.2"
-primary_language: "en"
-primary_reference: "markets/en.md"
+okf_version: '0.2'
+primary_language: en
+primary_reference: markets/en.md
 ---
 
 # Yesim Knowledge Bundle
@@ -46,4 +46,14 @@ Product knowledge for Yesim. Read [maintenance and publication rules](governance
 - [Change log](log.md)
 - [OKF specification](spec.md)
 
-Editorial research is explicitly labelled in the detailed PL/RO market files and under `internal/seo/`. Mixed market files stay draft and are excluded from verified exports. The directory is publicly visible on GitHub but excluded from public consumer exports.
+Product answers and editorial research are separate linked records. Unapproved localizations stay draft. `internal/seo/` and competitor research are publicly visible on GitHub and excluded from verified consumer exports.
+
+## Publishing and revision
+
+- [Publication plan](docs/publication.md)
+- [Repository revision findings](docs/revision-audit.md)
+- [Data model and ownership](governance/data-model.md)
+- [Installation](guides/installation.md)
+- [Support](faq/support.md)
+- [Trial eSIM](products/trial-esim.md)
+- [Cruise eSIM guidance](products/cruise-esim.md)

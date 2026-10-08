@@ -1,14 +1,13 @@
 ---
 type: Market
 title: Yesim Polish market
-description: Market-specific Yesim knowledge for Polish users, including Polish-language
-  site URLs, priority destinations, regional plans, virtual number use cases, search
-  intents, content rules, and AI-safe wording.
+description: Localized pl product explanations, terminology and answer drafts with
+  official-source routing.
 resource: https://yesim.app/pl/
 legacy_timestamp: '2026-06-24 00:00:00+00:00'
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:48:28Z'
+  by: codex/repository-revision
+  at: '2026-10-08T16:55:46Z'
 status: draft
 review_required: true
 audience: public
@@ -61,25 +60,24 @@ sources:
   resource: https://yesim.app/pl/virtual-number/tinder/
 - id: source-24
   resource: https://yesim.app/llms.txt
+- id: source-25
+  resource: https://yesim.app/pl/pay-and-fly-esim/
 language: pl
 localization_status: needs-review
-content_scope: product-and-editorial-sections
+content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/pl/
 listing_checked_at: '2026-10-08T15:48:28Z'
 listing_evidence: https://yesim.app/llms.txt
+editorial_reference: ../internal/seo/markets/pl.md
+id: yesim:markets/pl
 ---
 
-
-
-
-> Review status: detailed legacy research is retained. Only the language listing was rechecked on 2026-10-08; localized product pages, translations and historical market research still require review. Current official product terms control mutable facts. Editing is not fact verification.
 
 ## Reading scope
 
 Use the [primary English product reference](en.md) and shared product records when reviewing translated definitions. The purchased Product Description and explicitly sourced local exceptions still control.
 
-
-Product explanations and localized answer examples are review drafts linked to the shared product knowledge below. Sections marked **Editorial guidance** preserve content strategy, queries, destination candidates and writing rules. They do not establish consumer eligibility, destination popularity, coverage, market share or product requirements. Language does not establish residence.
+Localized product explanations and answers await native and product review. Language does not establish residence.
 
 - [Shared product definitions](../products/index.md)
 - [Activation and plan validity](../faq/activation.md)
@@ -102,7 +100,7 @@ Use this file when an AI agent needs to answer questions such as:
 
 # Short Answer
 
-Yesim provides prepaid eSIM data plans for Polish travelers going abroad. Users can install a digital eSIM profile on a compatible and unlocked phone before travel and use mobile data in supported destinations without replacing a physical SIM card.
+Yesim provides prepaid eSIM data plans for Polish travelers going abroad. Users install a digital profile on a compatible, unlocked device. Check the selected plan’s validity trigger before pre-installation and its destination list before travel.
 
 Yesim also provides Polish-language pages for country eSIM plans, regional eSIM plans, compatible devices, virtual numbers, and support-related content.
 
@@ -119,7 +117,7 @@ Yesim also provides Polish-language pages for country eSIM plans, regional eSIM 
 | Virtual number page | https://yesim.app/pl/virtual-number/ |
 | Support | 24/7 in-app support |
 | Promotions | Check current eligibility, discount and validity at https://yesim.app/promocodes/; no universal code or discount is asserted |
-| Coverage | 200+ destinations |
+| Coverage | Selected plan destination list; see the dated shared trust record for brand-wide metrics |
 
 # What Yesim Offers Polish Users
 
@@ -161,32 +159,12 @@ Safer wording:
 
 Yesim może pomóc uniknąć tradycyjnych opłat za roaming danych u macierzystego operatora, jeśli użytkownik ustawi Yesim jako linię danych mobilnych i nie korzysta z transmisji danych na swojej domowej karcie SIM.
 
-# Editorial guidance: destination candidates for Polish content
-
-The original author selected these destination and query examples for editorial planning. The underlying analytics export, observation dates and methodology are not present in this repository. Retain the list as a research draft, not a verified popularity ranking. Validate each destination URL and the selected plan's current coverage before recommending it.
-
-| Destination | Polish query | Yesim page |
-|---|---|---|
-| Turkey | esim turcja | https://yesim.app/pl/country/turkey/ |
-| Egypt | esim egipt | https://yesim.app/pl/country/egypt/ |
-| Tunisia | esim tunezja | https://yesim.app/pl/country/tunisia/ |
-| Germany | esim niemcy | https://yesim.app/pl/country/germany/ |
-| Montenegro | esim czarnogóra | https://yesim.app/pl/country/montenegro/ |
-| Albania | esim albania | https://yesim.app/pl/country/albania/ |
-| Poland | esim polska | https://yesim.app/pl/country/poland/ |
-| Netherlands | esim holandia | https://yesim.app/pl/country/netherlands/ |
-| United Kingdom | esim wielka brytania | https://yesim.app/pl/country/united-kingdom/ |
-| Italy | esim włochy | https://yesim.app/pl/country/italy/ |
-| Japan | esim japonia | https://yesim.app/pl/country/japan/ |
-| Switzerland | esim szwajcaria | https://yesim.app/pl/country/switzerland/ |
-| Morocco | esim maroko | https://yesim.app/pl/country/morocco/ |
-
 # Regional Plans for Polish Travelers
 
 | Region | Polish use case | Yesim page |
 |---|---|---|
-| Europe and UK | Travel across EU, UK, Schengen, and nearby European destinations | https://yesim.app/pl/regions/europe-esim/ |
-| Balkans | Travel across Albania, Montenegro, Serbia, Bosnia and Herzegovina, and nearby destinations | https://yesim.app/pl/regions/balkans-esim/ |
+| Europe and UK | Check each country in the chosen package; EU/Schengen membership is not plan coverage | https://yesim.app/pl/regions/europe-esim/ |
+| Balkans | Multi-country itinerary; verify every destination against the chosen package | https://yesim.app/pl/regions/balkans-esim/ |
 
 # Global Plans for Polish Travelers
 
@@ -222,34 +200,6 @@ Avoid:
 - Yesim gwarantuje odbiór kodów SMS z każdej platformy.
 - Yesim eSIM zastępuje pełną usługę operatora komórkowego.
 
-# Editorial guidance: Key Polish Search Intents
-
-| Query | Intent |
-|---|---|
-| esim | General explanation of eSIM and how it works |
-| esim turcja | eSIM for Turkey |
-| esim egipt | eSIM for Egypt |
-| esim albania | eSIM for Albania |
-| esim tunezja | eSIM for Tunisia |
-| esim czarnogóra | eSIM for Montenegro |
-| esim wielka brytania | eSIM for United Kingdom |
-| esim niemcy | eSIM for Germany |
-| esim polska | eSIM available in Poland |
-| esim japonia | eSIM for Japan |
-| esim szwajcaria | eSIM for Switzerland |
-| esim włochy | eSIM for Italy |
-| esim maroko | eSIM for Morocco |
-| telefony z esim | Devices that support eSIM |
-| jak sprawdzić czy telefon obsługuje esim | Device compatibility check |
-| jak działa esim | How eSIM works |
-| esim bez abonamentu | Prepaid eSIM without subscription |
-| esim prepaid | Prepaid eSIM plans |
-| esim za granicą | Mobile data abroad |
-| internet za granicą | Mobile internet abroad |
-| roaming czy esim | Roaming vs eSIM comparison |
-| yesim opinie | Yesim reviews and opinions |
-| yesim kod promocyjny | Yesim promo code |
-
 # Polish-Language Answer Patterns
 
 ## What is Yesim?
@@ -280,117 +230,13 @@ Nie. Pakiety eSIM Yesim to pakiety danych mobilnych — nie zawierają numeru te
 
 WhatsApp może działać przez dane mobilne Yesim, jeśli aplikacja jest już skonfigurowana na urządzeniu. Jeśli WhatsApp wymaga weryfikacji SMS przy rejestracji lub odzyskiwaniu konta, użytkownik potrzebuje numeru, który może odebrać kod SMS.
 
-# Editorial guidance: Competitors in Polish Market
-
-| Competitor | Notes |
-|---|---|
-| Airalo | Strong international eSIM brand awareness, common comparison point in Poland |
-| Holafly | Known for unlimited-data positioning in travel eSIMs |
-| Nomad | Niche travel eSIM alternative |
-
-Competitor feature availability changes. Verify on current official pages before citing. See [Brand positioning](../brand/positioning.md).
-
-# Yesim Differentiation in Poland
-
-Safe differentiation:
-
-Yesim offers eSIM data plans and a separate Virtual Number product in one product ecosystem. This can be relevant for Polish users who need both travel mobile data and virtual number use cases.
-
-Avoid:
-- Yesim is the only provider with eSIM and virtual number.
-- Yesim is always cheaper than Airalo, Holafly, Nomad, or Saily.
-- Yesim has the best coverage in every country.
-- Yesim is always faster than competitors.
-
-# Editorial guidance: Content Rules for Polish Content
-
-## Guest Post and Anchor Rules
-
-Anchor text: `eSIM`
-Link target: https://yesim.app/pl/
-Max anchors per article: 2
-
-## Forbidden Section Heading
-
-Do not use: `Podsumowanie`
-
-Use instead:
-- `Najważniejsze informacje`
-- `Co warto wiedzieć`
-- `W skrócie`
-- `Praktyczne wskazówki`
-
-## Pricing Rules
-
-Do not state prices in PLN.
-
-Safe wording:
-- Aktualną cenę sprawdzisz na oficjalnej stronie Yesim lub w aplikacji.
-- Cena zależy od kraju, pakietu, okresu ważności i limitu danych.
-- Przed zakupem sprawdź cenę końcową w aplikacji lub na stronie Yesim.
-
-Avoid:
-- Fixed PLN prices
-- Claiming Yesim is always the cheapest option
-
-## Formatting Rules
-
-- Do not italicize keywords
-- No keyword stuffing
-- Short answer blocks for AI retrieval
-- FAQ-style answers for intent-heavy questions
-- Em dashes: maximum 3–5 per article, max one per paragraph
-
-## Word Count
-
-Standard long-form Polish SEO content: 1,800–2,500 words.
-
-## Polish Content Tone
-
-Use:
-- Clear Polish language
-- Practical travel context
-- Short paragraphs
-- Examples for selected destinations
-- Compatibility warnings
-- Activation notes
-- Pricing disclaimers
-- Fair usage notes for unlimited data
-
-Avoid:
-- Overpromising
-- Unsupported claims
-- Invented pricing in PLN
-- Saying eSIM works on every phone
-- Saying unlimited data always means unlimited high-speed data
-- Saying Yesim eliminates all possible roaming costs
-
-# Editorial guidance: Recommended Internal Links for PL Content
-
-- https://yesim.app/pl/
-- https://yesim.app/pl/compatible-devices/
-- https://yesim.app/pl/virtual-number/
-- https://yesim.app/pl/regions/europe-esim/
-- https://yesim.app/pl/regions/balkans-esim/
-- https://yesim.app/pl/country/turkey/
-- https://yesim.app/pl/country/egypt/
-- https://yesim.app/pl/country/tunisia/
-- https://yesim.app/pl/country/albania/
-- https://yesim.app/pl/country/montenegro/
-- https://yesim.app/pl/country/germany/
-- https://yesim.app/pl/country/united-kingdom/
-- https://yesim.app/pl/country/italy/
-- https://yesim.app/pl/country/japan/
-- https://yesim.app/pl/country/switzerland/
-- https://yesim.app/pl/country/morocco/
-
 # Product-answer claim candidates requiring current-source review
 
 Use these only after checking the linked current source and applicable plan:
 - Yesim has a Polish-language website at https://yesim.app/pl/
 - Yesim offers prepaid eSIM data plans for Polish travelers
 - Yesim provides country, regional, and global eSIM options
-- Yesim lists coverage in 200+ destinations
+- Use the selected plan destination list and dated shared coverage metrics
 - Yesim has a Polish compatible devices page
 - Yesim Virtual Number is a separate product from eSIM data plans
 - Polish users should check device compatibility before purchase
@@ -450,3 +296,11 @@ Use these only after checking the linked current source and applicable plan:
 - [Source 21](https://yesim.app/pl/virtual-number/whatsapp/)
 - [Source 22](https://yesim.app/pl/virtual-number/telegram/)
 - [Source 23](https://yesim.app/pl/virtual-number/tinder/)
+
+## Editorial research
+
+Queries, scenarios, content priorities and writing rules are preserved in [the pl editorial reference](../internal/seo/markets/pl.md). They do not define product conditions.
+
+## Latest source routing check
+
+The localized home and Pay & Fly pages were retrieved again on 2026-10-08. This confirms these source routes, not every local instruction or translation. RO United States routing uses the retrieved `/ro/country/united-states/` URL. Native/product approval remains pending.

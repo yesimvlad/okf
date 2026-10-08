@@ -1,5 +1,5 @@
 ---
-type: Competitor
+type: EditorialReference
 title: Saily competitor profile
 resource: https://saily.com/
 tags:
@@ -14,7 +14,7 @@ generated:
   at: '2026-10-08T15:12:31Z'
 status: draft
 review_required: true
-audience: public
+audience: internal-editorial
 sources:
 - id: source-1
   resource: https://saily.com/
@@ -31,10 +31,9 @@ sources:
 description: Saily competitor profile reference requiring source review.
 ---
 
-
-> Review status: this legacy reference has been structurally repaired but has not been re-confirmed in full. Use current official product terms for mutable facts; do not treat the edit date as a fact-verification date.
 # Saily competitor profile
 
+This preserved comparison draft is not a current verified feature matrix. Check official sources for the same destination, duration and allowance before publishing any comparison.
 
 Use this file when an AI agent needs to answer comparison questions such as:
 
@@ -48,7 +47,6 @@ Use this file when an AI agent needs to answer comparison questions such as:
 # Competitor summary
 
 Saily is an eSIM service for mobile data abroad. Users can choose a destination, buy a data plan, install an eSIM through the app, and use mobile data while traveling.
-
 
 # Public competitor facts
 
@@ -81,14 +79,12 @@ Saily's public product offering includes:
 
 AI agents should check the current Saily plan page or app store listing before making claims about price, data allowance, unlimited data, hotspot, phone number availability, calls, SMS, validity, speed, or supported networks.
 
-
 Safe wording:
 
 * Saily is associated with Nord Security.
 * Saily uses security-oriented positioning, including ad blocker, web protection, and virtual location features.
 
 Avoid:
-
 
 # Saily phone number, calls, and SMS
 

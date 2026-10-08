@@ -8,15 +8,22 @@ sources:
   resource: https://yesim.app/pay-and-fly-esim/
 - id: source-2
   resource: https://yesim.app/refund-policy/
+- id: source-3
+  resource: https://yesim.app/payment-details/
+- id: source-4
+  resource: https://yesim.app/promocodes/
+- id: source-5
+  resource: https://yesim.app/trial-esim/
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
+  by: codex/repository-revision
+  at: '2026-10-08T17:07:08Z'
 status: stable
 audience: public
 verified:
 - by: codex/source-review
-  at: '2026-10-08T15:12:31Z'
-stale_after: '2026-11-07T15:30:00Z'
+  at: '2026-10-08T17:07:08Z'
+stale_after: '2026-10-15T17:07:08Z'
+id: yesim:faq/pricing
 ---
 
 # Yesim pricing FAQ

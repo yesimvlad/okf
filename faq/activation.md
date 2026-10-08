@@ -12,15 +12,20 @@ sources:
   resource: https://yesim.app/refund-policy/
 - id: source-4
   resource: https://yesim.app/unlim-day-pass/
+- id: source-5
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/
+- id: source-6
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-google-phones/
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
+  by: codex/repository-revision
+  at: '2026-10-08T17:07:08Z'
 status: stable
 audience: public
 verified:
 - by: codex/source-review
-  at: '2026-10-08T15:12:31Z'
-stale_after: '2026-11-07T15:30:00Z'
+  at: '2026-10-08T17:07:08Z'
+stale_after: '2026-10-15T17:07:08Z'
+id: yesim:faq/activation
 ---
 
 # Yesim installation and activation FAQ
@@ -29,7 +34,7 @@ stale_after: '2026-11-07T15:30:00Z'
 Installation adds an eSIM profile to a device. Plan activation and starting the validity period depend on the selected product's rules. Purchase, installation, enabling the mobile line, network connection and validity start must not be used interchangeably.
 
 ## How do I install the profile?
-Follow the current [Apple installation guide](https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/) or the device-specific instructions in the [Help Center](https://help.yesim.tech/). Use an internet connection and verify the exact device's eSIM support and carrier-unlocked status first.
+Follow the current [Apple installation guide](https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/) , [Android guide](https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/), [Google Pixel guide](https://help.yesim.tech/how-can-i-install-esim-on-google-phones/) or [installation reference](../guides/installation.md). Use an internet connection and verify the exact device's eSIM support and carrier-unlocked status first.
 
 ## How do I use Yesim for mobile data?
 After installation and the applicable plan activation, select the Yesim line for mobile data and follow the guide's Data Roaming settings for that line. Review home-SIM roaming and automatic data switching separately. Do not promise that every plan's validity starts only after landing.

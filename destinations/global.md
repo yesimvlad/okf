@@ -1,24 +1,26 @@
 ---
 type: Reference
 title: Yesim multi-destination products
-description: Coverage belongs to the selected product or plan, not to the brand as
-  a whole. The total number of destinations offered by Yesim must not be substituted
-  for the coverage of an individual package.
+description: Multi-destination product navigation with package-specific coverage and
+  billing distinctions.
 resource: https://yesim.app/global/
 sources:
 - id: source-1
   resource: https://yesim.app/pay-and-fly-esim/
 - id: source-2
   resource: https://yesim.app/unlim-day-pass/
+- id: source-3
+  resource: https://yesim.app/global/
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
+  by: codex/repository-revision
+  at: '2026-10-08T17:07:08Z'
 status: stable
 audience: public
 verified:
 - by: codex/source-review
-  at: '2026-10-08T15:12:31Z'
-stale_after: '2026-11-07T15:30:00Z'
+  at: '2026-10-08T17:07:08Z'
+stale_after: '2026-10-15T17:07:08Z'
+id: yesim:destinations/global
 ---
 
 # Yesim multi-destination products

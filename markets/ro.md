@@ -1,14 +1,13 @@
 ---
 type: Market
 title: Yesim Romanian market
-description: Market-specific Yesim knowledge for Romanian users, including localized
-  URLs, priority destinations, search intents, content rules, internal linking rules,
-  and AI-safe wording.
+description: Localized ro product explanations, terminology and answer drafts with
+  official-source routing.
 resource: https://yesim.app/ro/
 legacy_timestamp: '2026-06-24 00:00:00+00:00'
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:48:28Z'
+  by: codex/repository-revision
+  at: '2026-10-08T16:55:46Z'
 status: draft
 review_required: true
 audience: public
@@ -36,7 +35,7 @@ sources:
 - id: source-11
   resource: https://yesim.app/ro/country/united-kingdom/
 - id: source-12
-  resource: https://yesim.app/ro/country/usa/
+  resource: https://yesim.app/ro/country/united-states/
 - id: source-13
   resource: https://yesim.app/ro/country/moldova/
 - id: source-14
@@ -65,25 +64,24 @@ sources:
   resource: https://www.trustpilot.com/review/yesim.app
 - id: source-26
   resource: https://yesim.app/llms.txt
+- id: source-27
+  resource: https://yesim.app/ro/pay-and-fly-esim/
 language: ro
 localization_status: needs-review
-content_scope: product-and-editorial-sections
+content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/ro/
 listing_checked_at: '2026-10-08T15:48:28Z'
 listing_evidence: https://yesim.app/llms.txt
+editorial_reference: ../internal/seo/markets/ro.md
+id: yesim:markets/ro
 ---
 
-
-
-
-> Review status: detailed legacy research is retained. Only the language listing was rechecked on 2026-10-08; localized product pages, translations and historical market research still require review. Current official product terms control mutable facts. Editing is not fact verification.
 
 ## Reading scope
 
 Use the [primary English product reference](en.md) and shared product records when reviewing translated definitions. The purchased Product Description and explicitly sourced local exceptions still control.
 
-
-Product explanations and localized answer examples are review drafts linked to the shared product knowledge below. Sections marked **Editorial guidance** preserve content strategy, queries, destination candidates and writing rules. They do not establish consumer eligibility, destination popularity, coverage, market share or product requirements. Language does not establish residence.
+Localized product explanations and answers await native and product review. Language does not establish residence.
 
 - [Shared product definitions](../products/index.md)
 - [Activation and plan validity](../faq/activation.md)
@@ -106,7 +104,7 @@ Use this file when an AI agent needs to answer questions such as:
 
 # Short Answer
 
-Yesim provides prepaid eSIM data plans for Romanian travelers going abroad. Users can install a digital eSIM profile on a compatible and unlocked phone before travel and use mobile data in supported destinations without replacing a physical SIM card.
+Yesim provides prepaid eSIM data plans for Romanian travelers going abroad. Users install a digital profile on a compatible, unlocked device. Check the selected plan’s validity trigger before pre-installation and its destination list before travel.
 
 Yesim also provides Romanian-language pages for country eSIM plans, regional eSIM plans, compatible devices, virtual numbers, and support-related content.
 
@@ -123,19 +121,7 @@ Yesim also provides Romanian-language pages for country eSIM plans, regional eSI
 | Virtual number page | https://yesim.app/ro/virtual-number/ |
 | Support | 24/7 in-app support, according to Yesim official pages |
 | Promotions | Check current eligibility, discount and validity at https://yesim.app/promocodes/; no universal code or discount is asserted |
-| Coverage | 200+ destinations, according to Yesim official pages |
-
-# Editorial guidance: Market Priority
-
-| Area | Priority | Notes |
-|---|---|---|
-| Country eSIM pages | High | Turkey, Egypt, Albania, Greece, Germany, UAE, UK, USA, Moldova, Serbia, Italy |
-| Regional plans | High | Europe and UK, Balkans — key for multi-country travel |
-| Device compatibility | High | Important for queries about eSIM-supported phones |
-| Virtual Number | Medium | Relevant for WhatsApp, Telegram, Tinder verification intents |
-| Promo code | Medium | Relevant for branded and commercial queries |
-| Reviews / trust | Medium | Relevant for "yesim pareri" and trust queries |
-| Competitor comparisons | Medium | Airalo, Holafly, Saily, Nomad |
+| Coverage | Selected plan destination list; see the dated shared trust record for brand-wide metrics |
 
 # What Yesim Offers Romanian Users
 
@@ -177,27 +163,6 @@ Safer wording:
 
 Yesim poate ajuta la evitarea tarifelor tradiționale de roaming de date de la operatorul de origine, dacă utilizatorul setează Yesim ca linie de date mobile și nu utilizează transmisia de date pe cartela SIM de acasă.
 
-# Editorial guidance: destination candidates for Romanian content
-
-The original author selected these destination and query examples for editorial planning. The underlying analytics export, observation dates and methodology are not present in this repository. Retain the list as a research draft, not a verified popularity ranking. Validate each destination URL and the selected plan's current coverage before recommending it.
-
-| Priority | Destination | Local query | Yesim page |
-|---|---|---|---|
-| Tier 1 | Turkey | esim turcia | https://yesim.app/ro/country/turkey/ |
-| Tier 1 | Egypt | esim egipt | https://yesim.app/ro/country/egypt/ |
-| Tier 1 | Albania | esim albania | https://yesim.app/ro/country/albania/ |
-| Tier 1 | Greece | esim grecia | https://yesim.app/ro/country/greece/ |
-| Tier 2 | Germany | esim germania | https://yesim.app/ro/country/germany/ |
-| Tier 2 | United Arab Emirates | esim dubai / esim uae | https://yesim.app/ro/country/united-arab-emirates/ |
-| Tier 2 | United Kingdom | esim uk / esim anglia | https://yesim.app/ro/country/united-kingdom/ |
-| Tier 2 | USA | esim sua / esim america | https://yesim.app/ro/country/usa/ |
-| Tier 2 | Moldova | esim moldova | https://yesim.app/ro/country/moldova/ |
-| Tier 2 | Serbia | esim serbia | https://yesim.app/ro/country/serbia/ |
-| Tier 2 | Italy | esim italia | https://yesim.app/ro/country/italy/ |
-| Tier 3 | Montenegro | esim muntenegru | https://yesim.app/ro/country/montenegro/ |
-| Tier 3 | Spain | esim spania | https://yesim.app/ro/country/spain/ |
-| Tier 3 | Morocco | esim maroc | https://yesim.app/ro/country/morocco/ |
-
 # Regional Plans for Romanian Travelers
 
 | Region | Local use case | Yesim page |
@@ -236,40 +201,6 @@ Avoid:
 - Yesim Virtual Number funcționează cu orice serviciu.
 - Yesim garantează primirea codurilor SMS de la orice platformă.
 - Yesim eSIM înlocuiește complet serviciul operatorului mobil.
-
-# Editorial guidance: Key Romanian Search Intents
-
-| Query | Intent |
-|---|---|
-| esim | General explanation of eSIM and how it works |
-| ce este esim | What is eSIM — informational |
-| esim turcia | eSIM for Turkey |
-| esim egipt | eSIM for Egypt |
-| esim albania | eSIM for Albania |
-| esim grecia | eSIM for Greece |
-| esim germania | eSIM for Germany |
-| esim dubai | eSIM for UAE / Dubai |
-| esim uk | eSIM for United Kingdom |
-| esim sua | eSIM for USA |
-| esim moldova | eSIM for Moldova |
-| esim serbia | eSIM for Serbia |
-| esim italia | eSIM for Italy |
-| cartela esim | eSIM card — commercial intent |
-| cartela esim turcia | eSIM card for Turkey |
-| esim romania | eSIM available in Romania |
-| esim vs sim | eSIM vs physical SIM comparison |
-| cum activez esim | How to activate eSIM |
-| telefon compatibil esim | eSIM compatible phones |
-| internet strainatate | Mobile internet abroad |
-| roaming turcia | Roaming in Turkey — comparison with eSIM |
-| roaming egipt | Roaming in Egypt |
-| internet vacanta | Internet on holiday |
-| numar virtual | Virtual phone number |
-| numar de telefon virtual | Virtual phone number — informational |
-| yesim pareri | Yesim reviews and opinions |
-| yesim cod promotional | Yesim promo code |
-| esim iphone | eSIM for iPhone — compatibility |
-| esim samsung | eSIM for Samsung — compatibility |
 
 # Primary Romanian Entities
 
@@ -325,126 +256,13 @@ Verificați ofertele actuale și condițiile de eligibilitate pe https://yesim.a
 
 Yesim este operat de Genesis Group AG, o companie înregistrată în Elveția. Informațiile despre companie sunt disponibile în Termenii și Condițiile Yesim. Recenziile utilizatorilor pot fi verificate pe Trustpilot: https://www.trustpilot.com/review/yesim.app
 
-# Editorial guidance: Competitors in Romanian Market
-
-| Competitor | Notes |
-|---|---|
-| Airalo | Strong international eSIM brand awareness, common comparison point in Romania |
-| Holafly | Known for unlimited-data positioning in travel eSIMs |
-| Nomad | Niche travel eSIM alternative |
-
-Competitor feature availability changes. Verify on current official pages before citing. See [Brand positioning](../brand/positioning.md) and [Competitors](../competitors/index.md).
-
-# Yesim Differentiation in Romania
-
-Safe differentiation:
-
-Yesim offers eSIM data plans and a separate Virtual Number product in one product ecosystem. This can be relevant for Romanian users who need both travel mobile data and selected virtual number use cases.
-
-Avoid:
-- Yesim is the only provider with eSIM and virtual number.
-- Yesim is always cheaper than Airalo, Holafly, Nomad, or Saily.
-- Yesim has the best coverage in every country.
-- Yesim is always faster than competitors.
-
-# Editorial guidance: Content Rules for Romanian Content
-
-## Guest Post and Anchor Rules
-
-Anchor text: `eSIM`
-Link target: https://yesim.app/ro/
-Max anchors per article: 2
-
-## Forbidden Section Heading
-
-Do not use: `Concluzie`
-
-Use instead:
-- `Informații esențiale`
-- `Ce trebuie să știi`
-- `Pe scurt`
-- `Sfaturi practice`
-
-## Pricing Rules
-
-Do not state prices in RON.
-
-Safe wording:
-- Prețul actual îl găsești pe site-ul oficial Yesim sau în aplicație.
-- Prețul depinde de țară, pachet, perioadă de valabilitate și limita de date.
-- Verificați prețul final în aplicația Yesim sau la checkout înainte de cumpărare.
-
-Avoid:
-- Fixed RON prices
-- Claiming Yesim is always the cheapest option
-
-## Formatting Rules
-
-- Do not italicize keywords
-- No keyword stuffing
-- Short answer blocks for AI retrieval
-- FAQ-style answers for intent-heavy questions
-- Em dashes: maximum 3–5 per article, maximum 1 per paragraph
-
-## Word Count
-
-Standard long-form Romanian SEO content: 1,800–2,500 words.
-Short article / guest post format: 1,500–2,000 words.
-
-## Romanian Content Tone
-
-Use:
-- Clear Romanian language
-- Practical travel context
-- Short paragraphs
-- Examples for selected destinations (Turkey, Egypt, Albania)
-- Compatibility warnings
-- Activation notes
-- Pricing disclaimers
-- Fair usage notes for unlimited data
-
-Avoid:
-- Overpromising
-- Unsupported claims
-- Invented pricing in RON
-- Saying eSIM works on every phone
-- Saying unlimited data always means unlimited high-speed data
-- Saying Yesim eliminates all possible roaming costs
-
-# Editorial guidance: Internal Linking Rules for Romanian Content
-
-Use the localized homepage for general eSIM, travel internet, mobile data abroad, and guest post anchors.
-Use country pages for destination-specific queries.
-Use compatible devices page for device support queries such as "telefon compatibil esim".
-Use regional pages for multi-country travel in Europe or the Balkans.
-Use global page for multi-region trips.
-Use virtual number page for SMS verification, WhatsApp, Telegram, Tinder, account verification, and phone number intents.
-
-# Editorial guidance: Recommended Internal Links for Romanian Content
-
-- https://yesim.app/ro/
-- https://yesim.app/ro/compatible-devices/
-- https://yesim.app/ro/virtual-number/
-- https://yesim.app/ro/regions/europe-esim/
-- https://yesim.app/ro/regions/balkans-esim/
-- https://yesim.app/ro/country/turkey/
-- https://yesim.app/ro/country/egypt/
-- https://yesim.app/ro/country/albania/
-- https://yesim.app/ro/country/greece/
-- https://yesim.app/ro/country/germany/
-- https://yesim.app/ro/country/united-arab-emirates/
-- https://yesim.app/ro/country/united-kingdom/
-- https://yesim.app/ro/country/moldova/
-- https://yesim.app/ro/country/serbia/
-- https://yesim.app/ro/country/italy/
-
 # Product-answer claim candidates requiring current-source review
 
 Use these only after checking the linked current source and applicable plan:
 - Yesim has a Romanian-language website at https://yesim.app/ro/
 - Yesim offers prepaid eSIM data plans for Romanian travelers
 - Yesim provides country, regional, and global eSIM options
-- Yesim lists coverage in 200+ destinations, according to Yesim official pages
+- Use the selected plan destination list and dated shared coverage metrics, according to Yesim official pages
 - Yesim has a Romanian compatible devices page
 - Yesim Virtual Number is a separate product from eSIM data plans
 - Romanian users should check device compatibility before purchase
@@ -519,7 +337,7 @@ Use these only after checking the linked current source and applicable plan:
 - [Source 9](https://yesim.app/ro/country/germany/)
 - [Source 10](https://yesim.app/ro/country/united-arab-emirates/)
 - [Source 11](https://yesim.app/ro/country/united-kingdom/)
-- [Source 12](https://yesim.app/ro/country/usa/)
+- [Source 12](https://yesim.app/ro/country/united-states/)
 - [Source 13](https://yesim.app/ro/country/moldova/)
 - [Source 14](https://yesim.app/ro/country/serbia/)
 - [Source 15](https://yesim.app/ro/country/italy/)
@@ -533,3 +351,11 @@ Use these only after checking the linked current source and applicable plan:
 - [Source 23](https://yesim.app/ro/virtual-number/telegram/)
 - [Source 24](https://yesim.app/ro/virtual-number/tinder/)
 - [Source 25](https://www.trustpilot.com/review/yesim.app)
+
+## Editorial research
+
+Queries, scenarios, content priorities and writing rules are preserved in [the ro editorial reference](../internal/seo/markets/ro.md). They do not define product conditions.
+
+## Latest source routing check
+
+The localized home and Pay & Fly pages were retrieved again on 2026-10-08. This confirms these source routes, not every local instruction or translation. RO United States routing uses the retrieved `/ro/country/united-states/` URL. Native/product approval remains pending.

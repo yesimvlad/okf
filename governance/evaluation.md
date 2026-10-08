@@ -1,10 +1,8 @@
 ---
 type: EvaluationProtocol
 title: LLM knowledge evaluation
-description: Use at least 12 cases covering product identity, data-only limitations,
-  Pay & Fly billing, Unlim Day Pass validity, activation versus installation, hotspot/FUP,
-  regional device compatibility, virtual-number calls, third-party verification, home-SIM
-  charges and refunds after insta
+description: A repeatable protocol for testing factual accuracy, completeness and
+  discovery in separate LLM modes.
 generated:
   by: codex/okf-repair
   at: '2026-10-08T15:12:31Z'
@@ -14,6 +12,7 @@ review_required: true
 sources:
 - id: source-1
   resource: ../evaluations/cases.yaml
+id: yesim:governance/evaluation
 ---
 
 # LLM knowledge evaluation
@@ -33,3 +32,7 @@ Measure citation/mention rates separately in public web-search tests. A before/a
 ## Primary English reference evaluation
 
 [English cases](../evaluations/en-cases.yaml) adds 38 source-backed prompts covering identity, compatibility, activation, billing, coverage, day-pack expiry, number functions, third-party acceptance, trial conditions, refunds and business routing. They are authored checks, not executed model results. Confirm the English reference enters a fresh public export while its editorial counterpart and draft localizations remain excluded. Run repeated model comparisons separately for no-web, explicit fresh bundle and public web-search modes.
+
+## Revision extensions and result recording
+
+The current English set has 44 authored cases (six added for Android/Pixel, cruise, support, identity checks, verification payments and number renewal). Use [the result template](../evaluations/result-template.json) to store model/version, timestamp, exact prompt, mode, bundle commit/hash, answer, citations, correctness and completeness. A template is not a model run. Use at least three independent runs, ideally five, per case/mode and evaluate source support independently of citation count.

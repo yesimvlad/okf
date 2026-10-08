@@ -12,6 +12,7 @@ review_required: true
 sources:
 - id: source-1
   resource: https://yesim.app/terms-of-service/
+id: yesim:governance/open-questions
 ---
 
 # Product questions requiring confirmation
@@ -27,3 +28,12 @@ sources:
 | Which offers and promotion codes are currently eligible in each market/currency? | Marketing / product | No universal code or fixed price without fresh evidence |
 
 Public-source review establishes a snapshot, not app-level tests or human product approval. No review assignment or sign-off is claimed here.
+
+## Production conflicts for Product/Legal
+
+- Align Trial and Cruise refund claims with the current Refund Policy.
+- Resolve Business Virtual Numbers no-KYC/anonymity wording against Terms §5.2 and Privacy Policy.
+- Correct Trial eligibility/paid wording and number capabilities in the existing root llms.txt.
+- Assign real owners and approve the publication/redistribution policy for Yesim materials.
+
+See [the revision audit](../docs/revision-audit.md). These are unresolved source conflicts, not changes already made to production.

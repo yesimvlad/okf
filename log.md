@@ -35,3 +35,13 @@ Automated source review does not imply human product approval, app-level testing
 - Separated English query/scenario/content proposals into an internal-editorial draft; no keyword-volume or popularity evidence is invented.
 - Linked the primary reference from the bundle, language registry and detailed localizations, while preserving selected-product and sourced local-exception precedence.
 - Added 38 English evaluation cases. Source review is automated; no human product approval, app test, model benchmark or production website deployment is claimed.
+
+## 2026-10-08 — Whole-repository revision and publication build
+
+- Retained `generated` provenance in source OKF; added clean HTML/Markdown views without frontmatter.
+- Replaced unsafe legacy roaming, device, pricing, coverage and privacy summaries with scoped source-reviewed records.
+- Added Trial, Cruise, installation and support; completed bounded business-product descriptions.
+- Split full PL/RO and 13-locale editorial research from product answers; preserved queries, scenarios and original writing rules.
+- Added entity IDs, data ownership, six EN questions (44 EN / 188 overall), publication plan and result template.
+- Added static site export, freshness/scope/content checks and GitHub build artifacts.
+- Production-site copy conflicts and pending native/Product/Legal reviews remain explicit; no website deployment or model benchmark is claimed.

@@ -13,6 +13,20 @@ LINK = re.compile(r'\[[^\]\n]+\]\(([^)\n]+)\)')
 ACTOR = re.compile(r'^(?:human:|process:).+|^[^/\s]+/[^\s]+$')
 SKIP = {'.git', '.venv', '__pycache__', 'dist'}
 
+class UniqueKeyLoader(yaml.SafeLoader):
+    """Reject silently overwritten metadata instead of approving ambiguous YAML."""
+
+def unique_mapping(loader, node, deep=False):
+    mapping = {}
+    for key_node, value_node in node.value:
+        key = loader.construct_object(key_node, deep=deep)
+        if key in mapping:
+            raise ValueError(f'duplicate YAML key: {key}')
+        mapping[key] = loader.construct_object(value_node, deep=deep)
+    return mapping
+
+UniqueKeyLoader.add_constructor(yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG, unique_mapping)
+
 def timestamp(value):
     if not isinstance(value, (str, datetime)):
         raise ValueError('expected an ISO 8601 timestamp')
@@ -25,7 +39,7 @@ def split_document(text):
     match = re.match(r'\A---\r?\n(.*?)\r?\n---(?:\r?\n|$)(.*)', text, re.S)
     if not match:
         return None, text
-    meta = yaml.safe_load(match.group(1))
+    meta = yaml.load(match.group(1), Loader=UniqueKeyLoader)
     if not isinstance(meta, dict):
         raise ValueError('frontmatter must be a YAML mapping')
     return meta, match.group(2)
@@ -48,6 +62,7 @@ def inspect(root, now=None):
     root = root.resolve()
     now = now or datetime.now(timezone.utc)
     errors, warnings, records = [], [], {}
+    record_ids = {}
     root_index = root/'index.md'
     if not root_index.exists():
         errors.append('index.md: missing bundle index')
@@ -81,6 +96,11 @@ def inspect(root, now=None):
                 for key in ('type','title','description'):
                     if key in meta and (not isinstance(meta[key],str) or not meta[key].strip()):
                         errors.append(f'{rel}: {key} must be a nonempty string')
+                if meta.get('id'):
+                    key = meta['id']
+                    if not isinstance(key,str): errors.append(f'{rel}: id must be a string')
+                    elif key in record_ids: errors.append(f'{rel}: duplicate record id also in {record_ids[key]}')
+                    else: record_ids[key] = rel
                 if meta.get('status') not in {'draft','stable','deprecated'}:
                     errors.append(f'{rel}: invalid status')
                 if meta.get('audience') not in {'public','internal-editorial','reference'}:
@@ -146,6 +166,31 @@ def inspect(root, now=None):
                 target = link_target(root,p,value)
                 if target is not None and not target.exists(): errors.append(f'{rel}: broken link {value}')
             except ValueError as exc: errors.append(f'{rel}: {value}: {exc}')
+    # Authored evaluation cases are checked structurally, never reported as executed runs.
+    case_ids = set()
+    for p in sorted((root/'evaluations').glob('*cases.yaml')):
+        rel=p.relative_to(root).as_posix()
+        try:
+            data=yaml.load(p.read_text(encoding='utf-8'),Loader=UniqueKeyLoader)
+            if not isinstance(data,dict) or not isinstance(data.get('cases'),list):
+                raise ValueError('expected a mapping with cases list')
+            for item in data['cases']:
+                if not isinstance(item,dict): raise ValueError('case must be a mapping')
+                for field in ('id','prompt','expected'):
+                    if not isinstance(item.get(field),str) or not item[field].strip():
+                        errors.append(f'{rel}: each case needs nonempty {field}')
+                key=item.get('id')
+                if isinstance(key,str):
+                    if key in case_ids: errors.append(f'{rel}: duplicate evaluation id {key}')
+                    case_ids.add(key)
+                if not isinstance(item.get('critical'),bool):errors.append(f'{rel}: case {key} needs boolean critical')
+                urls=item.get('sources')
+                if not isinstance(urls,list) or not urls or any(not isinstance(u,str) or urlsplit(u).scheme not in {'http','https'} for u in urls):
+                    errors.append(f'{rel}: case {key} needs official source URLs')
+                if item.get('knowledge_record'):
+                    target=link_target(root,root/'index.md',item['knowledge_record'])
+                    if target is None or not target.exists(): errors.append(f'{rel}: case {key} has missing knowledge record')
+        except (ValueError,TypeError,yaml.YAMLError) as exc:errors.append(f'{rel}: {exc}')
     return errors, warnings, records
 
 def main():
