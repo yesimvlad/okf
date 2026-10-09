@@ -7,8 +7,6 @@ resource: https://yesim.app/
 sources:
 - id: source-1
   resource: https://yesim.app/
-- id: source-2
-  resource: https://yesim.app/trial-esim/
 - id: source-3
   resource: https://yesim.app/esim-cruise/
 - id: source-4
@@ -69,7 +67,6 @@ Current legal policy and purchase-specific Product Description take precedence o
 
 ## Additional reviewed routes
 
-- [https://yesim.app/trial-esim/](https://yesim.app/trial-esim/)
 - [https://yesim.app/esim-cruise/](https://yesim.app/esim-cruise/)
 - [https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/](https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/)
 - [https://help.yesim.tech/how-can-i-install-esim-on-google-phones/](https://help.yesim.tech/how-can-i-install-esim-on-google-phones/)

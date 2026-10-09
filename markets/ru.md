@@ -1,26 +1,25 @@
 ---
 type: Market
-title: Yesim Russian market and language knowledge
-description: Localized ru product explanations, terminology and answer drafts with
-  official-source routing.
+title: Продукты Yesim и ответы на вопросы
+description: Условия выбранного продукта и действующие политики Yesim определяют цену,
+  покрытие, активацию и возврат. Язык сайта не определяет страну проживания или доступность
+  оплаты.
 resource: https://yesim.tech/ru/
 language: ru
 audience: public
-status: draft
-review_required: true
-localization_status: needs-native-and-product-review
+status: stable
+localization_status: automated-source-and-language-reviewed
 content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/ru/
 editorial_primary_url: https://yesim.tech/ru/
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T16:55:46Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:13:44Z'
 source_review:
-  by: codex/source-retrieval
-  at: '2026-10-08T16:16:02Z'
-  scope: Retrieved localized home, product-navigation, compatibility, four destination,
-    regional and global page text. Draft translations are new authored examples; full
-    endpoint/canonical/hreflang and app-level checks were not performed.
+  by: codex/live-http-and-source-review
+  at: '2026-10-08T18:13:44Z'
+  scope: Cited official endpoints, HTTP status, visible no-JavaScript text, canonical
+    and hreflang. Payment/refund/privacy/Terms control policy summaries.
 sources:
 - id: source-1
   resource: https://yesim.tech/ru/
@@ -56,8 +55,23 @@ sources:
   resource: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/
 - id: source-17
   resource: https://help.yesim.tech/unlimited-data-plans-policy/
+- id: source-18
+  resource: https://yesim.app/payment-details/
+- id: source-19
+  resource: https://yesim.app/privacy-policy/
 editorial_reference: ../internal/seo/markets/ru.md
 id: yesim:markets/ru
+public_view: localized-answers
+translation_group: yesim-product-overview
+source_links_heading: Официальные источники
+verified:
+- by: codex/source-review
+  at: '2026-10-08T18:13:44Z'
+- by: codex/linguistic-review
+  at: '2026-10-08T18:13:44Z'
+stale_after: '2026-10-15T18:13:44Z'
+review_scope: Public-source facts and native public answers; automated linguistic
+  review, not human/native employee approval or checkout testing.
 ---
 
 # Yesim Russian market and language knowledge
@@ -66,9 +80,9 @@ id: yesim:markets/ru
 
 Use the [primary English product reference](en.md) and shared product records when reviewing translated definitions. The purchased Product Description and explicitly sourced local exceptions still control.
 
-Localized product explanations and answers await native and product review.
+Product facts and native-language answers have an automated source and linguistic review dated 2026-10-08. This is not human employee sign-off.
 
-These detailed records remain outside the verified consumer export. For direct repository retrieval, retain these scope labels and check current Product Descriptions before quoting mutable conditions.
+The public site publishes the native answer view below. The machine-readable OKF copy preserves this detailed reference and its separate editorial link. Current Product Descriptions control mutable conditions.
 
 ## Short answer in Russian
 
@@ -87,9 +101,9 @@ Yesim предлагает предоплаченные пакеты мобил�
 | Local price, currency and payment eligibility | Check current checkout and source; no hardcoded local price |
 | Support and troubleshooting | Follow current Help Center; support@yesim.app; response time and language availability are not guaranteed here |
 | Source retrieval | 2026-10-08; retrieved web text may be cached |
-| Native-language and product approval | Pending |
+| Review | Automated source and linguistic review; no human sign-off |
 
-The localized home, Pay & Fly, Virtual Number, compatibility, region/global and four country pages were retrieved during this review. Page retrieval is not an HTTP-status, canonical/hreflang, indexability or complete translation audit. A destination page establishes a navigation source, not eligibility for every customer or inclusion in every plan.
+The localized home, Pay & Fly, Virtual Number, compatibility, region/global and four country pages were retrieved during this review. Live HTTP, canonical, hreflang and no-JavaScript text were inspected for the cited endpoints; this is not an app or checkout test. A destination page establishes a navigation source, not eligibility for every customer or inclusion in every plan.
 
 ## Product distinctions
 
@@ -118,7 +132,7 @@ Compatibility source [^source-4]; activation variants [^source-11]; device instr
 
 ## Local terminology
 
-Terminology draft; native review pending. Installation, activation, validity and top-up must remain distinct concepts.
+Terminology checked in the automated linguistic review. Installation, activation, validity and top-up must remain distinct concepts.
 
 | Concept | Local wording | Shared definition |
 |---|---|---|
@@ -153,7 +167,7 @@ Localized overview [^source-3]; capability and acceptance limits [^source-12].
 
 ## Localized answer patterns
 
-Draft Russian answers for retrieval and editorial review. The linked knowledge records retain the full conditions; short answers must not be detached from those conditions.
+Source-reviewed Russian answers for retrieval. The linked knowledge records retain the full conditions; short answers must not be detached from those conditions.
 
 ### Что такое Yesim?
 
@@ -230,15 +244,9 @@ Pay & Fly списывает оплату за использованные да
 
 Do not promise no home-operator charges, guaranteed 5G, access to every third-party app, bank verification success, emergency calling or permanent local telecom replacement.
 
-## Review and maintenance queue
+## Review and maintenance
 
-1. Native reviewer: approve terminology, answer wording and regional register.
-2. Product/support reviewer: confirm selected-package activation, FUP, number SKUs and applicable purchase conditions; then approve the product record.
-3. SEO reviewer: replace query hypotheses with dated GSC/Ahrefs evidence; verify suggested linking against the current site.
-4. Developer/SEO: separately inspect redirects, HTTP status, canonical/hreflang, JS-independent content and indexability on production.
-5. Owner: keep editorial research separate and promote the product record only after the required reviews. Shared billing/activation/legal changes must trigger localized-answer review.
-
-No actual public-model benchmark, native approval or production deployment is claimed. See [evaluation protocol](../governance/evaluation.md).
+Public-source facts and native answer wording were checked on 2026-10-08. Shared policy changes require updates to EN and all affected translations. Preserve local exceptions only with explicit evidence. Follow current purchased Product Descriptions for inventory, FUP, price and activation; do not infer them from language. SEO query research stays in the separate editorial file. Human review, app tests and model benchmarks have not been performed.
 
 ## Related knowledge
 
@@ -278,3 +286,85 @@ Retrieved localized sources and shared policy/instruction references. Source ret
 ## Editorial research
 
 Queries, scenarios, content priorities and writing rules are preserved in [the ru editorial reference](../internal/seo/markets/ru.md). They do not define product conditions.
+
+[^source-18]: https://yesim.app/payment-details/. Checked 2026-10-08.
+
+[^source-19]: https://yesim.app/privacy-policy/. Checked 2026-10-08.
+
+<!-- public-view:start -->
+# Продукты Yesim и ответы на вопросы
+
+Yesim предлагает предоплаченные пакеты мобильного интернета через eSIM для путешествий на совместимых устройствах и в поддерживаемых направлениях. Виртуальные номера продаются отдельно; пакет данных сам по себе не включает телефонный номер. [^source-1] [^source-3]
+
+Условия выбранного продукта и действующие политики Yesim определяют цену, покрытие, активацию и возврат. Язык сайта не определяет страну проживания или доступность оплаты.
+
+## Вопросы и ответы
+
+### Что такое Yesim?
+
+Yesim предлагает пакеты мобильного интернета через eSIM для поездок. Перед покупкой проверьте устройство, направление и условия тарифа. [^source-12] [^source-1]
+
+### Подойдёт ли мой телефон?
+
+Проверьте точную модель, региональную версию, поддержку eSIM и отсутствие блокировки оператором. Названия серии или наличия Dual SIM недостаточно. [^source-4]
+
+### Когда начинается срок действия?
+
+Это зависит от тарифа. Покупка, установка и первое подключение могут иметь разные последствия; ориентируйтесь на описание выбранного пакета. [^source-11]
+
+### Как выбрать пакет для нескольких стран?
+
+Сравните региональные и глобальные пакеты и проверьте каждую страну маршрута в списке покрытия выбранного тарифа. [^source-6]
+
+### Чем отличаются Pay & Fly и Unlim Day Pass?
+
+Pay & Fly списывает оплату за использованные данные. Unlim Day Pass представляет собой отдельный пакет дней использования со своими сроками и условиями. [^source-2] [^source-14]
+
+### Входит ли номер телефона в пакет данных?
+
+Пакет только для интернета не включает номер и обычные сотовые звонки или SMS. Виртуальный номер покупается отдельно; его функции зависят от выбранной услуги. [^source-12]
+
+### Можно ли пользоваться WhatsApp?
+
+Настроенный мессенджер может работать через мобильный интернет. Приём виртуального номера для проверки аккаунта зависит от платформы и не гарантируется. [^source-12]
+
+### Безлимит означает максимальную скорость всегда?
+
+Нет. Проверьте ограничения выбранного пакета, правила добросовестного использования и доступность сети. Условия могут различаться между тарифами. [^source-17]
+
+### Где проверить цену и промокод?
+
+На сайте или в приложении перед оплатой. Проверяйте итоговую сумму, валюту и условия акции; фиксированные цены в рублях и универсальные скидки здесь не утверждаются. [^source-1]
+
+### Вернут ли деньги, если eSIM установлена, но интернет не использовался?
+
+Нулевой расход данных сам по себе не подтверждает право на возврат. Политика возврата считает установку профиля активацией; учитывайте текущие правила и канал покупки. [^source-13]
+
+### Какие условия и сроки возврата?
+
+Стандартный запрос подают в течение 30 календарных дней после покупки, если продукт не активирован, не использован и не просрочен. Установка профиля eSIM считается активацией. Обработка запроса занимает до 15 рабочих дней; зачисление банком может занять дополнительное время. [^source-13]
+
+### Куда поступит одобренный возврат?
+
+Возврат на сумму €10 или меньше производится только в Ycoins. Для большей суммы обычно используется исходный способ оплаты. Покупки через стороннюю площадку возвращаются по её правилам; одобрение возврата не гарантировано. [^source-13] [^source-18]
+
+### Может ли Yesim запросить документы?
+
+Да. Раздел 5.2 Terms допускает проверку личности и права на использование услуги. Privacy Policy описывает обработку личных, технических и платёжных данных. Yesim не хранит полные реквизиты карты, но может хранить ограниченные данные платежа. Полная анонимность не гарантируется. [^source-19] [^source-12]
+
+### Как работают дни Unlim Day Pass?
+
+Подключение к поддерживаемой сети запускает 24 часа использования и списывает день. Следующий день списывается при новом подключении после этих 24 часов. Срок пакета — 365 дней с покупки. Если купить новый пакет до истечения текущего, остаток переносится на 365 дней с новой покупки. [^source-14] [^source-13]
+
+### Почему при оплате списали €0,50?
+
+Добавление новой карты требует проверочного платежа €0,50, который зачисляется в Ycoins. При первой покупке за подарочные Ycoins также нужен проверочный платёж €0,50 с действующей карты. Это не возврат денег на карту. [^source-18]
+
+### Продлевается ли виртуальный номер автоматически?
+
+Страница оплаты описывает автоматическое продление подписки на номер при достаточном балансе и технической доступности номера. Проверьте условия выбранной услуги и настройки подписки; это не общее правило для всех eSIM-тарифов. [^source-18]
+
+### Как сообщить о техническом сбое для рассмотрения возврата?
+
+Политика требует сообщить о сбое в течение одного часа: напишите на support@yesim.app или через форму в приложении, приложив описание и скриншоты. Такое обращение само по себе не гарантирует возврат. [^source-13]
+<!-- public-view:end -->

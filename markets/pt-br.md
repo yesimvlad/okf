@@ -1,26 +1,25 @@
 ---
 type: Market
-title: Yesim Brazilian Portuguese market and language knowledge
-description: Localized pt-br product explanations, terminology and answer drafts with
-  official-source routing.
+title: Produtos Yesim e perguntas frequentes
+description: O preço, a cobertura, a ativação e os reembolsos dependem das condições
+  do produto escolhido e das políticas vigentes da Yesim. O idioma do site não determina
+  o país de residência nem os meios de pagamento disponíveis.
 resource: https://yesim.app/pt-br/
 language: pt-br
 audience: public
-status: draft
-review_required: true
-localization_status: needs-native-and-product-review
+status: stable
+localization_status: automated-source-and-language-reviewed
 content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/pt-br/
 editorial_primary_url: https://yesim.app/pt-br/
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T16:55:46Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:13:44Z'
 source_review:
-  by: codex/source-retrieval
-  at: '2026-10-08T16:16:02Z'
-  scope: Retrieved localized home, product-navigation, compatibility, four destination,
-    regional and global page text. Draft translations are new authored examples; full
-    endpoint/canonical/hreflang and app-level checks were not performed.
+  by: codex/live-http-and-source-review
+  at: '2026-10-08T18:13:44Z'
+  scope: Cited official endpoints, HTTP status, visible no-JavaScript text, canonical
+    and hreflang. Payment/refund/privacy/Terms control policy summaries.
 sources:
 - id: source-1
   resource: https://yesim.app/pt-br/
@@ -56,8 +55,23 @@ sources:
   resource: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/
 - id: source-17
   resource: https://help.yesim.tech/unlimited-data-plans-policy/
+- id: source-18
+  resource: https://yesim.app/payment-details/
+- id: source-19
+  resource: https://yesim.app/privacy-policy/
 editorial_reference: ../internal/seo/markets/pt-br.md
 id: yesim:markets/pt-br
+public_view: localized-answers
+translation_group: yesim-product-overview
+source_links_heading: Fontes oficiais
+verified:
+- by: codex/source-review
+  at: '2026-10-08T18:13:44Z'
+- by: codex/linguistic-review
+  at: '2026-10-08T18:13:44Z'
+stale_after: '2026-10-15T18:13:44Z'
+review_scope: Public-source facts and native public answers; automated linguistic
+  review, not human/native employee approval or checkout testing.
 ---
 
 # Yesim Brazilian Portuguese market and language knowledge
@@ -66,9 +80,9 @@ id: yesim:markets/pt-br
 
 Use the [primary English product reference](en.md) and shared product records when reviewing translated definitions. The purchased Product Description and explicitly sourced local exceptions still control.
 
-Localized product explanations and answers await native and product review.
+Product facts and native-language answers have an automated source and linguistic review dated 2026-10-08. This is not human employee sign-off.
 
-These detailed records remain outside the verified consumer export. For direct repository retrieval, retain these scope labels and check current Product Descriptions before quoting mutable conditions.
+The public site publishes the native answer view below. The machine-readable OKF copy preserves this detailed reference and its separate editorial link. Current Product Descriptions control mutable conditions.
 
 ## Short answer in Brazilian Portuguese
 
@@ -87,9 +101,9 @@ A Yesim oferece pacotes de dados móveis eSIM pré-pagos para viagens, em aparel
 | Local price, currency and payment eligibility | Check current checkout and source; no hardcoded local price |
 | Support and troubleshooting | Follow current Help Center; support@yesim.app; response time and language availability are not guaranteed here |
 | Source retrieval | 2026-10-08; retrieved web text may be cached |
-| Native-language and product approval | Pending |
+| Review | Automated source and linguistic review; no human sign-off |
 
-The localized home, Pay & Fly, Virtual Number, compatibility, region/global and four country pages were retrieved during this review. Page retrieval is not an HTTP-status, canonical/hreflang, indexability or complete translation audit. A destination page establishes a navigation source, not eligibility for every customer or inclusion in every plan.
+The localized home, Pay & Fly, Virtual Number, compatibility, region/global and four country pages were retrieved during this review. Live HTTP, canonical, hreflang and no-JavaScript text were inspected for the cited endpoints; this is not an app or checkout test. A destination page establishes a navigation source, not eligibility for every customer or inclusion in every plan.
 
 ## Product distinctions
 
@@ -118,7 +132,7 @@ Compatibility source [^source-4]; activation variants [^source-11]; device instr
 
 ## Local terminology
 
-Terminology draft; native review pending. Installation, activation, validity and top-up must remain distinct concepts.
+Terminology checked in the automated linguistic review. Installation, activation, validity and top-up must remain distinct concepts.
 
 | Concept | Local wording | Shared definition |
 |---|---|---|
@@ -153,7 +167,7 @@ Localized overview [^source-3]; capability and acceptance limits [^source-12].
 
 ## Localized answer patterns
 
-Draft Brazilian Portuguese answers for retrieval and editorial review. The linked knowledge records retain the full conditions; short answers must not be detached from those conditions.
+Source-reviewed Brazilian Portuguese answers for retrieval. The linked knowledge records retain the full conditions; short answers must not be detached from those conditions.
 
 ### O que é a Yesim?
 
@@ -234,15 +248,9 @@ The reviewed refund page contains a Brazil/Pix clause: approved refunds of Pix t
 
 Do not promise no home-operator charges, guaranteed 5G, access to every third-party app, bank verification success, emergency calling or permanent local telecom replacement.
 
-## Review and maintenance queue
+## Review and maintenance
 
-1. Native reviewer: approve terminology, answer wording and regional register.
-2. Product/support reviewer: confirm selected-package activation, FUP, number SKUs and applicable purchase conditions; then approve the product record.
-3. SEO reviewer: replace query hypotheses with dated GSC/Ahrefs evidence; verify suggested linking against the current site.
-4. Developer/SEO: separately inspect redirects, HTTP status, canonical/hreflang, JS-independent content and indexability on production.
-5. Owner: keep editorial research separate and promote the product record only after the required reviews. Shared billing/activation/legal changes must trigger localized-answer review.
-
-No actual public-model benchmark, native approval or production deployment is claimed. See [evaluation protocol](../governance/evaluation.md).
+Public-source facts and native answer wording were checked on 2026-10-08. Shared policy changes require updates to EN and all affected translations. Preserve local exceptions only with explicit evidence. Follow current purchased Product Descriptions for inventory, FUP, price and activation; do not infer them from language. SEO query research stays in the separate editorial file. Human review, app tests and model benchmarks have not been performed.
 
 ## Related knowledge
 
@@ -282,3 +290,85 @@ Retrieved localized sources and shared policy/instruction references. Source ret
 ## Editorial research
 
 Queries, scenarios, content priorities and writing rules are preserved in [the pt-br editorial reference](../internal/seo/markets/pt-br.md). They do not define product conditions.
+
+[^source-18]: https://yesim.app/payment-details/. Checked 2026-10-08.
+
+[^source-19]: https://yesim.app/privacy-policy/. Checked 2026-10-08.
+
+<!-- public-view:start -->
+# Produtos Yesim e perguntas frequentes
+
+A Yesim oferece pacotes de dados móveis eSIM pré-pagos para viagens, em aparelhos e destinos compatíveis. Os números virtuais são um produto separado; um pacote de dados não inclui automaticamente um número de telefone. [^source-1] [^source-3]
+
+O preço, a cobertura, a ativação e os reembolsos dependem das condições do produto escolhido e das políticas vigentes da Yesim. O idioma do site não determina o país de residência nem os meios de pagamento disponíveis.
+
+## Perguntas e respostas
+
+### O que é a Yesim?
+
+A Yesim oferece pacotes de dados eSIM para viagens. Confira o destino, o aparelho e as condições do pacote antes de comprar. [^source-12] [^source-1]
+
+### Meu celular é compatível?
+
+Verifique o modelo exato, a versão regional, o suporte a eSIM e o desbloqueio pela operadora. Dual SIM sozinho não comprova compatibilidade. [^source-4]
+
+### Quando começa a validade do pacote?
+
+Depende do pacote escolhido. Compra, instalação e primeira conexão à rede podem ter regras diferentes; confira a descrição antes de pagar. [^source-11]
+
+### Como escolher para vários países?
+
+Compare pacotes regionais e globais e confirme todos os países da viagem na cobertura do pacote escolhido. [^source-6]
+
+### Qual a diferença entre Pay & Fly e Unlim Day Pass?
+
+O Pay & Fly cobra pelos dados usados. O Unlim Day Pass é um produto separado com dias de uso e regras próprias de validade. [^source-2] [^source-14]
+
+### O pacote inclui um número?
+
+Pacotes só de dados não incluem número nem chamadas e SMS celulares tradicionais. O número virtual é separado e suas funções dependem do serviço contratado. [^source-12]
+
+### Posso usar o WhatsApp?
+
+Um aplicativo já configurado pode usar a conexão de dados. A aceitação de um número virtual para verificação depende da plataforma e não é garantida. [^source-12]
+
+### Internet ilimitada significa velocidade máxima sempre?
+
+Não. Confira a política de uso justo e os limites do pacote. Não presuma uma franquia diária ou velocidade igual para todos os produtos. [^source-17]
+
+### Onde consultar preço e cupom?
+
+No site ou aplicativo na hora da compra. Confira o preço final, a moeda e as condições da oferta; não invente um preço fixo em reais. [^source-1]
+
+### Posso receber reembolso depois de instalar sem usar dados?
+
+Não usar dados não garante o reembolso. A política considera a instalação uma ativação. Para compras via Pix, confira também as regras específicas sobre tributos não reembolsáveis. [^source-13]
+
+### Quais são as condições e os prazos de reembolso?
+
+O pedido padrão deve ser feito em até 30 dias corridos após a compra, se o produto não tiver sido ativado, usado nem tiver expirado. Instalar o perfil eSIM conta como ativação. O processamento leva até 15 dias úteis; o crédito pelo banco pode levar mais tempo. [^source-13]
+
+### Como é pago um reembolso aprovado?
+
+Valores de €10 ou menos são reembolsados exclusivamente em Ycoins. Para valores maiores, normalmente se usa o meio de pagamento original. Compras em plataformas externas seguem as regras dessas plataformas. A aprovação não é garantida. Nos reembolsos Pix aprovados, a política exclui o IOF e outros encargos aplicáveis. [^source-13] [^source-18]
+
+### A Yesim pode pedir documentos de identidade?
+
+Sim. A seção 5.2 dos termos permite verificar a identidade e a elegibilidade para o serviço. A política de privacidade descreve o tratamento de dados pessoais, técnicos e de pagamento. A Yesim não armazena os dados completos do cartão, mas pode armazenar informações de pagamento limitadas. O anonimato completo não é garantido. [^source-19] [^source-12]
+
+### Como funcionam os dias do Unlim Day Pass?
+
+A conexão com uma rede compatível inicia um período de 24 horas e consome um dia. Uma nova conexão depois dessas 24 horas consome o próximo dia. O pacote vale por 365 dias a partir da compra. Comprar um novo pacote antes do vencimento transfere os dias restantes por 365 dias a partir da nova compra. [^source-14] [^source-13]
+
+### Por que são cobrados €0,50 para verificar o cartão?
+
+Adicionar um novo cartão exige um pagamento de verificação de €0,50, creditado em Ycoins. A primeira compra com Ycoins promocionais também exige um pagamento de verificação de €0,50 com um cartão válido. Esse valor não é devolvido ao cartão. [^source-18]
+
+### O número virtual é renovado automaticamente?
+
+A página de pagamentos descreve a renovação automática se houver saldo suficiente e o número continuar tecnicamente disponível. Confira as condições do serviço escolhido e as configurações da assinatura. Essa regra não se aplica a todos os planos eSIM. [^source-18]
+
+### Como informar uma falha técnica para pedir reembolso?
+
+A política exige informar a falha em até uma hora pelo e-mail support@yesim.app ou pelo formulário do aplicativo, com descrição e capturas de tela. Informar a falha não garante o reembolso. [^source-13]
+<!-- public-view:end -->

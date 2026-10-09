@@ -1,3 +1,5 @@
+> Историческая запись первой проверки. Актуальные статусы, live HTTP и выполненная языковая/продуктовая проверка: [финальный отчёт](final-source-and-publication-review.md). Ниже описан первоначальный этап, а не текущее состояние сборки.
+
 # Market expansion source and review notes
 
 Expanded AR, ZH-CN, ID, RU, PT, PT-BR, ES, IT, CS, JA, FR, DE and VI using the detailed PL/RO approach. Each file contains product distinctions, selection/installation/validity routing, local terminology, four destination sources, travel/number scenarios, ten localized answer patterns, 14 general query candidates, four destination queries, article proposals, claim controls and a review queue.

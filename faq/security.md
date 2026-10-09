@@ -12,14 +12,14 @@ sources:
 - id: source-3
   resource: https://yesim.app/virtual-number/
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T16:55:46Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:05:42Z'
 verified:
 - by: codex/source-review
-  at: '2026-10-08T16:55:46Z'
+  at: '2026-10-08T18:05:42Z'
 status: stable
 audience: public
-stale_after: '2026-10-15T16:55:46Z'
+stale_after: '2026-10-15T18:05:42Z'
 id: yesim:faq/security
 ---
 

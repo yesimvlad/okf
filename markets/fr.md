@@ -1,26 +1,25 @@
 ---
 type: Market
-title: Yesim French market and language knowledge
-description: Localized fr product explanations, terminology and answer drafts with
-  official-source routing.
+title: Produits Yesim et questions fréquentes
+description: Les conditions du produit choisi et les politiques Yesim en vigueur déterminent
+  le prix, la couverture, l’activation et le remboursement. La langue du site ne détermine
+  ni le pays de résidence ni les moyens de paiement disponibles.
 resource: https://yesim.app/fr/
 language: fr
 audience: public
-status: draft
-review_required: true
-localization_status: needs-native-and-product-review
+status: stable
+localization_status: automated-source-and-language-reviewed
 content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/fr/
 editorial_primary_url: https://yesim.app/fr/
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T16:55:46Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:13:44Z'
 source_review:
-  by: codex/source-retrieval
-  at: '2026-10-08T16:16:02Z'
-  scope: Retrieved localized home, product-navigation, compatibility, four destination,
-    regional and global page text. Draft translations are new authored examples; full
-    endpoint/canonical/hreflang and app-level checks were not performed.
+  by: codex/live-http-and-source-review
+  at: '2026-10-08T18:13:44Z'
+  scope: Cited official endpoints, HTTP status, visible no-JavaScript text, canonical
+    and hreflang. Payment/refund/privacy/Terms control policy summaries.
 sources:
 - id: source-1
   resource: https://yesim.app/fr/
@@ -56,8 +55,23 @@ sources:
   resource: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/
 - id: source-17
   resource: https://help.yesim.tech/unlimited-data-plans-policy/
+- id: source-18
+  resource: https://yesim.app/payment-details/
+- id: source-19
+  resource: https://yesim.app/privacy-policy/
 editorial_reference: ../internal/seo/markets/fr.md
 id: yesim:markets/fr
+public_view: localized-answers
+translation_group: yesim-product-overview
+source_links_heading: Sources officielles
+verified:
+- by: codex/source-review
+  at: '2026-10-08T18:13:44Z'
+- by: codex/linguistic-review
+  at: '2026-10-08T18:13:44Z'
+stale_after: '2026-10-15T18:13:44Z'
+review_scope: Public-source facts and native public answers; automated linguistic
+  review, not human/native employee approval or checkout testing.
 ---
 
 # Yesim French market and language knowledge
@@ -66,9 +80,9 @@ id: yesim:markets/fr
 
 Use the [primary English product reference](en.md) and shared product records when reviewing translated definitions. The purchased Product Description and explicitly sourced local exceptions still control.
 
-Localized product explanations and answers await native and product review.
+Product facts and native-language answers have an automated source and linguistic review dated 2026-10-08. This is not human employee sign-off.
 
-These detailed records remain outside the verified consumer export. For direct repository retrieval, retain these scope labels and check current Product Descriptions before quoting mutable conditions.
+The public site publishes the native answer view below. The machine-readable OKF copy preserves this detailed reference and its separate editorial link. Current Product Descriptions control mutable conditions.
 
 ## Short answer in French
 
@@ -87,9 +101,9 @@ Yesim propose des forfaits de données mobiles eSIM prépayés pour les voyages,
 | Local price, currency and payment eligibility | Check current checkout and source; no hardcoded local price |
 | Support and troubleshooting | Follow current Help Center; support@yesim.app; response time and language availability are not guaranteed here |
 | Source retrieval | 2026-10-08; retrieved web text may be cached |
-| Native-language and product approval | Pending |
+| Review | Automated source and linguistic review; no human sign-off |
 
-The localized home, Pay & Fly, Virtual Number, compatibility, region/global and four country pages were retrieved during this review. Page retrieval is not an HTTP-status, canonical/hreflang, indexability or complete translation audit. A destination page establishes a navigation source, not eligibility for every customer or inclusion in every plan.
+The localized home, Pay & Fly, Virtual Number, compatibility, region/global and four country pages were retrieved during this review. Live HTTP, canonical, hreflang and no-JavaScript text were inspected for the cited endpoints; this is not an app or checkout test. A destination page establishes a navigation source, not eligibility for every customer or inclusion in every plan.
 
 ## Product distinctions
 
@@ -118,7 +132,7 @@ Compatibility source [^source-4]; activation variants [^source-11]; device instr
 
 ## Local terminology
 
-Terminology draft; native review pending. Installation, activation, validity and top-up must remain distinct concepts.
+Terminology checked in the automated linguistic review. Installation, activation, validity and top-up must remain distinct concepts.
 
 | Concept | Local wording | Shared definition |
 |---|---|---|
@@ -153,7 +167,7 @@ Localized overview [^source-3]; capability and acceptance limits [^source-12].
 
 ## Localized answer patterns
 
-Draft French answers for retrieval and editorial review. The linked knowledge records retain the full conditions; short answers must not be detached from those conditions.
+Source-reviewed French answers for retrieval. The linked knowledge records retain the full conditions; short answers must not be detached from those conditions.
 
 ### Qu’est-ce que Yesim ?
 
@@ -163,7 +177,7 @@ Yesim propose des forfaits de données eSIM pour les voyages. Vérifiez la desti
 
 ### Mon téléphone est-il compatible ?
 
-Vérifiez le modèle exact, sa variante régionale, le support eSIM et le déverrouillage opérateur. Le double SIM seul ne suffit pas.
+Vérifiez le modèle exact, sa variante régionale, la prise en charge de l’eSIM et l’absence de verrouillage opérateur. La fonction double SIM, à elle seule, ne suffit pas.
 
 [Source-backed knowledge](../faq/compatibility.md) [^source-4]
 
@@ -234,15 +248,9 @@ The retrieved Pay & Fly page title still uses an unlimited-data formulation, whi
 
 Do not promise no home-operator charges, guaranteed 5G, access to every third-party app, bank verification success, emergency calling or permanent local telecom replacement.
 
-## Review and maintenance queue
+## Review and maintenance
 
-1. Native reviewer: approve terminology, answer wording and regional register.
-2. Product/support reviewer: confirm selected-package activation, FUP, number SKUs and applicable purchase conditions; then approve the product record.
-3. SEO reviewer: replace query hypotheses with dated GSC/Ahrefs evidence; verify suggested linking against the current site.
-4. Developer/SEO: separately inspect redirects, HTTP status, canonical/hreflang, JS-independent content and indexability on production.
-5. Owner: keep editorial research separate and promote the product record only after the required reviews. Shared billing/activation/legal changes must trigger localized-answer review.
-
-No actual public-model benchmark, native approval or production deployment is claimed. See [evaluation protocol](../governance/evaluation.md).
+Public-source facts and native answer wording were checked on 2026-10-08. Shared policy changes require updates to EN and all affected translations. Preserve local exceptions only with explicit evidence. Follow current purchased Product Descriptions for inventory, FUP, price and activation; do not infer them from language. SEO query research stays in the separate editorial file. Human review, app tests and model benchmarks have not been performed.
 
 ## Related knowledge
 
@@ -282,3 +290,85 @@ Retrieved localized sources and shared policy/instruction references. Source ret
 ## Editorial research
 
 Queries, scenarios, content priorities and writing rules are preserved in [the fr editorial reference](../internal/seo/markets/fr.md). They do not define product conditions.
+
+[^source-18]: https://yesim.app/payment-details/. Checked 2026-10-08.
+
+[^source-19]: https://yesim.app/privacy-policy/. Checked 2026-10-08.
+
+<!-- public-view:start -->
+# Produits Yesim et questions fréquentes
+
+Yesim propose des forfaits de données mobiles eSIM prépayés pour les voyages, sur des appareils et dans des destinations compatibles. Les numéros virtuels constituent un produit distinct ; un forfait de données ne comprend pas automatiquement un numéro de téléphone. [^source-1] [^source-3]
+
+Les conditions du produit choisi et les politiques Yesim en vigueur déterminent le prix, la couverture, l’activation et le remboursement. La langue du site ne détermine ni le pays de résidence ni les moyens de paiement disponibles.
+
+## Questions et réponses
+
+### Qu’est-ce que Yesim ?
+
+Yesim propose des forfaits de données eSIM pour les voyages. Vérifiez la destination, l’appareil et les conditions du forfait avant l’achat. [^source-12] [^source-1]
+
+### Mon téléphone est-il compatible ?
+
+Vérifiez le modèle exact, sa variante régionale, la prise en charge de l’eSIM et l’absence de verrouillage opérateur. La fonction double SIM, à elle seule, ne suffit pas. [^source-4]
+
+### Quand commence la validité ?
+
+Cela dépend du forfait. L’achat, l’installation et la première connexion peuvent avoir des règles différentes ; consultez la description du forfait. [^source-11]
+
+### Comment choisir pour plusieurs pays ?
+
+Comparez les forfaits régionaux et mondiaux et vérifiez chaque pays du trajet dans la couverture du forfait choisi. [^source-6]
+
+### Quelle différence entre Pay & Fly et Unlim Day Pass ?
+
+Pay & Fly facture les données utilisées. Unlim Day Pass est un produit distinct avec des jours d’utilisation et ses propres règles de validité. [^source-2] [^source-14]
+
+### Le forfait comprend-il un numéro ?
+
+Les forfaits uniquement de données ne comprennent ni numéro ni appels et SMS cellulaires classiques. Le numéro virtuel est séparé et ses fonctions dépendent du service acheté. [^source-12]
+
+### Puis-je utiliser WhatsApp ?
+
+Une application déjà configurée peut utiliser les données mobiles. L’acceptation d’un numéro virtuel pour la vérification dépend de la plateforme et n’est pas garantie. [^source-12]
+
+### Les données illimitées garantissent-elles la vitesse maximale ?
+
+Non. Consultez la politique d’utilisation équitable et les conditions du forfait. Ne supposez pas une vitesse ou un quota quotidien identique pour tous les produits. [^source-17]
+
+### Où consulter les prix et promotions ?
+
+Sur le site ou dans l’application au moment de l’achat. Vérifiez le montant final, la devise et les conditions de l’offre. [^source-1]
+
+### Puis-je être remboursé après installation sans consommation ?
+
+L’absence de consommation ne garantit pas le remboursement. La politique considère l’installation comme une activation ; vérifiez les conditions et le canal d’achat. [^source-13]
+
+### Quelles sont les conditions et les échéances de remboursement ?
+
+Une demande standard doit être faite dans les 30 jours calendaires suivant l’achat, si le produit n’a pas été activé, utilisé ou n’a pas expiré. L’installation du profil eSIM constitue une activation. Le traitement prend jusqu’à 15 jours ouvrés ; le crédit bancaire peut prendre plus de temps. [^source-13]
+
+### Comment un remboursement approuvé est-il versé ?
+
+Les montants de 10 € ou moins sont remboursés uniquement en Ycoins. Au-delà, le moyen de paiement initial est normalement utilisé. Les achats sur une plateforme tierce suivent ses règles de remboursement. L’approbation n’est pas garantie. [^source-13] [^source-18]
+
+### Yesim peut-il demander des documents d’identité ?
+
+Oui. La section 5.2 des conditions autorise des vérifications d’identité et d’éligibilité. La politique de confidentialité décrit le traitement de données personnelles, techniques et de paiement. Yesim ne conserve pas les données complètes de carte, mais peut conserver des informations de paiement limitées. L’anonymat complet n’est pas garanti. [^source-19] [^source-12]
+
+### Comment fonctionnent les jours Unlim Day Pass ?
+
+La connexion à un réseau pris en charge démarre une période de 24 heures et consomme un jour. Une nouvelle connexion après ces 24 heures consomme le jour suivant. Le pack est valable 365 jours à compter de l’achat. L’achat d’un nouveau pack avant l’expiration reporte les jours restants pour 365 jours à compter du nouvel achat. [^source-14] [^source-13]
+
+### Pourquoi une vérification de carte coûte-t-elle 0,50 € ?
+
+L’ajout d’une nouvelle carte entraîne un paiement de vérification de 0,50 €, crédité en Ycoins. Un premier achat avec des Ycoins offerts exige aussi un paiement de vérification de 0,50 € avec une carte valide. Ce montant n’est pas remboursé sur la carte. [^source-18]
+
+### Un numéro virtuel est-il renouvelé automatiquement ?
+
+La page de paiement décrit un renouvellement automatique si le solde est suffisant et si le numéro reste techniquement disponible. Vérifiez les conditions du service choisi et les réglages de l’abonnement. Cela ne s’applique pas à tous les forfaits eSIM. [^source-18]
+
+### Comment signaler un problème technique pour une demande de remboursement ?
+
+La politique exige de signaler le problème dans l’heure à support@yesim.app ou via le formulaire de l’application, avec une description et des captures d’écran. Le signalement ne garantit pas un remboursement. [^source-13]
+<!-- public-view:end -->

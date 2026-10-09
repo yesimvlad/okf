@@ -55,5 +55,6 @@ Product answers and editorial research are separate linked records. Unapproved l
 - [Data model and ownership](governance/data-model.md)
 - [Installation](guides/installation.md)
 - [Support](faq/support.md)
-- [Trial eSIM](products/trial-esim.md)
 - [Cruise eSIM guidance](products/cruise-esim.md)
+
+- [Final source, locale and publication check](docs/final-source-and-publication-review.md)

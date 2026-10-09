@@ -1,26 +1,23 @@
 ---
 type: Market
-title: Yesim Japanese market and language knowledge
-description: Localized ja product explanations, terminology and answer drafts with
-  official-source routing.
+title: Yesimの製品とよくある質問
+description: 料金、対応地域、アクティベーション、返金には、選択した製品の条件とYesimの現行ポリシーが適用されます。サイトの言語は、居住国や利用できる支払い方法を決定するものではありません。
 resource: https://yesim.app/ja/
 language: ja
 audience: public
-status: draft
-review_required: true
-localization_status: needs-native-and-product-review
+status: stable
+localization_status: automated-source-and-language-reviewed
 content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/ja/
 editorial_primary_url: https://yesim.app/ja/
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T16:55:46Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:13:44Z'
 source_review:
-  by: codex/source-retrieval
-  at: '2026-10-08T16:16:02Z'
-  scope: Retrieved localized home, product-navigation, compatibility, four destination,
-    regional and global page text. Draft translations are new authored examples; full
-    endpoint/canonical/hreflang and app-level checks were not performed.
+  by: codex/live-http-and-source-review
+  at: '2026-10-08T18:13:44Z'
+  scope: Cited official endpoints, HTTP status, visible no-JavaScript text, canonical
+    and hreflang. Payment/refund/privacy/Terms control policy summaries.
 sources:
 - id: source-1
   resource: https://yesim.app/ja/
@@ -56,8 +53,23 @@ sources:
   resource: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/
 - id: source-17
   resource: https://help.yesim.tech/unlimited-data-plans-policy/
+- id: source-18
+  resource: https://yesim.app/payment-details/
+- id: source-19
+  resource: https://yesim.app/privacy-policy/
 editorial_reference: ../internal/seo/markets/ja.md
 id: yesim:markets/ja
+public_view: localized-answers
+translation_group: yesim-product-overview
+source_links_heading: 公式情報源
+verified:
+- by: codex/source-review
+  at: '2026-10-08T18:13:44Z'
+- by: codex/linguistic-review
+  at: '2026-10-08T18:13:44Z'
+stale_after: '2026-10-15T18:13:44Z'
+review_scope: Public-source facts and native public answers; automated linguistic
+  review, not human/native employee approval or checkout testing.
 ---
 
 # Yesim Japanese market and language knowledge
@@ -66,9 +78,9 @@ id: yesim:markets/ja
 
 Use the [primary English product reference](en.md) and shared product records when reviewing translated definitions. The purchased Product Description and explicitly sourced local exceptions still control.
 
-Localized product explanations and answers await native and product review.
+Product facts and native-language answers have an automated source and linguistic review dated 2026-10-08. This is not human employee sign-off.
 
-These detailed records remain outside the verified consumer export. For direct repository retrieval, retain these scope labels and check current Product Descriptions before quoting mutable conditions.
+The public site publishes the native answer view below. The machine-readable OKF copy preserves this detailed reference and its separate editorial link. Current Product Descriptions control mutable conditions.
 
 ## Short answer in Japanese
 
@@ -87,9 +99,9 @@ Yesim は旅行向けのプリペイド eSIM データプランを提供して�
 | Local price, currency and payment eligibility | Check current checkout and source; no hardcoded local price |
 | Support and troubleshooting | Follow current Help Center; support@yesim.app; response time and language availability are not guaranteed here |
 | Source retrieval | 2026-10-08; retrieved web text may be cached |
-| Native-language and product approval | Pending |
+| Review | Automated source and linguistic review; no human sign-off |
 
-The localized home, Pay & Fly, Virtual Number, compatibility, region/global and four country pages were retrieved during this review. Page retrieval is not an HTTP-status, canonical/hreflang, indexability or complete translation audit. A destination page establishes a navigation source, not eligibility for every customer or inclusion in every plan.
+The localized home, Pay & Fly, Virtual Number, compatibility, region/global and four country pages were retrieved during this review. Live HTTP, canonical, hreflang and no-JavaScript text were inspected for the cited endpoints; this is not an app or checkout test. A destination page establishes a navigation source, not eligibility for every customer or inclusion in every plan.
 
 ## Product distinctions
 
@@ -118,7 +130,7 @@ Compatibility source [^source-4]; activation variants [^source-11]; device instr
 
 ## Local terminology
 
-Terminology draft; native review pending. Installation, activation, validity and top-up must remain distinct concepts.
+Terminology checked in the automated linguistic review. Installation, activation, validity and top-up must remain distinct concepts.
 
 | Concept | Local wording | Shared definition |
 |---|---|---|
@@ -153,7 +165,7 @@ Localized overview [^source-3]; capability and acceptance limits [^source-12].
 
 ## Localized answer patterns
 
-Draft Japanese answers for retrieval and editorial review. The linked knowledge records retain the full conditions; short answers must not be detached from those conditions.
+Source-reviewed Japanese answers for retrieval. The linked knowledge records retain the full conditions; short answers must not be detached from those conditions.
 
 ### Yesimとは？
 
@@ -234,15 +246,9 @@ The retrieved Pay & Fly page title still uses an unlimited-data formulation, whi
 
 Do not promise no home-operator charges, guaranteed 5G, access to every third-party app, bank verification success, emergency calling or permanent local telecom replacement.
 
-## Review and maintenance queue
+## Review and maintenance
 
-1. Native reviewer: approve terminology, answer wording and regional register.
-2. Product/support reviewer: confirm selected-package activation, FUP, number SKUs and applicable purchase conditions; then approve the product record.
-3. SEO reviewer: replace query hypotheses with dated GSC/Ahrefs evidence; verify suggested linking against the current site.
-4. Developer/SEO: separately inspect redirects, HTTP status, canonical/hreflang, JS-independent content and indexability on production.
-5. Owner: keep editorial research separate and promote the product record only after the required reviews. Shared billing/activation/legal changes must trigger localized-answer review.
-
-No actual public-model benchmark, native approval or production deployment is claimed. See [evaluation protocol](../governance/evaluation.md).
+Public-source facts and native answer wording were checked on 2026-10-08. Shared policy changes require updates to EN and all affected translations. Preserve local exceptions only with explicit evidence. Follow current purchased Product Descriptions for inventory, FUP, price and activation; do not infer them from language. SEO query research stays in the separate editorial file. Human review, app tests and model benchmarks have not been performed.
 
 ## Related knowledge
 
@@ -282,3 +288,85 @@ Retrieved localized sources and shared policy/instruction references. Source ret
 ## Editorial research
 
 Queries, scenarios, content priorities and writing rules are preserved in [the ja editorial reference](../internal/seo/markets/ja.md). They do not define product conditions.
+
+[^source-18]: https://yesim.app/payment-details/. Checked 2026-10-08.
+
+[^source-19]: https://yesim.app/privacy-policy/. Checked 2026-10-08.
+
+<!-- public-view:start -->
+# Yesimの製品とよくある質問
+
+Yesim は旅行向けのプリペイド eSIM データプランを提供しています。対応端末とプランの対象地域を確認して利用します。仮想電話番号は別の商品で、データプランに自動で付くものではありません。 [^source-1] [^source-3]
+
+料金、対応地域、アクティベーション、返金には、選択した製品の条件とYesimの現行ポリシーが適用されます。サイトの言語は、居住国や利用できる支払い方法を決定するものではありません。
+
+## 質問と回答
+
+### Yesimとは？
+
+旅行向けのeSIMデータプランを提供するサービスです。購入前に渡航先、端末、プラン条件を確認してください。 [^source-12] [^source-1]
+
+### 自分のスマホは対応していますか？
+
+正確な機種、販売地域のモデル、eSIM対応、SIMロックの有無を確認してください。デュアルSIMだけでは判断できません。 [^source-4]
+
+### 有効期間はいつ始まりますか？
+
+プランによって異なります。購入、インストール、初回のネットワーク接続を同じものとして扱わず、プランの説明を確認してください。 [^source-11]
+
+### 複数の国を旅行する場合は？
+
+地域別とグローバルのプランを比較し、旅行する国がすべて対象に含まれるか確認してください。 [^source-6]
+
+### Pay & FlyとUnlim Day Passの違いは？
+
+Pay & Flyは使用したデータ量に応じた従量課金です。Unlim Day Passは利用日数を購入する別商品で、有効期間と利用条件も異なります。 [^source-2] [^source-14]
+
+### 電話番号は含まれますか？
+
+データ専用プランには電話番号や通常の携帯電話の通話・SMSは含まれません。仮想電話番号は別商品で、機能は購入したサービスによります。 [^source-12]
+
+### WhatsAppは使えますか？
+
+設定済みのアプリはデータ通信を利用できます。仮想番号が認証に使えるかは外部サービスが判断するため、成功は保証されません。 [^source-12]
+
+### 無制限なら常に最高速度ですか？
+
+その保証はありません。公平利用ポリシーとプラン条件を確認してください。全商品に同じ速度や日次上限があると決めつけないでください。 [^source-17]
+
+### 料金やクーポンはどこで確認しますか？
+
+購入時に公式サイトやアプリで最終金額、通貨、割引条件を確認してください。円での固定料金を推測しないでください。 [^source-1]
+
+### インストール後に未使用なら返金できますか？
+
+データ未使用だけでは返金条件を満たすとは限りません。返金ポリシーではプロファイルのインストールも有効化として扱われます。 [^source-13]
+
+### 返金の条件と期限は何ですか？
+
+通常の申請は購入後30暦日以内で、製品が有効化・使用されておらず、有効期限も切れていないことが条件です。eSIMプロファイルのインストールは有効化と見なされます。審査と処理は最大15営業日で、銀行への入金には追加の日数がかかる場合があります。 [^source-13]
+
+### 承認された返金はどのように受け取れますか？
+
+10ユーロ以下の返金はYcoinsのみで行われます。それを超える金額は通常、元の支払い方法に返金されます。外部プラットフォームでの購入には、そのプラットフォームの返金規則が適用されます。承認は保証されません。 [^source-13] [^source-18]
+
+### Yesimは本人確認書類を求めることがありますか？
+
+はい。利用規約の第5.2項では、本人確認と利用資格の確認が認められています。プライバシーポリシーには個人情報、技術情報、支払い情報の処理が記載されています。Yesimは完全なカード情報を保存しませんが、一部の支払い情報を保存する場合があります。完全な匿名性は保証されません。 [^source-19] [^source-12]
+
+### Unlim Day Passの日数はどう数えますか？
+
+対応ネットワークへの接続で24時間の利用期間が始まり、1日分を消費します。その24時間が終了した後に再接続すると、次の1日分を消費します。パックは購入日から365日間有効です。有効期限前に新しいパックを購入すると、残りの日数を新しい購入日から365日間に繰り越せます。 [^source-14] [^source-13]
+
+### カード確認で0.50ユーロが請求されるのはなぜですか？
+
+新しいカードの追加には0.50ユーロの確認用支払いが必要で、その金額はYcoinsとして付与されます。プレゼントされたYcoinsで初めて購入する場合も、有効なカードで0.50ユーロの確認用支払いが必要です。カードへの返金ではありません。 [^source-18]
+
+### 仮想番号は自動更新されますか？
+
+支払いページでは、残高が十分で番号が技術的に利用可能な場合に、番号の契約が自動更新されると説明されています。選択したサービスの条件と契約設定を確認してください。すべてのeSIMプランに適用される規則ではありません。 [^source-18]
+
+### 返金申請のための技術的な不具合はどう報告しますか？
+
+ポリシーでは、発生から1時間以内にsupport@yesim.appまたはアプリ内フォームから、説明とスクリーンショットを添えて報告する必要があります。報告しても返金が保証されるわけではありません。 [^source-13]
+<!-- public-view:end -->

@@ -51,7 +51,7 @@ No hosting or indexing is created by this repository change. Public chatbots are
 
 The language registry records all 44 website versions listed in `/llms.txt` as of 2026-10-08. This source check proves the listing, not endpoint availability or translation correctness. Recheck the list when the selector changes and reconcile canonical/hreflang separately. A locale does not imply a sales market, currency or support language.
 
-Do not shorten existing useful local research solely for OKF. Keep scenarios, terminology, queries and source links; label editorial intent and unverified analytics. PL/RO and the 13 expanded locales retain product answers in `markets/` and full editorial research in linked `internal/seo/markets/` files. Local product records stay draft until native and product review are complete. Changes to shared product facts must trigger review of localized answer examples.
+Do not shorten existing useful local research solely for OKF. Keep scenarios, terminology, queries and source links; label editorial intent and unverified analytics. PL/RO and the 13 expanded locales retain product answers in `markets/` and full editorial research in linked `internal/seo/markets/` files. Fifteen detailed locale records now carry automated source and linguistic review and publish their native answer views. Human sign-off must be recorded separately if performed. The other 28 routing cards remain draft. Changes to shared product facts must trigger review of localized answer examples.
 
 ## Primary English reference
 

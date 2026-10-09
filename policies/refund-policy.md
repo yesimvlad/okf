@@ -8,14 +8,14 @@ sources:
 - id: source-1
   resource: https://yesim.app/refund-policy/
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:05:42Z'
 status: stable
 audience: public
 verified:
 - by: codex/source-review
-  at: '2026-10-08T15:12:31Z'
-stale_after: '2026-11-07T15:30:00Z'
+  at: '2026-10-08T18:05:42Z'
+stale_after: '2026-10-15T18:05:42Z'
 id: yesim:policies/refund-policy
 ---
 

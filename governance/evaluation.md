@@ -25,14 +25,14 @@ Score critical errors (billing, activation, expiry, refund eligibility), factual
 
 Measure citation/mention rates separately in public web-search tests. A before/after difference alone does not establish that OKF caused it. No model benchmark has been run as part of this repository repair.
 
-## Localized draft-market evaluation
+## Localized reference evaluation
 
-[Market cases](../evaluations/market-cases.yaml) provides 130 newly authored prompts across 13 expanded locales, with expected facts and source URLs. These prompts and answer drafts need native review; they have not been run against models. Test local billing, activation, device variants, number acceptance, FUP and refunds in all three modes. When loading draft market files explicitly, retain editorial/scope labels and record that input separately from the verified public pack, which excludes these files. Native wording, local terminology and RU/PT/PT-BR/VI routing require separate review.
+[Market cases](../evaluations/market-cases.yaml) supplies 255 authored localized prompts across 15 languages, with expected facts and current source URLs. Native wording and policy facts have automated review; this is not human sign-off or a model run. Test all locales separately in no-web, explicit-current-reviewed-bundle and web-search modes. The public pack includes detailed locale records; HTML/clean Markdown publishes their native answer views. Editorial hypotheses and the 28 routing-only cards stay excluded.
 
 ## Primary English reference evaluation
 
-[English cases](../evaluations/en-cases.yaml) adds 38 source-backed prompts covering identity, compatibility, activation, billing, coverage, day-pack expiry, number functions, third-party acceptance, trial conditions, refunds and business routing. They are authored checks, not executed model results. Confirm the English reference enters a fresh public export while its editorial counterpart and draft localizations remain excluded. Run repeated model comparisons separately for no-web, explicit fresh bundle and public web-search modes.
+[English cases](../evaluations/en-cases.yaml) contains 43 source-backed prompts. Together with 255 localized and 14 seed questions, the set has 312 authored cases. Evaluate EN and locales independently; question files are not measured model results.
 
 ## Revision extensions and result recording
 
-The current English set has 44 authored cases (six added for Android/Pixel, cruise, support, identity checks, verification payments and number renewal). Use [the result template](../evaluations/result-template.json) to store model/version, timestamp, exact prompt, mode, bundle commit/hash, answer, citations, correctness and completeness. A template is not a model run. Use at least three independent runs, ideally five, per case/mode and evaluate source support independently of citation count.
+The current English set has 43 authored cases (six added for Android/Pixel, cruise, support, identity checks, verification payments and number renewal). Use [the result template](../evaluations/result-template.json) to store model/version, timestamp, exact prompt, mode, bundle commit/hash, answer, citations, correctness and completeness. A template is not a model run. Use at least three independent runs, ideally five, per case/mode and evaluate source support independently of citation count.

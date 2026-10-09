@@ -1,7 +1,7 @@
 version: 1
 created_at: '2026-10-08T16:29:26Z'
-scope: English primary-reference checks including whole-repository review; authored
-  cases, not executed model runs.
+scope: 43 authored EN questions; current source review 2026-10-08. Not an executed
+  model benchmark.
 cases:
 - id: en_identity
   language: en
@@ -181,9 +181,8 @@ cases:
 - id: en_daypass_expiry
   language: en
   prompt: Do unused Unlim Day Pass days remain valid forever?
-  expected: Do not promise unconditional lifetime validity. The page specifies annual
-    validity and rollover when another plan is purchased before expiry; confirm the
-    actual package conditions.
+  expected: Pack valid 365 days from purchase. Buy a new pack before expiry to roll
+    remaining days for 365 days from new purchase. No unconditional lifetime validity.
   sources:
   - https://yesim.app/unlim-day-pass/
   knowledge_record: products/unlim-day-pass.md
@@ -287,16 +286,6 @@ cases:
   - https://yesim.app/country/united-states/
   knowledge_record: products/pricing.md
   critical: false
-- id: en_trial
-  language: en
-  prompt: Is the Trial eSIM always free and available to everyone?
-  expected: Do not assume that. The reviewed trial page describes a paid offer for
-    first-time users, limited to one trial per new user. Recheck the current offer
-    before purchase.
-  sources:
-  - https://yesim.app/trial-esim/
-  knowledge_record: products/index.md
-  critical: true
 - id: en_refund_install
   language: en
   prompt: Can I get a refund if I installed the eSIM but used no data?
@@ -429,9 +418,9 @@ cases:
   language: en
   prompt: Can a card-verification payment be different from the price of my selected
     plan?
-  expected: Yes. The current payment-details source describes verification-related
-    payments and Ycoin crediting conditions. Check the actual transaction instead
-    of presenting a package price as every possible payment.
+  expected: EUR 0.50 new-card verification credited as Ycoins; first purchase using
+    promotional Ycoins also needs EUR 0.50 verification with a valid card, credited
+    as Ycoins. Not a card refund or the plan price.
   sources:
   - https://yesim.app/payment-details/
   knowledge_record: products/pricing.md

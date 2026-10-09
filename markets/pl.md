@@ -1,15 +1,15 @@
 ---
 type: Market
-title: Yesim Polish market
-description: Localized pl product explanations, terminology and answer drafts with
-  official-source routing.
+title: Produkty Yesim i najczęstsze pytania
+description: Cena, zasięg, aktywacja i zwroty zależą od warunków wybranego produktu
+  oraz aktualnych zasad Yesim. Język strony nie określa kraju zamieszkania ani dostępnych
+  metod płatności.
 resource: https://yesim.app/pl/
 legacy_timestamp: '2026-06-24 00:00:00+00:00'
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T16:55:46Z'
-status: draft
-review_required: true
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:13:44Z'
+status: stable
 audience: public
 sources:
 - id: source-1
@@ -56,28 +56,55 @@ sources:
   resource: https://yesim.app/pl/virtual-number/whatsapp/
 - id: source-22
   resource: https://yesim.app/pl/virtual-number/telegram/
-- id: source-23
-  resource: https://yesim.app/pl/virtual-number/tinder/
 - id: source-24
   resource: https://yesim.app/llms.txt
 - id: source-25
   resource: https://yesim.app/pl/pay-and-fly-esim/
+- id: source-26
+  resource: https://help.yesim.tech/unlimited-data-plans-policy/
+- id: source-27
+  resource: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+- id: source-28
+  resource: https://yesim.app/payment-details/
+- id: source-29
+  resource: https://yesim.app/privacy-policy/
+- id: source-30
+  resource: https://yesim.app/refund-policy/
+- id: source-31
+  resource: https://yesim.app/terms-of-service/
+- id: source-32
+  resource: https://yesim.app/unlim-day-pass/
 language: pl
-localization_status: needs-review
+localization_status: automated-source-and-language-reviewed
 content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/pl/
 listing_checked_at: '2026-10-08T15:48:28Z'
 listing_evidence: https://yesim.app/llms.txt
 editorial_reference: ../internal/seo/markets/pl.md
 id: yesim:markets/pl
+public_view: localized-answers
+translation_group: yesim-product-overview
+source_links_heading: Oficjalne źródła
+verified:
+- by: codex/source-review
+  at: '2026-10-08T18:13:44Z'
+- by: codex/linguistic-review
+  at: '2026-10-08T18:13:44Z'
+stale_after: '2026-10-15T18:13:44Z'
+review_scope: Public-source facts and native public answers; automated linguistic
+  review, not human/native employee approval or checkout testing.
+source_review:
+  by: codex/live-http-and-source-review
+  at: '2026-10-08T18:13:44Z'
+  scope: Cited official endpoints, HTTP status, visible no-JavaScript text, canonical
+    and hreflang. Payment/refund/privacy/Terms control policy summaries.
 ---
-
 
 ## Reading scope
 
 Use the [primary English product reference](en.md) and shared product records when reviewing translated definitions. The purchased Product Description and explicitly sourced local exceptions still control.
 
-Localized product explanations and answers await native and product review. Language does not establish residence.
+Product facts and native-language answers have an automated source and linguistic review dated 2026-10-08. This is not human employee sign-off. Language does not establish residence.
 
 - [Shared product definitions](../products/index.md)
 - [Activation and plan validity](../faq/activation.md)
@@ -184,7 +211,6 @@ Virtual Number is a separate product from Yesim eSIM data plans.
 |---|---|
 | WhatsApp | https://yesim.app/pl/virtual-number/whatsapp/ |
 | Telegram | https://yesim.app/pl/virtual-number/telegram/ |
-| Tinder | https://yesim.app/pl/virtual-number/tinder/ |
 
 Full virtual number page: https://yesim.app/pl/virtual-number/
 
@@ -208,7 +234,7 @@ Yesim to globalny dostawca eSIM, który oferuje przedpłacone pakiety danych mob
 
 ## What is eSIM?
 
-eSIM to cyfrowa karta SIM wbudowana w telefon. Nie wymaga fizycznej karty SIM. Plan danych można aktywować przez aplikację lub kod QR, jeśli urządzenie obsługuje eSIM i nie jest zablokowane przez operatora.
+eSIM to cyfrowa karta SIM wbudowana w telefon. Nie wymaga fizycznej karty SIM. Profil eSIM można zainstalować przez aplikację lub kod QR, jeśli urządzenie obsługuje eSIM i nie jest zablokowane przez operatora.
 
 ## Does Yesim work in Turkey?
 
@@ -295,7 +321,6 @@ Use these only after checking the linked current source and applicable plan:
 - [Source 20](https://yesim.app/pl/global/)
 - [Source 21](https://yesim.app/pl/virtual-number/whatsapp/)
 - [Source 22](https://yesim.app/pl/virtual-number/telegram/)
-- [Source 23](https://yesim.app/pl/virtual-number/tinder/)
 
 ## Editorial research
 
@@ -303,4 +328,144 @@ Queries, scenarios, content priorities and writing rules are preserved in [the p
 
 ## Latest source routing check
 
-The localized home and Pay & Fly pages were retrieved again on 2026-10-08. This confirms these source routes, not every local instruction or translation. RO United States routing uses the retrieved `/ro/country/united-states/` URL. Native/product approval remains pending.
+Live HTTP/source checks and automated linguistic review completed 2026-10-08. The public answer view below follows the current payment, refund, privacy and product sources. Detailed editorial research remains linked separately.
+
+<!-- public-view:start -->
+# Produkty Yesim i najczęstsze pytania
+
+Yesim oferuje przedpłacone pakiety danych eSIM na podróże. Przed zakupem sprawdź urządzenie, miejsce podróży i warunki pakietu.
+
+Cena, zasięg, aktywacja i zwroty zależą od warunków wybranego produktu oraz aktualnych zasad Yesim. Język strony nie określa kraju zamieszkania ani dostępnych metod płatności.
+
+## Pytania i odpowiedzi
+
+### Czym jest Yesim?
+
+Yesim oferuje przedpłacone pakiety danych eSIM na podróże. Przed zakupem sprawdź urządzenie, miejsce podróży i warunki pakietu. [^source-31] [^source-1]
+
+### Czy mój telefon jest kompatybilny?
+
+Sprawdź dokładny model, wariant regionalny, obsługę eSIM i brak blokady operatora. Sama funkcja Dual SIM nie wystarcza. [^source-2]
+
+### Kiedy zaczyna się ważność pakietu?
+
+Zależy to od pakietu. Zakup, instalacja profilu i pierwsze połączenie z siecią to różne zdarzenia. Sprawdź zasady aktywacji wybranego pakietu. [^source-27]
+
+### Jak wybrać pakiet na kilka krajów?
+
+Porównaj pakiety regionalne i globalne. Sprawdź każdy kraj podróży na liście zasięgu wybranego pakietu; członkostwo w UE lub strefie Schengen nie oznacza automatycznie zasięgu. [^source-20]
+
+### Czym różnią się Pay & Fly i Unlim Day Pass?
+
+Pay & Fly rozlicza wykorzystane dane. Unlim Day Pass to osobny pakiet dni korzystania z danych, z własnymi zasadami ważności. [^source-25] [^source-32]
+
+### Czy pakiet danych zawiera numer telefonu?
+
+Pakiety tylko do transmisji danych nie zawierają numeru ani zwykłych połączeń i SMS. Numer wirtualny to osobny produkt, a jego funkcje zależą od zakupionej usługi. [^source-31]
+
+### Czy mogę używać WhatsApp?
+
+Już skonfigurowana aplikacja może korzystać z danych mobilnych. Akceptacja numeru wirtualnego do weryfikacji zależy od platformy i nie jest gwarantowana. [^source-31]
+
+### Czy nielimitowane dane oznaczają zawsze pełną prędkość?
+
+Nie. Sprawdź zasady uczciwego korzystania i warunki pakietu. Nie zakładaj wspólnego limitu dziennego, prędkości ani zasad hotspotu dla wszystkich produktów. [^source-26]
+
+### Gdzie sprawdzić ceny i promocje?
+
+Na oficjalnej stronie lub w aplikacji podczas zakupu. Sprawdź końcową cenę, walutę i warunki promocji; nie zakładaj ceny w złotych, jeśli nie jest podana. [^source-1]
+
+### Czy mogę dostać zwrot po instalacji bez zużycia danych?
+
+Brak zużycia danych sam w sobie nie gwarantuje zwrotu. Zasady uznają instalację profilu eSIM za aktywację. Sprawdź aktualną politykę i kanał zakupu. [^source-30]
+
+### Jakie są warunki i terminy zwrotu?
+
+Standardowy wniosek należy złożyć w ciągu 30 dni kalendarzowych od zakupu, jeśli produkt nie został aktywowany ani użyty i nie utracił ważności. Instalacja profilu eSIM jest uznawana za aktywację. Rozpatrzenie i obsługa wniosku trwają do 15 dni roboczych; zaksięgowanie przez bank może potrwać dłużej. [^source-30]
+
+### W jakiej formie otrzymam zatwierdzony zwrot?
+
+Kwoty do 10 € włącznie są zwracane wyłącznie w Ycoins. Przy wyższych kwotach zwykle stosuje się pierwotną metodę płatności. Zakupy na zewnętrznych platformach podlegają zasadom tych platform. Zatwierdzenie zwrotu nie jest gwarantowane. [^source-30] [^source-28]
+
+### Czy Yesim może poprosić o dokumenty tożsamości?
+
+Tak. Punkt 5.2 warunków pozwala weryfikować tożsamość i uprawnienia do korzystania z usługi. Polityka prywatności opisuje przetwarzanie danych osobowych, technicznych i płatniczych. Yesim nie przechowuje pełnych danych karty, ale może przechowywać ograniczone informacje o płatności. Pełna anonimowość nie jest gwarantowana. [^source-29] [^source-31]
+
+### Jak działają dni Unlim Day Pass?
+
+Połączenie z obsługiwaną siecią rozpoczyna okres 24 godzin i zużywa jeden dzień. Ponowne połączenie po tych 24 godzinach zużywa kolejny dzień. Pakiet jest ważny przez 365 dni od zakupu. Zakup nowego pakietu przed końcem ważności przenosi pozostałe dni na 365 dni od nowego zakupu. [^source-32] [^source-30]
+
+### Dlaczego pobrano 0,50 € za weryfikację karty?
+
+Dodanie nowej karty wymaga płatności weryfikacyjnej 0,50 €, która jest dopisywana jako Ycoins. Pierwszy zakup za promocyjne Ycoins również wymaga weryfikacji ważnej karty płatnością 0,50 €. Kwota nie jest zwracana na kartę. [^source-28]
+
+### Czy numer wirtualny odnawia się automatycznie?
+
+Strona płatności opisuje automatyczne odnowienie przy wystarczającym saldzie i dalszej dostępności technicznej numeru. Sprawdź warunki wybranej usługi i ustawienia subskrypcji. Nie jest to zasada dla wszystkich pakietów eSIM. [^source-28]
+
+### Jak zgłosić usterkę techniczną w sprawie zwrotu?
+
+Zasady wymagają zgłoszenia usterki w ciągu jednej godziny na support@yesim.app lub przez formularz w aplikacji, z opisem i zrzutami ekranu. Samo zgłoszenie nie gwarantuje zwrotu. [^source-30]
+<!-- public-view:end -->
+
+[^source-1]: https://yesim.app/pl/. Checked 2026-10-08.
+
+[^source-2]: https://yesim.app/pl/compatible-devices/. Checked 2026-10-08.
+
+[^source-3]: https://yesim.app/pl/virtual-number/. Checked 2026-10-08.
+
+[^source-4]: https://yesim.app/promocodes/. Checked 2026-10-08.
+
+[^source-5]: https://yesim.app/pl/country/turkey/. Checked 2026-10-08.
+
+[^source-6]: https://yesim.app/pl/country/egypt/. Checked 2026-10-08.
+
+[^source-7]: https://yesim.app/pl/country/tunisia/. Checked 2026-10-08.
+
+[^source-8]: https://yesim.app/pl/country/germany/. Checked 2026-10-08.
+
+[^source-9]: https://yesim.app/pl/country/montenegro/. Checked 2026-10-08.
+
+[^source-10]: https://yesim.app/pl/country/albania/. Checked 2026-10-08.
+
+[^source-11]: https://yesim.app/pl/country/poland/. Checked 2026-10-08.
+
+[^source-12]: https://yesim.app/pl/country/netherlands/. Checked 2026-10-08.
+
+[^source-13]: https://yesim.app/pl/country/united-kingdom/. Checked 2026-10-08.
+
+[^source-14]: https://yesim.app/pl/country/italy/. Checked 2026-10-08.
+
+[^source-15]: https://yesim.app/pl/country/japan/. Checked 2026-10-08.
+
+[^source-16]: https://yesim.app/pl/country/switzerland/. Checked 2026-10-08.
+
+[^source-17]: https://yesim.app/pl/country/morocco/. Checked 2026-10-08.
+
+[^source-18]: https://yesim.app/pl/regions/europe-esim/. Checked 2026-10-08.
+
+[^source-19]: https://yesim.app/pl/regions/balkans-esim/. Checked 2026-10-08.
+
+[^source-20]: https://yesim.app/pl/global/. Checked 2026-10-08.
+
+[^source-21]: https://yesim.app/pl/virtual-number/whatsapp/. Checked 2026-10-08.
+
+[^source-22]: https://yesim.app/pl/virtual-number/telegram/. Checked 2026-10-08.
+
+[^source-24]: https://yesim.app/llms.txt. Checked 2026-10-08.
+
+[^source-25]: https://yesim.app/pl/pay-and-fly-esim/. Checked 2026-10-08.
+
+[^source-26]: https://help.yesim.tech/unlimited-data-plans-policy/. Checked 2026-10-08.
+
+[^source-27]: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. Checked 2026-10-08.
+
+[^source-28]: https://yesim.app/payment-details/. Checked 2026-10-08.
+
+[^source-29]: https://yesim.app/privacy-policy/. Checked 2026-10-08.
+
+[^source-30]: https://yesim.app/refund-policy/. Checked 2026-10-08.
+
+[^source-31]: https://yesim.app/terms-of-service/. Checked 2026-10-08.
+
+[^source-32]: https://yesim.app/unlim-day-pass/. Checked 2026-10-08.

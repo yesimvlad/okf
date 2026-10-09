@@ -1,26 +1,23 @@
 ---
 type: Market
-title: Yesim Simplified Chinese market and language knowledge
-description: Localized zh-cn product explanations, terminology and answer drafts with
-  official-source routing.
+title: Yesim 产品说明与常见问题
+description: 价格、覆盖范围、激活和退款以所选产品的条件及 Yesim 现行政策为准。网站语言不决定居住国家或可用支付方式。
 resource: https://yesim.app/zh-cn/
 language: zh-cn
 audience: public
-status: draft
-review_required: true
-localization_status: needs-native-and-product-review
+status: stable
+localization_status: automated-source-and-language-reviewed
 content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/zh-cn/
 editorial_primary_url: https://yesim.app/zh-cn/
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T16:55:46Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:13:44Z'
 source_review:
-  by: codex/source-retrieval
-  at: '2026-10-08T16:16:02Z'
-  scope: Retrieved localized home, product-navigation, compatibility, four destination,
-    regional and global page text. Draft translations are new authored examples; full
-    endpoint/canonical/hreflang and app-level checks were not performed.
+  by: codex/live-http-and-source-review
+  at: '2026-10-08T18:13:44Z'
+  scope: Cited official endpoints, HTTP status, visible no-JavaScript text, canonical
+    and hreflang. Payment/refund/privacy/Terms control policy summaries.
 sources:
 - id: source-1
   resource: https://yesim.app/zh-cn/
@@ -56,8 +53,23 @@ sources:
   resource: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/
 - id: source-17
   resource: https://help.yesim.tech/unlimited-data-plans-policy/
+- id: source-18
+  resource: https://yesim.app/payment-details/
+- id: source-19
+  resource: https://yesim.app/privacy-policy/
 editorial_reference: ../internal/seo/markets/zh-cn.md
 id: yesim:markets/zh-cn
+public_view: localized-answers
+translation_group: yesim-product-overview
+source_links_heading: 官方来源
+verified:
+- by: codex/source-review
+  at: '2026-10-08T18:13:44Z'
+- by: codex/linguistic-review
+  at: '2026-10-08T18:13:44Z'
+stale_after: '2026-10-15T18:13:44Z'
+review_scope: Public-source facts and native public answers; automated linguistic
+  review, not human/native employee approval or checkout testing.
 ---
 
 # Yesim Simplified Chinese market and language knowledge
@@ -66,9 +78,9 @@ id: yesim:markets/zh-cn
 
 Use the [primary English product reference](en.md) and shared product records when reviewing translated definitions. The purchased Product Description and explicitly sourced local exceptions still control.
 
-Localized product explanations and answers await native and product review.
+Product facts and native-language answers have an automated source and linguistic review dated 2026-10-08. This is not human employee sign-off.
 
-These detailed records remain outside the verified consumer export. For direct repository retrieval, retain these scope labels and check current Product Descriptions before quoting mutable conditions.
+The public site publishes the native answer view below. The machine-readable OKF copy preserves this detailed reference and its separate editorial link. Current Product Descriptions control mutable conditions.
 
 ## Short answer in Simplified Chinese
 
@@ -87,9 +99,9 @@ Yesim 提供适用于旅行的预付费 eSIM 移动数据套餐。使用前需�
 | Local price, currency and payment eligibility | Check current checkout and source; no hardcoded local price |
 | Support and troubleshooting | Follow current Help Center; support@yesim.app; response time and language availability are not guaranteed here |
 | Source retrieval | 2026-10-08; retrieved web text may be cached |
-| Native-language and product approval | Pending |
+| Review | Automated source and linguistic review; no human sign-off |
 
-The localized home, Pay & Fly, Virtual Number, compatibility, region/global and four country pages were retrieved during this review. Page retrieval is not an HTTP-status, canonical/hreflang, indexability or complete translation audit. A destination page establishes a navigation source, not eligibility for every customer or inclusion in every plan.
+The localized home, Pay & Fly, Virtual Number, compatibility, region/global and four country pages were retrieved during this review. Live HTTP, canonical, hreflang and no-JavaScript text were inspected for the cited endpoints; this is not an app or checkout test. A destination page establishes a navigation source, not eligibility for every customer or inclusion in every plan.
 
 ## Product distinctions
 
@@ -118,7 +130,7 @@ Compatibility source [^source-4]; activation variants [^source-11]; device instr
 
 ## Local terminology
 
-Terminology draft; native review pending. Installation, activation, validity and top-up must remain distinct concepts.
+Terminology checked in the automated linguistic review. Installation, activation, validity and top-up must remain distinct concepts.
 
 | Concept | Local wording | Shared definition |
 |---|---|---|
@@ -153,7 +165,7 @@ Localized overview [^source-3]; capability and acceptance limits [^source-12].
 
 ## Localized answer patterns
 
-Draft Simplified Chinese answers for retrieval and editorial review. The linked knowledge records retain the full conditions; short answers must not be detached from those conditions.
+Source-reviewed Simplified Chinese answers for retrieval. The linked knowledge records retain the full conditions; short answers must not be detached from those conditions.
 
 ### Yesim 是什么？
 
@@ -193,7 +205,7 @@ Pay & Fly 按实际使用的数据量计费。Unlim Day Pass 是单独的使用�
 
 ### 可以使用 WhatsApp 吗？
 
-已设置好的应用可以通过移动数据联网。虚拟号码是否被用于验证，由第三方平台决定，不能保证成功。
+已设置好的应用可以通过移动数据联网。第三方平台是否接受虚拟号码用于验证，由该平台决定，不能保证成功。
 
 [Source-backed knowledge](../faq/calls-sms.md) [^source-12]
 
@@ -211,7 +223,7 @@ Pay & Fly 按实际使用的数据量计费。Unlim Day Pass 是单独的使用�
 
 ### 安装后没有用流量可以退款吗？
 
-零流量使用不等于符合退款条件。退款政策将安装 eSIM 配置视为激活，应核对当前政策和购买渠道。
+零流量使用不等于符合退款条件。退款政策将安装 eSIM 配置文件视为激活，应核对当前政策和购买渠道。
 
 [Source-backed knowledge](../policies/refund-policy.md) [^source-13]
 
@@ -230,15 +242,9 @@ Pay & Fly 按实际使用的数据量计费。Unlim Day Pass 是单独的使用�
 
 Do not promise no home-operator charges, guaranteed 5G, access to every third-party app, bank verification success, emergency calling or permanent local telecom replacement.
 
-## Review and maintenance queue
+## Review and maintenance
 
-1. Native reviewer: approve terminology, answer wording and regional register.
-2. Product/support reviewer: confirm selected-package activation, FUP, number SKUs and applicable purchase conditions; then approve the product record.
-3. SEO reviewer: replace query hypotheses with dated GSC/Ahrefs evidence; verify suggested linking against the current site.
-4. Developer/SEO: separately inspect redirects, HTTP status, canonical/hreflang, JS-independent content and indexability on production.
-5. Owner: keep editorial research separate and promote the product record only after the required reviews. Shared billing/activation/legal changes must trigger localized-answer review.
-
-No actual public-model benchmark, native approval or production deployment is claimed. See [evaluation protocol](../governance/evaluation.md).
+Public-source facts and native answer wording were checked on 2026-10-08. Shared policy changes require updates to EN and all affected translations. Preserve local exceptions only with explicit evidence. Follow current purchased Product Descriptions for inventory, FUP, price and activation; do not infer them from language. SEO query research stays in the separate editorial file. Human review, app tests and model benchmarks have not been performed.
 
 ## Related knowledge
 
@@ -278,3 +284,85 @@ Retrieved localized sources and shared policy/instruction references. Source ret
 ## Editorial research
 
 Queries, scenarios, content priorities and writing rules are preserved in [the zh-cn editorial reference](../internal/seo/markets/zh-cn.md). They do not define product conditions.
+
+[^source-18]: https://yesim.app/payment-details/. Checked 2026-10-08.
+
+[^source-19]: https://yesim.app/privacy-policy/. Checked 2026-10-08.
+
+<!-- public-view:start -->
+# Yesim 产品说明与常见问题
+
+Yesim 提供适用于旅行的预付费 eSIM 移动数据套餐。使用前需要确认设备兼容性和套餐覆盖范围。虚拟号码是独立产品，数据套餐不会自动包含电话号码。 [^source-1] [^source-3]
+
+价格、覆盖范围、激活和退款以所选产品的条件及 Yesim 现行政策为准。网站语言不决定居住国家或可用支付方式。
+
+## 问题与解答
+
+### Yesim 是什么？
+
+Yesim 提供旅行用 eSIM 移动数据套餐。购买前应确认目的地、设备和所选套餐的条件。 [^source-12] [^source-1]
+
+### 我的手机可以使用吗？
+
+需要核对准确型号、销售地区版本、eSIM 支持情况和运营商锁。不能只凭手机系列或双卡功能判断。 [^source-4]
+
+### 套餐有效期从什么时候开始？
+
+由所选套餐决定。购买、安装和首次连接网络可能是不同触发条件，应查看套餐说明。 [^source-11]
+
+### 多国旅行怎么选？
+
+比较区域和全球套餐，并逐一确认行程中的国家是否在所选套餐的覆盖名单内。 [^source-6]
+
+### Pay & Fly 与 Unlim Day Pass 有什么区别？
+
+Pay & Fly 按实际使用的数据量计费。Unlim Day Pass 是单独的使用天数套餐，需要查看有效期和使用规则。 [^source-2] [^source-14]
+
+### 数据套餐包含电话号码吗？
+
+纯数据套餐不包含电话号码或传统蜂窝通话和短信。虚拟号码另行购买，其功能取决于具体服务。 [^source-12]
+
+### 可以使用 WhatsApp 吗？
+
+已设置好的应用可以通过移动数据联网。第三方平台是否接受虚拟号码用于验证，由该平台决定，不能保证成功。 [^source-12]
+
+### 无限流量是否一直保持最高速度？
+
+不能这样保证。应查看公平使用政策、套餐限制和实际网络条件。 [^source-17]
+
+### 价格和优惠在哪里查？
+
+在购买时查看官网或应用中的最终价格、币种和优惠资格，不要自行换算后当作官方报价。 [^source-1]
+
+### 安装后没有用流量可以退款吗？
+
+零流量使用不等于符合退款条件。退款政策将安装 eSIM 配置文件视为激活，应核对当前政策和购买渠道。 [^source-13]
+
+### 退款的条件和期限是什么？
+
+标准退款申请应在购买后 30 个自然日内提交，产品须未激活、未使用且未过期。安装 eSIM 配置文件即视为激活。申请审核和处理最长为 15 个工作日，银行入账可能需要额外时间。 [^source-13]
+
+### 获批退款以什么方式返还？
+
+金额为 €10 或以下的退款仅以 Ycoins 发放。更高金额通常退回原支付方式。通过第三方平台购买的产品按该平台的退款规则处理。退款申请不保证获批。 [^source-13] [^source-18]
+
+### Yesim 会要求身份证明吗？
+
+可能会。服务条款第 5.2 节允许核验身份及服务使用资格。隐私政策说明了个人、技术和支付数据的处理。Yesim 不保存完整银行卡信息，但可能保存有限的支付信息。因此不能保证完全匿名。 [^source-19] [^source-12]
+
+### Unlim Day Pass 的天数如何计算？
+
+连接到支持的网络后，开始 24 小时使用期并消耗一天。24 小时结束后再次连接，会消耗下一天。套餐自购买日起有效 365 天。在当前套餐到期前购买新套餐，可将剩余天数结转，新的有效期为新购买日起 365 天。 [^source-14] [^source-13]
+
+### 为什么验证银行卡需要支付 €0.50？
+
+添加新银行卡需支付 €0.50 验证费，该金额会计入 Ycoins 余额。首次使用赠送的 Ycoins 购买时，也需用有效银行卡支付 €0.50 进行验证。这笔金额不会退回银行卡。 [^source-18]
+
+### 虚拟号码会自动续订吗？
+
+支付页面说明，在余额充足且号码在技术上仍可用时，号码订阅会自动续订。请核对所选服务的条件和订阅设置。这不是所有 eSIM 套餐的通用规则。 [^source-18]
+
+### 如何为退款申请报告技术故障？
+
+政策要求在故障发生后的一小时内，通过 support@yesim.app 或应用内联系表单报告，并附上说明和截图。报告故障本身不保证退款。 [^source-13]
+<!-- public-view:end -->

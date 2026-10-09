@@ -1,6 +1,6 @@
 # Yesim Open Knowledge Format bundle
 
-Product knowledge for Yesim, following [Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md). Start with the [primary English product reference](markets/en.md) or the [bundle index](index.md). English product facts have an automated public-source review; [English editorial proposals](internal/seo/markets/en.md) remain separately scoped drafts.
+Product knowledge for Yesim, following [Open Knowledge Format v0.2](https://github.com/GoogleCloudPlatform/open-knowledge-format/blob/main/SPEC.md). Start with the [primary English product reference](markets/en.md) or the [bundle index](index.md). EN and 15 detailed locales have automated public-source and linguistic review; [English editorial proposals](internal/seo/markets/en.md) remain separately scoped drafts.
 
 ## Scope and trust
 
@@ -42,4 +42,6 @@ The bundled [specification](spec.md) is attributed to GoogleCloudPlatform/open-k
 python scripts/export_site.py --out dist/site-release --base-url https://yesim.app/knowledge/
 ```
 
-This creates static HTML, clean Markdown, an OKF copy, llms.txt, sitemap and a source manifest. It excludes drafts and editorial research, keeps provenance in the OKF copy and shows a short review date on HTML. No files are deployed by this command. See [publication instructions](docs/publication.md), [revision findings](docs/revision-audit.md) and [data model](governance/data-model.md). Python 3.11 or newer is required.
+This creates static HTML, clean Markdown, an OKF copy, llms.txt, sitemap and a source manifest. It excludes drafts and editorial research, keeps provenance in the OKF copy and shows a short review date on HTML. Fifteen detailed locales publish a native answer view while preserving their full OKF records. No files are deployed by this command. See [publication instructions](docs/publication.md), [revision findings](docs/revision-audit.md) and [data model](governance/data-model.md). Python 3.11 or newer is required.
+
+Final source, locale and live HTTP findings: [2026-10-08 review](docs/final-source-and-publication-review.md). Validate the static release with `python scripts/check_site.py dist/site-release`; add `--remote` only to check the actual deployment, which currently returns 404.

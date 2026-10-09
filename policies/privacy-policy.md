@@ -1,31 +1,37 @@
 ---
 type: Policy
-title: Yesim privacy-policy source
+title: Yesim privacy-policy summary
 description: Official privacy-policy source for data processing, controller details
   and user rights.
 resource: https://yesim.app/privacy-policy/
 sources:
 - id: source-1
   resource: https://yesim.app/privacy-policy/
+- id: source-2
+  resource: https://yesim.app/terms-of-service/
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:05:42Z'
 status: stable
 audience: public
 verified:
 - by: codex/source-review
-  at: '2026-10-08T15:12:31Z'
-stale_after: '2026-11-07T15:30:00Z'
+  at: '2026-10-08T18:05:42Z'
+stale_after: '2026-10-15T18:05:42Z'
 id: yesim:policies/privacy-policy
 ---
 
-# Yesim privacy-policy source
+# Yesim privacy-policy summary
 
-Use the [official Privacy Policy](https://yesim.app/privacy-policy/) for current information about personal-data processing, controller details, categories, purposes, recipients, retention and rights. This scoped knowledge record does not reproduce the full policy or claim that every clause has been verified.
+The [official Privacy Policy](https://yesim.app/privacy-policy/) controls this dated summary.
 
-Do not describe Yesim as collecting no data, guaranteeing complete anonymity, providing zero tracking, or guaranteeing protection from all threats. Keeping a personal number separate from registration is not the same as anonymity to the provider.
+- Yesim processes account/registration, billing, correspondence and technical data. Depending on the purpose, these can include contact details, IP address, device/app details and transaction information.
+- The policy includes identity documents when required by law. [Terms §5.2](https://yesim.app/terms-of-service/) also permits identity/eligibility checks at reasonable discretion or when required. Do not promise that documents can never be requested.
+- Yesim says it does not store full payment-card details. Payment providers process payments; Yesim can receive limited billing information, including transaction IDs, masked card details and payment status.
+- Using a separate virtual number does not establish complete anonymity or zero data collection.
 
-Requests about retention, deletion, international transfers or a legal basis require the current relevant clause. Record the exact source and date; do not substitute general eSIM security claims for privacy-policy facts.
+For purpose-specific recipients, retention, international transfers, rights and requests, use the relevant current policy clause. Do not invent a deletion deadline or claim a security certification.
 
+- [Privacy and account FAQ](../faq/security.md)
 - [Terms summary](terms-of-service.md)
 - [Virtual Number](../products/virtual-number.md)

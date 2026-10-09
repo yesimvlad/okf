@@ -11,12 +11,12 @@ content_scope: source-reviewed-product-knowledge
 audience: public
 status: stable
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T17:07:08Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:05:42Z'
 verified:
 - by: codex/source-review
-  at: '2026-10-08T17:07:08Z'
-stale_after: '2026-10-15T17:07:08Z'
+  at: '2026-10-08T18:05:42Z'
+stale_after: '2026-10-15T18:05:42Z'
 approval_scope: Automated review of public sources; no human product approval or app-level
   test implied.
 sources:
@@ -54,8 +54,6 @@ sources:
   resource: https://yesim.app/yesim-partner-api/
 - id: source-17
   resource: https://yesim.app/virtual-numbers-for-business/
-- id: source-18
-  resource: https://yesim.app/trial-esim/
 - id: source-19
   resource: https://yesim.app/country/united-states/
 - id: source-20
@@ -85,6 +83,7 @@ sources:
 - id: source-32
   resource: https://yesim.app/payment-details/
 id: yesim:markets/en
+translation_group: yesim-product-overview
 ---
 
 # Yesim English product knowledge reference
@@ -110,13 +109,12 @@ The English site is https://yesim.app/. Language, customer residence, device sal
 | Unlimited-data package | Data under the selected unlimited conditions | Applicable network fair use and hotspot | [Unlimited data](../faq/unlimited-data.md) |
 | Pay & Fly | Data-consumption billing | Destination rate, balance and top-up settings | [Pay & Fly](../products/pay-and-fly-esim.md) |
 | Unlim Day Pass | Annual pack of usage days | Day trigger, expiry, supported destinations and renewal | [Unlim Day Pass](../products/unlim-day-pass.md) |
-| Trial eSIM | First-time-user offer with separate conditions | Current price, allowance, destination and eligibility | [Trial source](https://yesim.app/trial-esim/) |
 | Virtual Number | Separate number with purchased service functions | Rental and included capabilities | [Virtual Number](../products/virtual-number.md) |
 | Team travel | Company balance allocation and usage management | Business agreement and product scope | [OneBalance](../products/onebalance.md) |
 | Reselling/integration | Business API offering | Current documentation and partnership conditions | [Partner API](../products/partner-api.md) |
 | Business number management | Separate business management offering | Actual business service and contract | [Business numbers](../products/virtual-numbers-for-business.md) |
 
-Product routing sources: [^source-1] [^source-2] [^source-3] [^source-4] [^source-13] [^source-14] [^source-15] [^source-16] [^source-17] [^source-18].
+Product routing sources: [^source-1] [^source-2] [^source-3] [^source-4] [^source-13] [^source-14] [^source-15] [^source-16] [^source-17].
 
 ## Choosing a plan
 
@@ -156,7 +154,6 @@ The Help Center describes several plan-activation possibilities; purchase, insta
 
 - [Device installation reference](../guides/installation.md): Apple, Android and Google Pixel instructions.
 - [Support](../faq/support.md): official contacts, troubleshooting and technical-issue reporting.
-- [Trial eSIM](../products/trial-esim.md): current paid introductory offer and eligibility.
 - [Cruise eSIM guidance](../products/cruise-esim.md): ports and coastal partner coverage, without an open-sea guarantee.
 
 ## Coverage and destination navigation
@@ -300,7 +297,7 @@ The product FAQ describes a 24-hour period starting on network connection. A fur
 
 ### Do unused Unlim Day Pass days remain valid forever?
 
-Do not promise unconditional lifetime validity. The page specifies annual validity and rollover when another plan is purchased before expiry; confirm the actual package conditions. [^source-3]
+Do not promise unconditional lifetime validity. The pack is valid 365 days from purchase. Buy a new pack before expiry to roll the remaining days for 365 days from the new purchase; check the purchased conditions. [^source-3]
 
 [Detailed knowledge](../products/unlim-day-pass.md)
 
@@ -363,12 +360,6 @@ The Terms exclude emergency calling/messaging through Yesim products. Use a serv
 Use the relevant product/destination page and checkout. Confirm the final amount and promotion eligibility at purchase; a teaser price is not a universal quote. [^source-1] [^source-12] [^source-19]
 
 [Detailed knowledge](../products/pricing.md)
-
-### Is the Trial eSIM always free and available to everyone?
-
-Do not assume that. The reviewed trial page describes a paid offer for first-time users, limited to one trial per new user. Recheck the current offer before purchase. [^source-18]
-
-[Detailed knowledge](../products/trial-esim.md)
 
 ### Can I get a refund if I installed the eSIM but used no data?
 
@@ -450,7 +441,7 @@ No. Current Terms permit identity-verification requests in applicable circumstan
 
 ### Can a card-verification payment be different from the price of my selected plan?
 
-Yes. The current payment-details source describes verification-related payments and Ycoin crediting conditions. Check the actual transaction instead of presenting a package price as every possible payment. [^source-32]
+Yes. Adding a new card incurs a EUR 0.50 verification charge credited to Ycoins. A first purchase with promotional Ycoins also requires a valid-card EUR 0.50 verification payment credited to Ycoins. This is separate from the plan price; it is not a refund to the card. [^source-32]
 
 [Detailed knowledge](../products/pricing.md)
 
@@ -460,14 +451,14 @@ No. Payment details describes automatic renewal subject to sufficient balance an
 
 [Detailed knowledge](../products/virtual-number.md)
 
-## Source conflicts and uncertainty handling
+## Policy precedence and source consistency
 
-Trial and cruise marketing include broad refund guarantees; the current Refund Policy defines actual eligibility. Business-number marketing includes no-KYC/anonymity wording; the Terms permit verification requests and the Privacy Policy describes data processing. Do not turn these marketing statements into unconditional product promises. [^source-11] [^source-17] [^source-18] [^source-5]
+Cruise marketing includes broad refund guarantees; the current Refund Policy defines actual eligibility. Business-number marketing includes no-KYC/anonymity wording; the Terms permit verification requests and the Privacy Policy describes data processing. Do not turn these marketing statements into unconditional product promises. [^source-11] [^source-17]  [^source-5]
 
 
 The retrieved English Pay & Fly title still says unlimited, while its payment section says charges depend on data used. The reviewed billing section determines the usage explanation. [^source-2]
 
-Unlim Day Pass page sections contain inconsistent destination counts and pack sizes. Do not fix these in an answer by guessing; use the actual selectable product and current destination list. Annual validity and conditional renewal must accompany any statement about remaining days. [^source-3]
+Unlim Day Pass page sections contain inconsistent destination counts and pack sizes. Do not fix these in an answer by guessing; use the actual selectable product and current destination list. The page specifies 365 days from purchase and conditional rollover: buy a new plan before expiry to carry remaining days for 365 days from the new purchase. [^source-3]
 
 Device lists can contain broad sales-region wording. Check the exact current model rather than treating such language as a permanent rule for an entire country or future device family. [^source-6]
 
@@ -518,7 +509,6 @@ When a shared English fact changes, review the affected locale answer patterns a
 [^source-15]: OneBalance: https://yesim.app/b2b-enterprise/. Reviewed 2026-10-08; source text may be cached.
 [^source-16]: Partner API: https://yesim.app/yesim-partner-api/. Reviewed 2026-10-08; source text may be cached.
 [^source-17]: Virtual Numbers for Business: https://yesim.app/virtual-numbers-for-business/. Reviewed 2026-10-08; source text may be cached.
-[^source-18]: Trial eSIM: https://yesim.app/trial-esim/. Reviewed 2026-10-08; source text may be cached.
 [^source-19]: United States destination page: https://yesim.app/country/united-states/. Reviewed 2026-10-08; source text may be cached.
 [^source-20]: United Kingdom destination page: https://yesim.app/country/united-kingdom/. Reviewed 2026-10-08; source text may be cached.
 [^source-21]: Canada destination page: https://yesim.app/country/canada/. Reviewed 2026-10-08; source text may be cached.
