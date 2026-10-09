@@ -44,21 +44,21 @@ sources:
 - id: source-11
   resource: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
 - id: source-12
-  resource: https://yesim.app/terms-of-service/
+  resource: https://yesim.app/id/terms-of-service/
 - id: source-13
-  resource: https://yesim.app/refund-policy/
+  resource: https://yesim.app/id/refund-policy/
 - id: source-14
-  resource: https://yesim.app/unlim-day-pass/
+  resource: https://yesim.app/id/unlim-day-pass/
 - id: source-15
-  resource: https://yesim.app/promocodes/
+  resource: https://yesim.app/id/promocodes/
 - id: source-16
   resource: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/
 - id: source-17
   resource: https://help.yesim.tech/unlimited-data-plans-policy/
 - id: source-18
-  resource: https://yesim.app/payment-details/
+  resource: https://yesim.app/id/payment-details/
 - id: source-19
-  resource: https://yesim.app/privacy-policy/
+  resource: https://yesim.app/id/privacy-policy/
 editorial_reference: ../internal/seo/markets/id.md
 id: yesim:markets/id
 public_view: localized-answers
@@ -276,10 +276,10 @@ Retrieved localized sources and shared policy/instruction references. Source ret
 [^source-9]: Arab Saudi: https://yesim.app/id/country/saudi-arabia/. Referenced 2026-10-08.
 [^source-10]: Thailand: https://yesim.app/id/country/thailand/. Referenced 2026-10-08.
 [^source-11]: Activation and validity: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. Referenced 2026-10-08.
-[^source-12]: Terms and number capabilities: https://yesim.app/terms-of-service/. Referenced 2026-10-08.
-[^source-13]: Refund policy: https://yesim.app/refund-policy/. Referenced 2026-10-08.
-[^source-14]: Unlim Day Pass: https://yesim.app/unlim-day-pass/. Referenced 2026-10-08.
-[^source-15]: Current promotions: https://yesim.app/promocodes/. Referenced 2026-10-08.
+[^source-12]: Terms and number capabilities: https://yesim.app/id/terms-of-service/. Referenced 2026-10-09.
+[^source-13]: Refund policy: https://yesim.app/id/refund-policy/. Referenced 2026-10-09.
+[^source-14]: Unlim Day Pass: https://yesim.app/id/unlim-day-pass/. Referenced 2026-10-09.
+[^source-15]: Current promotions: https://yesim.app/id/promocodes/. Referenced 2026-10-09.
 [^source-16]: Device installation guidance: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/. Referenced 2026-10-08.
 [^source-17]: Unlimited-data policy: https://help.yesim.tech/unlimited-data-plans-policy/. Referenced 2026-10-08.
 
@@ -287,9 +287,9 @@ Retrieved localized sources and shared policy/instruction references. Source ret
 
 Queries, scenarios, content priorities and writing rules are preserved in [the id editorial reference](../internal/seo/markets/id.md). They do not define product conditions.
 
-[^source-18]: https://yesim.app/payment-details/. Checked 2026-10-08.
+[^source-18]: https://yesim.app/id/payment-details/. Checked 2026-10-09.
 
-[^source-19]: https://yesim.app/privacy-policy/. Checked 2026-10-08.
+[^source-19]: https://yesim.app/id/privacy-policy/. Checked 2026-10-09.
 
 <!-- public-view:start -->
 # Produk Yesim dan pertanyaan umum

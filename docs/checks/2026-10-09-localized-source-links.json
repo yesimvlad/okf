@@ -1,0 +1,2374 @@
+{
+  "checked_at": "2026-10-09",
+  "scope": "15 detailed locale files; localized official source candidates, final URL, canonical, HTML language and extracted content. Not full legal or human native signoff.",
+  "changes": [
+    {
+      "file": "markets/ar.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/ar/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ar.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/ar/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ar.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/ar/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ar.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/ar/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ar.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/ar/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ar.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/ar/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/zh-cn.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/zh-cn/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/zh-cn.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/zh-cn/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/zh-cn.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/zh-cn/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/zh-cn.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/zh-cn/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/zh-cn.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/zh-cn/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/zh-cn.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/zh-cn/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/id.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/id/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/id.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/id/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/id.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/id/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/id.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/id/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/id.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/id/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/id.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/id/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ru.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.tech/ru/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ru.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.tech/ru/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ru.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.tech/ru/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ru.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.tech/ru/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ru.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.tech/ru/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ru.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.tech/ru/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ru.md",
+      "from": "https://help.yesim.tech/when-does-my-yesim-data-plan-activate/",
+      "to": "https://help.yesim.tech/ru/when-does-my-yesim-data-plan-activate/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ru.md",
+      "from": "https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/",
+      "to": "https://help.yesim.tech/ru/how-can-i-install-esim-on-apple-devices/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ru.md",
+      "from": "https://help.yesim.tech/unlimited-data-plans-policy/",
+      "to": "https://help.yesim.tech/ru/unlimited-data-plans-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pt.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/pt/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pt.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/pt/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pt.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/pt/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pt.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/pt/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pt.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/pt/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pt.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/pt/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pt-br.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/pt-br/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pt-br.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/pt-br/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pt-br.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/pt-br/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pt-br.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/pt-br/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pt-br.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/pt-br/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pt-br.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/pt-br/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/es.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/es/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/es.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/es/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/es.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/es/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/es.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/es/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/es.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/es/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/es.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/es/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/es.md",
+      "from": "https://help.yesim.tech/when-does-my-yesim-data-plan-activate/",
+      "to": "https://help.yesim.tech/es/cuando-se-activa-mi-plan-de-datos-de-yesim/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/es.md",
+      "from": "https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/",
+      "to": "https://help.yesim.tech/es/how-can-i-install-esim-on-apple-devices/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/es.md",
+      "from": "https://help.yesim.tech/unlimited-data-plans-policy/",
+      "to": "https://help.yesim.tech/es/unlimited-data-plans-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/it.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/it/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/it.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/it/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/it.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/it/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/it.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/it/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/it.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/it/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/it.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/it/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/it.md",
+      "from": "https://help.yesim.tech/when-does-my-yesim-data-plan-activate/",
+      "to": "https://help.yesim.tech/it/when-does-my-yesim-data-plan-activate/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/it.md",
+      "from": "https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/",
+      "to": "https://help.yesim.tech/it/how-can-i-install-esim-on-apple-devices/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/it.md",
+      "from": "https://help.yesim.tech/unlimited-data-plans-policy/",
+      "to": "https://help.yesim.tech/it/unlimited-data-plans-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/cs.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/cs/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/cs.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/cs/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/cs.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/cs/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/cs.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/cs/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/cs.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/cs/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/cs.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/cs/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ja.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/ja/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ja.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/ja/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ja.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/ja/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ja.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/ja/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ja.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/ja/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ja.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/ja/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/fr.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/fr/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/fr.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/fr/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/fr.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/fr/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/fr.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/fr/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/fr.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/fr/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/fr.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/fr/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/fr.md",
+      "from": "https://help.yesim.tech/when-does-my-yesim-data-plan-activate/",
+      "to": "https://help.yesim.tech/fr/when-does-my-yesim-data-plan-activate/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/fr.md",
+      "from": "https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/",
+      "to": "https://help.yesim.tech/fr/how-can-i-install-esim-on-apple-devices/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/fr.md",
+      "from": "https://help.yesim.tech/unlimited-data-plans-policy/",
+      "to": "https://help.yesim.tech/fr/unlimited-data-plans-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/de.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/de/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/de.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/de/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/de.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/de/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/de.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/de/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/de.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/de/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/de.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/de/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/de.md",
+      "from": "https://help.yesim.tech/when-does-my-yesim-data-plan-activate/",
+      "to": "https://help.yesim.tech/de/when-does-my-yesim-data-plan-activate/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/de.md",
+      "from": "https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/",
+      "to": "https://help.yesim.tech/de/how-can-i-install-esim-on-apple-devices/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/de.md",
+      "from": "https://help.yesim.tech/unlimited-data-plans-policy/",
+      "to": "https://help.yesim.tech/de/unlimited-data-plans-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/vi.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/vi/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/vi.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/vi/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/vi.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/vi/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/vi.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/vi/promocodes/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/vi.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/vi/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/vi.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/vi/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pl.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/pl/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pl.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/pl/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pl.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/pl/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pl.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/pl/promocodes/",
+      "occurrences": 4
+    },
+    {
+      "file": "markets/pl.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/pl/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/pl.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/pl/privacy-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ro.md",
+      "from": "https://yesim.app/terms-of-service/",
+      "to": "https://yesim.app/ro/terms-of-service/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ro.md",
+      "from": "https://yesim.app/refund-policy/",
+      "to": "https://yesim.app/ro/refund-policy/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ro.md",
+      "from": "https://yesim.app/unlim-day-pass/",
+      "to": "https://yesim.app/ro/unlim-day-pass/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ro.md",
+      "from": "https://yesim.app/promocodes/",
+      "to": "https://yesim.app/ro/promocodes/",
+      "occurrences": 5
+    },
+    {
+      "file": "markets/ro.md",
+      "from": "https://yesim.app/payment-details/",
+      "to": "https://yesim.app/ro/payment-details/",
+      "occurrences": 2
+    },
+    {
+      "file": "markets/ro.md",
+      "from": "https://yesim.app/privacy-policy/",
+      "to": "https://yesim.app/ro/privacy-policy/",
+      "occurrences": 3
+    }
+  ],
+  "http_checks": [
+    {
+      "url": "https://help.yesim.tech/cs/how-can-i-install-esim-on-apple-devices/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/",
+      "lang": "en-US",
+      "canonical": [
+        "https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/"
+      ],
+      "h1": [
+        "How can I install eSIM on iPhone devices?"
+      ],
+      "chars": 5905
+    },
+    {
+      "url": "https://help.yesim.tech/cs/unlimited-data-plans-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/unlimited-data-plans-policy/",
+      "lang": "en-US",
+      "canonical": [
+        "https://help.yesim.tech/unlimited-data-plans-policy/"
+      ],
+      "h1": [
+        "Unlimited Data Plans policy"
+      ],
+      "chars": 3172
+    },
+    {
+      "url": "https://help.yesim.tech/cs/when-does-my-yesim-data-plan-activate/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/when-does-my-yesim-data-plan-activate/",
+      "lang": "en-US",
+      "canonical": [
+        "https://help.yesim.tech/when-does-my-yesim-data-plan-activate/"
+      ],
+      "h1": [
+        "When does my Yesim data plan become active?"
+      ],
+      "chars": 970
+    },
+    {
+      "url": "https://help.yesim.tech/de/how-can-i-install-esim-on-apple-devices/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/de/how-can-i-install-esim-on-apple-devices/",
+      "lang": "de-DE",
+      "canonical": [
+        "https://help.yesim.tech/de/how-can-i-install-esim-on-apple-devices/"
+      ],
+      "h1": [
+        "Wie kann ich eSIM auf Apple-Geräten installieren?"
+      ],
+      "chars": 5937
+    },
+    {
+      "url": "https://help.yesim.tech/de/unlimited-data-plans-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/de/unlimited-data-plans-policy/",
+      "lang": "de-DE",
+      "canonical": [
+        "https://help.yesim.tech/de/unlimited-data-plans-policy/"
+      ],
+      "h1": [
+        "Unbegrenzte Datentarife"
+      ],
+      "chars": 3987
+    },
+    {
+      "url": "https://help.yesim.tech/de/when-does-my-yesim-data-plan-activate/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/de/when-does-my-yesim-data-plan-activate/",
+      "lang": "de-DE",
+      "canonical": [
+        "https://help.yesim.tech/de/when-does-my-yesim-data-plan-activate/"
+      ],
+      "h1": [
+        "Wann wird mein Yesim-Datenplan aktiv?"
+      ],
+      "chars": 1110
+    },
+    {
+      "url": "https://help.yesim.tech/es/how-can-i-install-esim-on-apple-devices/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/es/how-can-i-install-esim-on-apple-devices/",
+      "lang": "es-ES",
+      "canonical": [
+        "https://help.yesim.tech/es/how-can-i-install-esim-on-apple-devices/"
+      ],
+      "h1": [
+        "¿Cómo puedo instalar eSIM en dispositivos Apple?"
+      ],
+      "chars": 5578
+    },
+    {
+      "url": "https://help.yesim.tech/es/unlimited-data-plans-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/es/unlimited-data-plans-policy/",
+      "lang": "es-ES",
+      "canonical": [
+        "https://help.yesim.tech/es/unlimited-data-plans-policy/"
+      ],
+      "h1": [
+        "Política de planes de datos ilimitados"
+      ],
+      "chars": 3890
+    },
+    {
+      "url": "https://help.yesim.tech/es/when-does-my-yesim-data-plan-activate/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/es/cuando-se-activa-mi-plan-de-datos-de-yesim/",
+      "lang": "es-ES",
+      "canonical": [
+        "https://help.yesim.tech/es/cuando-se-activa-mi-plan-de-datos-de-yesim/"
+      ],
+      "h1": [
+        "¿Cuándo se activa mi plan de datos Yesim?"
+      ],
+      "chars": 1108
+    },
+    {
+      "url": "https://help.yesim.tech/fr/how-can-i-install-esim-on-apple-devices/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/fr/how-can-i-install-esim-on-apple-devices/",
+      "lang": "fr-FR",
+      "canonical": [
+        "https://help.yesim.tech/fr/how-can-i-install-esim-on-apple-devices/"
+      ],
+      "h1": [
+        "Comment installer la carte eSIM sur les appareils Apple ?"
+      ],
+      "chars": 6078
+    },
+    {
+      "url": "https://help.yesim.tech/fr/unlimited-data-plans-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/fr/unlimited-data-plans-policy/",
+      "lang": "fr-FR",
+      "canonical": [
+        "https://help.yesim.tech/fr/unlimited-data-plans-policy/"
+      ],
+      "h1": [
+        "Politique des plans de données illimitées"
+      ],
+      "chars": 4337
+    },
+    {
+      "url": "https://help.yesim.tech/fr/when-does-my-yesim-data-plan-activate/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/fr/when-does-my-yesim-data-plan-activate/",
+      "lang": "fr-FR",
+      "canonical": [
+        "https://help.yesim.tech/fr/when-does-my-yesim-data-plan-activate/"
+      ],
+      "h1": [
+        "Quand mon plan de données Yesim devient-il actif ?"
+      ],
+      "chars": 1093
+    },
+    {
+      "url": "https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/",
+      "lang": "en-US",
+      "canonical": [
+        "https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/"
+      ],
+      "h1": [
+        "How can I install eSIM on iPhone devices?"
+      ],
+      "chars": 5905
+    },
+    {
+      "url": "https://help.yesim.tech/it/how-can-i-install-esim-on-apple-devices/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/it/how-can-i-install-esim-on-apple-devices/",
+      "lang": "it-IT",
+      "canonical": [
+        "https://help.yesim.tech/it/how-can-i-install-esim-on-apple-devices/"
+      ],
+      "h1": [
+        "Come posso installare eSIM sui dispositivi Apple?"
+      ],
+      "chars": 5751
+    },
+    {
+      "url": "https://help.yesim.tech/it/unlimited-data-plans-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/it/unlimited-data-plans-policy/",
+      "lang": "it-IT",
+      "canonical": [
+        "https://help.yesim.tech/it/unlimited-data-plans-policy/"
+      ],
+      "h1": [
+        "Politica dei piani dati illimitati"
+      ],
+      "chars": 3873
+    },
+    {
+      "url": "https://help.yesim.tech/it/when-does-my-yesim-data-plan-activate/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/it/when-does-my-yesim-data-plan-activate/",
+      "lang": "it-IT",
+      "canonical": [
+        "https://help.yesim.tech/it/when-does-my-yesim-data-plan-activate/"
+      ],
+      "h1": [
+        "Quando diventa attivo il mio piano dati Yesim?"
+      ],
+      "chars": 1056
+    },
+    {
+      "url": "https://help.yesim.tech/ja/how-can-i-install-esim-on-apple-devices/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/",
+      "lang": "en-US",
+      "canonical": [
+        "https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/"
+      ],
+      "h1": [
+        "How can I install eSIM on iPhone devices?"
+      ],
+      "chars": 5905
+    },
+    {
+      "url": "https://help.yesim.tech/ja/unlimited-data-plans-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/unlimited-data-plans-policy/",
+      "lang": "en-US",
+      "canonical": [
+        "https://help.yesim.tech/unlimited-data-plans-policy/"
+      ],
+      "h1": [
+        "Unlimited Data Plans policy"
+      ],
+      "chars": 3172
+    },
+    {
+      "url": "https://help.yesim.tech/ja/when-does-my-yesim-data-plan-activate/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/when-does-my-yesim-data-plan-activate/",
+      "lang": "en-US",
+      "canonical": [
+        "https://help.yesim.tech/when-does-my-yesim-data-plan-activate/"
+      ],
+      "h1": [
+        "When does my Yesim data plan become active?"
+      ],
+      "chars": 970
+    },
+    {
+      "url": "https://help.yesim.tech/ru/how-can-i-install-esim-on-apple-devices/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/ru/how-can-i-install-esim-on-apple-devices/",
+      "lang": "ru-RU",
+      "canonical": [
+        "https://help.yesim.tech/ru/how-can-i-install-esim-on-apple-devices/"
+      ],
+      "h1": [
+        "Как установить eSIM на iPhone?"
+      ],
+      "chars": 5357
+    },
+    {
+      "url": "https://help.yesim.tech/ru/unlimited-data-plans-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/ru/unlimited-data-plans-policy/",
+      "lang": "ru-RU",
+      "canonical": [
+        "https://help.yesim.tech/ru/unlimited-data-plans-policy/"
+      ],
+      "h1": [
+        "Политика справедливого пользования безлимитных тарифных планов"
+      ],
+      "chars": 3872
+    },
+    {
+      "url": "https://help.yesim.tech/ru/when-does-my-yesim-data-plan-activate/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/ru/when-does-my-yesim-data-plan-activate/",
+      "lang": "ru-RU",
+      "canonical": [
+        "https://help.yesim.tech/ru/when-does-my-yesim-data-plan-activate/"
+      ],
+      "h1": [
+        "Когда активируется мой тарифный план Yesim?"
+      ],
+      "chars": 959
+    },
+    {
+      "url": "https://help.yesim.tech/unlimited-data-plans-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/unlimited-data-plans-policy/",
+      "lang": "en-US",
+      "canonical": [
+        "https://help.yesim.tech/unlimited-data-plans-policy/"
+      ],
+      "h1": [
+        "Unlimited Data Plans policy"
+      ],
+      "chars": 3172
+    },
+    {
+      "url": "https://help.yesim.tech/when-does-my-yesim-data-plan-activate/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://help.yesim.tech/when-does-my-yesim-data-plan-activate/",
+      "lang": "en-US",
+      "canonical": [
+        "https://help.yesim.tech/when-does-my-yesim-data-plan-activate/"
+      ],
+      "h1": [
+        "When does my Yesim data plan become active?"
+      ],
+      "chars": 970
+    },
+    {
+      "url": "https://yesim.app/ar/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ar/payment-details/",
+      "lang": "ar",
+      "canonical": [
+        "https://yesim.app/ar/payment-details/"
+      ],
+      "h1": [
+        "خيارات الدفع، ضمان استعادة الأموال"
+      ],
+      "chars": 2195
+    },
+    {
+      "url": "https://yesim.app/ar/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ar/privacy-policy/",
+      "lang": "ar",
+      "canonical": [
+        "https://yesim.app/ar/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23888
+    },
+    {
+      "url": "https://yesim.app/ar/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ar/promocodes/",
+      "lang": "ar",
+      "canonical": [
+        "https://yesim.app/ar/promocodes/"
+      ],
+      "h1": [
+        "وفّر على eSIM مع عروض Yesim"
+      ],
+      "chars": 6801
+    },
+    {
+      "url": "https://yesim.app/ar/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ar/refund-policy/",
+      "lang": "ar",
+      "canonical": [
+        "https://yesim.app/ar/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 2780
+    },
+    {
+      "url": "https://yesim.app/ar/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ar/terms-of-service/",
+      "lang": "ar",
+      "canonical": [
+        "https://yesim.app/ar/terms-of-service/"
+      ],
+      "h1": [
+        "Terms of service"
+      ],
+      "chars": 92889
+    },
+    {
+      "url": "https://yesim.app/ar/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ar/unlim-day-pass/",
+      "lang": "ar",
+      "canonical": [
+        "https://yesim.app/ar/unlim-day-pass/"
+      ],
+      "h1": [
+        "اختر أيام سفرك. ادفع فقط عند سفرك."
+      ],
+      "chars": 3895
+    },
+    {
+      "url": "https://yesim.app/cs/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/cs/payment-details/",
+      "lang": "cs",
+      "canonical": [
+        "https://yesim.app/cs/payment-details/"
+      ],
+      "h1": [
+        "Možnosti platby, garance vrácení peněz"
+      ],
+      "chars": 2408
+    },
+    {
+      "url": "https://yesim.app/cs/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/cs/privacy-policy/",
+      "lang": "cs",
+      "canonical": [
+        "https://yesim.app/cs/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23906
+    },
+    {
+      "url": "https://yesim.app/cs/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/cs/promocodes/",
+      "lang": "cs",
+      "canonical": [
+        "https://yesim.app/cs/promocodes/"
+      ],
+      "h1": [
+        "Slevové kódy Yesim"
+      ],
+      "chars": 7369
+    },
+    {
+      "url": "https://yesim.app/cs/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/cs/refund-policy/",
+      "lang": "cs",
+      "canonical": [
+        "https://yesim.app/cs/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3257
+    },
+    {
+      "url": "https://yesim.app/cs/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/cs/terms-of-service/",
+      "lang": "cs",
+      "canonical": [
+        "https://yesim.app/cs/terms-of-service/"
+      ],
+      "h1": [
+        "Podmínky poskytování služeb"
+      ],
+      "chars": 91703
+    },
+    {
+      "url": "https://yesim.app/cs/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/cs/unlim-day-pass/",
+      "lang": "cs",
+      "canonical": [
+        "https://yesim.app/cs/unlim-day-pass/"
+      ],
+      "h1": [
+        "Vyberte si dny. Plaťte pouze tehdy, když cestujete."
+      ],
+      "chars": 4450
+    },
+    {
+      "url": "https://yesim.app/de/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/de/payment-details/",
+      "lang": "de",
+      "canonical": [
+        "https://yesim.app/de/payment-details/"
+      ],
+      "h1": [
+        "Zahlungsmöglichkeiten, Geld-zurück-Garantie"
+      ],
+      "chars": 2866
+    },
+    {
+      "url": "https://yesim.app/de/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/de/privacy-policy/",
+      "lang": "de",
+      "canonical": [
+        "https://yesim.app/de/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23902
+    },
+    {
+      "url": "https://yesim.app/de/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/de/promocodes/",
+      "lang": "de",
+      "canonical": [
+        "https://yesim.app/de/promocodes/"
+      ],
+      "h1": [
+        "Yesim Gutscheincodes"
+      ],
+      "chars": 8500
+    },
+    {
+      "url": "https://yesim.app/de/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/de/refund-policy/",
+      "lang": "de",
+      "canonical": [
+        "https://yesim.app/de/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3843
+    },
+    {
+      "url": "https://yesim.app/de/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/de/terms-of-service/",
+      "lang": "de",
+      "canonical": [
+        "https://yesim.app/de/terms-of-service/"
+      ],
+      "h1": [
+        "Nutzungsbedingungen"
+      ],
+      "chars": 111040
+    },
+    {
+      "url": "https://yesim.app/de/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/de/unlim-day-pass/",
+      "lang": "de",
+      "canonical": [
+        "https://yesim.app/de/unlim-day-pass/"
+      ],
+      "h1": [
+        "Wählen Sie Ihre Reisetage. Sie zahlen erst, wenn Sie reisen."
+      ],
+      "chars": 4151
+    },
+    {
+      "url": "https://yesim.app/es/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/es/payment-details/",
+      "lang": "es",
+      "canonical": [
+        "https://yesim.app/es/payment-details/"
+      ],
+      "h1": [
+        "Opciones de pago, garantía de devolución de dinero."
+      ],
+      "chars": 2793
+    },
+    {
+      "url": "https://yesim.app/es/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/es/privacy-policy/",
+      "lang": "es",
+      "canonical": [
+        "https://yesim.app/es/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23904
+    },
+    {
+      "url": "https://yesim.app/es/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/es/promocodes/",
+      "lang": "es",
+      "canonical": [
+        "https://yesim.app/es/promocodes/"
+      ],
+      "h1": [
+        "Códigos de cupón Yesim"
+      ],
+      "chars": 8639
+    },
+    {
+      "url": "https://yesim.app/es/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/es/refund-policy/",
+      "lang": "es",
+      "canonical": [
+        "https://yesim.app/es/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3686
+    },
+    {
+      "url": "https://yesim.app/es/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/es/terms-of-service/",
+      "lang": "es",
+      "canonical": [
+        "https://yesim.app/es/terms-of-service/"
+      ],
+      "h1": [
+        "Términos de servicio"
+      ],
+      "chars": 103143
+    },
+    {
+      "url": "https://yesim.app/es/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/es/unlim-day-pass/",
+      "lang": "es",
+      "canonical": [
+        "https://yesim.app/es/unlim-day-pass/"
+      ],
+      "h1": [
+        "Elige tus días. Paga solo cuando viajes."
+      ],
+      "chars": 4010
+    },
+    {
+      "url": "https://yesim.app/fr/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/fr/payment-details/",
+      "lang": "fr",
+      "canonical": [
+        "https://yesim.app/fr/payment-details/"
+      ],
+      "h1": [
+        "Options de paiement, garantie de remboursement"
+      ],
+      "chars": 2981
+    },
+    {
+      "url": "https://yesim.app/fr/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/fr/privacy-policy/",
+      "lang": "fr",
+      "canonical": [
+        "https://yesim.app/fr/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23909
+    },
+    {
+      "url": "https://yesim.app/fr/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/fr/promocodes/",
+      "lang": "fr",
+      "canonical": [
+        "https://yesim.app/fr/promocodes/"
+      ],
+      "h1": [
+        "Codes promo Yesim"
+      ],
+      "chars": 9126
+    },
+    {
+      "url": "https://yesim.app/fr/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/fr/refund-policy/",
+      "lang": "fr",
+      "canonical": [
+        "https://yesim.app/fr/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3944
+    },
+    {
+      "url": "https://yesim.app/fr/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/fr/terms-of-service/",
+      "lang": "fr",
+      "canonical": [
+        "https://yesim.app/fr/terms-of-service/"
+      ],
+      "h1": [
+        "Conditions de service"
+      ],
+      "chars": 110193
+    },
+    {
+      "url": "https://yesim.app/fr/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/fr/unlim-day-pass/",
+      "lang": "fr",
+      "canonical": [
+        "https://yesim.app/fr/unlim-day-pass/"
+      ],
+      "h1": [
+        "Choisissez vos dates. Vous ne payez que lorsque vous voyagez."
+      ],
+      "chars": 4406
+    },
+    {
+      "url": "https://yesim.app/id/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/id/payment-details/",
+      "lang": "id",
+      "canonical": [
+        "https://yesim.app/id/payment-details/"
+      ],
+      "h1": [
+        "Opsi pembayaran, jaminan uang kembali"
+      ],
+      "chars": 2689
+    },
+    {
+      "url": "https://yesim.app/id/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/id/privacy-policy/",
+      "lang": "id",
+      "canonical": [
+        "https://yesim.app/id/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23902
+    },
+    {
+      "url": "https://yesim.app/id/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/id/promocodes/",
+      "lang": "id",
+      "canonical": [
+        "https://yesim.app/id/promocodes/"
+      ],
+      "h1": [
+        "Hemat dengan Kode Promo Yesim"
+      ],
+      "chars": 7877
+    },
+    {
+      "url": "https://yesim.app/id/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/id/refund-policy/",
+      "lang": "id",
+      "canonical": [
+        "https://yesim.app/id/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3667
+    },
+    {
+      "url": "https://yesim.app/id/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/id/terms-of-service/",
+      "lang": "id",
+      "canonical": [
+        "https://yesim.app/id/terms-of-service/"
+      ],
+      "h1": [
+        "Terms of service"
+      ],
+      "chars": 92906
+    },
+    {
+      "url": "https://yesim.app/id/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/id/unlim-day-pass/",
+      "lang": "id",
+      "canonical": [
+        "https://yesim.app/id/unlim-day-pass/"
+      ],
+      "h1": [
+        "Pilih hari yang Anda inginkan. Bayar hanya saat Anda bepergian."
+      ],
+      "chars": 4064
+    },
+    {
+      "url": "https://yesim.app/it/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/it/payment-details/",
+      "lang": "it",
+      "canonical": [
+        "https://yesim.app/it/payment-details/"
+      ],
+      "h1": [
+        "Opzioni di pagamento, garanzia di rimborso"
+      ],
+      "chars": 2768
+    },
+    {
+      "url": "https://yesim.app/it/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/it/privacy-policy/",
+      "lang": "it",
+      "canonical": [
+        "https://yesim.app/it/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23908
+    },
+    {
+      "url": "https://yesim.app/it/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/it/promocodes/",
+      "lang": "it",
+      "canonical": [
+        "https://yesim.app/it/promocodes/"
+      ],
+      "h1": [
+        "Codici coupon Yesim"
+      ],
+      "chars": 7992
+    },
+    {
+      "url": "https://yesim.app/it/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/it/refund-policy/",
+      "lang": "it",
+      "canonical": [
+        "https://yesim.app/it/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3670
+    },
+    {
+      "url": "https://yesim.app/it/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/it/terms-of-service/",
+      "lang": "it",
+      "canonical": [
+        "https://yesim.app/it/terms-of-service/"
+      ],
+      "h1": [
+        "Termini di servizio"
+      ],
+      "chars": 104927
+    },
+    {
+      "url": "https://yesim.app/it/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/it/unlim-day-pass/",
+      "lang": "it",
+      "canonical": [
+        "https://yesim.app/it/unlim-day-pass/"
+      ],
+      "h1": [
+        "Scegli le tue date. Paghi solo quando viaggi."
+      ],
+      "chars": 4101
+    },
+    {
+      "url": "https://yesim.app/ja/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ja/payment-details/",
+      "lang": "ja",
+      "canonical": [
+        "https://yesim.app/ja/payment-details/"
+      ],
+      "h1": [
+        "支払いオプション、返金保証"
+      ],
+      "chars": 1184
+    },
+    {
+      "url": "https://yesim.app/ja/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ja/privacy-policy/",
+      "lang": "ja",
+      "canonical": [
+        "https://yesim.app/ja/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23878
+    },
+    {
+      "url": "https://yesim.app/ja/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ja/promocodes/",
+      "lang": "ja",
+      "canonical": [
+        "https://yesim.app/ja/promocodes/"
+      ],
+      "h1": [
+        "Yesimクーポンコード"
+      ],
+      "chars": 4012
+    },
+    {
+      "url": "https://yesim.app/ja/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ja/refund-policy/",
+      "lang": "ja",
+      "canonical": [
+        "https://yesim.app/ja/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 1456
+    },
+    {
+      "url": "https://yesim.app/ja/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ja/terms-of-service/",
+      "lang": "ja",
+      "canonical": [
+        "https://yesim.app/ja/terms-of-service/"
+      ],
+      "h1": [
+        "Terms of service"
+      ],
+      "chars": 92876
+    },
+    {
+      "url": "https://yesim.app/ja/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ja/unlim-day-pass/",
+      "lang": "ja",
+      "canonical": [
+        "https://yesim.app/ja/unlim-day-pass/"
+      ],
+      "h1": [
+        "ご希望の日程をお選びください。 お支払いは旅行時のみとなります。"
+      ],
+      "chars": 1919
+    },
+    {
+      "url": "https://yesim.app/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/payment-details/",
+      "lang": "en",
+      "canonical": [
+        "https://yesim.app/payment-details/"
+      ],
+      "h1": [
+        "Payment options, refund guarantee"
+      ],
+      "chars": 2285
+    },
+    {
+      "url": "https://yesim.app/pl/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pl/payment-details/",
+      "lang": "pl",
+      "canonical": [
+        "https://yesim.app/pl/payment-details/"
+      ],
+      "h1": [
+        "Opcje płatności, gwarancja zwrotu pieniędzy"
+      ],
+      "chars": 2613
+    },
+    {
+      "url": "https://yesim.app/pl/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pl/privacy-policy/",
+      "lang": "pl",
+      "canonical": [
+        "https://yesim.app/pl/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23898
+    },
+    {
+      "url": "https://yesim.app/pl/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pl/promocodes/",
+      "lang": "pl",
+      "canonical": [
+        "https://yesim.app/pl/promocodes/"
+      ],
+      "h1": [
+        "Oszczędzaj na eSIM z kodami promocyjnymi Yesim"
+      ],
+      "chars": 8064
+    },
+    {
+      "url": "https://yesim.app/pl/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pl/refund-policy/",
+      "lang": "pl",
+      "canonical": [
+        "https://yesim.app/pl/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3648
+    },
+    {
+      "url": "https://yesim.app/pl/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pl/terms-of-service/",
+      "lang": "pl",
+      "canonical": [
+        "https://yesim.app/pl/terms-of-service/"
+      ],
+      "h1": [
+        "WARUNKI ŚWIADCZENIA USŁUG"
+      ],
+      "chars": 103048
+    },
+    {
+      "url": "https://yesim.app/pl/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pl/unlim-day-pass/",
+      "lang": "pl",
+      "canonical": [
+        "https://yesim.app/pl/unlim-day-pass/"
+      ],
+      "h1": [
+        "Wybierz dni. Płać tylko w czasie podróży."
+      ],
+      "chars": 3888
+    },
+    {
+      "url": "https://yesim.app/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/privacy-policy/",
+      "lang": "en",
+      "canonical": [
+        "https://yesim.app/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23892
+    },
+    {
+      "url": "https://yesim.app/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/promocodes/",
+      "lang": "en",
+      "canonical": [
+        "https://yesim.app/promocodes/"
+      ],
+      "h1": [
+        "Yesim coupon codes"
+      ],
+      "chars": 7306
+    },
+    {
+      "url": "https://yesim.app/pt-br/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pt-br/payment-details/",
+      "lang": "pt-br",
+      "canonical": [
+        "https://yesim.app/pt-br/payment-details/"
+      ],
+      "h1": [
+        "Opções de pagamento, garantia de reembolso"
+      ],
+      "chars": 2705
+    },
+    {
+      "url": "https://yesim.app/pt-br/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pt-br/privacy-policy/",
+      "lang": "pt-br",
+      "canonical": [
+        "https://yesim.app/pt-br/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23897
+    },
+    {
+      "url": "https://yesim.app/pt-br/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pt-br/promocodes/",
+      "lang": "pt-br",
+      "canonical": [
+        "https://yesim.app/pt-br/promocodes/"
+      ],
+      "h1": [
+        "Códigos de cupom Yesim"
+      ],
+      "chars": 8037
+    },
+    {
+      "url": "https://yesim.app/pt-br/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pt-br/refund-policy/",
+      "lang": "pt-br",
+      "canonical": [
+        "https://yesim.app/pt-br/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3575
+    },
+    {
+      "url": "https://yesim.app/pt-br/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pt-br/terms-of-service/",
+      "lang": "pt-br",
+      "canonical": [
+        "https://yesim.app/pt-br/terms-of-service/"
+      ],
+      "h1": [
+        "Termos de serviço"
+      ],
+      "chars": 102496
+    },
+    {
+      "url": "https://yesim.app/pt-br/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pt-br/unlim-day-pass/",
+      "lang": "pt-br",
+      "canonical": [
+        "https://yesim.app/pt-br/unlim-day-pass/"
+      ],
+      "h1": [
+        "Escolha os seus dias. Pague apenas quando viajar."
+      ],
+      "chars": 3833
+    },
+    {
+      "url": "https://yesim.app/pt/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pt/payment-details/",
+      "lang": "pt",
+      "canonical": [
+        "https://yesim.app/pt/payment-details/"
+      ],
+      "h1": [
+        "Opções de pagamento, garantia de devolução do dinheiro"
+      ],
+      "chars": 2729
+    },
+    {
+      "url": "https://yesim.app/pt/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pt/privacy-policy/",
+      "lang": "pt",
+      "canonical": [
+        "https://yesim.app/pt/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23904
+    },
+    {
+      "url": "https://yesim.app/pt/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pt/promocodes/",
+      "lang": "pt",
+      "canonical": [
+        "https://yesim.app/pt/promocodes/"
+      ],
+      "h1": [
+        "Códigos de cupão Yesim"
+      ],
+      "chars": 8541
+    },
+    {
+      "url": "https://yesim.app/pt/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pt/refund-policy/",
+      "lang": "pt",
+      "canonical": [
+        "https://yesim.app/pt/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3700
+    },
+    {
+      "url": "https://yesim.app/pt/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pt/terms-of-service/",
+      "lang": "pt",
+      "canonical": [
+        "https://yesim.app/pt/terms-of-service/"
+      ],
+      "h1": [
+        "Termos de serviço"
+      ],
+      "chars": 103662
+    },
+    {
+      "url": "https://yesim.app/pt/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/pt/unlim-day-pass/",
+      "lang": "pt",
+      "canonical": [
+        "https://yesim.app/pt/unlim-day-pass/"
+      ],
+      "h1": [
+        "Escolha os seus dias. Pague apenas quando viajar."
+      ],
+      "chars": 3864
+    },
+    {
+      "url": "https://yesim.app/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/refund-policy/",
+      "lang": "en",
+      "canonical": [
+        "https://yesim.app/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3161
+    },
+    {
+      "url": "https://yesim.app/ro/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ro/payment-details/",
+      "lang": "ro",
+      "canonical": [
+        "https://yesim.app/ro/payment-details/"
+      ],
+      "h1": [
+        "Opțiuni de plată, garanția returnării banilor"
+      ],
+      "chars": 2748
+    },
+    {
+      "url": "https://yesim.app/ro/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ro/privacy-policy/",
+      "lang": "ro",
+      "canonical": [
+        "https://yesim.app/ro/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23913
+    },
+    {
+      "url": "https://yesim.app/ro/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ro/promocodes/",
+      "lang": "ro",
+      "canonical": [
+        "https://yesim.app/ro/promocodes/"
+      ],
+      "h1": [
+        "Economisește la eSIM cu promoțiile Yesim"
+      ],
+      "chars": 8112
+    },
+    {
+      "url": "https://yesim.app/ro/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ro/refund-policy/",
+      "lang": "ro",
+      "canonical": [
+        "https://yesim.app/ro/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3716
+    },
+    {
+      "url": "https://yesim.app/ro/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ro/terms-of-service/",
+      "lang": "ro",
+      "canonical": [
+        "https://yesim.app/ro/terms-of-service/"
+      ],
+      "h1": [
+        "Terms of service"
+      ],
+      "chars": 92908
+    },
+    {
+      "url": "https://yesim.app/ro/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ro/unlim-day-pass/",
+      "lang": "ro",
+      "canonical": [
+        "https://yesim.app/ro/unlim-day-pass/"
+      ],
+      "h1": [
+        "Alege-ți zilele. Plătește doar când călătorești."
+      ],
+      "chars": 4070
+    },
+    {
+      "url": "https://yesim.app/ru/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ru/payment-details/",
+      "lang": "ru",
+      "canonical": [
+        "https://yesim.app/ru/payment-details/"
+      ],
+      "h1": [
+        "Способы оплаты, гарантия возврата средств"
+      ],
+      "chars": 2515
+    },
+    {
+      "url": "https://yesim.app/ru/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ru/privacy-policy/",
+      "lang": "ru",
+      "canonical": [
+        "https://yesim.app/ru/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23905
+    },
+    {
+      "url": "https://yesim.app/ru/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ru/promocodes/",
+      "lang": "ru",
+      "canonical": [
+        "https://yesim.app/ru/promocodes/"
+      ],
+      "h1": [
+        "Экономьте на eSIM с промокодами Yesim"
+      ],
+      "chars": 8186
+    },
+    {
+      "url": "https://yesim.app/ru/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ru/refund-policy/",
+      "lang": "ru",
+      "canonical": [
+        "https://yesim.app/ru/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3537
+    },
+    {
+      "url": "https://yesim.app/ru/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ru/terms-of-service/",
+      "lang": "ru",
+      "canonical": [
+        "https://yesim.app/ru/terms-of-service/"
+      ],
+      "h1": [
+        "Условия предоставления услуг"
+      ],
+      "chars": 106423
+    },
+    {
+      "url": "https://yesim.app/ru/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/ru/unlim-day-pass/",
+      "lang": "ru",
+      "canonical": [
+        "https://yesim.app/ru/unlim-day-pass/"
+      ],
+      "h1": [
+        "Выберите количество дней. Платите только когда путешествуете."
+      ],
+      "chars": 3710
+    },
+    {
+      "url": "https://yesim.app/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/terms-of-service/",
+      "lang": "en",
+      "canonical": [
+        "https://yesim.app/terms-of-service/"
+      ],
+      "h1": [
+        "Terms of service"
+      ],
+      "chars": 92898
+    },
+    {
+      "url": "https://yesim.app/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/unlim-day-pass/",
+      "lang": "en",
+      "canonical": [
+        "https://yesim.app/unlim-day-pass/"
+      ],
+      "h1": [
+        "Pick your days. Pay only when you travel."
+      ],
+      "chars": 3480
+    },
+    {
+      "url": "https://yesim.app/vi/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/vi/payment-details/",
+      "lang": "vi",
+      "canonical": [
+        "https://yesim.app/vi/payment-details/"
+      ],
+      "h1": [
+        "Tùy chọn thanh toán, đảm bảo hoàn tiền"
+      ],
+      "chars": 2595
+    },
+    {
+      "url": "https://yesim.app/vi/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/vi/privacy-policy/",
+      "lang": "vi",
+      "canonical": [
+        "https://yesim.app/vi/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23892
+    },
+    {
+      "url": "https://yesim.app/vi/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/vi/promocodes/",
+      "lang": "vi",
+      "canonical": [
+        "https://yesim.app/vi/promocodes/"
+      ],
+      "h1": [
+        "Mã coupon Yesim"
+      ],
+      "chars": 7702
+    },
+    {
+      "url": "https://yesim.app/vi/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/vi/refund-policy/",
+      "lang": "vi",
+      "canonical": [
+        "https://yesim.app/vi/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3559
+    },
+    {
+      "url": "https://yesim.app/vi/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/vi/terms-of-service/",
+      "lang": "vi",
+      "canonical": [
+        "https://yesim.app/vi/terms-of-service/"
+      ],
+      "h1": [
+        "Terms of service"
+      ],
+      "chars": 92896
+    },
+    {
+      "url": "https://yesim.app/vi/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/vi/unlim-day-pass/",
+      "lang": "vi",
+      "canonical": [
+        "https://yesim.app/vi/unlim-day-pass/"
+      ],
+      "h1": [
+        "Chọn ngày đi. Chỉ thanh toán khi bạn đi du lịch."
+      ],
+      "chars": 3845
+    },
+    {
+      "url": "https://yesim.app/zh-cn/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/zh-cn/payment-details/",
+      "lang": "zh-cn",
+      "canonical": [
+        "https://yesim.app/zh-cn/payment-details/"
+      ],
+      "h1": [
+        "付款选项，退款保证"
+      ],
+      "chars": 881
+    },
+    {
+      "url": "https://yesim.app/zh-cn/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/zh-cn/privacy-policy/",
+      "lang": "zh-cn",
+      "canonical": [
+        "https://yesim.app/zh-cn/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 23869
+    },
+    {
+      "url": "https://yesim.app/zh-cn/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/zh-cn/promocodes/",
+      "lang": "zh-cn",
+      "canonical": [
+        "https://yesim.app/zh-cn/promocodes/"
+      ],
+      "h1": [
+        "使用优惠码节省 eSIM 费用"
+      ],
+      "chars": 3074
+    },
+    {
+      "url": "https://yesim.app/zh-cn/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/zh-cn/refund-policy/",
+      "lang": "zh-cn",
+      "canonical": [
+        "https://yesim.app/zh-cn/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 1065
+    },
+    {
+      "url": "https://yesim.app/zh-cn/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/zh-cn/terms-of-service/",
+      "lang": "zh-cn",
+      "canonical": [
+        "https://yesim.app/zh-cn/terms-of-service/"
+      ],
+      "h1": [
+        "Terms of service"
+      ],
+      "chars": 92873
+    },
+    {
+      "url": "https://yesim.app/zh-cn/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.app/zh-cn/unlim-day-pass/",
+      "lang": "zh-cn",
+      "canonical": [
+        "https://yesim.app/zh-cn/unlim-day-pass/"
+      ],
+      "h1": [
+        "选择出行日期。 仅在出行时付费。"
+      ],
+      "chars": 1433
+    },
+    {
+      "url": "https://yesim.tech/ru/payment-details/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.tech/ru/payment-details/",
+      "lang": "ru",
+      "canonical": [
+        "https://yesim.tech/ru/payment-details/"
+      ],
+      "h1": [
+        "Способы оплаты, гарантия возврата средств"
+      ],
+      "chars": 2352
+    },
+    {
+      "url": "https://yesim.tech/ru/privacy-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.tech/ru/privacy-policy/",
+      "lang": "ru",
+      "canonical": [
+        "https://yesim.tech/ru/privacy-policy/"
+      ],
+      "h1": [
+        "YESIM Privacy Policy"
+      ],
+      "chars": 22695
+    },
+    {
+      "url": "https://yesim.tech/ru/promocodes/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.tech/ru/promocodes/",
+      "lang": "ru",
+      "canonical": [
+        "https://yesim.tech/ru/promocodes/"
+      ],
+      "h1": [
+        "Экономьте на eSIM с промокодами Yesim"
+      ],
+      "chars": 8092
+    },
+    {
+      "url": "https://yesim.tech/ru/refund-policy/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.tech/ru/refund-policy/",
+      "lang": "ru",
+      "canonical": [
+        "https://yesim.tech/ru/refund-policy/"
+      ],
+      "h1": [],
+      "chars": 3537
+    },
+    {
+      "url": "https://yesim.tech/ru/terms-of-service/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.tech/ru/terms-of-service/",
+      "lang": "ru",
+      "canonical": [
+        "https://yesim.tech/ru/terms-of-service/"
+      ],
+      "h1": [
+        "Terms of service"
+      ],
+      "chars": 61407
+    },
+    {
+      "url": "https://yesim.tech/ru/unlim-day-pass/",
+      "checked_at": "2026-10-09",
+      "status": 200,
+      "final_url": "https://yesim.tech/ru/unlim-day-pass/",
+      "lang": "ru",
+      "canonical": [
+        "https://yesim.tech/ru/unlim-day-pass/"
+      ],
+      "h1": [
+        "Выберите количество дней. Платите только когда путешествуете."
+      ],
+      "chars": 3710
+    },
+    {
+      "url": "https://yesim.tech/ru/virtual-number/",
+      "checked_at": "2026-10-09",
+      "status": 404,
+      "error": "HTTP Error 404: Not Found"
+    }
+  ]
+}
