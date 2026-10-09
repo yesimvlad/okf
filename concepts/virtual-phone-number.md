@@ -29,7 +29,7 @@ For Yesim, consult the [Virtual Number product](../products/virtual-number.md). 
 
 An eSIM profile is a different concept. [Yesim eSIM plans](../products/esim.md) supply mobile data under the selected plan's conditions. Do not generalize data-only limitations to every eSIM from every provider.
 
-# Related knowledge
+## Related knowledge
 
 - [Calls and SMS FAQ](../faq/calls-sms.md)
 - [Terms](../policies/terms-of-service.md)

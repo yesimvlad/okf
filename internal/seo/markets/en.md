@@ -54,7 +54,6 @@ Newly authored phrases to validate against actual GSC/Ahrefs exports. They are n
 | virtual number for Telegram | Verification | [Knowledge](../../../products/virtual-number.md) |
 | Yesim refund after installation | Refund conditions | [Knowledge](../../../policies/refund-policy.md) |
 | Yesim promo code | Promotion eligibility | [Knowledge](../../../products/pricing.md) |
-| Yesim trial eSIM | Current trial offer | [Knowledge](../../../markets/en.md) |
 | Yesim OneBalance | Team management | [Knowledge](../../../products/onebalance.md) |
 | Yesim eSIM API | Reseller integration | [Knowledge](../../../products/partner-api.md) |
 
@@ -86,7 +85,6 @@ Newly authored phrases to validate against actual GSC/Ahrefs exports. They are n
 |---|---|---|
 | P1 | Align names, billing, activation and refund wording | Current product/policy sources and product review |
 | P1 | Align English Pay & Fly title with payment description | Approved current definition; production metadata change |
-| P1 | Remove blanket compatibility, free-trial and guaranteed-verification wording | Exact device/offer/service conditions |
 | P2 | Expand destination, comparison and practical setup answers | Current selected packages and complete itineraries |
 | P2 | Collect English queries by country, device and page | Dated GSC/Ahrefs data plus conversion evidence |
 | P3 | Compare providers for a defined travel scenario | Current official competitor conditions and comparable checkout totals |

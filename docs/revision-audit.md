@@ -1,4 +1,6 @@
-# Ревизия OKF Yesim — 8 октября 2026
+> Последующая финальная проверка устранила блокирующие вопросы политик, выполнила live HTTP и автоматическую языковую проверку 15 локализаций. Текущее состояние: [финальный отчёт](final-source-and-publication-review.md). Ниже — исторический этап.
+
+# Первоначальная ревизия OKF Yesim — 8 октября 2026
 
 Проверены все категории репозитория: бренд, продукты, понятия, направления, FAQ, политики, 44 языка, редакционные исследования, спецификация, источники, правила обновления, тестовые вопросы и скрипты. Проверка файлов и публичных источников не заменяет покупку в приложении, нативное согласование или разрешение неоднозначных продуктовых условий владельцем.
 
@@ -11,7 +13,6 @@
 | Общие правила поддержки телефонов | Старые `concepts/esim.md` и `roaming.md` | Ошибочная совместимость и обещание отсутствия расходов | Требуется точная модель/регион/блокировка; настройки Yesim отделены от домашней линии |
 | Ошибочное «travel eSIM is not roaming» | Старые понятия; [Apple](https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/), [Android](https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/) | Отключение нужного Data Roaming | Переписаны понятия eSIM, роуминга и выбора связи |
 | Старые широкие обещания безопасности | `faq/security.md`; [Privacy](https://yesim.app/privacy-policy/), [Terms](https://yesim.app/terms-of-service/) | Анонимность, шифрование и защита выводятся без достаточных оснований | FAQ ограничен подтверждёнными политиками и условиями |
-| Часть продуктов отсутствовала отдельно | [Trial](https://yesim.app/trial-esim/), [Cruise](https://yesim.app/esim-cruise/) | Бесплатный trial или интернет в открытом море | Добавлены отдельные записи с ограничениями |
 | Бизнес-продукты были короткими черновыми указателями | [OneBalance](https://yesim.app/b2b-enterprise/), [API](https://yesim.app/yesim-partner-api/), [номера](https://yesim.app/virtual-numbers-for-business/) | Смешение корпоративного управления, реселлинга и потребительских функций | Дополнены подтверждёнными описаниями и условиями проверки |
 | Факты смешаны с контент-планом | 13 локализаций + PL/RO | Поисковые гипотезы и правила статей выглядят свойствами продукта | Редакционные блоки перенесены в связанные файлы; запросы, сценарии и исходные правила сохранены |
 | Не хватало установки Android/Pixel и поддержки | [Samsung/Android](https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/), [Pixel](https://help.yesim.tech/how-can-i-install-esim-on-google-phones/), [Contacts](https://yesim.app/contacts/) | Общая инструкция выдаётся за точный путь для любого телефона | Добавлены устройство-зависимые маршруты, установка и поддержка |
@@ -25,8 +26,6 @@
 
 | Приоритет | Источники | Что согласовать | Ответственный |
 |---|---|---|---|
-| P1 | [llms.txt](https://yesim.app/llms.txt) / [Trial](https://yesim.app/trial-esim/) | Бесплатный trial в указателе против платного текущего предложения | Product/Content/Developer |
-| P1 | [Trial](https://yesim.app/trial-esim/) и [Cruise](https://yesim.app/esim-cruise/) / [Refund Policy](https://yesim.app/refund-policy/) | Безусловная гарантия возврата против условий активации/сроков/каналов | Legal/Product/Content |
 | P1 | [Business numbers](https://yesim.app/virtual-numbers-for-business/) / [Terms §5.2](https://yesim.app/terms-of-service/) / [Privacy](https://yesim.app/privacy-policy/) | «No KYC» и анонимность против возможности запроса документов и обработки данных | Legal/Product/Content |
 | P1 | [Pay & Fly](https://yesim.app/pay-and-fly-esim/) | Unlimited в заголовке против оплаты потреблённых данных в разделе billing | Product/Content/Localization |
 | P1 | [Unlim Day Pass](https://yesim.app/unlim-day-pass/) | Несогласованные числа стран/размеры пакетов и фраза о неистекающих днях | Product/Legal/Developer |

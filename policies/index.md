@@ -2,6 +2,7 @@
 
 - [Terms of service summary](terms-of-service.md)
 - [Privacy-policy summary](privacy-policy.md)
+- [Payment details](payment-details.md)
 - [Refund-policy summary](refund-policy.md)
 - [Product limitations](limitations.md)
 

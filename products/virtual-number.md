@@ -42,7 +42,7 @@ The OTP Service is limited to verification-related inbound communications. It do
 
 The website publishes verification-use pages, including WhatsApp and Telegram. A page about a service is not a guarantee that a selected number will be accepted by that service. Third-party platform acceptance is not guaranteed.[^source-2]
 
-# Questions
+## Questions
 
 ## Does every Yesim eSIM include a number?
 No. Do not infer number functionality from a data-only eSIM purchase.
@@ -56,7 +56,7 @@ No. Check the selected number's capabilities and the third-party service's rules
 ## Can I retain a number indefinitely?
 Do not assume this. Rental expiry and renewal apply; the Terms do not guarantee restoration of an expired number.[^source-2]
 
-# Sources and related knowledge
+## Sources and related knowledge
 
 - [Official product page](https://yesim.app/virtual-number/)
 - [Calls and SMS FAQ](../faq/calls-sms.md)

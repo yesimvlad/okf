@@ -38,7 +38,7 @@ Data-only plans do not supply a phone number or traditional cellular calls/SMS. 
 | Pay & Fly | [Data-consumption billing](pay-and-fly-esim.md) |
 | Unlim Day Pass | [Annual prepaid pack of plan days](unlim-day-pass.md) |
 
-# Before purchase
+## Before purchase
 
 Check exact device model, regional variant, carrier lock, selected plan coverage, activation trigger, allowance, validity, hotspot and fair-use conditions. The brand's overall coverage is not an individual plan's coverage. Do not infer that every newer model supports eSIM or that 5G is guaranteed.
 

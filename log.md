@@ -40,7 +40,6 @@ Automated source review does not imply human product approval, app-level testing
 
 - Retained `generated` provenance in source OKF; added clean HTML/Markdown views without frontmatter.
 - Replaced unsafe legacy roaming, device, pricing, coverage and privacy summaries with scoped source-reviewed records.
-- Added Trial, Cruise, installation and support; completed bounded business-product descriptions.
 - Split full PL/RO and 13-locale editorial research from product answers; preserved queries, scenarios and original writing rules.
 - Added entity IDs, data ownership, six EN questions (44 EN / 188 overall), publication plan and result template.
 - Added static site export, freshness/scope/content checks and GitHub build artifacts.

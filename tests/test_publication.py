@@ -59,6 +59,30 @@ class PublicationTests(unittest.TestCase):
             with self.assertRaisesRegex(ValueError,'fresh primary'):build(root,out,'https://yesim.app/knowledge/',NOW)
             self.assertFalse(out.exists())
 
+    def test_localized_view_preserves_full_okf_and_has_reciprocal_alternates(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp)/'source';root.mkdir();meta=self.bundle(root)
+            meta['translation_group']='overview'
+            meta['sources'].append({'id':'unused','resource':'https://yesim.app/unused/'})
+            self.put(root,'markets/en.md',meta,'# English\n\n[^unused]: https://yesim.app/unused/\n')
+            localized=dict(meta,id='yesim:markets/ar',language='ar',public_view='localized-answers',
+                title='معلومات Yesim',source_links_heading='المصادر الرسمية')
+            self.put(root,'markets/ar.md',localized,'# Internal scope\n\nPreserved research.\n\n<!-- public-view:start -->\n# معلومات Yesim\n\nإجابة. [^official]\n<!-- public-view:end -->\n\n[^official]: https://yesim.app/\n')
+            out=Path(temp)/'site';build(root,out,'https://yesim.app/knowledge/',NOW)
+            native=(out/'markets/ar.html').read_text();english=(out/'markets/en.html').read_text()
+            self.assertIn('lang="ar" dir="rtl"',native)
+            self.assertNotIn('Preserved research.',native)
+            self.assertIn('Preserved research.',(out/'okf/markets/ar.md').read_text())
+            self.assertIn('hreflang="en"',native)
+            self.assertIn('hreflang="ar"',english)
+            self.assertIn('hreflang="x-default"',native)
+            self.assertNotIn('href="#fnref:unused"',english)
+            self.assertIn('https://yesim.app/unused/',(out/'markets/en.md').read_text())
+            # A missing/duplicated view must not silently publish the mixed-language body.
+            self.put(root,'markets/ar.md',localized,'# Missing native view\n')
+            with self.assertRaisesRegex(ValueError,'localized public view'):
+                build(root,Path(temp)/'invalid','https://yesim.app/knowledge/',NOW)
+
     def test_active_content_is_rejected_before_release(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp)/'source';root.mkdir();meta=self.bundle(root)

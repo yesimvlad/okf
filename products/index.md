@@ -9,5 +9,4 @@
 - [Partner API](partner-api.md)
 - [Virtual Numbers for Business](virtual-numbers-for-business.md)
 - [Pricing](pricing.md)
-- [Trial eSIM](trial-esim.md): current introductory offer and eligibility
 - [Cruise eSIM guidance](cruise-esim.md): port/coastal coverage

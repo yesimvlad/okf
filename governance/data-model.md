@@ -29,7 +29,7 @@ This is a Yesim authoring profile extending OKF, not a separate industry standar
 | Installation guide | Guide ID, device/OS scope, prerequisites, steps, removal/reinstall caveats, source | Help Center and tested app/device flow | Device, profile, activation and refund policy | HTML/Markdown; Support/Engineering; on flow change |
 | Number SKU | Real SKU ID, number/service type, rental/renewal, inbound/outbound calls and SMS separately, OTP purpose, territorial/eligibility restrictions, source time | Number catalogue, Product Description, agreement | Number product, purchaser eligibility, policy | Dedicated feed/reference; Product/Legal; on change |
 | Policy | Policy ID, official URL/version/effective date if published, scope, source-check time | Legal master and current official policy | Products, purchase channels, exceptions | Scoped summary linking full policy; Legal; immediate update on change |
-| Locale | Language code, actual website URL, source mapping, native review, product review, local exception evidence | Language selector plus Localization/Product | Shared EN definitions and local official sources | Publish approved product records individually; Localization/SEO; after shared changes |
+| Locale | Language code, actual website URL, source mapping, review method/date/scope, local exception evidence | Language selector plus Localization/Product | Shared EN definitions and local official sources | Publish source-reviewed native answer views individually; Localization/SEO; after shared changes |
 
 Source ownership must be assigned to actual staff by the owner. Role labels here propose responsibility and do not record sign-off.
 
@@ -65,6 +65,6 @@ The example shows required information, not an existing Yesim tariff. Every `nul
 
 ## Update flow
 
-Product-system/source change → affected shared records → EN reference and expected answers → affected locale drafts and native review → validation → fresh export → website release → factual evaluation. Preserve explicitly sourced local exceptions. Do not refresh verification timestamps without checking evidence.
+Product-system/source change → affected shared records → EN reference and expected answers → affected locale records and source/linguistic review → validation → fresh export → website release → factual evaluation. Preserve explicitly sourced local exceptions. Do not refresh verification timestamps without checking evidence.
 
 Price/coverage feeds are not implemented here because their authenticated product source and contracts are not available. Do not build a fabricated inventory to fill the shape.

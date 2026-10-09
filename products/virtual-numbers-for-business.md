@@ -12,14 +12,14 @@ sources:
 - id: source-3
   resource: https://yesim.app/privacy-policy/
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T16:55:46Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:05:42Z'
 verified:
 - by: codex/source-review
-  at: '2026-10-08T16:55:46Z'
+  at: '2026-10-08T18:05:42Z'
 status: stable
 audience: public
-stale_after: '2026-10-15T16:55:46Z'
+stale_after: '2026-10-15T18:05:42Z'
 id: yesim:products/virtual-numbers-for-business
 ---
 
@@ -29,7 +29,7 @@ The business platform advertises managing multiple virtual numbers, API integrat
 
 Do not infer consumer calling/SMS functions, permanent domestic-phone replacement or successful third-party verification from this overview. Functions, rental, eligibility and permitted use depend on the purchased service.
 
-Marketing statements about anonymity or no identity checks are not unconditional policy guarantees: the Terms permit identity-verification requests, and the Privacy Policy describes personal-data processing. Confirm business-specific conditions with Product/Legal before publishing a stronger claim.
+Marketing statements about anonymity or no identity checks are not unconditional policy guarantees: the Terms permit identity-verification requests, and the Privacy Policy describes personal-data processing. Describe only the capabilities and eligibility documented for the purchased business service; the current policies do not establish an unconditional no-verification promise.
 
 - [Consumer Virtual Number](virtual-number.md)
 - [Business overview](business-esim.md)

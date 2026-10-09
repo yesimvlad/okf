@@ -1,15 +1,15 @@
 ---
 type: Market
-title: Yesim Romanian market
-description: Localized ro product explanations, terminology and answer drafts with
-  official-source routing.
+title: Produsele Yesim și întrebări frecvente
+description: Prețul, acoperirea, activarea și rambursările depind de condițiile produsului
+  ales și de politicile Yesim în vigoare. Limba site-ului nu stabilește țara de reședință
+  sau metodele de plată disponibile.
 resource: https://yesim.app/ro/
 legacy_timestamp: '2026-06-24 00:00:00+00:00'
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T16:55:46Z'
-status: draft
-review_required: true
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:13:44Z'
+status: stable
 audience: public
 sources:
 - id: source-1
@@ -58,30 +58,57 @@ sources:
   resource: https://yesim.app/ro/virtual-number/whatsapp/
 - id: source-23
   resource: https://yesim.app/ro/virtual-number/telegram/
-- id: source-24
-  resource: https://yesim.app/ro/virtual-number/tinder/
 - id: source-25
   resource: https://www.trustpilot.com/review/yesim.app
 - id: source-26
   resource: https://yesim.app/llms.txt
 - id: source-27
   resource: https://yesim.app/ro/pay-and-fly-esim/
+- id: source-28
+  resource: https://help.yesim.tech/unlimited-data-plans-policy/
+- id: source-29
+  resource: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+- id: source-30
+  resource: https://yesim.app/payment-details/
+- id: source-31
+  resource: https://yesim.app/privacy-policy/
+- id: source-32
+  resource: https://yesim.app/refund-policy/
+- id: source-33
+  resource: https://yesim.app/terms-of-service/
+- id: source-34
+  resource: https://yesim.app/unlim-day-pass/
 language: ro
-localization_status: needs-review
+localization_status: automated-source-and-language-reviewed
 content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/ro/
 listing_checked_at: '2026-10-08T15:48:28Z'
 listing_evidence: https://yesim.app/llms.txt
 editorial_reference: ../internal/seo/markets/ro.md
 id: yesim:markets/ro
+public_view: localized-answers
+translation_group: yesim-product-overview
+source_links_heading: Surse oficiale
+verified:
+- by: codex/source-review
+  at: '2026-10-08T18:13:44Z'
+- by: codex/linguistic-review
+  at: '2026-10-08T18:13:44Z'
+stale_after: '2026-10-15T18:13:44Z'
+review_scope: Public-source facts and native public answers; automated linguistic
+  review, not human/native employee approval or checkout testing.
+source_review:
+  by: codex/live-http-and-source-review
+  at: '2026-10-08T18:13:44Z'
+  scope: Cited official endpoints, HTTP status, visible no-JavaScript text, canonical
+    and hreflang. Payment/refund/privacy/Terms control policy summaries.
 ---
-
 
 ## Reading scope
 
 Use the [primary English product reference](en.md) and shared product records when reviewing translated definitions. The purchased Product Description and explicitly sourced local exceptions still control.
 
-Localized product explanations and answers await native and product review. Language does not establish residence.
+Product facts and native-language answers have an automated source and linguistic review dated 2026-10-08. This is not human employee sign-off. Language does not establish residence.
 
 - [Shared product definitions](../products/index.md)
 - [Activation and plan validity](../faq/activation.md)
@@ -167,8 +194,8 @@ Yesim poate ajuta la evitarea tarifelor tradiționale de roaming de date de la o
 
 | Region | Local use case | Yesim page |
 |---|---|---|
-| Europe and UK | Călătorii în UE, UK, Schengen și destinații europene apropiate | https://yesim.app/ro/regions/europe-esim/ |
-| Balkans | Călătorii în Albania, Muntenegru, Serbia, Bosnia și destinații balcanice | https://yesim.app/ro/regions/balkans-esim/ |
+| Europe and UK | Itinerar european; verificați fiecare țară în pachetul ales, fără a deduce acoperirea din apartenența la UE sau Schengen | https://yesim.app/ro/regions/europe-esim/ |
+| Balkans | Itinerar balcanic; verificați fiecare țară în lista pachetului ales | https://yesim.app/ro/regions/balkans-esim/ |
 
 # Global Plans for Romanian Travelers
 
@@ -186,7 +213,6 @@ Virtual Number is a separate product from Yesim eSIM data plans.
 |---|---|
 | WhatsApp | https://yesim.app/ro/virtual-number/whatsapp/ |
 | Telegram | https://yesim.app/ro/virtual-number/telegram/ |
-| Tinder | https://yesim.app/ro/virtual-number/tinder/ |
 
 Full virtual number page: https://yesim.app/ro/virtual-number/
 
@@ -222,7 +248,7 @@ Yesim este un furnizor global de eSIM care oferă pachete de date mobile preplă
 
 ## What is eSIM?
 
-eSIM este o cartelă SIM digitală integrată în telefon. Nu necesită o cartelă SIM fizică. Pachetul de date poate fi activat prin aplicație sau cod QR, dacă dispozitivul suportă eSIM și nu este blocat de operator.
+eSIM este o cartelă SIM digitală integrată în telefon. Nu necesită o cartelă SIM fizică. Profilul eSIM poate fi instalat prin aplicație sau cod QR, dacă dispozitivul suportă eSIM și nu este blocat de operator.
 
 ## Does Yesim work in Turkey?
 
@@ -254,7 +280,7 @@ Verificați ofertele actuale și condițiile de eligibilitate pe https://yesim.a
 
 ## Is Yesim safe?
 
-Yesim este operat de Genesis Group AG, o companie înregistrată în Elveția. Informațiile despre companie sunt disponibile în Termenii și Condițiile Yesim. Recenziile utilizatorilor pot fi verificate pe Trustpilot: https://www.trustpilot.com/review/yesim.app
+Consultați identitatea companiei în condițiile oficiale și prelucrarea datelor în politica de confidențialitate. Recenziile nu garantează siguranța sau funcționarea în orice situație. https://yesim.app/privacy-policy/
 
 # Product-answer claim candidates requiring current-source review
 
@@ -321,7 +347,6 @@ Use these only after checking the linked current source and applicable plan:
 - Virtual Number RO: https://yesim.app/ro/virtual-number/
 - WhatsApp Virtual Number RO: https://yesim.app/ro/virtual-number/whatsapp/
 - Telegram Virtual Number RO: https://yesim.app/ro/virtual-number/telegram/
-- Tinder Virtual Number RO: https://yesim.app/ro/virtual-number/tinder/
 - Trustpilot: https://www.trustpilot.com/review/yesim.app
 
 # Source directory
@@ -349,7 +374,6 @@ Use these only after checking the linked current source and applicable plan:
 - [Source 21](https://yesim.app/ro/global/)
 - [Source 22](https://yesim.app/ro/virtual-number/whatsapp/)
 - [Source 23](https://yesim.app/ro/virtual-number/telegram/)
-- [Source 24](https://yesim.app/ro/virtual-number/tinder/)
 - [Source 25](https://www.trustpilot.com/review/yesim.app)
 
 ## Editorial research
@@ -358,4 +382,148 @@ Queries, scenarios, content priorities and writing rules are preserved in [the r
 
 ## Latest source routing check
 
-The localized home and Pay & Fly pages were retrieved again on 2026-10-08. This confirms these source routes, not every local instruction or translation. RO United States routing uses the retrieved `/ro/country/united-states/` URL. Native/product approval remains pending.
+Live HTTP/source checks and automated linguistic review completed 2026-10-08. The public answer view below follows the current payment, refund, privacy and product sources. Detailed editorial research remains linked separately.
+
+<!-- public-view:start -->
+# Produsele Yesim și întrebări frecvente
+
+Yesim oferă pachete de date eSIM preplătite pentru călătorii. Înainte de cumpărare, verificați dispozitivul, destinația și condițiile pachetului.
+
+Prețul, acoperirea, activarea și rambursările depind de condițiile produsului ales și de politicile Yesim în vigoare. Limba site-ului nu stabilește țara de reședință sau metodele de plată disponibile.
+
+## Întrebări și răspunsuri
+
+### Ce este Yesim?
+
+Yesim oferă pachete de date eSIM preplătite pentru călătorii. Înainte de cumpărare, verificați dispozitivul, destinația și condițiile pachetului. [^source-33] [^source-1]
+
+### Este telefonul meu compatibil?
+
+Verificați modelul exact, varianta regională, compatibilitatea eSIM și lipsa blocării în rețeaua unui operator. Funcția Dual SIM nu este suficientă. [^source-2]
+
+### Când începe valabilitatea pachetului?
+
+Depinde de pachet. Cumpărarea, instalarea profilului și prima conectare la rețea sunt evenimente distincte. Verificați regulile de activare ale pachetului ales. [^source-29]
+
+### Cum aleg un pachet pentru mai multe țări?
+
+Comparați pachetele regionale și globale. Verificați fiecare țară din itinerar în lista de acoperire a pachetului ales; apartenența la UE sau Schengen nu garantează acoperirea. [^source-21]
+
+### Care este diferența dintre Pay & Fly și Unlim Day Pass?
+
+Pay & Fly taxează datele folosite. Unlim Day Pass este un pachet separat de zile de utilizare a datelor, cu propriile reguli de valabilitate. [^source-27] [^source-34]
+
+### Pachetul de date include un număr de telefon?
+
+Pachetele exclusiv de date nu includ număr de telefon, apeluri sau SMS celulare obișnuite. Numărul virtual este separat, iar funcțiile sale depind de serviciul cumpărat. [^source-33]
+
+### Pot folosi WhatsApp?
+
+O aplicație deja configurată poate folosi conexiunea de date mobile. Acceptarea unui număr virtual pentru verificare depinde de platformă și nu este garantată. [^source-33]
+
+### Datele nelimitate înseamnă întotdeauna viteză maximă?
+
+Nu. Verificați politica de utilizare rezonabilă și condițiile pachetului. Nu presupuneți aceleași limite zilnice, viteze sau reguli de hotspot pentru toate produsele. [^source-28]
+
+### Unde verific prețurile și promoțiile?
+
+Pe site-ul oficial sau în aplicație, la cumpărare. Verificați prețul final, moneda și condițiile promoției; nu presupuneți un preț în lei dacă nu este afișat. [^source-1]
+
+### Pot primi rambursare după instalare fără consum de date?
+
+Lipsa consumului de date nu garantează rambursarea. Politica consideră instalarea profilului eSIM drept activare. Verificați politica actuală și canalul de cumpărare. [^source-32]
+
+### Care sunt condițiile și termenele de rambursare?
+
+Cererea standard trebuie depusă în termen de 30 de zile calendaristice de la cumpărare, dacă produsul nu a fost activat, folosit și nu a expirat. Instalarea profilului eSIM este considerată activare. Procesarea durează până la 15 zile lucrătoare; creditarea de către bancă poate dura mai mult. [^source-32]
+
+### Cum se acordă o rambursare aprobată?
+
+Sumele de 10 € sau mai mici sunt rambursate exclusiv în Ycoins. Pentru sume mai mari se folosește, de regulă, metoda de plată inițială. Cumpărăturile pe platforme externe urmează regulile acestora. Aprobarea nu este garantată. [^source-32] [^source-30]
+
+### Poate Yesim solicita documente de identitate?
+
+Da. Secțiunea 5.2 din condiții permite verificarea identității și a eligibilității. Politica de confidențialitate descrie prelucrarea datelor personale, tehnice și de plată. Yesim nu păstrează datele complete ale cardului, dar poate păstra informații de plată limitate. Anonimatul complet nu este garantat. [^source-31] [^source-33]
+
+### Cum funcționează zilele Unlim Day Pass?
+
+Conectarea la o rețea acceptată începe o perioadă de 24 de ore și consumă o zi. O nouă conectare după aceste 24 de ore consumă ziua următoare. Pachetul este valabil 365 de zile de la cumpărare. Cumpărarea unui pachet nou înainte de expirare transferă zilele rămase pentru 365 de zile de la noua cumpărare. [^source-34] [^source-32]
+
+### De ce se percep 0,50 € pentru verificarea cardului?
+
+Adăugarea unui card nou necesită o plată de verificare de 0,50 €, creditată în Ycoins. Prima cumpărare cu Ycoins promoționali necesită, de asemenea, o plată de verificare de 0,50 € cu un card valid. Suma nu este restituită pe card. [^source-30]
+
+### Numărul virtual se reînnoiește automat?
+
+Pagina de plăți descrie reînnoirea automată dacă soldul este suficient și numărul rămâne disponibil din punct de vedere tehnic. Verificați condițiile serviciului ales și setările abonamentului. Regula nu se aplică tuturor pachetelor eSIM. [^source-30]
+
+### Cum raportez o problemă tehnică pentru o cerere de rambursare?
+
+Politica cere raportarea problemei în termen de o oră la support@yesim.app sau prin formularul din aplicație, cu descriere și capturi de ecran. Raportarea nu garantează rambursarea. [^source-32]
+<!-- public-view:end -->
+
+[^source-1]: https://yesim.app/ro/. Checked 2026-10-08.
+
+[^source-2]: https://yesim.app/ro/compatible-devices/. Checked 2026-10-08.
+
+[^source-3]: https://yesim.app/ro/virtual-number/. Checked 2026-10-08.
+
+[^source-4]: https://yesim.app/promocodes/. Checked 2026-10-08.
+
+[^source-5]: https://yesim.app/ro/country/turkey/. Checked 2026-10-08.
+
+[^source-6]: https://yesim.app/ro/country/egypt/. Checked 2026-10-08.
+
+[^source-7]: https://yesim.app/ro/country/albania/. Checked 2026-10-08.
+
+[^source-8]: https://yesim.app/ro/country/greece/. Checked 2026-10-08.
+
+[^source-9]: https://yesim.app/ro/country/germany/. Checked 2026-10-08.
+
+[^source-10]: https://yesim.app/ro/country/united-arab-emirates/. Checked 2026-10-08.
+
+[^source-11]: https://yesim.app/ro/country/united-kingdom/. Checked 2026-10-08.
+
+[^source-12]: https://yesim.app/ro/country/united-states/. Checked 2026-10-08.
+
+[^source-13]: https://yesim.app/ro/country/moldova/. Checked 2026-10-08.
+
+[^source-14]: https://yesim.app/ro/country/serbia/. Checked 2026-10-08.
+
+[^source-15]: https://yesim.app/ro/country/italy/. Checked 2026-10-08.
+
+[^source-16]: https://yesim.app/ro/country/montenegro/. Checked 2026-10-08.
+
+[^source-17]: https://yesim.app/ro/country/spain/. Checked 2026-10-08.
+
+[^source-18]: https://yesim.app/ro/country/morocco/. Checked 2026-10-08.
+
+[^source-19]: https://yesim.app/ro/regions/europe-esim/. Checked 2026-10-08.
+
+[^source-20]: https://yesim.app/ro/regions/balkans-esim/. Checked 2026-10-08.
+
+[^source-21]: https://yesim.app/ro/global/. Checked 2026-10-08.
+
+[^source-22]: https://yesim.app/ro/virtual-number/whatsapp/. Checked 2026-10-08.
+
+[^source-23]: https://yesim.app/ro/virtual-number/telegram/. Checked 2026-10-08.
+
+[^source-25]: https://www.trustpilot.com/review/yesim.app. Checked 2026-10-08.
+
+[^source-26]: https://yesim.app/llms.txt. Checked 2026-10-08.
+
+[^source-27]: https://yesim.app/ro/pay-and-fly-esim/. Checked 2026-10-08.
+
+[^source-28]: https://help.yesim.tech/unlimited-data-plans-policy/. Checked 2026-10-08.
+
+[^source-29]: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. Checked 2026-10-08.
+
+[^source-30]: https://yesim.app/payment-details/. Checked 2026-10-08.
+
+[^source-31]: https://yesim.app/privacy-policy/. Checked 2026-10-08.
+
+[^source-32]: https://yesim.app/refund-policy/. Checked 2026-10-08.
+
+[^source-33]: https://yesim.app/terms-of-service/. Checked 2026-10-08.
+
+[^source-34]: https://yesim.app/unlim-day-pass/. Checked 2026-10-08.

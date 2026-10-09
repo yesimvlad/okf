@@ -36,11 +36,21 @@ def page_name(rel): return str(Path(rel).with_suffix('.html'))
 
 def markdown_content(meta, body):
     """Keep facts and sources; leave authoring metadata in the separate OKF copy."""
+    if meta.get('public_view') == 'localized-answers':
+        sections=re.findall(r'<!-- public-view:start -->\s*(.*?)\s*<!-- public-view:end -->',body,re.S)
+        if len(sections)!=1: raise ValueError('exactly one localized public view required')
+        # Preserve the detailed source record in /okf/, publish its reviewed native view.
+        notes='\n'.join(re.findall(r'^\[\^[^\]]+\]:[^\n]+$',body,re.M))
+        body=sections[0]+'\n\n'+notes
+    # Markdown renders back-links even for unused footnotes; omit those definitions.
+    prose=re.sub(r'^\[\^[^\]]+\]:[^\n]+$','',body,flags=re.M)
+    used=set(re.findall(r'\[\^([^\]]+)\]',prose))
+    body=re.sub(r'^\[\^([^\]]+)\]:[^\n]+\n?',lambda m:m.group(0) if m.group(1) in used else '',body,flags=re.M)
     urls=[item['resource'] for item in meta['sources'] if urlsplit(item['resource']).scheme in {'http','https'}]
     # Some older source footnotes contain only a title: make their URL independently available.
     missing=[u for u in dict.fromkeys(urls) if u not in body]
     if missing:
-        body=body.rstrip()+'\n\n## Official source links\n\n'+'\n'.join(f'- [{u}]({u})' for u in missing)
+        body=body.rstrip()+'\n\n## '+meta.get('source_links_heading','Official source links')+'\n\n'+'\n'.join(f'- [{u}]({u})' for u in missing)
     return body.strip()+'\n'
 
 class RenderSafety(HTMLParser):
@@ -67,17 +77,19 @@ def rewrite_html_links(body):
         return ']('+page_name(path)+anchor+')'
     return re.sub(r'\]\(([^)\n]+\.md)(#[^)\n]*)?\)',rewrite,body)
 
-def shell(title, description, canonical, md_url, llms_url, content, review='', language='en', collection=False):
+def shell(title, description, canonical, md_url, llms_url, content, review='', language='en', collection=False, alternates=None):
     if not re.fullmatch(r'[A-Za-z0-9-]+',language): raise ValueError('invalid HTML language')
     graph={'@context':'https://schema.org','@type':'CollectionPage' if collection else 'WebPage',
            '@id':canonical,'url':canonical,'name':title,'description':description,'inLanguage':language,
            'about':{'@type':'Organization','name':'Yesim','url':'https://yesim.app/'}}
     ld=json.dumps(graph,ensure_ascii=False).replace('<','\\u003c')
+    alternate_links='\n'.join(f'<link rel="alternate" hreflang="{escape(lang,quote=True)}" href="{escape(url,quote=True)}">' for lang,url in (alternates or {}).items())
     return f'''<!doctype html>
 <html lang="{escape(language)}" dir="{'rtl' if language in {'ar','he','fa'} else 'ltr'}">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{escape(title)} | Yesim knowledge</title><meta name="description" content="{escape(description,quote=True)}">
+<title>{escape(title)} | Yesim</title><meta name="description" content="{escape(description,quote=True)}">
 <link rel="canonical" href="{escape(canonical,quote=True)}">
+{alternate_links}
 <link rel="alternate" type="text/markdown" href="{escape(md_url,quote=True)}">
 <link rel="describedby" href="{escape(llms_url,quote=True)}">
 <style>{STYLE}</style><script type="application/ld+json">{ld}</script></head>
@@ -101,7 +113,15 @@ def build(root, out, site_base, now=None):
         if manifest.get('primary_reference')!='markets/en.md':
             raise ValueError('fresh primary English reference required; recheck sources before publication')
         manifest.update(base_url=site_base,publication_status='built-not-deployed',records=[])
-        sections={}; clean_records={}
+        sections={}; clean_records={}; translation_groups={}
+        for rel in manifest['included']:
+            meta,_=split_document((pack/rel).read_text())
+            if meta.get('translation_group'):
+                group=translation_groups.setdefault(meta['translation_group'],{})
+                if meta['language'] in group:raise ValueError('duplicate language in translation group')
+                group[meta['language']]=site_base+page_name(rel)
+        for group in translation_groups.values():
+            if 'en' in group:group['x-default']=group['en']
         for rel in manifest['included']:
             meta,body=split_document((pack/rel).read_text())
             body=markdown_content(meta,body)
@@ -113,7 +133,8 @@ def build(root, out, site_base, now=None):
             review=f'<p class="review">Sources checked {escape(latest.date().isoformat())} ({trust}); recheck by {escape(str(meta["stale_after"]))}. Current official product terms control.</p>'
             canonical=site_base+page_name(rel)
             html=shell(meta['title'],meta['description'],canonical,site_base+rel,site_base+'llms.txt',
-                render(rewrite_html_links(body)),review,meta.get('language','en'))
+                render(rewrite_html_links(body)),review,meta.get('language','en'),
+                alternates=translation_groups.get(meta.get('translation_group')))
             (staging/page_name(rel)).write_text(html,encoding='utf-8')
             sections.setdefault(rel.split('/')[0],[]).append((rel,meta))
             manifest['records'].append({'id':meta.get('id',rel),'path':rel,'html_url':canonical,

@@ -56,7 +56,7 @@ sources:
 - id: source-22
   resource: https://yesim.app/pl/virtual-number/telegram/
 - id: source-23
-  resource: https://yesim.app/pl/virtual-number/tinder/
+  resource: https://yesim.app/pl/virtual-number/
 - id: source-24
   resource: https://yesim.app/llms.txt
 ---

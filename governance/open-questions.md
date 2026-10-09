@@ -1,11 +1,10 @@
 ---
 type: ReviewQueue
-title: Product questions requiring confirmation
-description: Public-source review establishes a snapshot, not app-level tests or human
-  product approval. No review assignment or sign-off is claimed here.
+title: Product data and deployment still requiring evidence
+description: Published-policy facts have been reviewed; live catalogue, checkout and deployment evidence remain separate.
 generated:
-  by: codex/okf-repair
-  at: '2026-10-08T15:12:31Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:13:44Z'
 status: draft
 audience: public
 review_required: true
@@ -15,25 +14,16 @@ sources:
 id: yesim:governance/open-questions
 ---
 
-# Product questions requiring confirmation
+# Product data and deployment still requiring evidence
 
-| Question | Owner to assign | Publication rule |
+| Question | Evidence required | Rule |
 |---|---|---|
-| Which virtual-number SKUs include OTP, incoming calls, outgoing calls, incoming SMS and outgoing SMS? | Product / support | Do not infer capabilities from general marketing copy |
-| What exact high-speed thresholds, reduced speeds, hotspot limits and reset timezone apply to each unlimited plan? | Product / network team | Store per-plan values only after confirmation |
-| What exact activation/validity trigger applies to each fixed package? | Product / support | Separate purchase, profile installation, plan activation and connection |
-| What are the exact annual expiry and rollover rules for unused Unlim Day Pass days? | Product / legal | Avoid unconditional 'never expires' wording |
-| Are refund-policy and virtual-number statements consistent across website, app and languages? | Legal / content | Current policy controls; remove conflicting summaries |
-| What canonical/hreflang mapping applies to RU product and virtual-number pages? | SEO / developer | Verify mapping before constructing localized URLs |
-| Which offers and promotion codes are currently eligible in each market/currency? | Marketing / product | No universal code or fixed price without fresh evidence |
+| Which number SKU includes each OTP/call/SMS capability? | Current catalogue/Product Description/business agreement | Do not infer all capabilities from a general page |
+| Which FUP speed thresholds, hotspot limits and reset rules apply? | Selected plan/network conditions | Store per-plan values, not one universal quota |
+| What starts validity for a specific fixed package? | Purchased Product Description/app state | Separate purchase, profile installation, activation and connection |
+| Which prices, destinations and promotions are currently available? | Dated current catalogue/checkout | Language alone does not establish eligibility or currency |
+| Is /knowledge/ deployed and accessible to real crawlers? | Live release, response headers, crawl/CDN logs | Local build is not publication; robots Allow is not successful crawling |
 
-Public-source review establishes a snapshot, not app-level tests or human product approval. No review assignment or sign-off is claimed here.
+Payment/refund/privacy, Pay & Fly billing and Day Pass annual/rollover conditions have been reconciled from the official pages. They are no longer held as unexplained approval blockers. Facts and 15 native answer views have an automated review; human sign-off and app tests are not claimed.
 
-## Production conflicts for Product/Legal
-
-- Align Trial and Cruise refund claims with the current Refund Policy.
-- Resolve Business Virtual Numbers no-KYC/anonymity wording against Terms §5.2 and Privacy Policy.
-- Correct Trial eligibility/paid wording and number capabilities in the existing root llms.txt.
-- Assign real owners and approve the publication/redistribution policy for Yesim materials.
-
-See [the revision audit](../docs/revision-audit.md). These are unresolved source conflicts, not changes already made to production.
+The existing website still needs conflicting marketing copy and Pay & Fly metadata updated, plus catalogue-driven Day Pass counts. See [the final review](../docs/final-source-and-publication-review.md). No employee ownership assignment or CMS edit is claimed.

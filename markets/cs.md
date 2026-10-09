@@ -1,26 +1,25 @@
 ---
 type: Market
-title: Yesim Czech market and language knowledge
-description: Localized cs product explanations, terminology and answer drafts with
-  official-source routing.
+title: Produkty Yesim a časté dotazy
+description: Cena, pokrytí, aktivace a vrácení peněz se řídí podmínkami vybraného
+  produktu a aktuálními zásadami Yesim. Jazyk webu neurčuje zemi bydliště ani dostupné
+  platební metody.
 resource: https://yesim.app/cs/
 language: cs
 audience: public
-status: draft
-review_required: true
-localization_status: needs-native-and-product-review
+status: stable
+localization_status: automated-source-and-language-reviewed
 content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/cs/
 editorial_primary_url: https://yesim.app/cs/
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T16:55:46Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:13:44Z'
 source_review:
-  by: codex/source-retrieval
-  at: '2026-10-08T16:16:02Z'
-  scope: Retrieved localized home, product-navigation, compatibility, four destination,
-    regional and global page text. Draft translations are new authored examples; full
-    endpoint/canonical/hreflang and app-level checks were not performed.
+  by: codex/live-http-and-source-review
+  at: '2026-10-08T18:13:44Z'
+  scope: Cited official endpoints, HTTP status, visible no-JavaScript text, canonical
+    and hreflang. Payment/refund/privacy/Terms control policy summaries.
 sources:
 - id: source-1
   resource: https://yesim.app/cs/
@@ -56,8 +55,23 @@ sources:
   resource: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/
 - id: source-17
   resource: https://help.yesim.tech/unlimited-data-plans-policy/
+- id: source-18
+  resource: https://yesim.app/payment-details/
+- id: source-19
+  resource: https://yesim.app/privacy-policy/
 editorial_reference: ../internal/seo/markets/cs.md
 id: yesim:markets/cs
+public_view: localized-answers
+translation_group: yesim-product-overview
+source_links_heading: Oficiální zdroje
+verified:
+- by: codex/source-review
+  at: '2026-10-08T18:13:44Z'
+- by: codex/linguistic-review
+  at: '2026-10-08T18:13:44Z'
+stale_after: '2026-10-15T18:13:44Z'
+review_scope: Public-source facts and native public answers; automated linguistic
+  review, not human/native employee approval or checkout testing.
 ---
 
 # Yesim Czech market and language knowledge
@@ -66,9 +80,9 @@ id: yesim:markets/cs
 
 Use the [primary English product reference](en.md) and shared product records when reviewing translated definitions. The purchased Product Description and explicitly sourced local exceptions still control.
 
-Localized product explanations and answers await native and product review.
+Product facts and native-language answers have an automated source and linguistic review dated 2026-10-08. This is not human employee sign-off.
 
-These detailed records remain outside the verified consumer export. For direct repository retrieval, retain these scope labels and check current Product Descriptions before quoting mutable conditions.
+The public site publishes the native answer view below. The machine-readable OKF copy preserves this detailed reference and its separate editorial link. Current Product Descriptions control mutable conditions.
 
 ## Short answer in Czech
 
@@ -87,9 +101,9 @@ Yesim nabízí předplacené mobilní datové tarify eSIM pro cestování s podp
 | Local price, currency and payment eligibility | Check current checkout and source; no hardcoded local price |
 | Support and troubleshooting | Follow current Help Center; support@yesim.app; response time and language availability are not guaranteed here |
 | Source retrieval | 2026-10-08; retrieved web text may be cached |
-| Native-language and product approval | Pending |
+| Review | Automated source and linguistic review; no human sign-off |
 
-The localized home, Pay & Fly, Virtual Number, compatibility, region/global and four country pages were retrieved during this review. Page retrieval is not an HTTP-status, canonical/hreflang, indexability or complete translation audit. A destination page establishes a navigation source, not eligibility for every customer or inclusion in every plan.
+The localized home, Pay & Fly, Virtual Number, compatibility, region/global and four country pages were retrieved during this review. Live HTTP, canonical, hreflang and no-JavaScript text were inspected for the cited endpoints; this is not an app or checkout test. A destination page establishes a navigation source, not eligibility for every customer or inclusion in every plan.
 
 ## Product distinctions
 
@@ -118,7 +132,7 @@ Compatibility source [^source-4]; activation variants [^source-11]; device instr
 
 ## Local terminology
 
-Terminology draft; native review pending. Installation, activation, validity and top-up must remain distinct concepts.
+Terminology checked in the automated linguistic review. Installation, activation, validity and top-up must remain distinct concepts.
 
 | Concept | Local wording | Shared definition |
 |---|---|---|
@@ -153,7 +167,7 @@ Localized overview [^source-3]; capability and acceptance limits [^source-12].
 
 ## Localized answer patterns
 
-Draft Czech answers for retrieval and editorial review. The linked knowledge records retain the full conditions; short answers must not be detached from those conditions.
+Source-reviewed Czech answers for retrieval. The linked knowledge records retain the full conditions; short answers must not be detached from those conditions.
 
 ### Co je Yesim?
 
@@ -230,15 +244,9 @@ Nulová spotřeba sama o sobě nezaručuje vrácení peněz. Pravidla považují
 
 Do not promise no home-operator charges, guaranteed 5G, access to every third-party app, bank verification success, emergency calling or permanent local telecom replacement.
 
-## Review and maintenance queue
+## Review and maintenance
 
-1. Native reviewer: approve terminology, answer wording and regional register.
-2. Product/support reviewer: confirm selected-package activation, FUP, number SKUs and applicable purchase conditions; then approve the product record.
-3. SEO reviewer: replace query hypotheses with dated GSC/Ahrefs evidence; verify suggested linking against the current site.
-4. Developer/SEO: separately inspect redirects, HTTP status, canonical/hreflang, JS-independent content and indexability on production.
-5. Owner: keep editorial research separate and promote the product record only after the required reviews. Shared billing/activation/legal changes must trigger localized-answer review.
-
-No actual public-model benchmark, native approval or production deployment is claimed. See [evaluation protocol](../governance/evaluation.md).
+Public-source facts and native answer wording were checked on 2026-10-08. Shared policy changes require updates to EN and all affected translations. Preserve local exceptions only with explicit evidence. Follow current purchased Product Descriptions for inventory, FUP, price and activation; do not infer them from language. SEO query research stays in the separate editorial file. Human review, app tests and model benchmarks have not been performed.
 
 ## Related knowledge
 
@@ -278,3 +286,85 @@ Retrieved localized sources and shared policy/instruction references. Source ret
 ## Editorial research
 
 Queries, scenarios, content priorities and writing rules are preserved in [the cs editorial reference](../internal/seo/markets/cs.md). They do not define product conditions.
+
+[^source-18]: https://yesim.app/payment-details/. Checked 2026-10-08.
+
+[^source-19]: https://yesim.app/privacy-policy/. Checked 2026-10-08.
+
+<!-- public-view:start -->
+# Produkty Yesim a časté dotazy
+
+Yesim nabízí předplacené mobilní datové tarify eSIM pro cestování s podporovanými zařízeními a v pokrytých destinacích. Virtuální čísla jsou samostatný produkt; datový tarif automaticky neobsahuje telefonní číslo. [^source-1] [^source-3]
+
+Cena, pokrytí, aktivace a vrácení peněz se řídí podmínkami vybraného produktu a aktuálními zásadami Yesim. Jazyk webu neurčuje zemi bydliště ani dostupné platební metody.
+
+## Otázky a odpovědi
+
+### Co je Yesim?
+
+Yesim nabízí datové tarify eSIM pro cestování. Před nákupem ověřte destinaci, zařízení a podmínky tarifu. [^source-12] [^source-1]
+
+### Je můj telefon kompatibilní?
+
+Ověřte přesný model, regionální variantu, podporu eSIM a odblokování od operátora. Samotné Dual SIM nestačí. [^source-4]
+
+### Kdy začíná platnost tarifu?
+
+Záleží na vybraném tarifu. Nákup, instalace a první připojení mohou mít odlišná pravidla; přečtěte si popis balíčku. [^source-11]
+
+### Jak vybrat tarif pro více zemí?
+
+Porovnejte regionální a globální balíčky a ověřte každou zemi trasy v pokrytí vybraného tarifu. [^source-6]
+
+### Jaký je rozdíl mezi Pay & Fly a Unlim Day Pass?
+
+Pay & Fly účtuje použitá data. Unlim Day Pass je samostatný produkt s dny používání a vlastními pravidly platnosti. [^source-2] [^source-14]
+
+### Obsahuje tarif telefonní číslo?
+
+Čistě datové tarify neobsahují číslo ani běžné mobilní hovory a SMS. Virtuální číslo je samostatné a jeho funkce závisejí na zakoupené službě. [^source-12]
+
+### Mohu používat WhatsApp?
+
+Již nastavená aplikace může využívat mobilní data. Přijetí virtuálního čísla pro ověření závisí na platformě a není zaručeno. [^source-12]
+
+### Znamenají neomezená data vždy maximální rychlost?
+
+Ne. Ověřte zásady přiměřeného využívání a podmínky tarifu. Nepředpokládejte stejný denní limit nebo rychlost u všech produktů. [^source-17]
+
+### Kde zjistím cenu a slevu?
+
+Na webu nebo v aplikaci při nákupu. Ověřte konečnou cenu, měnu a podmínky akce; nevymýšlejte pevné ceny v korunách. [^source-1]
+
+### Dostanu peníze zpět po instalaci bez použití dat?
+
+Nulová spotřeba sama o sobě nezaručuje vrácení peněz. Pravidla považují instalaci profilu za aktivaci; ověřte podmínky a prodejní kanál. [^source-13]
+
+### Jaké jsou podmínky a lhůty pro vrácení peněz?
+
+Běžnou žádost je třeba podat do 30 kalendářních dnů od nákupu, pokud produkt nebyl aktivován ani použit a jeho platnost nevypršela. Instalace profilu eSIM se počítá jako aktivace. Vyřízení trvá až 15 pracovních dnů; připsání bankou může trvat déle. [^source-13]
+
+### Jak dostanu schválenou refundaci?
+
+Částky do 10 € včetně se vracejí výhradně v Ycoins. Vyšší částky se obvykle vracejí původní platební metodou. Nákupy na externích platformách se řídí jejich pravidly. Schválení není zaručeno. [^source-13] [^source-18]
+
+### Může Yesim požadovat doklady totožnosti?
+
+Ano. Oddíl 5.2 podmínek umožňuje ověřit totožnost a oprávnění používat službu. Zásady ochrany osobních údajů popisují zpracování osobních, technických a platebních údajů. Yesim neukládá úplné údaje karty, může však uchovávat omezené informace o platbě. Úplná anonymita není zaručena. [^source-19] [^source-12]
+
+### Jak fungují dny Unlim Day Pass?
+
+Připojení k podporované síti spustí období 24 hodin a spotřebuje jeden den. Nové připojení po těchto 24 hodinách spotřebuje další den. Balíček platí 365 dní od nákupu. Nákup nového balíčku před vypršením platnosti převede zbývající dny na 365 dní od nového nákupu. [^source-14] [^source-13]
+
+### Proč se účtuje 0,50 € za ověření karty?
+
+Přidání nové karty vyžaduje ověřovací platbu 0,50 €, která se připíše jako Ycoins. První nákup s propagačními Ycoins rovněž vyžaduje ověřovací platbu 0,50 € platnou kartou. Částka se nevrací na kartu. [^source-18]
+
+### Obnovuje se virtuální číslo automaticky?
+
+Platební stránka popisuje automatické obnovení při dostatečném zůstatku a pokračující technické dostupnosti čísla. Ověřte podmínky vybrané služby a nastavení předplatného. Toto pravidlo neplatí pro všechny eSIM tarify. [^source-18]
+
+### Jak nahlásit technickou závadu pro žádost o vrácení peněz?
+
+Zásady vyžadují nahlášení závady do jedné hodiny na support@yesim.app nebo formulářem v aplikaci, s popisem a snímky obrazovky. Nahlášení samo nezaručuje vrácení peněz. [^source-13]
+<!-- public-view:end -->

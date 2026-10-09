@@ -12,17 +12,15 @@ sources:
   resource: https://yesim.app/payment-details/
 - id: source-4
   resource: https://yesim.app/promocodes/
-- id: source-5
-  resource: https://yesim.app/trial-esim/
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T17:07:08Z'
+  by: codex/policy-and-localization-revision
+  at: '2026-10-08T18:05:42Z'
 status: stable
 audience: public
 verified:
 - by: codex/source-review
-  at: '2026-10-08T17:07:08Z'
-stale_after: '2026-10-15T17:07:08Z'
+  at: '2026-10-08T18:05:42Z'
+stale_after: '2026-10-15T18:05:42Z'
 id: yesim:faq/pricing
 ---
 
@@ -34,8 +32,8 @@ Check the selected destination and product page in the desired currency. Record 
 ## Is Pay & Fly billed per day?
 Its current page describes payment for the data used. [Unlim Day Pass](../products/unlim-day-pass.md) uses prepaid plan days. See [Pay & Fly](../products/pay-and-fly-esim.md).
 
-## Is there a universal discount code or free trial?
-Do not assume a current offer. Check official promotion and trial conditions and eligibility at purchase.
+## Is there a universal discount code?
+Check the current official promotion and its eligibility at purchase; no universal discount is guaranteed.
 
 ## Are refunds unconditional?
 No. Use the [refund policy](../policies/refund-policy.md), including activation, usage, expiry, channel and amount conditions.
