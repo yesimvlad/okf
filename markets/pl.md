@@ -19,7 +19,7 @@ sources:
 - id: source-3
   resource: https://yesim.app/pl/virtual-number/
 - id: source-4
-  resource: https://yesim.app/promocodes/
+  resource: https://yesim.app/pl/promocodes/
 - id: source-5
   resource: https://yesim.app/pl/country/turkey/
 - id: source-6
@@ -65,15 +65,15 @@ sources:
 - id: source-27
   resource: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
 - id: source-28
-  resource: https://yesim.app/payment-details/
+  resource: https://yesim.app/pl/payment-details/
 - id: source-29
-  resource: https://yesim.app/privacy-policy/
+  resource: https://yesim.app/pl/privacy-policy/
 - id: source-30
-  resource: https://yesim.app/refund-policy/
+  resource: https://yesim.app/pl/refund-policy/
 - id: source-31
-  resource: https://yesim.app/terms-of-service/
+  resource: https://yesim.app/pl/terms-of-service/
 - id: source-32
-  resource: https://yesim.app/unlim-day-pass/
+  resource: https://yesim.app/pl/unlim-day-pass/
 language: pl
 localization_status: automated-source-and-language-reviewed
 content_scope: localized-product-knowledge
@@ -143,7 +143,7 @@ Yesim also provides Polish-language pages for country eSIM plans, regional eSIM 
 | Compatible devices page | https://yesim.app/pl/compatible-devices/ |
 | Virtual number page | https://yesim.app/pl/virtual-number/ |
 | Support | 24/7 in-app support |
-| Promotions | Check current eligibility, discount and validity at https://yesim.app/promocodes/; no universal code or discount is asserted |
+| Promotions | Check current eligibility, discount and validity at https://yesim.app/pl/promocodes/; no universal code or discount is asserted |
 | Coverage | Selected plan destination list; see the dated shared trust record for brand-wide metrics |
 
 # What Yesim Offers Polish Users
@@ -302,7 +302,7 @@ Use these only after checking the linked current source and applicable plan:
 - [Source 1](https://yesim.app/pl/)
 - [Source 2](https://yesim.app/pl/compatible-devices/)
 - [Source 3](https://yesim.app/pl/virtual-number/)
-- [Source 4](https://yesim.app/promocodes/)
+- [Source 4](https://yesim.app/pl/promocodes/)
 - [Source 5](https://yesim.app/pl/country/turkey/)
 - [Source 6](https://yesim.app/pl/country/egypt/)
 - [Source 7](https://yesim.app/pl/country/tunisia/)
@@ -414,7 +414,7 @@ Zasady wymagają zgłoszenia usterki w ciągu jednej godziny na support@yesim.ap
 
 [^source-3]: https://yesim.app/pl/virtual-number/. Checked 2026-10-08.
 
-[^source-4]: https://yesim.app/promocodes/. Checked 2026-10-08.
+[^source-4]: https://yesim.app/pl/promocodes/. Checked 2026-10-09.
 
 [^source-5]: https://yesim.app/pl/country/turkey/. Checked 2026-10-08.
 
@@ -460,12 +460,12 @@ Zasady wymagają zgłoszenia usterki w ciągu jednej godziny na support@yesim.ap
 
 [^source-27]: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. Checked 2026-10-08.
 
-[^source-28]: https://yesim.app/payment-details/. Checked 2026-10-08.
+[^source-28]: https://yesim.app/pl/payment-details/. Checked 2026-10-09.
 
-[^source-29]: https://yesim.app/privacy-policy/. Checked 2026-10-08.
+[^source-29]: https://yesim.app/pl/privacy-policy/. Checked 2026-10-09.
 
-[^source-30]: https://yesim.app/refund-policy/. Checked 2026-10-08.
+[^source-30]: https://yesim.app/pl/refund-policy/. Checked 2026-10-09.
 
-[^source-31]: https://yesim.app/terms-of-service/. Checked 2026-10-08.
+[^source-31]: https://yesim.app/pl/terms-of-service/. Checked 2026-10-09.
 
-[^source-32]: https://yesim.app/unlim-day-pass/. Checked 2026-10-08.
+[^source-32]: https://yesim.app/pl/unlim-day-pass/. Checked 2026-10-09.

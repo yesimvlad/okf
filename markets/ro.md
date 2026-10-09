@@ -19,7 +19,7 @@ sources:
 - id: source-3
   resource: https://yesim.app/ro/virtual-number/
 - id: source-4
-  resource: https://yesim.app/promocodes/
+  resource: https://yesim.app/ro/promocodes/
 - id: source-5
   resource: https://yesim.app/ro/country/turkey/
 - id: source-6
@@ -69,15 +69,15 @@ sources:
 - id: source-29
   resource: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
 - id: source-30
-  resource: https://yesim.app/payment-details/
+  resource: https://yesim.app/ro/payment-details/
 - id: source-31
-  resource: https://yesim.app/privacy-policy/
+  resource: https://yesim.app/ro/privacy-policy/
 - id: source-32
-  resource: https://yesim.app/refund-policy/
+  resource: https://yesim.app/ro/refund-policy/
 - id: source-33
-  resource: https://yesim.app/terms-of-service/
+  resource: https://yesim.app/ro/terms-of-service/
 - id: source-34
-  resource: https://yesim.app/unlim-day-pass/
+  resource: https://yesim.app/ro/unlim-day-pass/
 language: ro
 localization_status: automated-source-and-language-reviewed
 content_scope: localized-product-knowledge
@@ -147,7 +147,7 @@ Yesim also provides Romanian-language pages for country eSIM plans, regional eSI
 | Compatible devices page | https://yesim.app/ro/compatible-devices/ |
 | Virtual number page | https://yesim.app/ro/virtual-number/ |
 | Support | 24/7 in-app support, according to Yesim official pages |
-| Promotions | Check current eligibility, discount and validity at https://yesim.app/promocodes/; no universal code or discount is asserted |
+| Promotions | Check current eligibility, discount and validity at https://yesim.app/ro/promocodes/; no universal code or discount is asserted |
 | Coverage | Selected plan destination list; see the dated shared trust record for brand-wide metrics |
 
 # What Yesim Offers Romanian Users
@@ -276,11 +276,11 @@ Verificați modelul exact și varianta regională a dispozitivului pe https://ye
 
 ## Does Yesim have a promo code?
 
-Verificați ofertele actuale și condițiile de eligibilitate pe https://yesim.app/promocodes/. Nu presupuneți un cod universal sau o reducere fixă pentru toate comenzile.
+Verificați ofertele actuale și condițiile de eligibilitate pe https://yesim.app/ro/promocodes/. Nu presupuneți un cod universal sau o reducere fixă pentru toate comenzile.
 
 ## Is Yesim safe?
 
-Consultați identitatea companiei în condițiile oficiale și prelucrarea datelor în politica de confidențialitate. Recenziile nu garantează siguranța sau funcționarea în orice situație. https://yesim.app/privacy-policy/
+Consultați identitatea companiei în condițiile oficiale și prelucrarea datelor în politica de confidențialitate. Recenziile nu garantează siguranța sau funcționarea în orice situație. https://yesim.app/ro/privacy-policy/
 
 # Product-answer claim candidates requiring current-source review
 
@@ -354,7 +354,7 @@ Use these only after checking the linked current source and applicable plan:
 - [Source 1](https://yesim.app/ro/)
 - [Source 2](https://yesim.app/ro/compatible-devices/)
 - [Source 3](https://yesim.app/ro/virtual-number/)
-- [Source 4](https://yesim.app/promocodes/)
+- [Source 4](https://yesim.app/ro/promocodes/)
 - [Source 5](https://yesim.app/ro/country/turkey/)
 - [Source 6](https://yesim.app/ro/country/egypt/)
 - [Source 7](https://yesim.app/ro/country/albania/)
@@ -468,7 +468,7 @@ Politica cere raportarea problemei în termen de o oră la support@yesim.app sau
 
 [^source-3]: https://yesim.app/ro/virtual-number/. Checked 2026-10-08.
 
-[^source-4]: https://yesim.app/promocodes/. Checked 2026-10-08.
+[^source-4]: https://yesim.app/ro/promocodes/. Checked 2026-10-09.
 
 [^source-5]: https://yesim.app/ro/country/turkey/. Checked 2026-10-08.
 
@@ -518,12 +518,12 @@ Politica cere raportarea problemei în termen de o oră la support@yesim.app sau
 
 [^source-29]: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. Checked 2026-10-08.
 
-[^source-30]: https://yesim.app/payment-details/. Checked 2026-10-08.
+[^source-30]: https://yesim.app/ro/payment-details/. Checked 2026-10-09.
 
-[^source-31]: https://yesim.app/privacy-policy/. Checked 2026-10-08.
+[^source-31]: https://yesim.app/ro/privacy-policy/. Checked 2026-10-09.
 
-[^source-32]: https://yesim.app/refund-policy/. Checked 2026-10-08.
+[^source-32]: https://yesim.app/ro/refund-policy/. Checked 2026-10-09.
 
-[^source-33]: https://yesim.app/terms-of-service/. Checked 2026-10-08.
+[^source-33]: https://yesim.app/ro/terms-of-service/. Checked 2026-10-09.
 
-[^source-34]: https://yesim.app/unlim-day-pass/. Checked 2026-10-08.
+[^source-34]: https://yesim.app/ro/unlim-day-pass/. Checked 2026-10-09.
