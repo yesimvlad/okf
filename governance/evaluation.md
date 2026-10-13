@@ -36,3 +36,8 @@ Measure citation/mention rates separately in public web-search tests. A before/a
 ## Revision extensions and result recording
 
 The current English set has 43 authored cases (six added for Android/Pixel, cruise, support, identity checks, verification payments and number renewal). Use [the result template](../evaluations/result-template.json) to store model/version, timestamp, exact prompt, mode, bundle commit/hash, answer, citations, correctness and completeness. A template is not a model run. Use at least three independent runs, ideally five, per case/mode and evaluate source support independently of citation count.
+
+
+## Revision of 2026-10-13
+
+The current set contains 49 EN cases, 513 locale cases and 14 seed cases (576 total). The locale set includes 28 draft locales: those prompts are provisional authoring checks and require independent wording review. They must not be passed off as public-release or measured model results. Sources now follow market source mappings; added scenarios cover trip selection, settings, hotspot, recovery, transfer and remaining allowance. Earlier counts above describe the previous revision. No model benchmark has been executed.

@@ -1,0 +1,295 @@
+{
+  "status": "passed",
+  "completed_at": "2026-10-13T16:23:35.133493+00:00",
+  "concepts": 113,
+  "validator_errors": 0,
+  "draft_staleness_notices": 54,
+  "tests_passed": 11,
+  "public_records": 58,
+  "public_html_pages": 59,
+  "market_references_published": 16,
+  "draft_locale_candidates_rendered_but_excluded": 28,
+  "native_candidate_checks": [
+    {
+      "file": "markets/ar.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/az.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/bg.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/bs.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/cs.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/da.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/de.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/el.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/en.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 45
+    },
+    {
+      "file": "markets/es.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/et.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/fa.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/fi.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/fr.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/he.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/hi.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/hr.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/hu.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/hy.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/id.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/it.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/ja.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/ka-ge.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/ko.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/lt.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/lv.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/ms.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/nb.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/nl.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/pl.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/pt-br.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/pt.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/ro.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/ru.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/sk.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/sl.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/sr.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/sv.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/th.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/tr.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/uk.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/uz.md",
+      "native_candidate_render": "passed",
+      "published": false,
+      "questions": 2
+    },
+    {
+      "file": "markets/vi.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    },
+    {
+      "file": "markets/zh-cn.md",
+      "native_candidate_render": "passed",
+      "published": true,
+      "questions": 19
+    }
+  ],
+  "pl_ro_existing_prose": "retained",
+  "local_site_check": {
+    "html_pages": 59,
+    "local_checks": "passed",
+    "remote_requested": false,
+    "errors": [],
+    "remote": []
+  },
+  "authored_evaluation_cases": {
+    "en-cases.yaml": 49,
+    "market-cases.yaml": 513,
+    "cases.yaml": 14
+  },
+  "total_authored_cases": 576,
+  "model_benchmark_executed": false,
+  "website_deployed": false,
+  "human_native_or_product_legal_review": false
+}

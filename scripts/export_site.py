@@ -18,6 +18,11 @@ import markdown
 from export_public import export
 from validate import split_document, timestamp
 
+SITE_LABELS = json.loads((Path(__file__).with_name('site_labels.json')).read_text(encoding='utf-8'))
+
+def labels(language):
+    return SITE_LABELS.get(language, SITE_LABELS['en'])
+
 STYLE = '''body{font:17px/1.65 system-ui,sans-serif;color:#172631;margin:0;background:#f7fafb}
 main{max-width:1000px;margin:auto;padding:28px 24px 72px;background:white}a{color:#066bb1}
 table{border-collapse:collapse;display:block;overflow:auto;width:100%;font-size:.94rem}
@@ -84,6 +89,9 @@ def shell(title, description, canonical, md_url, llms_url, content, review='', l
            'about':{'@type':'Organization','name':'Yesim','url':'https://yesim.app/'}}
     ld=json.dumps(graph,ensure_ascii=False).replace('<','\\u003c')
     alternate_links='\n'.join(f'<link rel="alternate" hreflang="{escape(lang,quote=True)}" href="{escape(url,quote=True)}">' for lang,url in (alternates or {}).items())
+    ui=labels(language)
+    website=('https://yesim.tech/ru/' if language=='ru' else
+             'https://yesim.app/' if language=='en' else f'https://yesim.app/{language}/')
     return f'''<!doctype html>
 <html lang="{escape(language)}" dir="{'rtl' if language in {'ar','he','fa'} else 'ltr'}">
 <head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -93,7 +101,7 @@ def shell(title, description, canonical, md_url, llms_url, content, review='', l
 <link rel="alternate" type="text/markdown" href="{escape(md_url,quote=True)}">
 <link rel="describedby" href="{escape(llms_url,quote=True)}">
 <style>{STYLE}</style><script type="application/ld+json">{ld}</script></head>
-<body><main><nav><a href="{escape(llms_url.rsplit('llms.txt',1)[0])}">Yesim knowledge</a> · <a href="{escape(md_url)}">Markdown</a> · <a href="https://yesim.app/">Yesim product website</a></nav>
+<body><main><nav><a href="{escape(llms_url.rsplit('llms.txt',1)[0])}">{escape(ui['knowledge'])}</a> · <a href="{escape(md_url)}">Markdown</a> · <a href="{escape(website)}">{escape(ui['website'])}</a></nav>
 {review}
 {content}
 </main></body></html>
@@ -130,7 +138,9 @@ def build(root, out, site_base, now=None):
             checked=meta['verified'] if isinstance(meta['verified'],list) else [meta['verified']]
             latest=max(timestamp(x['at']) for x in checked)
             trust='human-reviewed' if any(x['by'].startswith('human:') for x in checked) else 'automated public-source review'
-            review=f'<p class="review">Sources checked {escape(latest.date().isoformat())} ({trust}); recheck by {escape(str(meta["stale_after"]))}. Current official product terms control.</p>'
+            ui=labels(meta.get('language','en'))
+            trust_label=ui['human'] if trust=='human-reviewed' else ui['automated']
+            review=f'<p class="review">{escape(ui["checked"])} {escape(latest.date().isoformat())} ({escape(trust_label)}); {escape(ui["recheck"])} {escape(str(meta["stale_after"]))}. {escape(ui["terms"])}</p>'
             canonical=site_base+page_name(rel)
             html=shell(meta['title'],meta['description'],canonical,site_base+rel,site_base+'llms.txt',
                 render(rewrite_html_links(body)),review,meta.get('language','en'),

@@ -12,13 +12,15 @@ content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/ar/
 editorial_primary_url: https://yesim.app/ar/
 generated:
-  by: codex/policy-and-localization-revision
-  at: '2026-10-08T18:13:44Z'
+  by: codex/market-content-enrichment
+  at: '2026-10-13T16:09:44Z'
 source_review:
-  by: codex/live-http-and-source-review
-  at: '2026-10-08T18:13:44Z'
-  scope: Cited official endpoints, HTTP status, visible no-JavaScript text, canonical
-    and hreflang. Payment/refund/privacy/Terms control policy summaries.
+  by: codex/public-source-review
+  at: '2026-10-13T16:09:44Z'
+  scope: HTTP, final URL, canonical and extracted official text; shared product conditions
+    and added lifecycle answers. Not checkout/device tests, full legal equivalence
+    or human native approval.
+  evidence: ../docs/checks/2026-10-13-source-review.json
 sources:
 - id: source-1
   resource: https://yesim.app/ar/
@@ -58,6 +60,28 @@ sources:
   resource: https://yesim.app/ar/payment-details/
 - id: source-19
   resource: https://yesim.app/ar/privacy-policy/
+- id: source-20
+  resource: https://yesim.app/ar/contacts/
+- id: source-21
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/
+- id: source-22
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-google-phones/
+- id: source-23
+  resource: https://help.yesim.tech/can-i-tether-use-personal-hotspot/
+- id: source-24
+  resource: https://help.yesim.tech/how-do-i-transfer-my-esim-to-a-new-phone/
+- id: source-25
+  resource: https://help.yesim.tech/how-do-i-check-my-data-balance-or-plan-expiration/
+- id: source-26
+  resource: https://help.yesim.tech/no-data-connection/
+- id: source-27
+  resource: https://yesim.app/b2b-enterprise/
+- id: source-28
+  resource: https://yesim.app/yesim-partner-api/
+- id: source-29
+  resource: https://yesim.app/virtual-numbers-for-business/
+- id: source-30
+  resource: https://yesim.app/esim-cruise/
 editorial_reference: ../internal/seo/markets/ar.md
 id: yesim:markets/ar
 public_view: localized-answers
@@ -65,12 +89,19 @@ translation_group: yesim-product-overview
 source_links_heading: المصادر الرسمية
 verified:
 - by: codex/source-review
-  at: '2026-10-08T18:13:44Z'
+  at: '2026-10-13T16:09:44Z'
 - by: codex/linguistic-review
-  at: '2026-10-08T18:13:44Z'
-stale_after: '2026-10-15T18:13:44Z'
-review_scope: Public-source facts and native public answers; automated linguistic
-  review, not human/native employee approval or checkout testing.
+  at: '2026-10-13T16:09:44Z'
+stale_after: '2026-10-20T16:09:44Z'
+review_scope: Automated source and language review of the retained answers and added
+  public guidance; no independent human or Product/Legal sign-off.
+source_language_notes:
+- resource: https://yesim.app/ar/terms-of-service/
+  body_language: en
+  scope: English main policy text inside localized website shell
+- resource: https://yesim.app/ar/privacy-policy/
+  body_language: en
+  scope: English main policy text inside localized website shell
 ---
 
 # Yesim Arabic market and language knowledge
@@ -264,34 +295,58 @@ Public-source facts and native answer wording were checked on 2026-10-08. Shared
 
 Retrieved localized sources and shared policy/instruction references. Source retrieval does not verify every statement on a page or constitute product approval.
 
-[^source-1]: Localized home: https://yesim.app/ar/. Referenced 2026-10-08.
-[^source-2]: Pay & Fly: https://yesim.app/ar/pay-and-fly-esim/. Referenced 2026-10-08.
-[^source-3]: Virtual Number: https://yesim.app/ar/virtual-number/. Referenced 2026-10-08.
-[^source-4]: Compatible devices: https://yesim.app/ar/compatible-devices/. Referenced 2026-10-08.
-[^source-5]: Regional plans: https://yesim.app/ar/regions/. Referenced 2026-10-08.
-[^source-6]: Global plans: https://yesim.app/ar/global/. Referenced 2026-10-08.
-[^source-7]: تركيا: https://yesim.app/ar/country/turkey/. Referenced 2026-10-08.
-[^source-8]: مصر: https://yesim.app/ar/country/egypt/. Referenced 2026-10-08.
-[^source-9]: اليابان: https://yesim.app/ar/country/japan/. Referenced 2026-10-08.
-[^source-10]: المملكة العربية السعودية: https://yesim.app/ar/country/saudi-arabia/. Referenced 2026-10-08.
-[^source-11]: Activation and validity: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. Referenced 2026-10-08.
-[^source-12]: Terms and number capabilities: https://yesim.app/ar/terms-of-service/. Referenced 2026-10-09.
-[^source-13]: Refund policy: https://yesim.app/ar/refund-policy/. Referenced 2026-10-09.
-[^source-14]: Unlim Day Pass: https://yesim.app/ar/unlim-day-pass/. Referenced 2026-10-09.
-[^source-15]: Current promotions: https://yesim.app/ar/promocodes/. Referenced 2026-10-09.
-[^source-16]: Device installation guidance: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/. Referenced 2026-10-08.
-[^source-17]: Unlimited-data policy: https://help.yesim.tech/unlimited-data-plans-policy/. Referenced 2026-10-08.
 
 ## Editorial research
 
 Queries, scenarios, content priorities and writing rules are preserved in [the ar editorial reference](../internal/seo/markets/ar.md). They do not define product conditions.
 
-[^source-18]: https://yesim.app/ar/payment-details/. Checked 2026-10-09.
 
-[^source-19]: https://yesim.app/ar/privacy-policy/. Checked 2026-10-09.
 
 <!-- public-view:start -->
 # منتجات Yesim والأسئلة الشائعة
+
+تقدم Yesim باقات بيانات eSIM مسبقة الدفع للسفر وخدمات أرقام افتراضية منفصلة. لغة الموقع لا تحدد الإقامة أو أهلية الدفع أو تغطية الرحلة. [^source-12] [^source-3]
+
+| المنتج | الفوترة | ما يجب التحقق منه |
+|---|---|---|
+| باقة بيانات | حجم البيانات المشترى | التغطية وبداية الصلاحية |
+| Pay & Fly | البيانات المستخدمة | سعر الوجهة والرصيد |
+| Unlim Day Pass | أيام الاستخدام | فترة 24 ساعة وانتهاء الباقة |
+| Virtual Number | إيجار أو خدمة منفصلة | المكالمات والرسائل والتجديد |
+
+[^source-2] [^source-14] [^source-3] [^source-12]
+
+## اختيار المنتج
+
+حدد جميع الوجهات والتواريخ، وقدّر حاجتك للبيانات وتحقق من طراز الهاتف الدقيق. قارن الباقات المحلية والإقليمية وPay & Fly وDay Pass وفق الشروط الحالية. وصف «عالمية» لا يؤكد تغطية كل دولة في المسار. [^source-4] [^source-2] [^source-14]
+
+## التثبيت وإعدادات البيانات
+
+ثبّت eSIM مع اتصال بالإنترنت وفق دليل iPhone أو Samsung أو Pixel. اختر خط البيانات وإعدادات التجوال الخاصة به، وتحقق منفصلاً من الشريحة المعتادة والتبديل التلقائي للبيانات. قد تختلف آثار التثبيت عن تفعيل الباقة. [^source-16] [^source-21] [^source-22] [^source-11]
+
+## السرعة والاستخدام العادل ونقطة الاتصال
+
+البيانات غير المحدودة لا تضمن أعلى سرعة. تعتمد سياسة الاستخدام العادل على الباقة والشبكة. تتوفر نقطة الاتصال في معظم الباقات وتستهلك بياناتها، وقد يقيدها المشغل المحلي؛ لا يمكن ضمانها في كل الظروف. [^source-17] [^source-23]
+
+## الدفع والاسترداد
+
+تحقق من المبلغ النهائي والعملة والأهلية وقناة الشراء. تعتبر سياسة الاسترداد تثبيت الملف تفعيلًا حتى دون استهلاك بيانات. لتجديد الرقم ودفع التحقق من البطاقة شروط منفصلة. [^source-18] [^source-13]
+
+## مشكلات الاتصال والدعم
+
+تحقق من التغطية وخط البيانات والتجوال ثم أعد تشغيل الجهاز. لا تحذف الملف ولا تعاود مسح رمز QR كحل اعتيادي. أرسل إلى support@yesim.app الوجهة والخطوات المجربة ولقطات شاشة دون بيانات البطاقة. [^source-26] [^source-20]
+
+### هل يمكن نقل eSIM أو حذفها؟
+
+تحقق من توافق الهاتف الجديد وتواصل مع الدعم بمعلومات eSIM. لا يدعم جميع المزودين النقل. يؤدي تفعيل الملف البديل إلى تعطيل باقة Yesim على الجهاز السابق، ولا يمكن استخدام الملف نفسه على جهازين في الوقت ذاته. إعادة استخدام رمز QR القديم غير مضمونة. [^source-24] [^source-26]
+
+### أين أتحقق من البيانات المتبقية والصلاحية؟
+
+يعرض قسم eSIM في تطبيق Yesim البيانات والأيام المتبقية. أبلغ عن الخطأ بصورة ووصف. عدادات الهاتف لا تستبدل معلومات صلاحية الباقة المشتراة. [^source-25]
+
+## منتجات الأعمال والرحلات البحرية
+
+تخضع OneBalance وPartner API وأرقام الأعمال لشروط منفصلة. تحقق من مسار الرحلة البحرية: تغطية الموانئ والسواحل لا تضمن الاتصال في عرض البحر. [^source-27] [^source-28] [^source-29] [^source-30]
 
 Yesim يوفّر باقات بيانات eSIM مسبقة الدفع للسفر على الأجهزة المتوافقة وفي الوجهات التي تشملها الباقة. الأرقام الافتراضية منتج منفصل، ولا تتضمن باقة البيانات رقم هاتف تلقائيًا. [^source-1] [^source-3]
 
@@ -366,4 +421,36 @@ Pay & Fly يحاسب على البيانات المستخدمة. Unlim Day Pass 
 ### كيف أبلغ عن عطل تقني لطلب استرداد الأموال؟
 
 تتطلب السياسة الإبلاغ خلال ساعة من حدوث العطل عبر support@yesim.app أو نموذج التطبيق، مع وصف ولقطات شاشة. الإبلاغ لا يضمن استرداد الأموال. [^source-13]
+
 <!-- public-view:end -->
+
+[^source-1]: https://yesim.app/ar/. تم التحقق من المصادر 2026-10-13.
+[^source-2]: https://yesim.app/ar/pay-and-fly-esim/. تم التحقق من المصادر 2026-10-13.
+[^source-3]: https://yesim.app/ar/virtual-number/. تم التحقق من المصادر 2026-10-13.
+[^source-4]: https://yesim.app/ar/compatible-devices/. تم التحقق من المصادر 2026-10-13.
+[^source-5]: https://yesim.app/ar/regions/. تم التحقق من المصادر 2026-10-13.
+[^source-6]: https://yesim.app/ar/global/. تم التحقق من المصادر 2026-10-13.
+[^source-7]: https://yesim.app/ar/country/turkey/. تم التحقق من المصادر 2026-10-13.
+[^source-8]: https://yesim.app/ar/country/egypt/. تم التحقق من المصادر 2026-10-13.
+[^source-9]: https://yesim.app/ar/country/japan/. تم التحقق من المصادر 2026-10-13.
+[^source-10]: https://yesim.app/ar/country/saudi-arabia/. تم التحقق من المصادر 2026-10-13.
+[^source-11]: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. تم التحقق من المصادر 2026-10-13.
+[^source-12]: https://yesim.app/ar/terms-of-service/. تم التحقق من المصادر 2026-10-13.
+[^source-13]: https://yesim.app/ar/refund-policy/. تم التحقق من المصادر 2026-10-13.
+[^source-14]: https://yesim.app/ar/unlim-day-pass/. تم التحقق من المصادر 2026-10-13.
+[^source-15]: https://yesim.app/ar/promocodes/. تم التحقق من المصادر 2026-10-13.
+[^source-16]: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/. تم التحقق من المصادر 2026-10-13.
+[^source-17]: https://help.yesim.tech/unlimited-data-plans-policy/. تم التحقق من المصادر 2026-10-13.
+[^source-18]: https://yesim.app/ar/payment-details/. تم التحقق من المصادر 2026-10-13.
+[^source-19]: https://yesim.app/ar/privacy-policy/. تم التحقق من المصادر 2026-10-13.
+[^source-20]: https://yesim.app/ar/contacts/. تم التحقق من المصادر 2026-10-13.
+[^source-21]: https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/. تم التحقق من المصادر 2026-10-13.
+[^source-22]: https://help.yesim.tech/how-can-i-install-esim-on-google-phones/. تم التحقق من المصادر 2026-10-13.
+[^source-23]: https://help.yesim.tech/can-i-tether-use-personal-hotspot/. تم التحقق من المصادر 2026-10-13.
+[^source-24]: https://help.yesim.tech/how-do-i-transfer-my-esim-to-a-new-phone/. تم التحقق من المصادر 2026-10-13.
+[^source-25]: https://help.yesim.tech/how-do-i-check-my-data-balance-or-plan-expiration/. تم التحقق من المصادر 2026-10-13.
+[^source-26]: https://help.yesim.tech/no-data-connection/. تم التحقق من المصادر 2026-10-13.
+[^source-27]: https://yesim.app/b2b-enterprise/. تم التحقق من المصادر 2026-10-13.
+[^source-28]: https://yesim.app/yesim-partner-api/. تم التحقق من المصادر 2026-10-13.
+[^source-29]: https://yesim.app/virtual-numbers-for-business/. تم التحقق من المصادر 2026-10-13.
+[^source-30]: https://yesim.app/esim-cruise/. تم التحقق من المصادر 2026-10-13.

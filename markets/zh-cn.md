@@ -11,13 +11,15 @@ content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/zh-cn/
 editorial_primary_url: https://yesim.app/zh-cn/
 generated:
-  by: codex/policy-and-localization-revision
-  at: '2026-10-08T18:13:44Z'
+  by: codex/market-content-enrichment
+  at: '2026-10-13T16:09:44Z'
 source_review:
-  by: codex/live-http-and-source-review
-  at: '2026-10-08T18:13:44Z'
-  scope: Cited official endpoints, HTTP status, visible no-JavaScript text, canonical
-    and hreflang. Payment/refund/privacy/Terms control policy summaries.
+  by: codex/public-source-review
+  at: '2026-10-13T16:09:44Z'
+  scope: HTTP, final URL, canonical and extracted official text; shared product conditions
+    and added lifecycle answers. Not checkout/device tests, full legal equivalence
+    or human native approval.
+  evidence: ../docs/checks/2026-10-13-source-review.json
 sources:
 - id: source-1
   resource: https://yesim.app/zh-cn/
@@ -57,6 +59,28 @@ sources:
   resource: https://yesim.app/zh-cn/payment-details/
 - id: source-19
   resource: https://yesim.app/zh-cn/privacy-policy/
+- id: source-20
+  resource: https://yesim.app/zh-cn/contacts/
+- id: source-21
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/
+- id: source-22
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-google-phones/
+- id: source-23
+  resource: https://help.yesim.tech/can-i-tether-use-personal-hotspot/
+- id: source-24
+  resource: https://help.yesim.tech/how-do-i-transfer-my-esim-to-a-new-phone/
+- id: source-25
+  resource: https://help.yesim.tech/how-do-i-check-my-data-balance-or-plan-expiration/
+- id: source-26
+  resource: https://help.yesim.tech/no-data-connection/
+- id: source-27
+  resource: https://yesim.app/b2b-enterprise/
+- id: source-28
+  resource: https://yesim.app/yesim-partner-api/
+- id: source-29
+  resource: https://yesim.app/virtual-numbers-for-business/
+- id: source-30
+  resource: https://yesim.app/esim-cruise/
 editorial_reference: ../internal/seo/markets/zh-cn.md
 id: yesim:markets/zh-cn
 public_view: localized-answers
@@ -64,12 +88,19 @@ translation_group: yesim-product-overview
 source_links_heading: 官方来源
 verified:
 - by: codex/source-review
-  at: '2026-10-08T18:13:44Z'
+  at: '2026-10-13T16:09:44Z'
 - by: codex/linguistic-review
-  at: '2026-10-08T18:13:44Z'
-stale_after: '2026-10-15T18:13:44Z'
-review_scope: Public-source facts and native public answers; automated linguistic
-  review, not human/native employee approval or checkout testing.
+  at: '2026-10-13T16:09:44Z'
+stale_after: '2026-10-20T16:09:44Z'
+review_scope: Automated source and language review of the retained answers and added
+  public guidance; no independent human or Product/Legal sign-off.
+source_language_notes:
+- resource: https://yesim.app/zh-cn/terms-of-service/
+  body_language: en
+  scope: English main policy text inside localized website shell
+- resource: https://yesim.app/zh-cn/privacy-policy/
+  body_language: en
+  scope: English main policy text inside localized website shell
 ---
 
 # Yesim Simplified Chinese market and language knowledge
@@ -263,34 +294,58 @@ Public-source facts and native answer wording were checked on 2026-10-08. Shared
 
 Retrieved localized sources and shared policy/instruction references. Source retrieval does not verify every statement on a page or constitute product approval.
 
-[^source-1]: Localized home: https://yesim.app/zh-cn/. Referenced 2026-10-08.
-[^source-2]: Pay & Fly: https://yesim.app/zh-cn/pay-and-fly-esim/. Referenced 2026-10-08.
-[^source-3]: Virtual Number: https://yesim.app/zh-cn/virtual-number/. Referenced 2026-10-08.
-[^source-4]: Compatible devices: https://yesim.app/zh-cn/compatible-devices/. Referenced 2026-10-08.
-[^source-5]: Regional plans: https://yesim.app/zh-cn/regions/. Referenced 2026-10-08.
-[^source-6]: Global plans: https://yesim.app/zh-cn/global/. Referenced 2026-10-08.
-[^source-7]: 日本: https://yesim.app/zh-cn/country/japan/. Referenced 2026-10-08.
-[^source-8]: 泰国: https://yesim.app/zh-cn/country/thailand/. Referenced 2026-10-08.
-[^source-9]: 美国: https://yesim.app/zh-cn/country/united-states/. Referenced 2026-10-08.
-[^source-10]: 中国: https://yesim.app/zh-cn/country/china/. Referenced 2026-10-08.
-[^source-11]: Activation and validity: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. Referenced 2026-10-08.
-[^source-12]: Terms and number capabilities: https://yesim.app/zh-cn/terms-of-service/. Referenced 2026-10-09.
-[^source-13]: Refund policy: https://yesim.app/zh-cn/refund-policy/. Referenced 2026-10-09.
-[^source-14]: Unlim Day Pass: https://yesim.app/zh-cn/unlim-day-pass/. Referenced 2026-10-09.
-[^source-15]: Current promotions: https://yesim.app/zh-cn/promocodes/. Referenced 2026-10-09.
-[^source-16]: Device installation guidance: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/. Referenced 2026-10-08.
-[^source-17]: Unlimited-data policy: https://help.yesim.tech/unlimited-data-plans-policy/. Referenced 2026-10-08.
 
 ## Editorial research
 
 Queries, scenarios, content priorities and writing rules are preserved in [the zh-cn editorial reference](../internal/seo/markets/zh-cn.md). They do not define product conditions.
 
-[^source-18]: https://yesim.app/zh-cn/payment-details/. Checked 2026-10-09.
 
-[^source-19]: https://yesim.app/zh-cn/privacy-policy/. Checked 2026-10-09.
 
 <!-- public-view:start -->
 # Yesim 产品说明与常见问题
+
+Yesim提供旅行用预付费eSIM流量套餐及单独销售的虚拟号码服务。网站语言不能确定居住地、付款资格或行程覆盖范围。 [^source-12] [^source-3]
+
+| 产品 | 计费方式 | 购买前确认 |
+|---|---|---|
+| 流量包 | 购买的流量额度 | 覆盖范围及有效期开始条件 |
+| Pay & Fly | 实际使用的流量 | 目的地费率和余额 |
+| Unlim Day Pass | 使用天数 | 24小时使用时段及套餐到期日 |
+| Virtual Number | 单独租用或服务 | 通话、短信和续订条件 |
+
+[^source-2] [^source-14] [^source-3] [^source-12]
+
+## 如何选择产品
+
+列出全部目的地和日期，估算所需流量，并检查手机的准确型号。根据当前条件比较国家或地区流量包、Pay & Fly和Day Pass。“全球”名称不代表行程中的每个国家都包含在内。 [^source-4] [^source-2] [^source-14]
+
+## 安装与数据设置
+
+请在联网状态下，按照iPhone、Samsung或Pixel的对应指南安装。选择需要的数据线路及漫游设置，另行检查原有SIM和自动数据切换。安装配置文件与激活套餐可能产生不同影响。 [^source-16] [^source-21] [^source-22] [^source-11]
+
+## 速度、公平使用和热点
+
+无限流量不保证最高速度。公平使用条件取决于套餐和网络。多数套餐支持热点，消耗套餐流量，但当地运营商可能限制其使用，无法保证所有情况下都可用。 [^source-17] [^source-23]
+
+## 付款与退款
+
+确认最终金额、币种、购买资格和购买渠道。退款政策将配置文件安装视为激活，即使尚未使用流量。号码续订与银行卡验证付款适用各自的条件。 [^source-18] [^source-13]
+
+## 连接问题与支持
+
+先检查覆盖范围、数据线路和漫游，再重启设备。不要把删除配置文件或再次扫描二维码作为常规处理方法。向support@yesim.app提供目的地、已尝试的步骤及不含银行卡信息的截图。 [^source-26] [^source-20]
+
+### eSIM可以转移或删除吗？
+
+检查新手机是否兼容，并携带eSIM信息联系支持。并非所有提供商都支持转移。新配置文件激活后，旧设备上的Yesim套餐会停用；同一配置文件不能在两台设备上同时使用。旧二维码不保证可以重复使用。 [^source-24] [^source-26]
+
+### 在哪里查看剩余流量和有效期？
+
+Yesim应用的eSIM栏目可查看剩余流量和天数。显示有误时，请提供截图和说明。手机流量计数器不能替代所购套餐的有效期信息。 [^source-25]
+
+## 企业产品与邮轮
+
+OneBalance、Partner API和企业号码适用单独的商业条件。邮轮需核对具体航线：港口或沿岸覆盖并不保证远海连接。 [^source-27] [^source-28] [^source-29] [^source-30]
 
 Yesim 提供适用于旅行的预付费 eSIM 移动数据套餐。使用前需要确认设备兼容性和套餐覆盖范围。虚拟号码是独立产品，数据套餐不会自动包含电话号码。 [^source-1] [^source-3]
 
@@ -365,4 +420,36 @@ Pay & Fly 按实际使用的数据量计费。Unlim Day Pass 是单独的使用�
 ### 如何为退款申请报告技术故障？
 
 政策要求在故障发生后的一小时内，通过 support@yesim.app 或应用内联系表单报告，并附上说明和截图。报告故障本身不保证退款。 [^source-13]
+
 <!-- public-view:end -->
+
+[^source-1]: https://yesim.app/zh-cn/. 信息源核查日期 2026-10-13.
+[^source-2]: https://yesim.app/zh-cn/pay-and-fly-esim/. 信息源核查日期 2026-10-13.
+[^source-3]: https://yesim.app/zh-cn/virtual-number/. 信息源核查日期 2026-10-13.
+[^source-4]: https://yesim.app/zh-cn/compatible-devices/. 信息源核查日期 2026-10-13.
+[^source-5]: https://yesim.app/zh-cn/regions/. 信息源核查日期 2026-10-13.
+[^source-6]: https://yesim.app/zh-cn/global/. 信息源核查日期 2026-10-13.
+[^source-7]: https://yesim.app/zh-cn/country/japan/. 信息源核查日期 2026-10-13.
+[^source-8]: https://yesim.app/zh-cn/country/thailand/. 信息源核查日期 2026-10-13.
+[^source-9]: https://yesim.app/zh-cn/country/united-states/. 信息源核查日期 2026-10-13.
+[^source-10]: https://yesim.app/zh-cn/country/china/. 信息源核查日期 2026-10-13.
+[^source-11]: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. 信息源核查日期 2026-10-13.
+[^source-12]: https://yesim.app/zh-cn/terms-of-service/. 信息源核查日期 2026-10-13.
+[^source-13]: https://yesim.app/zh-cn/refund-policy/. 信息源核查日期 2026-10-13.
+[^source-14]: https://yesim.app/zh-cn/unlim-day-pass/. 信息源核查日期 2026-10-13.
+[^source-15]: https://yesim.app/zh-cn/promocodes/. 信息源核查日期 2026-10-13.
+[^source-16]: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/. 信息源核查日期 2026-10-13.
+[^source-17]: https://help.yesim.tech/unlimited-data-plans-policy/. 信息源核查日期 2026-10-13.
+[^source-18]: https://yesim.app/zh-cn/payment-details/. 信息源核查日期 2026-10-13.
+[^source-19]: https://yesim.app/zh-cn/privacy-policy/. 信息源核查日期 2026-10-13.
+[^source-20]: https://yesim.app/zh-cn/contacts/. 信息源核查日期 2026-10-13.
+[^source-21]: https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/. 信息源核查日期 2026-10-13.
+[^source-22]: https://help.yesim.tech/how-can-i-install-esim-on-google-phones/. 信息源核查日期 2026-10-13.
+[^source-23]: https://help.yesim.tech/can-i-tether-use-personal-hotspot/. 信息源核查日期 2026-10-13.
+[^source-24]: https://help.yesim.tech/how-do-i-transfer-my-esim-to-a-new-phone/. 信息源核查日期 2026-10-13.
+[^source-25]: https://help.yesim.tech/how-do-i-check-my-data-balance-or-plan-expiration/. 信息源核查日期 2026-10-13.
+[^source-26]: https://help.yesim.tech/no-data-connection/. 信息源核查日期 2026-10-13.
+[^source-27]: https://yesim.app/b2b-enterprise/. 信息源核查日期 2026-10-13.
+[^source-28]: https://yesim.app/yesim-partner-api/. 信息源核查日期 2026-10-13.
+[^source-29]: https://yesim.app/virtual-numbers-for-business/. 信息源核查日期 2026-10-13.
+[^source-30]: https://yesim.app/esim-cruise/. 信息源核查日期 2026-10-13.

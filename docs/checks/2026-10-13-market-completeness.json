@@ -1,0 +1,2733 @@
+[
+  {
+    "file": "markets/ar.md",
+    "language": "ar",
+    "official_domain": "https://yesim.app/ar/",
+    "before": {
+      "file": "markets/ar.md",
+      "language": "ar",
+      "domain": "https://yesim.app/ar/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 17578,
+      "public_chars": 3892,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 21097,
+      "public_candidate_chars": 6430,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/ar/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/ar/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/az.md",
+    "language": "az",
+    "official_domain": "https://yesim.app/az/",
+    "before": {
+      "file": "markets/az.md",
+      "language": "az",
+      "domain": "https://yesim.app/az/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2307,
+      "public_chars": 2307,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8225,
+      "public_candidate_chars": 3598,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/az/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/az/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/bg.md",
+    "language": "bg",
+    "official_domain": "https://yesim.app/bg/",
+    "before": {
+      "file": "markets/bg.md",
+      "language": "bg",
+      "domain": "https://yesim.app/bg/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2305,
+      "public_chars": 2305,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8334,
+      "public_candidate_chars": 3589,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/bg/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/bg/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/bs.md",
+    "language": "bs",
+    "official_domain": "https://yesim.app/bs/",
+    "before": {
+      "file": "markets/bs.md",
+      "language": "bs",
+      "domain": "https://yesim.app/bs/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2303,
+      "public_chars": 2303,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8066,
+      "public_candidate_chars": 3491,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/bs/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/bs/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/cs.md",
+    "language": "cs",
+    "official_domain": "https://yesim.app/cs/",
+    "before": {
+      "file": "markets/cs.md",
+      "language": "cs",
+      "domain": "https://yesim.app/cs/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 18112,
+      "public_chars": 4246,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 21642,
+      "public_candidate_chars": 6964,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/cs/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/da.md",
+    "language": "da",
+    "official_domain": "https://yesim.app/da/",
+    "before": {
+      "file": "markets/da.md",
+      "language": "da",
+      "domain": "https://yesim.app/da/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2302,
+      "public_chars": 2302,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8113,
+      "public_candidate_chars": 3491,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/da/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/da/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/de.md",
+    "language": "de",
+    "official_domain": "https://yesim.app/de/",
+    "before": {
+      "file": "markets/de.md",
+      "language": "de",
+      "domain": "https://yesim.app/de/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 19185,
+      "public_chars": 5040,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 23315,
+      "public_candidate_chars": 8303,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/de/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/el.md",
+    "language": "el",
+    "official_domain": "https://yesim.app/el/",
+    "before": {
+      "file": "markets/el.md",
+      "language": "el",
+      "domain": "https://yesim.app/el/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2301,
+      "public_chars": 2301,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8294,
+      "public_candidate_chars": 3817,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/el/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/el/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/en.md",
+    "language": "en",
+    "official_domain": "https://yesim.app/",
+    "before": {
+      "file": "markets/en.md",
+      "language": "en",
+      "domain": "https://yesim.app/",
+      "status": "stable",
+      "source_count": 31,
+      "full_chars": 26907,
+      "public_chars": 26907,
+      "public_sections": 15,
+      "public_questions": 43,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:05:42Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:05:42Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 26970,
+      "public_candidate_chars": 26970,
+      "public_sections": 16,
+      "public_questions": 45,
+      "sources": 34,
+      "source_http_200": 34,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": []
+    }
+  },
+  {
+    "file": "markets/es.md",
+    "language": "es",
+    "official_domain": "https://yesim.app/es/",
+    "before": {
+      "file": "markets/es.md",
+      "language": "es",
+      "domain": "https://yesim.app/es/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 19403,
+      "public_chars": 4845,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 23428,
+      "public_candidate_chars": 7894,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/es/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/et.md",
+    "language": "et",
+    "official_domain": "https://yesim.app/et/",
+    "before": {
+      "file": "markets/et.md",
+      "language": "et",
+      "domain": "https://yesim.app/et/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2304,
+      "public_chars": 2304,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8037,
+      "public_candidate_chars": 3389,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/et/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/et/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/fa.md",
+    "language": "fa",
+    "official_domain": "https://yesim.app/fa/",
+    "before": {
+      "file": "markets/fa.md",
+      "language": "fa",
+      "domain": "https://yesim.app/fa/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2303,
+      "public_chars": 2303,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 7733,
+      "public_candidate_chars": 3230,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/fa/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/fa/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/fi.md",
+    "language": "fi",
+    "official_domain": "https://yesim.app/fi/",
+    "before": {
+      "file": "markets/fi.md",
+      "language": "fi",
+      "domain": "https://yesim.app/fi/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2303,
+      "public_chars": 2303,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8270,
+      "public_candidate_chars": 3647,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/fi/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/fi/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/fr.md",
+    "language": "fr",
+    "official_domain": "https://yesim.app/fr/",
+    "before": {
+      "file": "markets/fr.md",
+      "language": "fr",
+      "domain": "https://yesim.app/fr/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 20026,
+      "public_chars": 5226,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 24294,
+      "public_candidate_chars": 8572,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/fr/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/he.md",
+    "language": "he",
+    "official_domain": "https://yesim.app/he/",
+    "before": {
+      "file": "markets/he.md",
+      "language": "he",
+      "domain": "https://yesim.app/he/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2302,
+      "public_chars": 2302,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 7308,
+      "public_candidate_chars": 2854,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/he/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/he/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/hi.md",
+    "language": "hi",
+    "official_domain": "https://yesim.app/hi/",
+    "before": {
+      "file": "markets/hi.md",
+      "language": "hi",
+      "domain": "https://yesim.app/hi/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2301,
+      "public_chars": 2301,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 7931,
+      "public_candidate_chars": 3310,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/hi/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/hi/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/hr.md",
+    "language": "hr",
+    "official_domain": "https://yesim.app/hr/",
+    "before": {
+      "file": "markets/hr.md",
+      "language": "hr",
+      "domain": "https://yesim.app/hr/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2304,
+      "public_chars": 2304,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8057,
+      "public_candidate_chars": 3481,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/hr/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/hr/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/hu.md",
+    "language": "hu",
+    "official_domain": "https://yesim.app/hu/",
+    "before": {
+      "file": "markets/hu.md",
+      "language": "hu",
+      "domain": "https://yesim.app/hu/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2305,
+      "public_chars": 2305,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8421,
+      "public_candidate_chars": 3772,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/hu/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/hy.md",
+    "language": "hy",
+    "official_domain": "https://yesim.app/hy/",
+    "before": {
+      "file": "markets/hy.md",
+      "language": "hy",
+      "domain": "https://yesim.app/hy/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2304,
+      "public_chars": 2304,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8521,
+      "public_candidate_chars": 3801,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/hy/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/hy/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/id.md",
+    "language": "id",
+    "official_domain": "https://yesim.app/id/",
+    "before": {
+      "file": "markets/id.md",
+      "language": "id",
+      "domain": "https://yesim.app/id/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 19003,
+      "public_chars": 4817,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 22887,
+      "public_candidate_chars": 7834,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/id/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/id/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/it.md",
+    "language": "it",
+    "official_domain": "https://yesim.app/it/",
+    "before": {
+      "file": "markets/it.md",
+      "language": "it",
+      "domain": "https://yesim.app/it/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 19011,
+      "public_chars": 4907,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 22990,
+      "public_candidate_chars": 8000,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/it/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/ja.md",
+    "language": "ja",
+    "official_domain": "https://yesim.app/ja/",
+    "before": {
+      "file": "markets/ja.md",
+      "language": "ja",
+      "domain": "https://yesim.app/ja/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 15755,
+      "public_chars": 2394,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 18057,
+      "public_candidate_chars": 4076,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/ja/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/ja/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/ka-ge.md",
+    "language": "ka-ge",
+    "official_domain": "https://yesim.app/ka-ge/",
+    "before": {
+      "file": "markets/ka-ge.md",
+      "language": "ka-ge",
+      "domain": "https://yesim.app/ka-ge/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2310,
+      "public_chars": 2310,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8413,
+      "public_candidate_chars": 3705,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/ka-ge/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/ka-ge/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/ko.md",
+    "language": "ko",
+    "official_domain": "https://yesim.app/ko/",
+    "before": {
+      "file": "markets/ko.md",
+      "language": "ko",
+      "domain": "https://yesim.app/ko/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2302,
+      "public_chars": 2302,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 6559,
+      "public_candidate_chars": 2249,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/ko/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/ko/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/lt.md",
+    "language": "lt",
+    "official_domain": "https://yesim.app/lt/",
+    "before": {
+      "file": "markets/lt.md",
+      "language": "lt",
+      "domain": "https://yesim.app/lt/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2306,
+      "public_chars": 2306,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8325,
+      "public_candidate_chars": 3675,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/lt/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/lt/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/lv.md",
+    "language": "lv",
+    "official_domain": "https://yesim.app/lv/",
+    "before": {
+      "file": "markets/lv.md",
+      "language": "lv",
+      "domain": "https://yesim.app/lv/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2303,
+      "public_chars": 2303,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8101,
+      "public_candidate_chars": 3550,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/lv/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/lv/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/ms.md",
+    "language": "ms",
+    "official_domain": "https://yesim.app/ms/",
+    "before": {
+      "file": "markets/ms.md",
+      "language": "ms",
+      "domain": "https://yesim.app/ms/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2301,
+      "public_chars": 2301,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8238,
+      "public_candidate_chars": 3737,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/ms/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/ms/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/nb.md",
+    "language": "nb",
+    "official_domain": "https://yesim.app/nb/",
+    "before": {
+      "file": "markets/nb.md",
+      "language": "nb",
+      "domain": "https://yesim.app/nb/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2312,
+      "public_chars": 2312,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8083,
+      "public_candidate_chars": 3475,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/nb/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/nb/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/nl.md",
+    "language": "nl",
+    "official_domain": "https://yesim.app/nl/",
+    "before": {
+      "file": "markets/nl.md",
+      "language": "nl",
+      "domain": "https://yesim.app/nl/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2301,
+      "public_chars": 2301,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8463,
+      "public_candidate_chars": 3794,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/nl/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/nl/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/pl.md",
+    "language": "pl",
+    "official_domain": "https://yesim.app/pl/",
+    "before": {
+      "file": "markets/pl.md",
+      "language": "pl",
+      "domain": "https://yesim.app/pl/",
+      "status": "stable",
+      "source_count": 31,
+      "full_chars": 18184,
+      "public_chars": 4684,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 22550,
+      "public_candidate_chars": 7578,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 43,
+      "source_http_200": 43,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/pl/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/pt.md",
+    "language": "pt",
+    "official_domain": "https://yesim.app/pt/",
+    "before": {
+      "file": "markets/pt.md",
+      "language": "pt",
+      "domain": "https://yesim.app/pt/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 18986,
+      "public_chars": 4846,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 22922,
+      "public_candidate_chars": 7854,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/pt/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/pt-br.md",
+    "language": "pt-br",
+    "official_domain": "https://yesim.app/pt-br/",
+    "before": {
+      "file": "markets/pt-br.md",
+      "language": "pt-br",
+      "domain": "https://yesim.app/pt-br/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 19639,
+      "public_chars": 4886,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 23505,
+      "public_candidate_chars": 7825,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/pt-br/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/ro.md",
+    "language": "ro",
+    "official_domain": "https://yesim.app/ro/",
+    "before": {
+      "file": "markets/ro.md",
+      "language": "ro",
+      "domain": "https://yesim.app/ro/",
+      "status": "stable",
+      "source_count": 33,
+      "full_chars": 21840,
+      "public_chars": 4914,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 26309,
+      "public_candidate_chars": 7936,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 45,
+      "source_http_200": 45,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/ro/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/ro/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/ru.md",
+    "language": "ru",
+    "official_domain": "https://yesim.tech/ru/",
+    "before": {
+      "file": "markets/ru.md",
+      "language": "ru",
+      "domain": "https://yesim.tech/ru/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 19041,
+      "public_chars": 4729,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 23155,
+      "public_candidate_chars": 7862,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.tech/ru/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.tech/ru/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/sk.md",
+    "language": "sk",
+    "official_domain": "https://yesim.app/sk/",
+    "before": {
+      "file": "markets/sk.md",
+      "language": "sk",
+      "domain": "https://yesim.app/sk/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2302,
+      "public_chars": 2302,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 7870,
+      "public_candidate_chars": 3368,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/sk/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/sk/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/sl.md",
+    "language": "sl",
+    "official_domain": "https://yesim.app/sl/",
+    "before": {
+      "file": "markets/sl.md",
+      "language": "sl",
+      "domain": "https://yesim.app/sl/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2305,
+      "public_chars": 2305,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8027,
+      "public_candidate_chars": 3498,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/sl/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/sl/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/sr.md",
+    "language": "sr",
+    "official_domain": "https://yesim.app/sr/",
+    "before": {
+      "file": "markets/sr.md",
+      "language": "sr",
+      "domain": "https://yesim.app/sr/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2303,
+      "public_chars": 2303,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 7976,
+      "public_candidate_chars": 3425,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/sr/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/sr/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/sv.md",
+    "language": "sv",
+    "official_domain": "https://yesim.app/sv/",
+    "before": {
+      "file": "markets/sv.md",
+      "language": "sv",
+      "domain": "https://yesim.app/sv/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2303,
+      "public_chars": 2303,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8207,
+      "public_candidate_chars": 3560,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/sv/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/sv/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/th.md",
+    "language": "th",
+    "official_domain": "https://yesim.app/th/",
+    "before": {
+      "file": "markets/th.md",
+      "language": "th",
+      "domain": "https://yesim.app/th/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2300,
+      "public_chars": 2300,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8033,
+      "public_candidate_chars": 3293,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/th/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/th/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/tr.md",
+    "language": "tr",
+    "official_domain": "https://yesim.app/tr/",
+    "before": {
+      "file": "markets/tr.md",
+      "language": "tr",
+      "domain": "https://yesim.app/tr/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2303,
+      "public_chars": 2303,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8350,
+      "public_candidate_chars": 3607,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/tr/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/uk.md",
+    "language": "uk",
+    "official_domain": "https://yesim.app/uk/",
+    "before": {
+      "file": "markets/uk.md",
+      "language": "uk",
+      "domain": "https://yesim.app/uk/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2305,
+      "public_chars": 2305,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8253,
+      "public_candidate_chars": 3652,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/uk/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/uk/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/uz.md",
+    "language": "uz",
+    "official_domain": "https://yesim.app/uz/",
+    "before": {
+      "file": "markets/uz.md",
+      "language": "uz",
+      "domain": "https://yesim.app/uz/",
+      "status": "draft",
+      "source_count": 2,
+      "full_chars": 2301,
+      "public_chars": 2301,
+      "public_sections": 3,
+      "public_questions": 0,
+      "verified": null,
+      "stale_after": null
+    },
+    "after": {
+      "status": "draft",
+      "full_chars": 8450,
+      "public_candidate_chars": 3805,
+      "public_sections": 6,
+      "public_questions": 2,
+      "sources": 24,
+      "source_http_200": 24,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": false,
+      "actual_review_scope": "HTTP, final URL, canonical and extracted official text; shared product conditions and added lifecycle answers. Not checkout/device tests, full legal equivalence or human native approval.",
+      "missing": [
+        "Independent language/product review of new native text"
+      ],
+      "priority": "P2",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/uz/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/uz/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/vi.md",
+    "language": "vi",
+    "official_domain": "https://yesim.app/vi/",
+    "before": {
+      "file": "markets/vi.md",
+      "language": "vi",
+      "domain": "https://yesim.app/vi/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 18814,
+      "public_chars": 4423,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 22614,
+      "public_candidate_chars": 7266,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/vi/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/vi/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  },
+  {
+    "file": "markets/zh-cn.md",
+    "language": "zh-cn",
+    "official_domain": "https://yesim.app/zh-cn/",
+    "before": {
+      "file": "markets/zh-cn.md",
+      "language": "zh-cn",
+      "domain": "https://yesim.app/zh-cn/",
+      "status": "stable",
+      "source_count": 19,
+      "full_chars": 14685,
+      "public_chars": 1875,
+      "public_sections": 1,
+      "public_questions": 17,
+      "verified": [
+        {
+          "by": "codex/source-review",
+          "at": "2026-10-08T18:13:44Z"
+        },
+        {
+          "by": "codex/linguistic-review",
+          "at": "2026-10-08T18:13:44Z"
+        }
+      ],
+      "stale_after": "2026-10-15T18:13:44Z"
+    },
+    "after": {
+      "status": "stable",
+      "full_chars": 16645,
+      "public_candidate_chars": 3210,
+      "public_sections": 7,
+      "public_questions": 19,
+      "sources": 30,
+      "source_http_200": 30,
+      "topics": {
+        "identity": "covered",
+        "product_comparison": "covered",
+        "selection": "covered",
+        "installation": "covered",
+        "activation": "covered",
+        "compatibility": "covered",
+        "coverage": "covered",
+        "limits_hotspot": "covered",
+        "payment": "covered",
+        "refund": "covered",
+        "support": "covered",
+        "transfer": "covered",
+        "remaining_allowance": "covered",
+        "business_cruise": "covered"
+      },
+      "publication": true,
+      "actual_review_scope": "Automated source and language review of the retained answers and added public guidance; no independent human or Product/Legal sign-off.",
+      "missing": [],
+      "priority": "P1",
+      "source_language_notes": [
+        {
+          "resource": "https://yesim.app/zh-cn/terms-of-service/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        },
+        {
+          "resource": "https://yesim.app/zh-cn/privacy-policy/",
+          "body_language": "en",
+          "scope": "English main policy text inside localized website shell"
+        }
+      ]
+    }
+  }
+]

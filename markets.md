@@ -1,29 +1,29 @@
 ---
 type: Reference
 title: Yesim website language inventory
-description: The official index lists 44 website languages; listing does not establish
-  product localization approval or eligibility.
+description: 44 website languages; 16 source-reviewed references and 28 expanded native
+  drafts awaiting independent language/product review.
 resource: https://yesim.app/llms.txt
 sources:
 - id: source-1
   resource: https://yesim.app/llms.txt
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T16:55:46Z'
+  by: codex/market-revision
+  at: '2026-10-13T16:09:44Z'
 status: stable
 audience: public
 id: yesim:markets
 verified:
-- by: codex/source-review
-  at: '2026-10-08T16:55:46Z'
-stale_after: '2026-10-15T16:55:46Z'
+- by: codex/language-inventory-review
+  at: '2026-10-13T16:09:44Z'
+stale_after: '2026-10-20T16:09:44Z'
 ---
 
 # Yesim website language inventory
 
-The official language index lists 44 website versions, checked on 2026-10-08. Language is separate from residence, purchaser eligibility, checkout currency, support language and travel coverage. A listed link does not prove endpoint availability or native product approval.
+The official language index lists 44 website versions, checked on 2026-10-13. Language is separate from residence, purchaser eligibility, checkout currency, support language and travel coverage. A listed link does not prove endpoint availability or native product approval.
 
-The primary reviewed product reference is [English](markets/en.md). Fifteen other locales have detailed product drafts and separately linked editorial research; 28 are language-routing cards awaiting expansion. Publish only individually reviewed localized product records.
+The primary reviewed product reference is [English](markets/en.md). Fifteen other locales have source-reviewed product references and separately linked editorial research; 28 have expanded native product drafts awaiting independent language/product review. Publish only individually reviewed localized product records.
 
 | Website language code | URL listed in the official index |
 |---|---|

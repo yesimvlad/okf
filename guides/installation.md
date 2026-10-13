@@ -16,14 +16,14 @@ sources:
 - id: source-5
   resource: https://yesim.app/compatible-devices/
 generated:
-  by: codex/repository-revision
-  at: '2026-10-08T16:55:46Z'
+  by: codex/market-content-enrichment
+  at: '2026-10-13T16:09:44Z'
 verified:
 - by: codex/source-review
-  at: '2026-10-08T16:55:46Z'
+  at: '2026-10-13T16:09:44Z'
 status: stable
 audience: public
-stale_after: '2026-10-15T16:55:46Z'
+stale_after: '2026-10-20T16:09:44Z'
 id: yesim:guides/installation
 ---
 
@@ -56,3 +56,8 @@ Installation can affect [refund eligibility](../policies/refund-policy.md), even
 - [https://help.yesim.tech/how-can-i-install-esim-on-google-phones/](https://help.yesim.tech/how-can-i-install-esim-on-google-phones/)
 - [https://help.yesim.tech/when-does-my-yesim-data-plan-activate/](https://help.yesim.tech/when-does-my-yesim-data-plan-activate/)
 - [https://yesim.app/compatible-devices/](https://yesim.app/compatible-devices/)
+
+
+## Profile transfer and remaining allowance
+
+Use [the lifecycle guide](profile-lifecycle.md) for provider-dependent transfer, safe removal guidance and app balance/validity information. The old troubleshooting article does not make 3G a universal requirement.

@@ -1,7 +1,7 @@
 version: 1
 created_at: '2026-10-08T16:29:26Z'
-scope: 43 authored EN questions; current source review 2026-10-08. Not an executed
-  model benchmark.
+scope: Source-synchronized authored questions and scenario extensions. Draft locales
+  are authoring test candidates, not public-release or model-benchmark results.
 cases:
 - id: en_identity
   language: en
@@ -436,3 +436,80 @@ cases:
   - https://yesim.app/terms-of-service/
   knowledge_record: products/virtual-number.md
   critical: true
+- id: en_trip_selection_20261013
+  language: en
+  prompt: What should I check for a 14-day trip to France, Germany and Switzerland?
+  expected: Collect itinerary, dates and demand; exact model/regional variant/eSIM/carrier
+    unlock; selected-package coverage.
+  sources:
+  - https://yesim.app/compatible-devices/
+  - https://yesim.app/pay-and-fly-esim/
+  - https://yesim.app/unlim-day-pass/
+  critical: false
+  knowledge_record: markets/en.md
+  record_status: stable
+  review_scope: Authored native scenario; not an executed benchmark. New draft locales
+    require independent wording review.
+- id: en_data_settings_20261013
+  language: en
+  prompt: After installing the eSIM, how should I set mobile data and roaming?
+  expected: Device-specific installation with internet; intended data line and roaming;
+    home SIM and automatic switching separate; plan-specific validity.
+  sources:
+  - https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/
+  - https://help.yesim.tech/when-does-my-yesim-data-plan-activate/
+  critical: true
+  knowledge_record: markets/en.md
+  record_status: stable
+  review_scope: Authored native scenario; not an executed benchmark. New draft locales
+    require independent wording review.
+- id: en_hotspot_limits_20261013
+  language: en
+  prompt: Can I share an unlimited plan with a laptop without any restrictions?
+  expected: Most plans support tethering using their data; local operator restrictions,
+    no unconditional availability or maximum-speed guarantee.
+  sources:
+  - https://help.yesim.tech/can-i-tether-use-personal-hotspot/
+  - https://help.yesim.tech/unlimited-data-plans-policy/
+  critical: true
+  knowledge_record: markets/en.md
+  record_status: stable
+  review_scope: Authored native scenario; not an executed benchmark. New draft locales
+    require independent wording review.
+- id: en_connection_recovery_20261013
+  language: en
+  prompt: There is no internet. Should I delete the eSIM and scan the QR again?
+  expected: Check coverage/data line/roaming and restart; do not delete profile or
+    scan QR again by default; support with destination and steps.
+  sources:
+  - https://help.yesim.tech/no-data-connection/
+  critical: true
+  knowledge_record: markets/en.md
+  record_status: stable
+  review_scope: Authored native scenario; not an executed benchmark. New draft locales
+    require independent wording review.
+- id: en_profile_transfer_20261013
+  language: en
+  prompt: Can I transfer or delete the eSIM?
+  expected: Support-led provider-dependent transfer; new activation deactivates previous
+    device; not two simultaneous devices or guaranteed QR reuse.
+  sources:
+  - https://help.yesim.tech/how-do-i-transfer-my-esim-to-a-new-phone/
+  critical: true
+  knowledge_record: markets/en.md
+  record_status: stable
+  review_scope: Authored native scenario; not an executed benchmark. New draft locales
+    require independent wording review.
+- id: en_remaining_allowance_20261013
+  language: en
+  prompt: Where can I check remaining data and validity?
+  expected: App eSIM section shows data and days; report wrong values with screenshot;
+    phone counters do not establish plan validity.
+  sources:
+  - https://help.yesim.tech/how-do-i-check-my-data-balance-or-plan-expiration/
+  critical: false
+  knowledge_record: markets/en.md
+  record_status: stable
+  review_scope: Authored native scenario; not an executed benchmark. New draft locales
+    require independent wording review.
+updated_at: '2026-10-13T16:09:44Z'

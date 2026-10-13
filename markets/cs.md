@@ -13,13 +13,15 @@ content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/cs/
 editorial_primary_url: https://yesim.app/cs/
 generated:
-  by: codex/policy-and-localization-revision
-  at: '2026-10-08T18:13:44Z'
+  by: codex/market-content-enrichment
+  at: '2026-10-13T16:09:44Z'
 source_review:
-  by: codex/live-http-and-source-review
-  at: '2026-10-08T18:13:44Z'
-  scope: Cited official endpoints, HTTP status, visible no-JavaScript text, canonical
-    and hreflang. Payment/refund/privacy/Terms control policy summaries.
+  by: codex/public-source-review
+  at: '2026-10-13T16:09:44Z'
+  scope: HTTP, final URL, canonical and extracted official text; shared product conditions
+    and added lifecycle answers. Not checkout/device tests, full legal equivalence
+    or human native approval.
+  evidence: ../docs/checks/2026-10-13-source-review.json
 sources:
 - id: source-1
   resource: https://yesim.app/cs/
@@ -59,6 +61,28 @@ sources:
   resource: https://yesim.app/cs/payment-details/
 - id: source-19
   resource: https://yesim.app/cs/privacy-policy/
+- id: source-20
+  resource: https://yesim.app/cs/contacts/
+- id: source-21
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/
+- id: source-22
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-google-phones/
+- id: source-23
+  resource: https://help.yesim.tech/can-i-tether-use-personal-hotspot/
+- id: source-24
+  resource: https://help.yesim.tech/how-do-i-transfer-my-esim-to-a-new-phone/
+- id: source-25
+  resource: https://help.yesim.tech/how-do-i-check-my-data-balance-or-plan-expiration/
+- id: source-26
+  resource: https://help.yesim.tech/no-data-connection/
+- id: source-27
+  resource: https://yesim.app/b2b-enterprise/
+- id: source-28
+  resource: https://yesim.app/yesim-partner-api/
+- id: source-29
+  resource: https://yesim.app/virtual-numbers-for-business/
+- id: source-30
+  resource: https://yesim.app/esim-cruise/
 editorial_reference: ../internal/seo/markets/cs.md
 id: yesim:markets/cs
 public_view: localized-answers
@@ -66,12 +90,16 @@ translation_group: yesim-product-overview
 source_links_heading: Oficiální zdroje
 verified:
 - by: codex/source-review
-  at: '2026-10-08T18:13:44Z'
+  at: '2026-10-13T16:09:44Z'
 - by: codex/linguistic-review
-  at: '2026-10-08T18:13:44Z'
-stale_after: '2026-10-15T18:13:44Z'
-review_scope: Public-source facts and native public answers; automated linguistic
-  review, not human/native employee approval or checkout testing.
+  at: '2026-10-13T16:09:44Z'
+stale_after: '2026-10-20T16:09:44Z'
+review_scope: Automated source and language review of the retained answers and added
+  public guidance; no independent human or Product/Legal sign-off.
+source_language_notes:
+- resource: https://yesim.app/cs/privacy-policy/
+  body_language: en
+  scope: English main policy text inside localized website shell
 ---
 
 # Yesim Czech market and language knowledge
@@ -265,34 +293,58 @@ Public-source facts and native answer wording were checked on 2026-10-08. Shared
 
 Retrieved localized sources and shared policy/instruction references. Source retrieval does not verify every statement on a page or constitute product approval.
 
-[^source-1]: Localized home: https://yesim.app/cs/. Referenced 2026-10-08.
-[^source-2]: Pay & Fly: https://yesim.app/cs/pay-and-fly-esim/. Referenced 2026-10-08.
-[^source-3]: Virtual Number: https://yesim.app/cs/virtual-number/. Referenced 2026-10-08.
-[^source-4]: Compatible devices: https://yesim.app/cs/compatible-devices/. Referenced 2026-10-08.
-[^source-5]: Regional plans: https://yesim.app/cs/regions/. Referenced 2026-10-08.
-[^source-6]: Global plans: https://yesim.app/cs/global/. Referenced 2026-10-08.
-[^source-7]: Turecko: https://yesim.app/cs/country/turkey/. Referenced 2026-10-08.
-[^source-8]: Egypt: https://yesim.app/cs/country/egypt/. Referenced 2026-10-08.
-[^source-9]: Albánie: https://yesim.app/cs/country/albania/. Referenced 2026-10-08.
-[^source-10]: Švýcarsko: https://yesim.app/cs/country/switzerland/. Referenced 2026-10-08.
-[^source-11]: Activation and validity: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. Referenced 2026-10-08.
-[^source-12]: Terms and number capabilities: https://yesim.app/cs/terms-of-service/. Referenced 2026-10-09.
-[^source-13]: Refund policy: https://yesim.app/cs/refund-policy/. Referenced 2026-10-09.
-[^source-14]: Unlim Day Pass: https://yesim.app/cs/unlim-day-pass/. Referenced 2026-10-09.
-[^source-15]: Current promotions: https://yesim.app/cs/promocodes/. Referenced 2026-10-09.
-[^source-16]: Device installation guidance: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/. Referenced 2026-10-08.
-[^source-17]: Unlimited-data policy: https://help.yesim.tech/unlimited-data-plans-policy/. Referenced 2026-10-08.
 
 ## Editorial research
 
 Queries, scenarios, content priorities and writing rules are preserved in [the cs editorial reference](../internal/seo/markets/cs.md). They do not define product conditions.
 
-[^source-18]: https://yesim.app/cs/payment-details/. Checked 2026-10-09.
 
-[^source-19]: https://yesim.app/cs/privacy-policy/. Checked 2026-10-09.
 
 <!-- public-view:start -->
 # Produkty Yesim a časté dotazy
+
+Yesim nabízí předplacené datové tarify eSIM pro cestování a samostatná virtuální čísla. Jazyk webu neurčuje bydliště, možnost platby ani pokrytí cesty. [^source-12] [^source-3]
+
+| Produkt | Účtování | Co ověřit |
+|---|---|---|
+| Datový balíček | Zakoupený objem | Pokrytí a začátek platnosti |
+| Pay & Fly | Spotřebovaná data | Sazbu v cíli a zůstatek |
+| Unlim Day Pass | Dny používání | 24hodinový interval a konec platnosti |
+| Virtual Number | Samostatný pronájem nebo služba | Volání, SMS a obnovení |
+
+[^source-2] [^source-14] [^source-3] [^source-12]
+
+## Výběr produktu
+
+Sepište všechny cíle a termíny, odhadněte spotřebu a ověřte přesný model telefonu. Porovnejte národní či regionální balíček, Pay & Fly a Day Pass podle aktuálních podmínek. Označení „globální“ nepotvrzuje všechny země trasy. [^source-4] [^source-2] [^source-14]
+
+## Instalace a nastavení dat
+
+Instalujte s přístupem k internetu podle návodu pro iPhone, Samsung nebo Pixel. Zvolte datovou linku a její nastavení roamingu; zvlášť prověřte domácí SIM a automatické přepínání dat. Instalace a aktivace mohou mít různé důsledky. [^source-16] [^source-21] [^source-22] [^source-11]
+
+## Rychlost, přiměřené využití a hotspot
+
+Neomezená data nezaručují maximální rychlost. Pravidla přiměřeného využití závisí na tarifu a síti. Hotspot funguje u většiny tarifů, čerpá jejich data a může být omezen místním operátorem. [^source-17] [^source-23]
+
+## Platba a vrácení peněz
+
+Ověřte konečnou částku, měnu, podmínky a prodejní kanál. Pro vrácení peněz se instalace profilu počítá jako aktivace i bez spotřeby dat. Obnovení čísla a ověření karty mají vlastní podmínky. [^source-18] [^source-13]
+
+## Připojení a podpora
+
+Ověřte pokrytí, datovou linku a roaming, poté zařízení restartujte. Nemažte profil ani znovu neskenujte QR jako běžné řešení. Na support@yesim.app pošlete cíl cesty, vyzkoušené kroky a snímky bez údajů karty. [^source-26] [^source-20]
+
+### Lze eSIM přenést nebo smazat?
+
+Ověřte nový telefon a kontaktujte podporu s údaji eSIM. Přenos nepodporují všichni poskytovatelé. Aktivace náhradního profilu deaktivuje tarif Yesim na původním zařízení; jeden profil nelze používat současně na dvou zařízeních. Opětovné použití starého QR není zaručeno. [^source-24] [^source-26]
+
+### Kde zjistím zbývající data a platnost?
+
+Sekce eSIM v aplikaci Yesim zobrazuje zbývající data a dny. Chybu nahlaste se snímkem a popisem. Datové počítadlo telefonu nenahrazuje údaje o platnosti zakoupeného balíčku. [^source-25]
+
+## Firmy a plavby
+
+OneBalance, Partner API a firemní čísla mají samostatné podmínky. Ověřte trasu plavby: pokrytí v přístavech nebo u pobřeží nezaručuje spojení na otevřeném moři. [^source-27] [^source-28] [^source-29] [^source-30]
 
 Yesim nabízí předplacené mobilní datové tarify eSIM pro cestování s podporovanými zařízeními a v pokrytých destinacích. Virtuální čísla jsou samostatný produkt; datový tarif automaticky neobsahuje telefonní číslo. [^source-1] [^source-3]
 
@@ -367,4 +419,36 @@ Platební stránka popisuje automatické obnovení při dostatečném zůstatku 
 ### Jak nahlásit technickou závadu pro žádost o vrácení peněz?
 
 Zásady vyžadují nahlášení závady do jedné hodiny na support@yesim.app nebo formulářem v aplikaci, s popisem a snímky obrazovky. Nahlášení samo nezaručuje vrácení peněz. [^source-13]
+
 <!-- public-view:end -->
+
+[^source-1]: https://yesim.app/cs/. Zdroje ověřeny 2026-10-13.
+[^source-2]: https://yesim.app/cs/pay-and-fly-esim/. Zdroje ověřeny 2026-10-13.
+[^source-3]: https://yesim.app/cs/virtual-number/. Zdroje ověřeny 2026-10-13.
+[^source-4]: https://yesim.app/cs/compatible-devices/. Zdroje ověřeny 2026-10-13.
+[^source-5]: https://yesim.app/cs/regions/. Zdroje ověřeny 2026-10-13.
+[^source-6]: https://yesim.app/cs/global/. Zdroje ověřeny 2026-10-13.
+[^source-7]: https://yesim.app/cs/country/turkey/. Zdroje ověřeny 2026-10-13.
+[^source-8]: https://yesim.app/cs/country/egypt/. Zdroje ověřeny 2026-10-13.
+[^source-9]: https://yesim.app/cs/country/albania/. Zdroje ověřeny 2026-10-13.
+[^source-10]: https://yesim.app/cs/country/switzerland/. Zdroje ověřeny 2026-10-13.
+[^source-11]: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. Zdroje ověřeny 2026-10-13.
+[^source-12]: https://yesim.app/cs/terms-of-service/. Zdroje ověřeny 2026-10-13.
+[^source-13]: https://yesim.app/cs/refund-policy/. Zdroje ověřeny 2026-10-13.
+[^source-14]: https://yesim.app/cs/unlim-day-pass/. Zdroje ověřeny 2026-10-13.
+[^source-15]: https://yesim.app/cs/promocodes/. Zdroje ověřeny 2026-10-13.
+[^source-16]: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/. Zdroje ověřeny 2026-10-13.
+[^source-17]: https://help.yesim.tech/unlimited-data-plans-policy/. Zdroje ověřeny 2026-10-13.
+[^source-18]: https://yesim.app/cs/payment-details/. Zdroje ověřeny 2026-10-13.
+[^source-19]: https://yesim.app/cs/privacy-policy/. Zdroje ověřeny 2026-10-13.
+[^source-20]: https://yesim.app/cs/contacts/. Zdroje ověřeny 2026-10-13.
+[^source-21]: https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/. Zdroje ověřeny 2026-10-13.
+[^source-22]: https://help.yesim.tech/how-can-i-install-esim-on-google-phones/. Zdroje ověřeny 2026-10-13.
+[^source-23]: https://help.yesim.tech/can-i-tether-use-personal-hotspot/. Zdroje ověřeny 2026-10-13.
+[^source-24]: https://help.yesim.tech/how-do-i-transfer-my-esim-to-a-new-phone/. Zdroje ověřeny 2026-10-13.
+[^source-25]: https://help.yesim.tech/how-do-i-check-my-data-balance-or-plan-expiration/. Zdroje ověřeny 2026-10-13.
+[^source-26]: https://help.yesim.tech/no-data-connection/. Zdroje ověřeny 2026-10-13.
+[^source-27]: https://yesim.app/b2b-enterprise/. Zdroje ověřeny 2026-10-13.
+[^source-28]: https://yesim.app/yesim-partner-api/. Zdroje ověřeny 2026-10-13.
+[^source-29]: https://yesim.app/virtual-numbers-for-business/. Zdroje ověřeny 2026-10-13.
+[^source-30]: https://yesim.app/esim-cruise/. Zdroje ověřeny 2026-10-13.
