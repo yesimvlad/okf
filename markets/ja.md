@@ -11,13 +11,15 @@ content_scope: localized-product-knowledge
 website_language_url: https://yesim.app/ja/
 editorial_primary_url: https://yesim.app/ja/
 generated:
-  by: codex/policy-and-localization-revision
-  at: '2026-10-08T18:13:44Z'
+  by: codex/market-content-enrichment
+  at: '2026-10-13T16:09:44Z'
 source_review:
-  by: codex/live-http-and-source-review
-  at: '2026-10-08T18:13:44Z'
-  scope: Cited official endpoints, HTTP status, visible no-JavaScript text, canonical
-    and hreflang. Payment/refund/privacy/Terms control policy summaries.
+  by: codex/public-source-review
+  at: '2026-10-13T16:09:44Z'
+  scope: HTTP, final URL, canonical and extracted official text; shared product conditions
+    and added lifecycle answers. Not checkout/device tests, full legal equivalence
+    or human native approval.
+  evidence: ../docs/checks/2026-10-13-source-review.json
 sources:
 - id: source-1
   resource: https://yesim.app/ja/
@@ -57,6 +59,28 @@ sources:
   resource: https://yesim.app/ja/payment-details/
 - id: source-19
   resource: https://yesim.app/ja/privacy-policy/
+- id: source-20
+  resource: https://yesim.app/ja/contacts/
+- id: source-21
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/
+- id: source-22
+  resource: https://help.yesim.tech/how-can-i-install-esim-on-google-phones/
+- id: source-23
+  resource: https://help.yesim.tech/can-i-tether-use-personal-hotspot/
+- id: source-24
+  resource: https://help.yesim.tech/how-do-i-transfer-my-esim-to-a-new-phone/
+- id: source-25
+  resource: https://help.yesim.tech/how-do-i-check-my-data-balance-or-plan-expiration/
+- id: source-26
+  resource: https://help.yesim.tech/no-data-connection/
+- id: source-27
+  resource: https://yesim.app/b2b-enterprise/
+- id: source-28
+  resource: https://yesim.app/yesim-partner-api/
+- id: source-29
+  resource: https://yesim.app/virtual-numbers-for-business/
+- id: source-30
+  resource: https://yesim.app/esim-cruise/
 editorial_reference: ../internal/seo/markets/ja.md
 id: yesim:markets/ja
 public_view: localized-answers
@@ -64,12 +88,19 @@ translation_group: yesim-product-overview
 source_links_heading: 公式情報源
 verified:
 - by: codex/source-review
-  at: '2026-10-08T18:13:44Z'
+  at: '2026-10-13T16:09:44Z'
 - by: codex/linguistic-review
-  at: '2026-10-08T18:13:44Z'
-stale_after: '2026-10-15T18:13:44Z'
-review_scope: Public-source facts and native public answers; automated linguistic
-  review, not human/native employee approval or checkout testing.
+  at: '2026-10-13T16:09:44Z'
+stale_after: '2026-10-20T16:09:44Z'
+review_scope: Automated source and language review of the retained answers and added
+  public guidance; no independent human or Product/Legal sign-off.
+source_language_notes:
+- resource: https://yesim.app/ja/terms-of-service/
+  body_language: en
+  scope: English main policy text inside localized website shell
+- resource: https://yesim.app/ja/privacy-policy/
+  body_language: en
+  scope: English main policy text inside localized website shell
 ---
 
 # Yesim Japanese market and language knowledge
@@ -267,34 +298,58 @@ Public-source facts and native answer wording were checked on 2026-10-08. Shared
 
 Retrieved localized sources and shared policy/instruction references. Source retrieval does not verify every statement on a page or constitute product approval.
 
-[^source-1]: Localized home: https://yesim.app/ja/. Referenced 2026-10-08.
-[^source-2]: Pay & Fly: https://yesim.app/ja/pay-and-fly-esim/. Referenced 2026-10-08.
-[^source-3]: Virtual Number: https://yesim.app/ja/virtual-number/. Referenced 2026-10-08.
-[^source-4]: Compatible devices: https://yesim.app/ja/compatible-devices/. Referenced 2026-10-08.
-[^source-5]: Regional plans: https://yesim.app/ja/regions/. Referenced 2026-10-08.
-[^source-6]: Global plans: https://yesim.app/ja/global/. Referenced 2026-10-08.
-[^source-7]: アメリカ: https://yesim.app/ja/country/united-states/. Referenced 2026-10-08.
-[^source-8]: 韓国: https://yesim.app/ja/country/south-korea/. Referenced 2026-10-08.
-[^source-9]: タイ: https://yesim.app/ja/country/thailand/. Referenced 2026-10-08.
-[^source-10]: 日本: https://yesim.app/ja/country/japan/. Referenced 2026-10-08.
-[^source-11]: Activation and validity: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. Referenced 2026-10-08.
-[^source-12]: Terms and number capabilities: https://yesim.app/ja/terms-of-service/. Referenced 2026-10-09.
-[^source-13]: Refund policy: https://yesim.app/ja/refund-policy/. Referenced 2026-10-09.
-[^source-14]: Unlim Day Pass: https://yesim.app/ja/unlim-day-pass/. Referenced 2026-10-09.
-[^source-15]: Current promotions: https://yesim.app/ja/promocodes/. Referenced 2026-10-09.
-[^source-16]: Device installation guidance: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/. Referenced 2026-10-08.
-[^source-17]: Unlimited-data policy: https://help.yesim.tech/unlimited-data-plans-policy/. Referenced 2026-10-08.
 
 ## Editorial research
 
 Queries, scenarios, content priorities and writing rules are preserved in [the ja editorial reference](../internal/seo/markets/ja.md). They do not define product conditions.
 
-[^source-18]: https://yesim.app/ja/payment-details/. Checked 2026-10-09.
 
-[^source-19]: https://yesim.app/ja/privacy-policy/. Checked 2026-10-09.
 
 <!-- public-view:start -->
 # Yesimの製品とよくある質問
+
+Yesimは旅行向けのプリペイドeSIMデータプランと、別売りの仮想電話番号を提供しています。サイトの言語だけでは、居住国、支払いの利用資格、旅行先の通信範囲は判断できません。 [^source-12] [^source-3]
+
+| 製品 | 課金方式 | 購入前の確認事項 |
+|---|---|---|
+| データパック | 購入したデータ容量 | 対象地域と有効期間の開始条件 |
+| Pay & Fly | 使用したデータ量 | 渡航先の料金と残高 |
+| Unlim Day Pass | 利用日数 | 24時間の利用期間とパックの期限 |
+| Virtual Number | 別途のレンタル・サービス | 通話、SMS、更新条件 |
+
+[^source-2] [^source-14] [^source-3] [^source-12]
+
+## 製品の選び方
+
+すべての渡航先と日程を整理し、必要なデータ量と端末の正確な型番を確認してください。国別・地域別パック、Pay & Fly、Day Passを現在の条件で比較します。「グローバル」という名称だけで全旅程の国が対象とは判断できません。 [^source-4] [^source-2] [^source-14]
+
+## インストールとデータ設定
+
+iPhone、Samsung、Pixelに対応する手順に従い、インターネット接続がある状態でインストールしてください。データ回線とローミング設定を選び、通常のSIMとデータの自動切り替えも個別に確認します。インストールとプランの有効化は、影響が異なる場合があります。 [^source-16] [^source-21] [^source-22] [^source-11]
+
+## 速度、公平利用、テザリング
+
+無制限でも最高速度は保証されません。公平利用の条件はプランとネットワークによります。テザリングは多くのプランで利用でき、プランのデータを消費しますが、現地事業者が制限する場合があります。 [^source-17] [^source-23]
+
+## 支払いと返金
+
+最終金額、通貨、購入条件、販売経路を確認してください。返金ポリシーでは、データ未使用でもプロファイルのインストールは有効化に含まれます。番号の更新とカード確認の支払いには、それぞれ別の条件があります。 [^source-18] [^source-13]
+
+## 接続の問題とサポート
+
+通信範囲、データ回線、ローミングを確認してから端末を再起動してください。通常の対処としてプロファイルを削除したりQRを再スキャンしたりしないでください。渡航先、試した操作、カード情報を含まない画面画像をsupport@yesim.appへ送ります。 [^source-26] [^source-20]
+
+### eSIMを移行・削除できますか？
+
+新しい端末の互換性を確認し、eSIM情報を添えてサポートへ連絡してください。移行に対応しない提供元もあります。新しいプロファイルが有効になると旧端末のYesimプランは無効になり、同じプロファイルを2台で同時利用することはできません。古いQRの再利用は保証されません。 [^source-24] [^source-26]
+
+### 残りのデータと有効期間はどこで確認できますか？
+
+YesimアプリのeSIM欄で、残りのデータと日数を確認できます。表示が誤っている場合は画面画像と説明をサポートへ送ってください。端末のデータ使用量表示は、購入したパックの有効期間情報の代わりにはなりません。 [^source-25]
+
+## 法人向けサービスとクルーズ
+
+OneBalance、Partner API、法人向け番号には別の条件があります。クルーズは実際の航路を確認してください。港や沿岸での通信範囲は、沖合での接続を保証しません。 [^source-27] [^source-28] [^source-29] [^source-30]
 
 Yesim は旅行向けのプリペイド eSIM データプランを提供しています。対応端末とプランの対象地域を確認して利用します。仮想電話番号は別の商品で、データプランに自動で付くものではありません。 [^source-1] [^source-3]
 
@@ -369,4 +424,36 @@ Pay & Flyは使用したデータ量に応じた従量課金です。Unlim Day P
 ### 返金申請のための技術的な不具合はどう報告しますか？
 
 ポリシーでは、発生から1時間以内にsupport@yesim.appまたはアプリ内フォームから、説明とスクリーンショットを添えて報告する必要があります。報告しても返金が保証されるわけではありません。 [^source-13]
+
 <!-- public-view:end -->
+
+[^source-1]: https://yesim.app/ja/. 情報源の確認日 2026-10-13.
+[^source-2]: https://yesim.app/ja/pay-and-fly-esim/. 情報源の確認日 2026-10-13.
+[^source-3]: https://yesim.app/ja/virtual-number/. 情報源の確認日 2026-10-13.
+[^source-4]: https://yesim.app/ja/compatible-devices/. 情報源の確認日 2026-10-13.
+[^source-5]: https://yesim.app/ja/regions/. 情報源の確認日 2026-10-13.
+[^source-6]: https://yesim.app/ja/global/. 情報源の確認日 2026-10-13.
+[^source-7]: https://yesim.app/ja/country/united-states/. 情報源の確認日 2026-10-13.
+[^source-8]: https://yesim.app/ja/country/south-korea/. 情報源の確認日 2026-10-13.
+[^source-9]: https://yesim.app/ja/country/thailand/. 情報源の確認日 2026-10-13.
+[^source-10]: https://yesim.app/ja/country/japan/. 情報源の確認日 2026-10-13.
+[^source-11]: https://help.yesim.tech/when-does-my-yesim-data-plan-activate/. 情報源の確認日 2026-10-13.
+[^source-12]: https://yesim.app/ja/terms-of-service/. 情報源の確認日 2026-10-13.
+[^source-13]: https://yesim.app/ja/refund-policy/. 情報源の確認日 2026-10-13.
+[^source-14]: https://yesim.app/ja/unlim-day-pass/. 情報源の確認日 2026-10-13.
+[^source-15]: https://yesim.app/ja/promocodes/. 情報源の確認日 2026-10-13.
+[^source-16]: https://help.yesim.tech/how-can-i-install-esim-on-apple-devices/. 情報源の確認日 2026-10-13.
+[^source-17]: https://help.yesim.tech/unlimited-data-plans-policy/. 情報源の確認日 2026-10-13.
+[^source-18]: https://yesim.app/ja/payment-details/. 情報源の確認日 2026-10-13.
+[^source-19]: https://yesim.app/ja/privacy-policy/. 情報源の確認日 2026-10-13.
+[^source-20]: https://yesim.app/ja/contacts/. 情報源の確認日 2026-10-13.
+[^source-21]: https://help.yesim.tech/how-can-i-install-esim-on-samsung-phones/. 情報源の確認日 2026-10-13.
+[^source-22]: https://help.yesim.tech/how-can-i-install-esim-on-google-phones/. 情報源の確認日 2026-10-13.
+[^source-23]: https://help.yesim.tech/can-i-tether-use-personal-hotspot/. 情報源の確認日 2026-10-13.
+[^source-24]: https://help.yesim.tech/how-do-i-transfer-my-esim-to-a-new-phone/. 情報源の確認日 2026-10-13.
+[^source-25]: https://help.yesim.tech/how-do-i-check-my-data-balance-or-plan-expiration/. 情報源の確認日 2026-10-13.
+[^source-26]: https://help.yesim.tech/no-data-connection/. 情報源の確認日 2026-10-13.
+[^source-27]: https://yesim.app/b2b-enterprise/. 情報源の確認日 2026-10-13.
+[^source-28]: https://yesim.app/yesim-partner-api/. 情報源の確認日 2026-10-13.
+[^source-29]: https://yesim.app/virtual-numbers-for-business/. 情報源の確認日 2026-10-13.
+[^source-30]: https://yesim.app/esim-cruise/. 情報源の確認日 2026-10-13.

@@ -42,6 +42,8 @@ The bundled [specification](spec.md) is attributed to GoogleCloudPlatform/open-k
 python scripts/export_site.py --out dist/site-release --base-url https://yesim.app/knowledge/
 ```
 
-This creates static HTML, clean Markdown, an OKF copy, llms.txt, sitemap and a source manifest. It excludes drafts and editorial research, keeps provenance in the OKF copy and shows a short review date on HTML. Fifteen detailed locales publish a native answer view while preserving their full OKF records. No files are deployed by this command. See [publication instructions](docs/publication.md), [revision findings](docs/revision-audit.md) and [data model](governance/data-model.md). Python 3.11 or newer is required.
+This creates static HTML, clean Markdown, an OKF copy, llms.txt, sitemap and a source manifest. It excludes drafts and editorial research, keeps provenance in the OKF copy and shows a short review date on HTML. Fifteen detailed locales publish native product guidance and answers while preserving their full OKF records. No files are deployed by this command. See [publication instructions](docs/publication.md), [revision findings](docs/revision-audit.md) and [data model](governance/data-model.md). Python 3.11 or newer is required.
 
 Final source, locale and live HTTP findings: [2026-10-08 review](docs/final-source-and-publication-review.md). Validate the static release with `python scripts/check_site.py dist/site-release`; add `--remote` only to check the actual deployment, which currently returns 404.
+
+Current market completeness and source review: [2026-10-13 revision](docs/market-revision-2026-10-13.md). All 44 language records have native guidance; 16 are source-reviewed and 28 remain expanded drafts.

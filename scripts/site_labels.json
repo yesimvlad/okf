@@ -1,0 +1,442 @@
+{
+  "en": {
+    "knowledge": "Yesim products and practical guidance",
+    "website": "Yesim",
+    "checked": "Sources checked",
+    "recheck": "Recheck by",
+    "terms": "Current official product terms apply.",
+    "automated": "Automated source review",
+    "human": "Human source review",
+    "sources": "Sources checked"
+  },
+  "ru": {
+    "knowledge": "Продукты Yesim и практические инструкции",
+    "website": "Yesim",
+    "checked": "Источники проверены",
+    "recheck": "Повторная проверка до",
+    "terms": "Действуют текущие официальные условия продукта.",
+    "automated": "Автоматическая проверка источников",
+    "human": "Проверка источников человеком",
+    "sources": "Официальные источники"
+  },
+  "de": {
+    "knowledge": "Yesim-Produkte und praktische Anleitungen",
+    "website": "Yesim",
+    "checked": "Quellen geprüft",
+    "recheck": "Erneut prüfen bis",
+    "terms": "Es gelten die aktuellen offiziellen Produktbedingungen.",
+    "automated": "Automatische Quellenprüfung",
+    "human": "Quellenprüfung durch eine Person",
+    "sources": "Offizielle Quellen"
+  },
+  "fr": {
+    "knowledge": "Produits Yesim et guides pratiques",
+    "website": "Yesim",
+    "checked": "Sources vérifiées",
+    "recheck": "À revérifier avant le",
+    "terms": "Les conditions officielles actuelles du produit s'appliquent.",
+    "automated": "Vérification automatique des sources",
+    "human": "Vérification des sources par une personne",
+    "sources": "Sources officielles"
+  },
+  "es": {
+    "knowledge": "Productos Yesim y guías prácticas",
+    "website": "Yesim",
+    "checked": "Fuentes comprobadas",
+    "recheck": "Volver a comprobar antes del",
+    "terms": "Se aplican las condiciones oficiales actuales del producto.",
+    "automated": "Revisión automática de fuentes",
+    "human": "Revisión de fuentes por una persona",
+    "sources": "Fuentes oficiales"
+  },
+  "it": {
+    "knowledge": "Prodotti Yesim e guide pratiche",
+    "website": "Yesim",
+    "checked": "Fonti verificate",
+    "recheck": "Da ricontrollare entro",
+    "terms": "Si applicano le condizioni ufficiali attuali del prodotto.",
+    "automated": "Verifica automatica delle fonti",
+    "human": "Verifica delle fonti da parte di una persona",
+    "sources": "Fonti ufficiali"
+  },
+  "pt": {
+    "knowledge": "Produtos Yesim e instruções práticas",
+    "website": "Yesim",
+    "checked": "Fontes verificadas",
+    "recheck": "Rever até",
+    "terms": "Aplicam-se as condições oficiais atuais do produto.",
+    "automated": "Verificação automática das fontes",
+    "human": "Verificação das fontes por uma pessoa",
+    "sources": "Fontes oficiais"
+  },
+  "pt-br": {
+    "knowledge": "Produtos Yesim e orientações práticas",
+    "website": "Yesim",
+    "checked": "Fontes verificadas",
+    "recheck": "Rever até",
+    "terms": "Valem as condições oficiais atuais do produto.",
+    "automated": "Verificação automática das fontes",
+    "human": "Verificação das fontes por uma pessoa",
+    "sources": "Fontes oficiais"
+  },
+  "pl": {
+    "knowledge": "Produkty Yesim i praktyczne instrukcje",
+    "website": "Yesim",
+    "checked": "Źródła sprawdzone",
+    "recheck": "Sprawdzić ponownie do",
+    "terms": "Obowiązują aktualne oficjalne warunki produktu.",
+    "automated": "Automatyczna weryfikacja źródeł",
+    "human": "Weryfikacja źródeł przez człowieka",
+    "sources": "Oficjalne źródła"
+  },
+  "ro": {
+    "knowledge": "Produsele Yesim și instrucțiuni practice",
+    "website": "Yesim",
+    "checked": "Surse verificate",
+    "recheck": "De reverificat până la",
+    "terms": "Se aplică termenii oficiali actuali ai produsului.",
+    "automated": "Verificare automată a surselor",
+    "human": "Verificare a surselor de către o persoană",
+    "sources": "Surse oficiale"
+  },
+  "cs": {
+    "knowledge": "Produkty Yesim a praktické návody",
+    "website": "Yesim",
+    "checked": "Zdroje ověřeny",
+    "recheck": "Znovu ověřit do",
+    "terms": "Platí aktuální oficiální podmínky produktu.",
+    "automated": "Automatické ověření zdrojů",
+    "human": "Ověření zdrojů člověkem",
+    "sources": "Oficiální zdroje"
+  },
+  "ja": {
+    "knowledge": "Yesimの製品と利用ガイド",
+    "website": "Yesim",
+    "checked": "情報源の確認日",
+    "recheck": "再確認期限",
+    "terms": "現在の公式製品条件が適用されます。",
+    "automated": "情報源の自動確認",
+    "human": "担当者による情報源の確認",
+    "sources": "公式情報源"
+  },
+  "zh-cn": {
+    "knowledge": "Yesim产品与使用指南",
+    "website": "Yesim",
+    "checked": "信息源核查日期",
+    "recheck": "重新核查期限",
+    "terms": "以当前官方产品条款为准。",
+    "automated": "自动信息源核查",
+    "human": "人工信息源核查",
+    "sources": "官方来源"
+  },
+  "ar": {
+    "knowledge": "منتجات Yesim وإرشادات الاستخدام",
+    "website": "Yesim",
+    "checked": "تم التحقق من المصادر",
+    "recheck": "إعادة التحقق قبل",
+    "terms": "تسري شروط المنتج الرسمية الحالية.",
+    "automated": "مراجعة آلية للمصادر",
+    "human": "مراجعة بشرية للمصادر",
+    "sources": "المصادر الرسمية"
+  },
+  "id": {
+    "knowledge": "Produk Yesim dan panduan praktis",
+    "website": "Yesim",
+    "checked": "Sumber diperiksa",
+    "recheck": "Periksa ulang sebelum",
+    "terms": "Ketentuan resmi produk yang berlaku saat ini tetap menjadi acuan.",
+    "automated": "Pemeriksaan sumber otomatis",
+    "human": "Pemeriksaan sumber oleh manusia",
+    "sources": "Sumber resmi"
+  },
+  "vi": {
+    "knowledge": "Sản phẩm Yesim và hướng dẫn sử dụng",
+    "website": "Yesim",
+    "checked": "Ngày kiểm tra nguồn",
+    "recheck": "Kiểm tra lại trước",
+    "terms": "Áp dụng điều kiện chính thức hiện hành của sản phẩm.",
+    "automated": "Kiểm tra nguồn tự động",
+    "human": "Kiểm tra nguồn bởi con người",
+    "sources": "Nguồn chính thức"
+  },
+  "uk": {
+    "knowledge": "Продукти Yesim і практичні інструкції",
+    "website": "Yesim",
+    "checked": "Джерела перевірено",
+    "recheck": "Повторна перевірка до",
+    "terms": "Діють актуальні офіційні умови продукту.",
+    "automated": "Автоматична перевірка джерел",
+    "human": "Перевірка джерел людиною",
+    "sources": "Джерела перевірено"
+  },
+  "nl": {
+    "knowledge": "Yesim-producten en praktische uitleg",
+    "website": "Yesim",
+    "checked": "Bronnen gecontroleerd",
+    "recheck": "Opnieuw controleren vóór",
+    "terms": "De actuele officiële productvoorwaarden gelden.",
+    "automated": "Automatische broncontrole",
+    "human": "Broncontrole door een persoon",
+    "sources": "Bronnen gecontroleerd"
+  },
+  "tr": {
+    "knowledge": "Yesim ürünleri ve kullanım rehberi",
+    "website": "Yesim",
+    "checked": "Kaynaklar kontrol edildi",
+    "recheck": "Yeniden kontrol tarihi",
+    "terms": "Güncel resmî ürün koşulları geçerlidir.",
+    "automated": "Otomatik kaynak incelemesi",
+    "human": "İnsan tarafından kaynak incelemesi",
+    "sources": "Kaynaklar kontrol edildi"
+  },
+  "ko": {
+    "knowledge": "Yesim 제품과 사용 안내",
+    "website": "Yesim",
+    "checked": "출처 확인일",
+    "recheck": "재확인 기한",
+    "terms": "현재 공식 제품 조건이 적용됩니다.",
+    "automated": "자동 출처 검토",
+    "human": "사람이 수행한 출처 검토",
+    "sources": "출처 확인일"
+  },
+  "th": {
+    "knowledge": "ผลิตภัณฑ์ Yesim และคู่มือใช้งาน",
+    "website": "Yesim",
+    "checked": "วันที่ตรวจสอบแหล่งข้อมูล",
+    "recheck": "ตรวจสอบอีกครั้งก่อน",
+    "terms": "ใช้เงื่อนไขผลิตภัณฑ์ทางการฉบับปัจจุบัน",
+    "automated": "ตรวจสอบแหล่งข้อมูลอัตโนมัติ",
+    "human": "ตรวจสอบแหล่งข้อมูลโดยบุคคล",
+    "sources": "วันที่ตรวจสอบแหล่งข้อมูล"
+  },
+  "hi": {
+    "knowledge": "Yesim उत्पाद और उपयोग मार्गदर्शिका",
+    "website": "Yesim",
+    "checked": "स्रोत जाँच की तारीख",
+    "recheck": "दोबारा जाँच की समयसीमा",
+    "terms": "उत्पाद की वर्तमान आधिकारिक शर्तें लागू हैं।",
+    "automated": "स्वचालित स्रोत समीक्षा",
+    "human": "मानव द्वारा स्रोत समीक्षा",
+    "sources": "स्रोत जाँच की तारीख"
+  },
+  "ms": {
+    "knowledge": "Produk Yesim dan panduan penggunaan",
+    "website": "Yesim",
+    "checked": "Sumber disemak",
+    "recheck": "Semak semula sebelum",
+    "terms": "Syarat rasmi produk semasa terpakai.",
+    "automated": "Semakan sumber automatik",
+    "human": "Semakan sumber oleh manusia",
+    "sources": "Sumber disemak"
+  },
+  "sv": {
+    "knowledge": "Yesim-produkter och praktiska råd",
+    "website": "Yesim",
+    "checked": "Källor kontrollerade",
+    "recheck": "Kontrollera igen senast",
+    "terms": "Aktuella officiella produktvillkor gäller.",
+    "automated": "Automatisk källgranskning",
+    "human": "Källgranskning av en person",
+    "sources": "Källor kontrollerade"
+  },
+  "nb": {
+    "knowledge": "Yesim-produkter og praktisk veiledning",
+    "website": "Yesim",
+    "checked": "Kilder kontrollert",
+    "recheck": "Kontroller på nytt innen",
+    "terms": "Gjeldende offisielle produktvilkår gjelder.",
+    "automated": "Automatisk kildekontroll",
+    "human": "Kildekontroll utført av en person",
+    "sources": "Kilder kontrollert"
+  },
+  "da": {
+    "knowledge": "Yesim-produkter og praktisk vejledning",
+    "website": "Yesim",
+    "checked": "Kilder kontrolleret",
+    "recheck": "Kontrollér igen inden",
+    "terms": "Aktuelle officielle produktvilkår gælder.",
+    "automated": "Automatisk kildekontrol",
+    "human": "Kildekontrol udført af en person",
+    "sources": "Kilder kontrolleret"
+  },
+  "fi": {
+    "knowledge": "Yesim-tuotteet ja käyttöohjeet",
+    "website": "Yesim",
+    "checked": "Lähteet tarkistettu",
+    "recheck": "Tarkista uudelleen viimeistään",
+    "terms": "Tuotteen nykyiset viralliset ehdot ovat voimassa.",
+    "automated": "Automaattinen lähdetarkistus",
+    "human": "Henkilön tekemä lähdetarkistus",
+    "sources": "Lähteet tarkistettu"
+  },
+  "el": {
+    "knowledge": "Προϊόντα Yesim και οδηγίες χρήσης",
+    "website": "Yesim",
+    "checked": "Έλεγχος πηγών",
+    "recheck": "Επανέλεγχος έως",
+    "terms": "Ισχύουν οι τρέχοντες επίσημοι όροι προϊόντος.",
+    "automated": "Αυτόματος έλεγχος πηγών",
+    "human": "Έλεγχος πηγών από άνθρωπο",
+    "sources": "Έλεγχος πηγών"
+  },
+  "hu": {
+    "knowledge": "Yesim-termékek és használati útmutató",
+    "website": "Yesim",
+    "checked": "Források ellenőrizve",
+    "recheck": "Újraellenőrzés határideje",
+    "terms": "Az aktuális hivatalos termékfeltételek érvényesek.",
+    "automated": "Automatikus forrásellenőrzés",
+    "human": "Ember által végzett forrásellenőrzés",
+    "sources": "Források ellenőrizve"
+  },
+  "bg": {
+    "knowledge": "Продукти Yesim и практични инструкции",
+    "website": "Yesim",
+    "checked": "Източниците са проверени",
+    "recheck": "Повторна проверка до",
+    "terms": "Прилагат се текущите официални условия на продукта.",
+    "automated": "Автоматична проверка на източници",
+    "human": "Проверка на източници от човек",
+    "sources": "Източниците са проверени"
+  },
+  "hr": {
+    "knowledge": "Yesim proizvodi i praktične upute",
+    "website": "Yesim",
+    "checked": "Izvori provjereni",
+    "recheck": "Ponovno provjeriti do",
+    "terms": "Vrijede aktualni službeni uvjeti proizvoda.",
+    "automated": "Automatska provjera izvora",
+    "human": "Provjera izvora koju obavlja osoba",
+    "sources": "Izvori provjereni"
+  },
+  "bs": {
+    "knowledge": "Yesim proizvodi i praktične upute",
+    "website": "Yesim",
+    "checked": "Izvori provjereni",
+    "recheck": "Ponovo provjeriti do",
+    "terms": "Važe aktuelni službeni uslovi proizvoda.",
+    "automated": "Automatska provjera izvora",
+    "human": "Provjera izvora koju obavlja osoba",
+    "sources": "Izvori provjereni"
+  },
+  "sr": {
+    "knowledge": "Yesim производи и практична упутства",
+    "website": "Yesim",
+    "checked": "Извори проверени",
+    "recheck": "Поново проверити до",
+    "terms": "Важе актуелни званични услови производа.",
+    "automated": "Аутоматска провера извора",
+    "human": "Провера извора коју обавља особа",
+    "sources": "Извори проверени"
+  },
+  "sk": {
+    "knowledge": "Produkty Yesim a praktické návody",
+    "website": "Yesim",
+    "checked": "Zdroje overené",
+    "recheck": "Znovu overiť do",
+    "terms": "Platia aktuálne oficiálne podmienky produktu.",
+    "automated": "Automatické overenie zdrojov",
+    "human": "Overenie zdrojov človekom",
+    "sources": "Zdroje overené"
+  },
+  "sl": {
+    "knowledge": "Izdelki Yesim in praktična navodila",
+    "website": "Yesim",
+    "checked": "Viri preverjeni",
+    "recheck": "Ponovno preveriti do",
+    "terms": "Veljajo trenutni uradni pogoji izdelka.",
+    "automated": "Samodejno preverjanje virov",
+    "human": "Preverjanje virov s strani osebe",
+    "sources": "Viri preverjeni"
+  },
+  "lt": {
+    "knowledge": "Yesim produktai ir naudojimo gairės",
+    "website": "Yesim",
+    "checked": "Šaltiniai patikrinti",
+    "recheck": "Pakartotinai patikrinti iki",
+    "terms": "Taikomos dabartinės oficialios produkto sąlygos.",
+    "automated": "Automatinė šaltinių patikra",
+    "human": "Žmogaus atlikta šaltinių patikra",
+    "sources": "Šaltiniai patikrinti"
+  },
+  "lv": {
+    "knowledge": "Yesim produkti un lietošanas norādes",
+    "website": "Yesim",
+    "checked": "Avoti pārbaudīti",
+    "recheck": "Pārbaudīt atkārtoti līdz",
+    "terms": "Spēkā ir pašreizējie oficiālie produkta noteikumi.",
+    "automated": "Automātiska avotu pārbaude",
+    "human": "Cilvēka veikta avotu pārbaude",
+    "sources": "Avoti pārbaudīti"
+  },
+  "et": {
+    "knowledge": "Yesimi tooted ja kasutusjuhised",
+    "website": "Yesim",
+    "checked": "Allikad kontrollitud",
+    "recheck": "Kontrollida uuesti hiljemalt",
+    "terms": "Kehtivad toote praegused ametlikud tingimused.",
+    "automated": "Automaatne allikakontroll",
+    "human": "Inimese tehtud allikakontroll",
+    "sources": "Allikad kontrollitud"
+  },
+  "az": {
+    "knowledge": "Yesim məhsulları və istifadə qaydaları",
+    "website": "Yesim",
+    "checked": "Mənbələr yoxlanılıb",
+    "recheck": "Yenidən yoxlama tarixi",
+    "terms": "Məhsulun cari rəsmi şərtləri tətbiq olunur.",
+    "automated": "Avtomatik mənbə yoxlaması",
+    "human": "İnsan tərəfindən mənbə yoxlaması",
+    "sources": "Mənbələr yoxlanılıb"
+  },
+  "uz": {
+    "knowledge": "Yesim mahsulotlari va foydalanish qo‘llanmasi",
+    "website": "Yesim",
+    "checked": "Manbalar tekshirildi",
+    "recheck": "Qayta tekshirish muddati",
+    "terms": "Mahsulotning joriy rasmiy shartlari amal qiladi.",
+    "automated": "Avtomatik manba tekshiruvi",
+    "human": "Inson tomonidan manba tekshiruvi",
+    "sources": "Manbalar tekshirildi"
+  },
+  "hy": {
+    "knowledge": "Yesim-ի ծառայություններ և օգտագործման ուղեցույց",
+    "website": "Yesim",
+    "checked": "Աղբյուրները ստուգված են",
+    "recheck": "Կրկին ստուգել մինչև",
+    "terms": "Կիրառվում են ծառայության ընթացիկ պաշտոնական պայմանները։",
+    "automated": "Աղբյուրների ավտոմատ ստուգում",
+    "human": "Աղբյուրների ստուգում անձի կողմից",
+    "sources": "Աղբյուրները ստուգված են"
+  },
+  "ka-ge": {
+    "knowledge": "Yesim-ის პროდუქტები და გამოყენების გზამკვლევი",
+    "website": "Yesim",
+    "checked": "წყაროები შემოწმებულია",
+    "recheck": "ხელახლა შემოწმების ვადა",
+    "terms": "მოქმედებს პროდუქტის მიმდინარე ოფიციალური პირობები.",
+    "automated": "წყაროების ავტომატური შემოწმება",
+    "human": "წყაროების შემოწმება ადამიანის მიერ",
+    "sources": "წყაროები შემოწმებულია"
+  },
+  "he": {
+    "knowledge": "מוצרי Yesim והנחיות שימוש",
+    "website": "Yesim",
+    "checked": "מקורות נבדקו",
+    "recheck": "בדיקה חוזרת עד",
+    "terms": "חלים תנאי המוצר הרשמיים העדכניים.",
+    "automated": "בדיקת מקורות אוטומטית",
+    "human": "בדיקת מקורות בידי אדם",
+    "sources": "מקורות נבדקו"
+  },
+  "fa": {
+    "knowledge": "محصولات Yesim و راهنمای استفاده",
+    "website": "Yesim",
+    "checked": "منابع بررسی شد",
+    "recheck": "بازبینی تا",
+    "terms": "شرایط رسمی فعلی محصول اعمال می‌شود.",
+    "automated": "بررسی خودکار منابع",
+    "human": "بررسی منابع توسط انسان",
+    "sources": "منابع بررسی شد"
+  }
+}
